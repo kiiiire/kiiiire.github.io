@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>编译原理 - Kire&#39;s Personal Page</title><meta name="author" content="Kire">
+<meta name="description" content=""><meta name="keywords" content='编译原理'>
+  <meta itemprop="name" content="编译原理">
+  <meta itemprop="datePublished" content="2024-09-18T15:20:07+08:00">
+  <meta itemprop="dateModified" content="2024-09-18T15:20:07+08:00">
+  <meta itemprop="wordCount" content="2093">
+  <meta itemprop="keywords" content="编译原理"><meta property="og:url" content="http://localhost:1313/posts/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/">
+  <meta property="og:site_name" content="Kire&#39;s Personal Page">
+  <meta property="og:title" content="编译原理">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-09-18T15:20:07+08:00">
+    <meta property="article:modified_time" content="2024-09-18T15:20:07+08:00">
+    <meta property="article:tag" content="编译原理">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="编译原理">
+<meta name="application-name" content="FixIt">
+<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="http://localhost:1313/posts/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/" title="编译原理 - Kire&#39;s Personal Page" /><link rel="prev" type="text/html" href="http://localhost:1313/posts/database-systems/" title="Database Systems" /><link rel="alternate" type="text/markdown" href="http://localhost:1313/posts/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/index.md" title="编译原理 - Kire's Personal Page"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "编译原理",
+    "inLanguage": "en",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http:\/\/localhost:1313\/posts\/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86\/"
+    },"genre": "posts","keywords": "编译原理","wordcount":  2093 ,
+    "url": "http:\/\/localhost:1313\/posts\/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86\/","datePublished": "2024-09-18T15:20:07+08:00","dateModified": "2024-09-18T15:20:07+08:00","license": "Kire","publisher": {
+      "@type": "Organization",
+      "name": ""},"author": {
+        "@type": "Person",
+        "name": "Kire"
+      },"description": ""
+  }
+  </script></head>
+  <body data-header-desktop="normal" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/" title="Kire&#39;s Personal Page"><span class="header-title-text">Kire&#39;s Personal Page</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/archives/"
+                
+                
+              ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> Archives</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/categories/"
+                
+                
+              ><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> Categories</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/tags/"
+                
+                
+              ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> Tags</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/music/"
+                
+                
+              ><i class="fa-solid fa-music fa-fw fa-sm" aria-hidden="true"></i> music</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="Switch Theme">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title="Kire&#39;s Personal Page"><span class="header-title-text">Kire&#39;s Personal Page</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/archives/"
+                  
+                  
+                ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> Archives</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/categories/"
+                  
+                  
+                ><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> Categories</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/tags/"
+                  
+                  
+                ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> Tags</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/music/"
+                  
+                  
+                ><i class="fa-solid fa-music fa-fw fa-sm" aria-hidden="true"></i> music</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title="Switch Theme"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
+      </ul>
+    </nav>
+  </div>
+</header><main class="container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="Collections"></aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>编译原理</span>
+      </h1></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
+      Kire</span></span><span class="post-included-in">&nbsp;included in <a href="/categories/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/" class="post-category" title="Category - 编译原理"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> 编译原理</a> and <a href="/collections/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/" class="post-collection" title="Collection - 编译原理"><i class="fa-solid fa-layer-group fa-fw" aria-hidden="true"></i> 编译原理</a></span></div><div class="post-meta-line"><span title="published on 2024-09-18 15:20:07"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2024-09-18">2024-09-18</time></span>&nbsp;<span title="2093 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 2100 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>5 minutes</span>&nbsp;</div>
+    </div><div class="details toc" id="toc-static" data-kept="false">
+        <div class="details-summary toc-title">
+          <span>Contents</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#第一章-引论">第一章 引论</a>
+          <ul>
+            <li><a href="#什么是编译程序">什么是编译程序</a></li>
+            <li><a href="#为什么要学习编译原理">为什么要学习编译原理</a></li>
+            <li><a href="#编译过程">编译过程</a></li>
+            <li><a href="#编译程序的结构">编译程序的结构</a></li>
+            <li><a href="#编译程序的生成">编译程序的生成</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+      </div><div class="content" id="content"><h2 id="第一章-引论" class="heading-element"><span>第一章 引论</span>
+  <a href="#%e7%ac%ac%e4%b8%80%e7%ab%a0-%e5%bc%95%e8%ae%ba" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p><a href="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200619122101408.png"target="_blank" rel="external nofollow noopener noreferrer"><img loading="lazy" src="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200619122101408.png" alt="img" srcset="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200619122101408.png?size=small, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200619122101408.png?size=medium 1.5x, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200619122101408.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a></p>
+<h3 id="什么是编译程序" class="heading-element"><span>什么是编译程序</span>
+  <a href="#%e4%bb%80%e4%b9%88%e6%98%af%e7%bc%96%e8%af%91%e7%a8%8b%e5%ba%8f" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>翻译程序(Translator)：把某一种语言程序(称为源语言程序)等价地转换成另一种语言程序(称为目标语言程序)的程序</li>
+</ul>
+<p><a href="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200224230231285.png"target="_blank" rel="external nofollow noopener noreferrer"><img loading="lazy" src="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200224230231285.png" alt="img" srcset="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200224230231285.png?size=small, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200224230231285.png?size=medium 1.5x, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200224230231285.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a></p>
+<ul>
+<li>
+<p>编译程序(Compiler)：把某一种高级语言程序等价地转换成另一种低级语言程序(如汇编语言或机器语言程序)的程序</p>
+<p><img loading="lazy" src="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200224230240656.png" alt="img" srcset="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200224230240656.png?size=small, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200224230240656.png?size=medium 1.5x, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200224230240656.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>* 运行编译程序的计算机：宿主机 * 运行目标程序的计算机：目标机 * 根据用途和侧重，编译程序可分为： 诊断编译程序(Diagnostic Compiler) 优化编译程序(Optimizing Compiler) 交叉编译程序(Cross Compiler)：编译程序产生不同于其宿主机的目标代码 可变目标编译程序(Retargetable Compiler：不需要重写编译程序中与机器无关的部分。</p>
+</li>
+<li>
+<p>解释程序(Interpreter)：</p>
+<ul>
+<li>把源语言写的源程序作为输入，但不产生目标程序，而是边解释边执行源程序</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228113729557.png"target="_blank" rel="external nofollow noopener noreferrer"><img loading="lazy" src="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228113729557.png" alt="img" srcset="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228113729557.png?size=small, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228113729557.png?size=medium 1.5x, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228113729557.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a></p>
+<h3 id="为什么要学习编译原理" class="heading-element"><span>为什么要学习编译原理</span>
+  <a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e5%ad%a6%e4%b9%a0%e7%bc%96%e8%af%91%e5%8e%9f%e7%90%86" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>理解计算系统，注意不是计算机系统。</li>
+<li>设计计算系统</li>
+<li>计算思维 Computational Thinking)
+<ul>
+<li>计算思维是运用计算机科学的基础概念去求解问题、设计系统和理解人类的行为，它包括了一系列广泛的计算机科学的思维方法</li>
+<li>计算思维和阅读、写作和算术一样，是21世纪每个人的基本技能，而不仅仅属于计算机科学家</li>
+<li>包括
+抽象
+自动化
+问题分解
+递归
+权衡
+保护、冗余、容错、纠错和恢复
+利用启发式推理来寻求解答
+在不确定情况下的规划、学习和调度</li>
+</ul>
+</li>
+</ul>
+<h3 id="编译过程" class="heading-element"><span>编译过程</span>
+  <a href="#%e7%bc%96%e8%af%91%e8%bf%87%e7%a8%8b" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>
+<p>词法分析</p>
+<ul>
+<li>
+<p>输入源程序字符串，扫描哪些字符构成了标识符，哪些字符构成了常数</p>
+</li>
+<li>
+<p>依循的原则：构词规则</p>
+</li>
+<li>
+<p>描述工具：有限自动机</p>
+</li>
+<li>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">for       i   :=     1     to     100   do
+</span></span><span class="line"><span class="cl">基本字 标识符 赋值号 整常数 基本字 整常数 基本字</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+</li>
+<li>
+<p>语法分析</p>
+<ul>
+<li>在词法分析的基础上，根据语法规则把单词符号串分解成各类 <strong>语法单位(语法范畴)</strong>，如下图得到了一棵语法树。</li>
+<li>依循的原则：语法规则</li>
+<li>描述工具：上下文无关文法</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228151145773.png"target="_blank" rel="external nofollow noopener noreferrer"><img loading="lazy" src="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228151145773.png" alt="img" srcset="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228151145773.png?size=small, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228151145773.png?size=medium 1.5x, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228151145773.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a></p>
+<ul>
+<li>中间代码产生
+<ul>
+<li>对各类语法单位按语言的<strong>语义</strong>进行初步翻译</li>
+<li>依循的原则：语义规则</li>
+<li>描述工具：属性文法</li>
+<li>中间代码：三元式、四元式，树，…</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228151540768.png"target="_blank" rel="external nofollow noopener noreferrer"><img loading="lazy" src="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228151540768.png" alt="img" srcset="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228151540768.png?size=small, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228151540768.png?size=medium 1.5x, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228151540768.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a></p>
+<ul>
+<li>优化
+<ul>
+<li>对前阶段产生的中间代码进行加工变换，以期在最后阶段产生更高效的目标代码</li>
+<li>依循的原则：程序的等价变换原则</li>
+<li>比如下图的憨憨程序就可以被编译器优化得很优秀</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228152021412.png"target="_blank" rel="external nofollow noopener noreferrer"><img loading="lazy" src="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228152021412.png" alt="img" srcset="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228152021412.png?size=small, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228152021412.png?size=medium 1.5x, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228152021412.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a></p>
+<ul>
+<li>目标代码产生
+<ul>
+<li>把中间代码变换成特定机器上的目标代码</li>
+<li>依赖于硬件系统结构和机器指令的含义</li>
+<li>目标代码三种形式
+<ul>
+<li>汇编指令代码: 需要进行汇编</li>
+<li>绝对指令代码: 可直接运行</li>
+<li>可重新定位指令代码: 需要链接</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="编译程序的结构" class="heading-element"><span>编译程序的结构</span>
+  <a href="#%e7%bc%96%e8%af%91%e7%a8%8b%e5%ba%8f%e7%9a%84%e7%bb%93%e6%9e%84" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>编译程序总框</li>
+</ul>
+<p><a href="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228152816930.png"target="_blank" rel="external nofollow noopener noreferrer"><img loading="lazy" src="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228152816930.png" alt="img" srcset="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228152816930.png?size=small, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228152816930.png?size=medium 1.5x, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228152816930.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a></p>
+<ul>
+<li>
+<p>出错处理</p>
+<ul>
+<li>发现源程序中的错误，把有关错误信息报告给用户</li>
+<li>语法错误
+<ul>
+<li>源程序中不符合语法（或词法）规则的错误</li>
+<li>非法字符、括号不匹配、缺少；、…</li>
+</ul>
+</li>
+<li>语义错误
+<ul>
+<li>源程序中不符合语义规则的错误</li>
+<li>说明错误、作用域错误、类型不一致、…</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>遍 (pass)</p>
+<ul>
+<li>
+<p>所谓的 “遍”，就是对源程序或源程序的中间表示从头到尾扫描一遍</p>
+</li>
+<li>
+<blockquote><p>编译程序的五个阶段，当然可以实现为五“遍”，也就是每个阶段都接受上一阶段的输出，然后完成本阶段的变换，生成本阶段完整的输出，每个阶段的输出都是源程序的一个完整表示，如一个完整的单词序列、一个完整的语法分析树、一个完整的中间代码表示、甚至是目标代码表示 等等</p>
+</blockquote></li>
+<li>
+<p><strong>阶段与遍是不同的概念</strong></p>
+<ul>
+<li>
+<p>一遍可以由若干段组成</p>
+<blockquote><p>在实际工作中，从程序效率和软件设计的角度考虑，我们往往会把若干联系非常紧密的阶段，<strong>合成一遍处理</strong>，比如说我们通常把词法分析、语法分析、中间代码生成这三个阶段合成一遍处理。</p>
+<p>把词法分析和中间代码产生实现为一些子程序，也就是词法分析子程序或者是语义子程序，这两类子程序由语法分析模块来驱动或者调用。</p>
+<p>在这个过程中，语法分析起主导作用，在语法分析的驱动下，词法分析 语法分析和中间代码生成三个阶段穿插进行，当词法分析完成最后一个单词的识别的时候，整个分析树也就很快得到了，同时所有的语法单位的翻译也就完成了，三个阶段合成一遍完成</p>
+</blockquote></li>
+<li>
+<p>一个阶段也可以分若干遍来完成</p>
+<blockquote><p>有些情况下一个阶段也可以分若干遍来实现，优化就是这样的例子，通常来说优化这个阶段被分成了很多遍，比如说 可以先对中间代码扫描一遍识别程序的基本结构，再扫描一遍完成简单的优化，再扫描一遍完成循环的优化，有时循环优化还有可能分成很多遍</p>
+</blockquote></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>编译前端和后端</p>
+<p><img loading="lazy" src="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228155322477.png" alt="img" srcset="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228155322477.png?size=small, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228155322477.png?size=medium 1.5x, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228155322477.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<ul>
+<li>编译前端
+<ul>
+<li>与源语言有关，如词法分析，语法分析，语义分析与中间代码产生，与机器无关的优化</li>
+</ul>
+</li>
+<li>编译后端
+<ul>
+<li>与目标机有关，与目标机有关的优化，目标代码产生</li>
+</ul>
+</li>
+<li>带来的好处
+<ul>
+<li>程序逻辑结构清晰</li>
+<li>优化更充分，有利于移植</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="编译程序的生成" class="heading-element"><span>编译程序的生成</span>
+  <a href="#%e7%bc%96%e8%af%91%e7%a8%8b%e5%ba%8f%e7%9a%84%e7%94%9f%e6%88%90" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>工具：</p>
+<ul>
+<li>
+<p>以汇编语言和机器语言为工具</p>
+<ul>
+<li>优点: 可以针对具体的机器，充分发挥计算机的系统功能；生成的程序效率高</li>
+<li>缺点: 程序难读、难写、易出错、难维护、生产的效率低</li>
+</ul>
+</li>
+<li>
+<p>以高级程序设计语言为工具</p>
+<ul>
+<li>
+<p>程序易读、易理解、容易维护、生产的效率高</p>
+<p><img loading="lazy" src="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228175720075.png" alt="img" srcset="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228175720075.png?size=small, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228175720075.png?size=medium 1.5x, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228175720075.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>上图表示已经有了 I 这种高级语言的实现和编译器，用 I 语言实现将 S 语言编译为 T 语言的编译器</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>高级语言书写：</p>
+<ul>
+<li>
+<p>利用有的某种语言的编译程序实现另一种语言的编译程序</p>
+<p>下图表示利用 P1 编译器，将 L1 语言写的 P2 编译器，编译成 A 代码写的 P2 编译器</p>
+</li>
+</ul>
+<p><a href="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228180026836.png"target="_blank" rel="external nofollow noopener noreferrer"><img loading="lazy" src="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228180026836.png" alt="img" srcset="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228180026836.png?size=small, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228180026836.png?size=medium 1.5x, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228180026836.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a></p>
+<p>移植方法：</p>
+<ul>
+<li>把一种机器上的编译程序移植到另一种机器上，跨机器</li>
+</ul>
+<p><a href="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228180440787.png"target="_blank" rel="external nofollow noopener noreferrer"><img loading="lazy" src="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228180440787.png" alt="img" srcset="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228180440787.png?size=small, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228180440787.png?size=medium 1.5x, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228180440787.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a></p>
+<p>自编译方式</p>
+<ul>
+<li>你通过低级语言实现 L 语言的一部分 L1，然后拿 L1 和低级语言去实现 L1+L2，然后拿 L1+L2 去实现 L1+L2+L3，依次类推。</li>
+</ul>
+<p><a href="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228180803482.png"target="_blank" rel="external nofollow noopener noreferrer"><img loading="lazy" src="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228180803482.png" alt="img" srcset="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228180803482.png?size=small, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228180803482.png?size=medium 1.5x, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228180803482.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a></p>
+<p>编译程序自动产生：</p>
+<ul>
+<li>编译程序-编译程序，也叫编译程序产生器，也叫编译程序书写系统</li>
+<li>LEX：词法分析程序产生器</li>
+<li>YACC：语法分析程序产生器</li>
+</ul>
+<p><a href="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228181044912.png"target="_blank" rel="external nofollow noopener noreferrer"><img loading="lazy" src="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228181044912.png" alt="img" srcset="https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228181044912.png?size=small, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228181044912.png?size=medium 1.5x, https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228181044912.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a></p></div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod">
+        <span title="Updated on 2024-09-18 15:20:07">Updated on 2024-09-18&nbsp;</span>
+      </div><div class="post-info-license">
+            <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
+          </div></div><div class="post-info-line">
+        <div class="post-info-md"><span><a href="/posts/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/index.md" title="Read Markdown" class="link-to-markdown">Read Markdown</a></span></div>
+        <div class="post-info-share">
+          <span><a href="javascript:void(0);" title="Share on X" data-sharer="twitter" data-url="http://localhost:1313/posts/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/" data-title="编译原理" data-hashtags="编译原理"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/posts/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/" data-hashtag="编译原理"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/posts/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/" data-title="编译原理"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  </span>
+        </div>
+      </div></div>
+
+  <div class="post-info-more">
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href="/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/" class="post-tag" title="Tags - 编译原理">编译原理</a></section>
+    <section>
+      <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+    </section>
+  </div><div class="post-nav"><a href="/posts/database-systems/" class="post-nav-item" rel="prev" title="Database Systems"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>Database Systems</a></div>
+</div>
+</article>
+
+  <aside class="toc" id="toc-auto" aria-label="Contents"><h2 class="toc-title">Contents&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered">Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.134.2"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> | Theme - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.12-b727c382"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
+        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2024</span><span class="author" itemprop="copyrightHolder">
+              <a href="/">Kire</a></span></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="Back to Top"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric d-none">0%</span>
+        </div></div><div id="mask"></div><noscript>
+    <div class="noscript-warning">This website works best with JavaScript enabled.</div>
+  </noscript>
+</div><link rel="preload" href="/lib/katex/katex.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/katex/katex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/katex/katex.min.js" defer></script><script src="/lib/katex/auto-render.min.js" defer></script><script src="/lib/katex/copy-tex.min.js" defer></script><script src="/lib/katex/mhchem.min.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","editLockTitle":"Lock editable code block","editUnLockTitle":"Unlock editable code block","editable":true,"maxShownLines":10},"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"version":"v0.3.12-b727c382"};console.log('Page config:', window.config);</script><script src="/js/theme.min.js" defer></script></body>
+</html>

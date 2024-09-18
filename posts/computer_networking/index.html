@@ -1,0 +1,2001 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>Computer Networking - Kire&#39;s Personal Page</title><meta name="author" content="Kire">
+<meta name="description" content="《计算机网络-自顶向下方法》笔记
+计算机网络课堂笔记，参考用书《计算机网络-自顶向下方法》。"><meta name="keywords" content='计算机网络'>
+  <meta itemprop="name" content="Computer Networking">
+  <meta itemprop="description" content="《计算机网络-自顶向下方法》笔记
+计算机网络课堂笔记，参考用书《计算机网络-自顶向下方法》。">
+  <meta itemprop="datePublished" content="2024-09-18T10:20:07+08:00">
+  <meta itemprop="dateModified" content="2024-09-18T10:20:07+08:00">
+  <meta itemprop="wordCount" content="14889">
+  <meta itemprop="keywords" content="计算机网络"><meta property="og:url" content="http://localhost:1313/posts/computer_networking/">
+  <meta property="og:site_name" content="Kire&#39;s Personal Page">
+  <meta property="og:title" content="Computer Networking">
+  <meta property="og:description" content="《计算机网络-自顶向下方法》笔记
+计算机网络课堂笔记，参考用书《计算机网络-自顶向下方法》。">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-09-18T10:20:07+08:00">
+    <meta property="article:modified_time" content="2024-09-18T10:20:07+08:00">
+    <meta property="article:tag" content="计算机网络">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Computer Networking">
+  <meta name="twitter:description" content="《计算机网络-自顶向下方法》笔记
+计算机网络课堂笔记，参考用书《计算机网络-自顶向下方法》。">
+<meta name="application-name" content="FixIt">
+<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="http://localhost:1313/posts/computer_networking/" title="Computer Networking - Kire&#39;s Personal Page" /><link rel="next" type="text/html" href="http://localhost:1313/posts/database-systems/" title="Database Systems" /><link rel="alternate" type="text/markdown" href="http://localhost:1313/posts/computer_networking/index.md" title="Computer Networking - Kire's Personal Page"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Computer Networking",
+    "inLanguage": "en",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http:\/\/localhost:1313\/posts\/computer_networking\/"
+    },"genre": "posts","keywords": "计算机网络","wordcount":  14889 ,
+    "url": "http:\/\/localhost:1313\/posts\/computer_networking\/","datePublished": "2024-09-18T10:20:07+08:00","dateModified": "2024-09-18T10:20:07+08:00","license": "Kire","publisher": {
+      "@type": "Organization",
+      "name": ""},"author": {
+        "@type": "Person",
+        "name": "Kire"
+      },"description": ""
+  }
+  </script></head>
+  <body data-header-desktop="normal" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/" title="Kire&#39;s Personal Page"><span class="header-title-text">Kire&#39;s Personal Page</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/archives/"
+                
+                
+              ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> Archives</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/categories/"
+                
+                
+              ><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> Categories</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/tags/"
+                
+                
+              ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> Tags</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/music/"
+                
+                
+              ><i class="fa-solid fa-music fa-fw fa-sm" aria-hidden="true"></i> music</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="Switch Theme">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title="Kire&#39;s Personal Page"><span class="header-title-text">Kire&#39;s Personal Page</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/archives/"
+                  
+                  
+                ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> Archives</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/categories/"
+                  
+                  
+                ><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> Categories</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/tags/"
+                  
+                  
+                ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> Tags</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/music/"
+                  
+                  
+                ><i class="fa-solid fa-music fa-fw fa-sm" aria-hidden="true"></i> music</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title="Switch Theme"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
+      </ul>
+    </nav>
+  </div>
+</header><main class="container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="Collections"></aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>Computer Networking</span>
+      </h1></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
+      Kire</span></span><span class="post-included-in">&nbsp;included in <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" class="post-category" title="Category - 计算机网络"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> 计算机网络</a> and <a href="/collections/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" class="post-collection" title="Collection - 计算机网络"><i class="fa-solid fa-layer-group fa-fw" aria-hidden="true"></i> 计算机网络</a></span></div><div class="post-meta-line"><span title="published on 2024-09-18 10:20:07"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2024-09-18">2024-09-18</time></span>&nbsp;<span title="14889 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 14900 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>30 minutes</span>&nbsp;</div>
+    </div><div class="details toc" id="toc-static" data-kept="false">
+        <div class="details-summary toc-title">
+          <span>Contents</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#计算机网络和因特网">计算机网络和因特网</a>
+      <ul>
+        <li><a href="#计算机网络">计算机网络</a>
+          <ul>
+            <li><a href="#构成描述">构成描述</a></li>
+            <li><a href="#服务描述">服务描述</a></li>
+          </ul>
+        </li>
+        <li><a href="#网络边缘network-edge">网络边缘（Network Edge）</a>
+          <ul>
+            <li><a href="#接入网access-networks">接入网（Access Networks）</a>
+              <ul>
+                <li><a href="#家庭接入dsl电缆ftth拨号和卫星">家庭接入：DSL、电缆、FTTH、拨号和卫星</a></li>
+                <li><a href="#企业家庭接入以太网和wifi">企业（家庭）接入：以太网和WiFi</a></li>
+                <li><a href="#广义无线接入4g和5g">广义无线接入：4G和5G</a></li>
+              </ul>
+            </li>
+            <li><a href="#物理媒体physical-media">物理媒体（Physical Media）</a></li>
+          </ul>
+        </li>
+        <li><a href="#网络核心network-core">网络核心（Network Core）</a>
+          <ul>
+            <li><a href="#分组交换packet-switching">分组交换（Packet Switching）</a></li>
+            <li><a href="#电路交换circuit-switching">电路交换（Circuit Switching）</a>
+              <ul>
+                <li><a href="#频分多路复用fdm">频分多路复用（FDM）</a></li>
+                <li><a href="#时分多路复用tdm">时分多路复用（TDM）</a></li>
+              </ul>
+            </li>
+            <li><a href="#分组交换--电路交换">分组交换 &amp; 电路交换</a></li>
+            <li><a href="#网络结构">网络结构</a></li>
+          </ul>
+        </li>
+        <li><a href="#协议protocol">协议（Protocol）</a></li>
+        <li><a href="#协议层次protocol-layer及其服务模型">协议层次（Protocol Layer）及其服务模型</a>
+          <ul>
+            <li><a href="#五层因特网协议栈">五层因特网协议栈</a></li>
+            <li><a href="#osi模型">OSI模型</a></li>
+            <li><a href="#封装encapsulation">封装（Encapsulation）</a></li>
+          </ul>
+        </li>
+        <li><a href="#物理层概述">物理层概述</a>
+          <ul>
+            <li><a href="#物理层基本目标">物理层基本目标</a></li>
+            <li><a href="#物理层的基本特性">物理层的基本特性</a></li>
+          </ul>
+        </li>
+        <li><a href="#基本通信原理">基本通信原理</a>
+          <ul>
+            <li><a href="#基本概念">基本概念</a></li>
+            <li><a href="#信道特性">信道特性</a></li>
+            <li><a href="#模拟数字信号传输">模拟/数字信号传输</a>
+              <ul>
+                <li><a href="#调制解调器">调制解调器</a></li>
+                <li><a href="#编码解码器">编码解码器</a></li>
+                <li><a href="#调制modulation数字信号到模拟信号">调制（Modulation）：数字信号到模拟信号</a></li>
+                <li><a href="#脉码调制pulse-code-modulation-pcm">脉码调制（Pulse Code Modulation, PCM）</a></li>
+                <li><a href="#数字信号编码digital-signal-coding">数字信号编码（Digital signal coding）</a>
+                  <ul>
+                    <li><a href="#不归零编码non-return-to-zero-nrz">不归零编码（Non-Return-To-Zero, NRZ）</a></li>
+                    <li><a href="#曼切斯特编码manchester-encoding">曼切斯特编码（Manchester encoding）</a></li>
+                    <li><a href="#差分曼切斯特编码differential-manchester-encoding">差分曼切斯特编码（Differential Manchester encoding）</a></li>
+                    <li><a href="#块编码block-encoding">块编码（Block encoding）</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#多路复用multiplexing">多路复用（Multiplexing）</a>
+              <ul>
+                <li><a href="#频分多路复用frequency-division-multiplexingfdm">频分多路复用（Frequency division multiplexing，FDM）</a></li>
+                <li><a href="#时分多路复用time-division-multiplexingtdm">时分多路复用（Time division multiplexing，TDM）</a></li>
+                <li><a href="#波分多路复用wavelength-division-multiplexingwdm">波分多路复用（Wavelength division multiplexing，WDM）</a></li>
+                <li><a href="#码分多路复用code-division-multiplexingcdm">码分多路复用（Code division multiplexing，CDM）</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#延时丢包吞吐量">延时、丢包、吞吐量</a>
+          <ul>
+            <li><a href="#延时delay">延时（delay）</a></li>
+            <li><a href="#丢包packet-loss">丢包（Packet Loss）</a></li>
+            <li><a href="#吞吐量throughput">吞吐量（Throughput）</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#应用层application-layer">应用层（Application Layer）</a>
+      <ul>
+        <li><a href="#网络应用原理">网络应用原理</a>
+          <ul>
+            <li><a href="#网络应用结构">网络应用结构</a>
+              <ul>
+                <li><a href="#客户机-服务器体系结构client-server-architecture">客户机-服务器体系结构（Client-server architecture）</a></li>
+                <li><a href="#点对点体系结构peer-peer-architecture">点对点体系结构（Peer-peer architecture）</a></li>
+              </ul>
+            </li>
+            <li><a href="#进程通信processes-communicating">进程通信（Processes Communicating）</a>
+              <ul>
+                <li><a href="#客户机和服务器进程">客户机和服务器进程</a></li>
+                <li><a href="#套接字sockets">套接字（Sockets）</a></li>
+                <li><a href="#进程寻址addressing-processes">进程寻址（Addressing Processes）</a></li>
+              </ul>
+            </li>
+            <li><a href="#应用层协议application-layer-protocols">应用层协议（Application-Layer Protocols）</a>
+              <ul>
+                <li><a href="#应用层协议的分类">应用层协议的分类</a></li>
+                <li><a href="#应用层协议内容">应用层协议内容</a></li>
+                <li><a href="#app对传输服务的需求">app对传输服务的需求</a></li>
+              </ul>
+            </li>
+            <li><a href="#网络传输协议服务">网络传输协议服务</a>
+              <ul>
+                <li><a href="#tcp">TCP</a></li>
+                <li><a href="#udp">UDP</a></li>
+                <li><a href="#不同app选择的网络传输协议">不同app选择的网络传输协议</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#web和http">Web和HTTP</a>
+          <ul>
+            <li><a href="#http概述">HTTP概述</a></li>
+            <li><a href="#http连接类型">HTTP连接类型</a>
+              <ul>
+                <li><a href="#非持久性连接non-persistent-http">非持久性连接（Non-persistent HTTP）</a>
+                  <ul>
+                    <li><a href="#非持久性http步骤">非持久性HTTP步骤</a></li>
+                    <li><a href="#非持久性http响应时间">非持久性HTTP响应时间</a></li>
+                    <li><a href="#非持久性http的问题">非持久性HTTP的问题</a></li>
+                  </ul>
+                </li>
+                <li><a href="#持久性连接persistent-http">持久性连接（Persistent HTTP）</a>
+                  <ul>
+                    <li><a href="#持久性http步骤">持久性HTTP步骤</a></li>
+                    <li><a href="#持久性http特点http11">持久性HTTP特点（HTTP1.1）</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#dns">DNS</a>
+          <ul>
+            <li><a href="#dns服务">DNS服务</a></li>
+            <li><a href="#dns分布式层级的数据库">DNS：分布式、层级的数据库</a>
+              <ul>
+                <li><a href="#根域名服务器root-name-server">根域名服务器（Root Name Server）</a></li>
+                <li><a href="#顶层域名服务器top-level-domain-server-tld">顶层域名服务器（Top-Level Domain Server, TLD）</a></li>
+                <li><a href="#权威域名服务器authoritative-domain-server">权威域名服务器（Authoritative Domain Server）</a></li>
+                <li><a href="#本地域名服务器local-dns-name-server">本地域名服务器（Local DNS Name Server）</a></li>
+              </ul>
+            </li>
+            <li><a href="#dns查询方法">DNS查询方法</a>
+              <ul>
+                <li><a href="#迭代查询iterated-query">迭代查询（iterated query）</a></li>
+                <li><a href="#递归查询recursive-query">递归查询（recursive query）</a></li>
+              </ul>
+            </li>
+            <li><a href="#dns缓存和更新">DNS缓存和更新</a></li>
+            <li><a href="#dns记录和消息">DNS记录和消息</a>
+              <ul>
+                <li><a href="#dns记录">DNS记录</a></li>
+                <li><a href="#dns消息">DNS消息</a></li>
+                <li><a href="#向dns数据库插入记录">向DNS数据库插入记录</a></li>
+              </ul>
+            </li>
+            <li><a href="#dns查询工具">DNS查询工具</a>
+              <ul>
+                <li><a href="#nslookup直接查询">nslookup直接查询</a></li>
+                <li><a href="#nslookup查询其他记录">nslookup查询其他记录</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#p2p">P2P</a>
+          <ul>
+            <li><a href="#p2p概述">P2P概述</a></li>
+            <li><a href="#文件分发客户机-服务器结构-vs-p2p">文件分发：客户机-服务器结构 vs P2P</a></li>
+            <li><a href="#bittorrent">BitTorrent</a>
+              <ul>
+                <li><a href="#请求文件块">请求文件块</a></li>
+                <li><a href="#发送文件块">发送文件块</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#socket编程">socket编程</a>
+          <ul>
+            <li><a href="#udp中的socket编程">UDP中的socket编程</a>
+              <ul>
+                <li><a href="#udp中的socket编程示例">UDP中的socket编程示例</a></li>
+              </ul>
+            </li>
+            <li><a href="#tcp中的socket编程">TCP中的socket编程</a>
+              <ul>
+                <li><a href="#tcp中的socket编程示例">TCP中的socket编程示例</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+      </div><div class="content" id="content"><p>《计算机网络-自顶向下方法》笔记</p>
+<p>计算机网络课堂笔记，参考用书《计算机网络-自顶向下方法》。</p>
+<h1 id="计算机网络和因特网" class="heading-element"><span>计算机网络和因特网</span>
+  <a href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%bd%91%e7%bb%9c%e5%92%8c%e5%9b%a0%e7%89%b9%e7%bd%91" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h1><h2 id="计算机网络" class="heading-element"><span>计算机网络</span>
+  <a href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%bd%91%e7%bb%9c" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>起源是为了形成一个自主、自治、互联的计算机通信系统。</p>
+<h3 id="构成描述" class="heading-element"><span>构成描述</span>
+  <a href="#%e6%9e%84%e6%88%90%e6%8f%8f%e8%bf%b0" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>因特网也被称为“网中网”，我们所用的网络都是大网中的小网（套娃）。</p>
+<ul>
+<li>
+<p>接入网络的设备——网络边缘</p>
+<ul>
+<li><strong>主机</strong>（host） = <strong>端系统</strong>（end system）</li>
+<li>运行的联网app</li>
+</ul>
+</li>
+<li>
+<p>通信链路</p>
+<p>（communication link）——接入网</p>
+<ul>
+<li>媒介：同轴电缆、铜线、光纤、无线电频谱</li>
+<li>传输速率：带宽 bps</li>
+</ul>
+</li>
+<li>
+<p>分组交换机</p>
+<p>（packet switch）——网络核心</p>
+<ul>
+<li><strong>路由器</strong>（router）和 <strong>链路层交换机</strong>（link-layer switch）</li>
+</ul>
+</li>
+<li>
+<p><strong>协议</strong>：控制发送、接收信息。比如，TCP, IP, HTTP等等。每个层次有每个层次的协议。</p>
+</li>
+<li>
+<p>网络标准</p>
+<ul>
+<li>因特网工程任务组（<strong>IETF</strong>）： 制定网络标准的组织</li>
+<li>请求评论（<strong>RFC</strong>）：IETF的标准文档</li>
+</ul>
+</li>
+</ul>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/19/J1qlUrQx9LiTFY2.png" alt="img" srcset="https://i.loli.net/2020/03/19/J1qlUrQx9LiTFY2.png?size=small, https://i.loli.net/2020/03/19/J1qlUrQx9LiTFY2.png?size=medium 1.5x, https://i.loli.net/2020/03/19/J1qlUrQx9LiTFY2.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h3 id="服务描述" class="heading-element"><span>服务描述</span>
+  <a href="#%e6%9c%8d%e5%8a%a1%e6%8f%8f%e8%bf%b0" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>
+<p>为应用程序提供服务的基础设施</p>
+<p>即用户使用应用。</p>
+</li>
+<li>
+<p>应用程序编程接口</p>
+<p>即编写应用。</p>
+</li>
+</ul>
+<h2 id="网络边缘network-edge" class="heading-element"><span>网络边缘（Network Edge）</span>
+  <a href="#%e7%bd%91%e7%bb%9c%e8%be%b9%e7%bc%98network-edge" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>与因特网相接的计算机及其他设备位于因特网的边缘，称为<strong>端系统</strong>。</p>
+<p>端系统 = 主机，可以被划为下面两种：</p>
+<ul>
+<li>客户（client）</li>
+<li>服务器（server）：比如有企业存储大量数据的大型<strong>数据中心</strong>（data centers）</li>
+</ul>
+<h3 id="接入网access-networks" class="heading-element"><span>接入网（Access Networks）</span>
+  <a href="#%e6%8e%a5%e5%85%a5%e7%bd%91access-networks" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>网络边缘的端系统 通过 <strong>接入网</strong>（物理链路） 连接到 <strong>边缘路由器</strong>（端系统到任何其他远程端系统的路径上的第一台路由器）。</p>
+<h4 id="家庭接入dsl电缆ftth拨号和卫星" class="heading-element"><span>家庭接入：DSL、电缆、FTTH、拨号和卫星</span>
+  <a href="#%e5%ae%b6%e5%ba%ad%e6%8e%a5%e5%85%a5dsl%e7%94%b5%e7%bc%86ftth%e6%8b%a8%e5%8f%b7%e5%92%8c%e5%8d%ab%e6%98%9f" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><ul>
+<li><strong>数字用户线</strong>（digital subscriber line，<strong>DSL</strong>）</li>
+</ul>
+<p>利用<strong>电话线路</strong>接入网络。其中 <strong>ADSL</strong>是非对称的数字用户线，基本都用ADSL，因为一般下行的数据量都远大于上行的数据量，所以要设计成非平衡的链路。</p>
+<p>采用<strong>独占</strong>的<strong>频分多路复用</strong>来传输。因为利用的是原有的电话线路，所以需要将DSL传输的网络信号（上行、下行）和电话信号通过频分多路复用来区分开来。</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">频段</th>
+          <th style="text-align: left">传输信号</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">0~4K</td>
+          <td style="text-align: left">电话语音线路</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">4K~50K</td>
+          <td style="text-align: left">上行信号</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">50K~1M</td>
+          <td style="text-align: left">下行信号</td>
+      </tr>
+  </tbody>
+</table>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/20/oCDhqtVGuRLjenm.png" alt="截屏2020-03-20上午12.22.20.png" srcset="https://i.loli.net/2020/03/20/oCDhqtVGuRLjenm.png?size=small, https://i.loli.net/2020/03/20/oCDhqtVGuRLjenm.png?size=medium 1.5x, https://i.loli.net/2020/03/20/oCDhqtVGuRLjenm.png?size=large 2x" data-title="截屏2020-03-20上午12.22.20.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<ul>
+<li>
+<p><strong>电缆因特网接入</strong>（cable Internet access）</p>
+<p>利用<strong>有线电视网</strong>接入网络。结构上，通过粗的同轴电缆接入社区，再用细的同轴电缆接入每家每户。</p>
+<p>采用<strong>共享</strong>的<strong>频分多路复用</strong>来传输。</p>
+</li>
+</ul>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/20/w1BdRQcMi5KS7Iz.png" alt="img" srcset="https://i.loli.net/2020/03/20/w1BdRQcMi5KS7Iz.png?size=small, https://i.loli.net/2020/03/20/w1BdRQcMi5KS7Iz.png?size=medium 1.5x, https://i.loli.net/2020/03/20/w1BdRQcMi5KS7Iz.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<ul>
+<li><strong>混合光纤同轴电缆</strong>（<strong>HFC</strong>）</li>
+</ul>
+<p><strong>同轴电缆</strong>和<strong>光纤节点</strong>相连再接入边缘路由器。</p>
+<p><strong>不对称</strong>的<strong>竞争式协议</strong>，最高可达到30Mbps的下行速率和2Mbps的上行速率。由于采用竞争式协议，在用户少时使用体验优于普通的电缆因特网接入，但是在用户多时容易造成卡顿。</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/20/xsZF9RbLfSq82or.png" alt="img" srcset="https://i.loli.net/2020/03/20/xsZF9RbLfSq82or.png?size=small, https://i.loli.net/2020/03/20/xsZF9RbLfSq82or.png?size=medium 1.5x, https://i.loli.net/2020/03/20/xsZF9RbLfSq82or.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h4 id="企业家庭接入以太网和wifi" class="heading-element"><span>企业（家庭）接入：以太网和WiFi</span>
+  <a href="#%e4%bc%81%e4%b8%9a%e5%ae%b6%e5%ba%ad%e6%8e%a5%e5%85%a5%e4%bb%a5%e5%a4%aa%e7%bd%91%e5%92%8cwifi" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><ul>
+<li><strong>以太网</strong>：使用双绞铜线与一台以太网交换机相连，速率可达到100Mbps、1Gbps、10Gbps。</li>
+<li><strong>WiFi</strong>：IEEE802.11技术无线LAN，范围在几十米内。</li>
+</ul>
+<h4 id="广义无线接入4g和5g" class="heading-element"><span>广义无线接入：4G和5G</span>
+  <a href="#%e5%b9%bf%e4%b9%89%e6%97%a0%e7%ba%bf%e6%8e%a5%e5%85%a54g%e5%92%8c5g" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>详见第六章</p>
+<h3 id="物理媒体physical-media" class="heading-element"><span>物理媒体（Physical Media）</span>
+  <a href="#%e7%89%a9%e7%90%86%e5%aa%92%e4%bd%93physical-media" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>导引型媒体（guided media）：信号在固体媒体中传输，比如光缆、双绞铜线和同轴电缆。</li>
+<li>非导引型媒体（unguided media）：电波在空气中传播，比如无线局域网或数字卫星频道。</li>
+</ul>
+<h2 id="网络核心network-core" class="heading-element"><span>网络核心（Network Core）</span>
+  <a href="#%e7%bd%91%e7%bb%9c%e6%a0%b8%e5%bf%83network-core" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>网络核心：由端系统的分组交换机和链路构成的网状网络。下图标亮部分即使网络核心。</p>
+<p>一共有三种交换方式：报文交换（很少使用）、分组交换和电路交换</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/20/dAzBna3i9lZU2uN.png" alt="img" srcset="https://i.loli.net/2020/03/20/dAzBna3i9lZU2uN.png?size=small, https://i.loli.net/2020/03/20/dAzBna3i9lZU2uN.png?size=medium 1.5x, https://i.loli.net/2020/03/20/dAzBna3i9lZU2uN.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h3 id="分组交换packet-switching" class="heading-element"><span>分组交换（Packet Switching）</span>
+  <a href="#%e5%88%86%e7%bb%84%e4%ba%a4%e6%8d%a2packet-switching" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>端系统之间彼此传输报文，分组交换中，将长报文划分为分组，分组再通过通信链路和分组交换机（分为路由器和链路层交换机）传送。</p>
+<ol>
+<li>
+<p><strong>存储转发传输</strong>（Store-and-Forward Transmission）</p>
+<p>分组交换和报文交换都采用了存储转发的传输形式。但分组交换的存储转发以分组为单位，即交换机接收到整个分组后才能输出该分组的数据；而报文交换的存储转发单位为报文，需要交换机接收到整个报文后才能输出。</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/20/YZt3aBmjsS1dLIi.png" alt="img" srcset="https://i.loli.net/2020/03/20/YZt3aBmjsS1dLIi.png?size=small, https://i.loli.net/2020/03/20/YZt3aBmjsS1dLIi.png?size=medium 1.5x, https://i.loli.net/2020/03/20/YZt3aBmjsS1dLIi.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>传输相同大小的数据包，分组交换比报文交换更快。下面是分组交换传输3L大小的报文的时间流，报文分为3个大小为L的分组，根据分组交换原理，一共耗费了 4L/R 时间完成传输（即<strong>存储转发时延</strong>）。而如果使用报文传输同样的3L大小的报文则需要耗费 6L/R 时间。</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/20/zkxt9eo4fQqmLRV.jpg" alt="分组交换.jpg" srcset="https://i.loli.net/2020/03/20/zkxt9eo4fQqmLRV.jpg?size=small, https://i.loli.net/2020/03/20/zkxt9eo4fQqmLRV.jpg?size=medium 1.5x, https://i.loli.net/2020/03/20/zkxt9eo4fQqmLRV.jpg?size=large 2x" data-title="分组交换.jpg" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+</li>
+<li>
+<p><strong>排队时延</strong>（Queuing Delay）和<strong>分组丢失</strong>（Packet Loss）</p>
+<p>分组交换机有有一个<strong>输出缓存</strong>（output buffer），分组可能会在分组交换机上排队等待输出，造成排队时延。</p>
+<p>分组交换机的缓存空间是有限的，所以在过于拥堵时会产生分组丢失（丢包）。</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/20/iCtTZGq6BQuHzwa.png" alt="img" srcset="https://i.loli.net/2020/03/20/iCtTZGq6BQuHzwa.png?size=small, https://i.loli.net/2020/03/20/iCtTZGq6BQuHzwa.png?size=medium 1.5x, https://i.loli.net/2020/03/20/iCtTZGq6BQuHzwa.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+</li>
+<li>
+<p><strong>转发表</strong>（Forwarding Table）和<strong>路由选择协议</strong>（Routing Protocol）</p>
+<ul>
+<li><strong>路由</strong>：分组中包括IP地址；</li>
+<li><strong>转发</strong>：路由器中将目的地址映射为输出链路。</li>
+</ul>
+</li>
+</ol>
+<h3 id="电路交换circuit-switching" class="heading-element"><span>电路交换（Circuit Switching）</span>
+  <a href="#%e7%94%b5%e8%b7%af%e4%ba%a4%e6%8d%a2circuit-switching" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p><strong>端到端连接</strong>（end- to-end connection）：在发送数据之前，必须先在发送和接收两端建立端到端连接，并预留一部分带宽。而分组交换不预留，所以会造成排队和丢包。</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/20/D91fBHdvxo24MFT.png" alt="img" srcset="https://i.loli.net/2020/03/20/D91fBHdvxo24MFT.png?size=small, https://i.loli.net/2020/03/20/D91fBHdvxo24MFT.png?size=medium 1.5x, https://i.loli.net/2020/03/20/D91fBHdvxo24MFT.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h4 id="频分多路复用fdm" class="heading-element"><span>频分多路复用（FDM）</span>
+  <a href="#%e9%a2%91%e5%88%86%e5%a4%9a%e8%b7%af%e5%a4%8d%e7%94%a8fdm" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>链路中的每条连接专用一个频段。</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/20/NubPYJA6WrcvsqI.png" alt="img" srcset="https://i.loli.net/2020/03/20/NubPYJA6WrcvsqI.png?size=small, https://i.loli.net/2020/03/20/NubPYJA6WrcvsqI.png?size=medium 1.5x, https://i.loli.net/2020/03/20/NubPYJA6WrcvsqI.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h4 id="时分多路复用tdm" class="heading-element"><span>时分多路复用（TDM）</span>
+  <a href="#%e6%97%b6%e5%88%86%e5%a4%9a%e8%b7%af%e5%a4%8d%e7%94%a8tdm" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>远距离传输会有衰减，所以考虑用<strong>数字信号</strong>进行传输。在时域上对信号进行<strong>采样</strong>，接收时再将采样信号恢复。</p>
+<p>TDM在时域上被划分为固定的<strong>帧</strong>（frame），每帧又被划分为固定数量的<strong>时隙</strong>（slot），链路中的每条连接专用一个时隙。</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/21/yLN9bmafTdIqj6c.png" alt="img" srcset="https://i.loli.net/2020/03/21/yLN9bmafTdIqj6c.png?size=small, https://i.loli.net/2020/03/21/yLN9bmafTdIqj6c.png?size=medium 1.5x, https://i.loli.net/2020/03/21/yLN9bmafTdIqj6c.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h3 id="分组交换--电路交换" class="heading-element"><span>分组交换 &amp; 电路交换</span>
+  <a href="#%e5%88%86%e7%bb%84%e4%ba%a4%e6%8d%a2--%e7%94%b5%e8%b7%af%e4%ba%a4%e6%8d%a2" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>分组交换的性能优于电路交换，适用于随机数据，可以满足更多用户。</p>
+<p>电路交换需要预留带宽，相当于固定了链路用户的数量。而分组交换不需要预留带宽，用户使用网络是有一定概率的，在一个时刻较多人使用的概率其实相对较低，所以一条链路可以给更多的用户使用。</p>
+<p>电路交换适用于特殊情况，比如要保障传输数据能力。</p>
+<h3 id="网络结构" class="heading-element"><span>网络结构</span>
+  <a href="#%e7%bd%91%e7%bb%9c%e7%bb%93%e6%9e%84" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>网络结构是网中之网，具有层次结构。</p>
+<ul>
+<li><strong>ISP</strong>：ISP分为许多层级，比如<strong>第一层ISP</strong>（tier-1 ISP）、<strong>区域ISP</strong>（regional ISP）、<strong>接入ISP</strong>（access ISP）。端系统通过接入ISP与因特网相连，全球的ISP通过各个层级相连，形成了互联网的互联。</li>
+<li>因特网交换点（Internet Exchange Point，<strong>IXP</strong>）：由第三方公司创建，IXP是一个汇合点，多个ISP在此处对等。</li>
+</ul>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/21/NugS6r92GDaCqeJ.png" alt="img" srcset="https://i.loli.net/2020/03/21/NugS6r92GDaCqeJ.png?size=small, https://i.loli.net/2020/03/21/NugS6r92GDaCqeJ.png?size=medium 1.5x, https://i.loli.net/2020/03/21/NugS6r92GDaCqeJ.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h2 id="协议protocol" class="heading-element"><span>协议（Protocol）</span>
+  <a href="#%e5%8d%8f%e8%ae%aeprotocol" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>协议定义了在两个或多个通信实体之间交换的报文格式和次序，以及报文发送和/或接收一条报文或其他时间所采取的动作。</p>
+<p>协议三大要素：</p>
+<ul>
+<li>语法（Syntax）：每一段内容符合一定规则的格式，比如一个报文前8位是原地址，后八个是目的地址（只是举例，不要当真）之类。</li>
+<li>语义（Semantics）：每一段内容需要代表某种意义，比如原地址部分的二进制到底是指哪个地址。</li>
+<li>同步（Timing）：通信的过程，即每一段任务的执行顺序。</li>
+</ul>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/22/RS7Lpk2YjGtCnKV.png" alt="img" srcset="https://i.loli.net/2020/03/22/RS7Lpk2YjGtCnKV.png?size=small, https://i.loli.net/2020/03/22/RS7Lpk2YjGtCnKV.png?size=medium 1.5x, https://i.loli.net/2020/03/22/RS7Lpk2YjGtCnKV.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h2 id="协议层次protocol-layer及其服务模型" class="heading-element"><span>协议层次（Protocol Layer）及其服务模型</span>
+  <a href="#%e5%8d%8f%e8%ae%ae%e5%b1%82%e6%ac%a1protocol-layer%e5%8f%8a%e5%85%b6%e6%9c%8d%e5%8a%a1%e6%a8%a1%e5%9e%8b" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><h3 id="五层因特网协议栈" class="heading-element"><span>五层因特网协议栈</span>
+  <a href="#%e4%ba%94%e5%b1%82%e5%9b%a0%e7%89%b9%e7%bd%91%e5%8d%8f%e8%ae%ae%e6%a0%88" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>因特网协议栈由5个层次组成：物理层、链路层、网络层、传输层和应用层。因特网协议栈是一个理想模型。</p>
+<p>下层为上层提供服务。越下面的层，越靠近硬件；越上面的层，越靠近用户。</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/22/oYnb8OzPqg461Ux.png" alt="截屏2020-03-22上午12.23.35.png" srcset="https://i.loli.net/2020/03/22/oYnb8OzPqg461Ux.png?size=small, https://i.loli.net/2020/03/22/oYnb8OzPqg461Ux.png?size=medium 1.5x, https://i.loli.net/2020/03/22/oYnb8OzPqg461Ux.png?size=large 2x" data-title="截屏2020-03-22上午12.23.35.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">层次</th>
+          <th style="text-align: left">功能</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">应用层（Application Layer）</td>
+          <td style="text-align: left">支持网络应用，应用协议仅仅是网络应用的一个组成部分，运行在不同主机上的进程则使用应用层协议进行通信。</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">传输层（Transport Layer）</td>
+          <td style="text-align: left">负责为信源和信宿提供应用程序进程间的数据传输服务，这一层上主要定义了两个传输协议，传输控制协议即TCP和用户数据报协议UDP。</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">网络层（Network Layer）</td>
+          <td style="text-align: left">负责将<strong>数据报</strong>独立地从信源发送到信宿，主要解决路由选择、拥塞控制和网络互联等问题。</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">链路层（Link Layer）</td>
+          <td style="text-align: left">负责将IP数据报封装成合适在物理网络上传输的<strong>帧</strong>格式并传输，或将从物理网络接收到的帧解封，取出IP数据报交给网络层。</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">物理层（Physical Layer）</td>
+          <td style="text-align: left">负责将<strong>比特流</strong>在结点间传输，即负责物理传输。该层的协议既与链路有关也与传输介质有关。</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="osi模型" class="heading-element"><span>OSI模型</span>
+  <a href="#osi%e6%a8%a1%e5%9e%8b" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>OSI模型由国际标准化组织（ISO）制定，实际并没有应用，只有理论。</p>
+<p>OSI模型由7层组成：应用层、表示层、会话层、传输层、网络层、数据链路层、物理层。</p>
+<h3 id="封装encapsulation" class="heading-element"><span>封装（Encapsulation）</span>
+  <a href="#%e5%b0%81%e8%a3%85encapsulation" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>在发送端，</p>
+<ol>
+<li>
+<p>应用层：将 <strong>应用层报文</strong>（application-layer message）M传送给传输层；</p>
+</li>
+<li>
+<p>传输层：接收报文M，附上传输层首部信息Ht（包括差错检测位信息等），构成 <strong>传输层报文段</strong>（transport-layer segment），将其传递给网络层；</p>
+</li>
+<li>
+<p>网络层：接收传输层报文段，附上网络层首部信息Hn（包括源和目的地址等），构成 <strong>网络层数据段</strong>（network-layer datagram），将其传递给网络层；</p>
+</li>
+<li>
+<p>链路层：接收网络层数据段，附上链路层首部信息Hl，构成 <strong>链路层帧</strong>（link-layer frame），将其传递给物理层；</p>
+</li>
+<li>
+<p>物理层：负责比特流物理传输。</p>
+<p>在接收端以反方向重构报文段。</p>
+</li>
+</ol>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/22/uBFK4rGifLvsHqE.png" alt="img" srcset="https://i.loli.net/2020/03/22/uBFK4rGifLvsHqE.png?size=small, https://i.loli.net/2020/03/22/uBFK4rGifLvsHqE.png?size=medium 1.5x, https://i.loli.net/2020/03/22/uBFK4rGifLvsHqE.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h2 id="物理层概述" class="heading-element"><span>物理层概述</span>
+  <a href="#%e7%89%a9%e7%90%86%e5%b1%82%e6%a6%82%e8%bf%b0" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>在两个物理媒体间进行比特流传输，上层都是逻辑链接，只有物理层是实际的物理连接。</p>
+<h3 id="物理层基本目标" class="heading-element"><span>物理层基本目标</span>
+  <a href="#%e7%89%a9%e7%90%86%e5%b1%82%e5%9f%ba%e6%9c%ac%e7%9b%ae%e6%a0%87" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>保证发送信号“0”和“1”的正确性以及发送和接收的一致性；</li>
+<li>比特流传输的模式、速度、持续时间和信号失真；</li>
+<li>接口设计：引脚数目、功能等等；</li>
+<li>信号传输的程序：如何安排传输过程和事件次序。</li>
+</ul>
+<h3 id="物理层的基本特性" class="heading-element"><span>物理层的基本特性</span>
+  <a href="#%e7%89%a9%e7%90%86%e5%b1%82%e7%9a%84%e5%9f%ba%e6%9c%ac%e7%89%b9%e6%80%a7" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>
+<p><strong>机械特性</strong>：指明接口所用接线器的形状和尺寸、引线数目和排列、固定和锁定装置等；</p>
+</li>
+<li>
+<p><strong>电气特性</strong>：指明传输模式、电压范围、编码、阻抗匹配、传输速率以及传输距离等等；</p>
+</li>
+<li>
+<p><strong>功能特性</strong>：指明各条物理线路的功能，比如某条线上出现的某一电平的电压表示何种意义，</p>
+<p>物理接口信号线按功能分为四类：数据线、控制线、定时线和地线；</p>
+</li>
+<li>
+<p><strong>规程特性</strong>：指明各物理线路工作规程和时序的关系，比如对于不同功能的各种可能事件的出现顺序，</p>
+<p>信号传输的模式：单工（仅单向通行）、半双工（双方通，但一个时刻仅一方通）、全双工（双方随时通）。</p>
+</li>
+</ul>
+<h2 id="基本通信原理" class="heading-element"><span>基本通信原理</span>
+  <a href="#%e5%9f%ba%e6%9c%ac%e9%80%9a%e4%bf%a1%e5%8e%9f%e7%90%86" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><h3 id="基本概念" class="heading-element"><span>基本概念</span>
+  <a href="#%e5%9f%ba%e6%9c%ac%e6%a6%82%e5%bf%b5" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>数据（data）：对于客观事实描述的物理符号，包括数字、文本、语言、图像等等；</li>
+<li>信息（information）：数据的集合；</li>
+<li>信号（signal）：数据传输中的表现形式，比如模拟信号、数字信号；</li>
+<li>信道（channel）：往固定方向传输信息的媒介。</li>
+</ul>
+<p><strong>模拟传输VS数字传输</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">传输方式</th>
+          <th style="text-align: left">优点</th>
+          <th style="text-align: left">缺点</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">模拟</td>
+          <td style="text-align: left">对信道有高利用率</td>
+          <td style="text-align: left">不抗噪</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">数字</td>
+          <td style="text-align: left">信号不易失真</td>
+          <td style="text-align: left">需要更宽的带宽</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="信道特性" class="heading-element"><span>信道特性</span>
+  <a href="#%e4%bf%a1%e9%81%93%e7%89%b9%e6%80%a7" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>
+<p><strong>码元</strong>（Symbol）：承载信息量的基本信号单位。</p>
+<p>下面是马原分级数 N 与所需bit位数 n 的关系（N个离散的值需要n个bits）</p>
+<p>n=log2Nn=log2N</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/22/wxHkuoMDth7Bqpm.jpg" alt="img" srcset="https://i.loli.net/2020/03/22/wxHkuoMDth7Bqpm.jpg?size=small, https://i.loli.net/2020/03/22/wxHkuoMDth7Bqpm.jpg?size=medium 1.5x, https://i.loli.net/2020/03/22/wxHkuoMDth7Bqpm.jpg?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+</li>
+<li>
+<p><strong>波特率</strong>（Baud rate）：传输码元的速率。</p>
+</li>
+<li>
+<p><strong>比特率</strong>（Bit rate）：传输比特的速率。</p>
+<p>波特率与比特率的关系</p>
+<p>bit rate(b/s)=baud rate∗nbit rate(b/s)=baud rate∗n</p>
+</li>
+<li>
+<p><strong>信道容量</strong>（Channel capacity）：在一个信道中能够可靠地传送信息时可达速率的最小上界，单位 bps。</p>
+</li>
+<li>
+<p><strong>频带宽度</strong>（Frequency bandwidth）：信道允许的信号频率范围，单位 Hz。</p>
+<p>Frequency bandwidth=maximum bandwidth−minimum bandwidthFrequency bandwidth=maximum bandwidth−minimum bandwidth</p>
+</li>
+<li>
+<p><strong>传输延迟</strong>（Transmission delay）：包括发送到接受的处理事件、电信号的响应时间、中间介质的传输时间。</p>
+</li>
+<li>
+<p><strong>奈奎斯特定理</strong>（Nyquist’s Law）</p>
+<ol>
+<li>对于理想的低通信号，在一个频带宽度为 W 的信道，其码元的最大传输速率 = 2W Baud</li>
+<li>对于理想的带通信号，在一个频带宽度为 W 的信道，其码元的最大传输速率 = W Baud</li>
+</ol>
+</li>
+<li>
+<p><strong>香农定理</strong>（Shannon’s Formula）</p>
+<p>信道的信息传输速率C（单位：bps）</p>
+<p>C=Wlog2(1+S/N)C=Wlog2(1+S/N)</p>
+<ul>
+<li>
+<p>W - 带宽，单位 Hz</p>
+</li>
+<li>
+<p>S - 信道的平均信号功率</p>
+</li>
+<li>
+<p>N - 信道的高斯噪声功率</p>
+</li>
+<li>
+<p>S/N - 信号功率与噪声功率之比（也可以叫信噪比）</p>
+<p>一般情况下，信噪比不用 S/NS/N 表示，而是 10log10S/N10log10S/N ，单位为dB。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="模拟数字信号传输" class="heading-element"><span>模拟/数字信号传输</span>
+  <a href="#%e6%a8%a1%e6%8b%9f%e6%95%b0%e5%ad%97%e4%bf%a1%e5%8f%b7%e4%bc%a0%e8%be%93" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>模拟信道只能传输模拟信号，数字信道只能传输数字信号。</p>
+<h4 id="调制解调器" class="heading-element"><span>调制解调器</span>
+  <a href="#%e8%b0%83%e5%88%b6%e8%a7%a3%e8%b0%83%e5%99%a8" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>数字/模拟信号 经过 <strong>调制</strong> 变成 <strong>模拟信号</strong>，如此可在 模拟信道 上传输，再经过 <strong>解调</strong> 变成 数字/模拟信号。</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/23/4mKvzSkIDigxhFX.png" alt="img" srcset="https://i.loli.net/2020/03/23/4mKvzSkIDigxhFX.png?size=small, https://i.loli.net/2020/03/23/4mKvzSkIDigxhFX.png?size=medium 1.5x, https://i.loli.net/2020/03/23/4mKvzSkIDigxhFX.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h4 id="编码解码器" class="heading-element"><span>编码解码器</span>
+  <a href="#%e7%bc%96%e7%a0%81%e8%a7%a3%e7%a0%81%e5%99%a8" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>数字/模拟信号 经过 <strong>编码</strong> 变成 <strong>数字信号</strong>，如此可在 数字信道 上传输，再经过 <strong>解码</strong> 变成 数字/模拟信号。</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/23/OcMLw2JjiA9FsSP.png" alt="截屏2020-03-23上午1.37.30.png" srcset="https://i.loli.net/2020/03/23/OcMLw2JjiA9FsSP.png?size=small, https://i.loli.net/2020/03/23/OcMLw2JjiA9FsSP.png?size=medium 1.5x, https://i.loli.net/2020/03/23/OcMLw2JjiA9FsSP.png?size=large 2x" data-title="截屏2020-03-23上午1.37.30.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h4 id="调制modulation数字信号到模拟信号" class="heading-element"><span>调制（Modulation）：数字信号到模拟信号</span>
+  <a href="#%e8%b0%83%e5%88%b6modulation%e6%95%b0%e5%ad%97%e4%bf%a1%e5%8f%b7%e5%88%b0%e6%a8%a1%e6%8b%9f%e4%bf%a1%e5%8f%b7" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>从数字信号到模拟信号的调制主要有三种方法：</p>
+<ul>
+<li>
+<p><strong>调幅</strong>（Amplitude Modulation，<strong>AM</strong>）</p>
+<p>把数字信号转化成不同幅度的正弦信号。</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/23/tsgLBTpczPWhOHS.png" alt="img" srcset="https://i.loli.net/2020/03/23/tsgLBTpczPWhOHS.png?size=small, https://i.loli.net/2020/03/23/tsgLBTpczPWhOHS.png?size=medium 1.5x, https://i.loli.net/2020/03/23/tsgLBTpczPWhOHS.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+</li>
+<li>
+<p><strong>调频</strong>（Frequency Modulation，<strong>FM</strong>）</p>
+<p>把数字信号转化成不同频率的正弦信号。</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/23/RJEuCxXSblUhyfV.png" alt="img" srcset="https://i.loli.net/2020/03/23/RJEuCxXSblUhyfV.png?size=small, https://i.loli.net/2020/03/23/RJEuCxXSblUhyfV.png?size=medium 1.5x, https://i.loli.net/2020/03/23/RJEuCxXSblUhyfV.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+</li>
+<li>
+<p><strong>调相</strong>（Phase Modulation，<strong>PM</strong>）</p>
+<p>把数字信号转化成不同相位的正弦信号。</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/23/2NDtUwYbpmuHPVo.png" alt="img" srcset="https://i.loli.net/2020/03/23/2NDtUwYbpmuHPVo.png?size=small, https://i.loli.net/2020/03/23/2NDtUwYbpmuHPVo.png?size=medium 1.5x, https://i.loli.net/2020/03/23/2NDtUwYbpmuHPVo.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+</li>
+</ul>
+<h4 id="脉码调制pulse-code-modulation-pcm" class="heading-element"><span>脉码调制（Pulse Code Modulation, PCM）</span>
+  <a href="#%e8%84%89%e7%a0%81%e8%b0%83%e5%88%b6pulse-code-modulation-pcm" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>模拟信号变成数字信号。</p>
+<p>脉码调制步骤：</p>
+<ol>
+<li>
+<p>采样（Sampling system）</p>
+<p>采样频率是信号频率的两倍，则可不失真地恢复原始信号。</p>
+</li>
+<li>
+<p>量化（Quantify）</p>
+<p>取整采样信号。</p>
+</li>
+<li>
+<p>编码（Coding）</p>
+<p>量化后的信号编码成二进制。</p>
+</li>
+</ol>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/23/ze59JcGyOojH2Dx.png" alt="img" srcset="https://i.loli.net/2020/03/23/ze59JcGyOojH2Dx.png?size=small, https://i.loli.net/2020/03/23/ze59JcGyOojH2Dx.png?size=medium 1.5x, https://i.loli.net/2020/03/23/ze59JcGyOojH2Dx.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h4 id="数字信号编码digital-signal-coding" class="heading-element"><span>数字信号编码（Digital signal coding）</span>
+  <a href="#%e6%95%b0%e5%ad%97%e4%bf%a1%e5%8f%b7%e7%bc%96%e7%a0%81digital-signal-coding" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>数字信号到数字信号。</p>
+<h5 id="不归零编码non-return-to-zero-nrz" class="heading-element"><span>不归零编码（Non-Return-To-Zero, NRZ）</span>
+  <a href="#%e4%b8%8d%e5%bd%92%e9%9b%b6%e7%bc%96%e7%a0%81non-return-to-zero-nrz" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h5><p>主要介绍两种不归零编码。</p>
+<ul>
+<li>
+<p>Non-Return-To-Zero Level (<strong>NRZ-L</strong>) Coding</p>
+<p>高电平表示“1”，低电平表示“0”。</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/23/XmcGZnlLOg92azH.png" alt="img" srcset="https://i.loli.net/2020/03/23/XmcGZnlLOg92azH.png?size=small, https://i.loli.net/2020/03/23/XmcGZnlLOg92azH.png?size=medium 1.5x, https://i.loli.net/2020/03/23/XmcGZnlLOg92azH.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>NRZ-L的优点：简单好实现</p>
+<p>NRZ-L的缺点：</p>
+<ul>
+<li>难以分清二进制一位的开始和结束，所以必须要带<strong>同步时钟</strong>（外同步）来同步。可以把上图的虚线当作是同步时钟，当把虚线去掉是，相同电平的信号就不好判断开始和结束了。</li>
+<li>在传输全“1”或全“0”信号时，此时传输的只有直流分量（傅立叶分不出正弦或余弦分量），这样线路上会有比较大的噪声。</li>
+</ul>
+</li>
+<li>
+<p>反向不归零编码（<strong>NRZ-I</strong>）</p>
+<p>遇“1”反向。只能解决NRZ-L的部分问题（全“1”问题，不再是直流）</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/23/KQJyzFGPtanmhLk.jpg" alt="img" srcset="https://i.loli.net/2020/03/23/KQJyzFGPtanmhLk.jpg?size=small, https://i.loli.net/2020/03/23/KQJyzFGPtanmhLk.jpg?size=medium 1.5x, https://i.loli.net/2020/03/23/KQJyzFGPtanmhLk.jpg?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+</li>
+</ul>
+<p><strong>外同步</strong>（External synchronization）</p>
+<p>给系统一个同步时钟信号，设置一个周期的宽度。</p>
+<p>外同步有诸多不便，于是有了自同步的曼切斯特编码。</p>
+<h5 id="曼切斯特编码manchester-encoding" class="heading-element"><span>曼切斯特编码（Manchester encoding）</span>
+  <a href="#%e6%9b%bc%e5%88%87%e6%96%af%e7%89%b9%e7%bc%96%e7%a0%81manchester-encoding" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h5><p>每个编码由两段组成，“1”：先高后低；“0”：先低后高（可以反过来定义）。</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/23/CwpZhdnVO65m2DX.png" alt="img" srcset="https://i.loli.net/2020/03/23/CwpZhdnVO65m2DX.png?size=small, https://i.loli.net/2020/03/23/CwpZhdnVO65m2DX.png?size=medium 1.5x, https://i.loli.net/2020/03/23/CwpZhdnVO65m2DX.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>曼切斯特编码的优点（解决了不归零编码的问题）：</p>
+<ul>
+<li>自同步，不需要同步时钟；</li>
+<li>直流分量为0。</li>
+</ul>
+<p>曼切斯特编码的缺点：</p>
+<ul>
+<li>
+<p><strong>基频增加</strong>：基频是不归零编码的两倍，从而比特率变成了不归零编码的一半；</p>
+</li>
+<li>
+<p><strong>二义性</strong>：组合情况有两种。</p>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/23/3vlYkrz47V6qC1w.jpg" alt="img" srcset="https://i.loli.net/2020/03/23/3vlYkrz47V6qC1w.jpg?size=small, https://i.loli.net/2020/03/23/3vlYkrz47V6qC1w.jpg?size=medium 1.5x, https://i.loli.net/2020/03/23/3vlYkrz47V6qC1w.jpg?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+</li>
+</ul>
+<h5 id="差分曼切斯特编码differential-manchester-encoding" class="heading-element"><span>差分曼切斯特编码（Differential Manchester encoding）</span>
+  <a href="#%e5%b7%ae%e5%88%86%e6%9b%bc%e5%88%87%e6%96%af%e7%89%b9%e7%bc%96%e7%a0%81differential-manchester-encoding" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h5><p>解决曼切斯特编码的二义性。</p>
+<ul>
+<li>
+<p>“1”：自己的前半波与前一个编码的后半波相同；</p>
+</li>
+<li>
+<p>“0”：自己的前半波与前一个编码的后半波相反。</p>
+<p>有两种画法，初始为高、初始为低，两种画法结果对称。</p>
+</li>
+</ul>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/23/mdYhZEKHulpkjTW.png" alt="img" srcset="https://i.loli.net/2020/03/23/mdYhZEKHulpkjTW.png?size=small, https://i.loli.net/2020/03/23/mdYhZEKHulpkjTW.png?size=medium 1.5x, https://i.loli.net/2020/03/23/mdYhZEKHulpkjTW.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>差分曼切斯特编码的优点：</p>
+<ul>
+<li>解决NRZ问题</li>
+<li>解决二义性问题</li>
+</ul>
+<p>差分曼切斯特编码的缺点（同曼切斯特编码）：</p>
+<ul>
+<li>基频翻倍</li>
+<li>高频噪声增加</li>
+</ul>
+<h5 id="块编码block-encoding" class="heading-element"><span>块编码（Block encoding）</span>
+  <a href="#%e5%9d%97%e7%bc%96%e7%a0%81block-encoding" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h5><ol>
+<li>将原信号每 m bits 分为一块；</li>
+<li>把 m bits 的每块映射成 n bits 的块（m &lt; n）；</li>
+<li>将 n bits 的块重新组合起来。</li>
+</ol>
+<p><img loading="lazy" src="https://i.loli.net/2020/03/23/5D78VTnaSXjMyfR.png" alt="img" srcset="https://i.loli.net/2020/03/23/5D78VTnaSXjMyfR.png?size=small, https://i.loli.net/2020/03/23/5D78VTnaSXjMyfR.png?size=medium 1.5x, https://i.loli.net/2020/03/23/5D78VTnaSXjMyfR.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h3 id="多路复用multiplexing" class="heading-element"><span>多路复用（Multiplexing）</span>
+  <a href="#%e5%a4%9a%e8%b7%af%e5%a4%8d%e7%94%a8multiplexing" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><h4 id="频分多路复用frequency-division-multiplexingfdm" class="heading-element"><span>频分多路复用（Frequency division multiplexing，FDM）</span>
+  <a href="#%e9%a2%91%e5%88%86%e5%a4%9a%e8%b7%af%e5%a4%8d%e7%94%a8frequency-division-multiplexingfdm" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>见 <a href="https://gy23333.github.io/2020/03/16/%e3%80%8a%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%bd%91%e7%bb%9c-%e8%87%aa%e9%a1%b6%e5%90%91%e4%b8%8b%e6%96%b9%e6%b3%95%e3%80%8b%e7%ac%94%e8%ae%b0/#%e9%a2%91%e5%88%86%e5%a4%9a%e8%b7%af%e5%a4%8d%e7%94%a8%ef%bc%88FDM%ef%bc%89"target="_blank" rel="external nofollow noopener noreferrer">频分多路复用</a> 。</p>
+<h4 id="时分多路复用time-division-multiplexingtdm" class="heading-element"><span>时分多路复用（Time division multiplexing，TDM）</span>
+  <a href="#%e6%97%b6%e5%88%86%e5%a4%9a%e8%b7%af%e5%a4%8d%e7%94%a8time-division-multiplexingtdm" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>见 <a href="https://gy23333.github.io/2020/03/16/%e3%80%8a%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%bd%91%e7%bb%9c-%e8%87%aa%e9%a1%b6%e5%90%91%e4%b8%8b%e6%96%b9%e6%b3%95%e3%80%8b%e7%ac%94%e8%ae%b0/#%e6%97%b6%e5%88%86%e5%a4%9a%e8%b7%af%e5%a4%8d%e7%94%a8%ef%bc%88TDM%ef%bc%89"target="_blank" rel="external nofollow noopener noreferrer">时分多路复用</a> 。</p>
+<h4 id="波分多路复用wavelength-division-multiplexingwdm" class="heading-element"><span>波分多路复用（Wavelength division multiplexing，WDM）</span>
+  <a href="#%e6%b3%a2%e5%88%86%e5%a4%9a%e8%b7%af%e5%a4%8d%e7%94%a8wavelength-division-multiplexingwdm" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>和FDM原理相同，但主要在光波中采用。</p>
+<h4 id="码分多路复用code-division-multiplexingcdm" class="heading-element"><span>码分多路复用（Code division multiplexing，CDM）</span>
+  <a href="#%e7%a0%81%e5%88%86%e5%a4%9a%e8%b7%af%e5%a4%8d%e7%94%a8code-division-multiplexingcdm" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>举例说明</p>
+<p>每台设备都给一个不同向量的码片，比如手机A的码片为A，手机B的码片为B。不同设备的码片正交，即</p>
+<p>{A×B=0A×A=1{A×B=0A×A=1</p>
+<p>要向手机A发送数据a，向手机B发送数据b，则在信道中发送 a×A+b×Ba×A+b×B。</p>
+<p>在手机A接收数据时，将接收到的信号乘A。</p>
+<p>(a×A+b×B)×A=a×A×A+b×B×A=a(a×A+b×B)×A=a×A×A+b×B×A=a</p>
+<p>同理手机B，如此两台设备同时利用一条信道传输，并成功分离各自的数据。</p>
+<h2 id="延时丢包吞吐量" class="heading-element"><span>延时、丢包、吞吐量</span>
+  <a href="#%e5%bb%b6%e6%97%b6%e4%b8%a2%e5%8c%85%e5%90%9e%e5%90%90%e9%87%8f" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><h3 id="延时delay" class="heading-element"><span>延时（delay）</span>
+  <a href="#%e5%bb%b6%e6%97%b6delay" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>现实中的计算机系统不是理想系统，事件是随机突发的，所以不可避免的存在延时。</p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/delay.png" alt="delay.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/delay.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/delay.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/delay.png?size=large 2x" data-title="delay.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>数据包的延时由四个部分组成：</p>
+<p>dnodal=dprop+dqueue+dtrans+dpropdnodal=dprop+dqueue+dtrans+dprop</p>
+<ul>
+<li>
+<p><strong>处理时延</strong>（Nodal Processing Delay，dprocdproc）</p>
+<p>路由器接收到分组对其进行处理的时间（比如差错检测），耗时很短，毫秒级。</p>
+</li>
+<li>
+<p><strong>排队时延</strong>（Queuing Delay，dqueuedqueue）</p>
+<p>分组在链路上等待传输的时间，取决于先期到达的正在排队等待向链路传输的分组数量。</p>
+</li>
+<li>
+<p><strong>传输时延</strong>（Transmission Delay，dtransdtrans）</p>
+<p>将分组的比特流传输到链路的时间（比如进行编码转换成查分曼切斯特编码的时间）。</p>
+<p>如分组长度 L ，传输速率 R bps，则其传输时延为：</p>
+<p>dtrans=L/Rdtrans=L/R</p>
+<p>所以传输时间取决于分组长度和传输速率。</p>
+</li>
+<li>
+<p><strong>传播时延</strong>（Propagation Delay，$$）</p>
+<p>信号在媒体上传播的时间。</p>
+<p>如物理链路的长度 d，传播速度 s m/sec，则其传播时延为：</p>
+<p>dprop=d/sdprop=d/s</p>
+</li>
+</ul>
+<h3 id="丢包packet-loss" class="heading-element"><span>丢包（Packet Loss）</span>
+  <a href="#%e4%b8%a2%e5%8c%85packet-loss" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>流量强度（traffic intensity）代表了路由器上排队的拥堵率。</p>
+<p>traffic intensity=(L×a)/Rtraffic intensity=(L×a)/R</p>
+<p>其中，L —— 分组长度（bits）；</p>
+<p>R —— 链路带宽（bps）；</p>
+<p>a —— 平均分组到达速率</p>
+<ul>
+<li>流量强度接近0时，几乎没有分组到达，排队延时很小；</li>
+<li>流量强度0～1时，平均排队长度越来越长，排队延时越来越长；</li>
+<li>流量强度接近1时，存在到达率超过传输时间间隔，拥堵。</li>
+</ul>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/traffic%20intensity.png" alt="traffic intensity.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/traffic%20intensity.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/traffic%20intensity.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/traffic%20intensity.png?size=large 2x" data-title="traffic intensity.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>路由器的排队容量是有限的，当分组到达一个已满的队列时，路由器将丢弃该分组，产生丢包。</p>
+<h3 id="吞吐量throughput" class="heading-element"><span>吞吐量（Throughput）</span>
+  <a href="#%e5%90%9e%e5%90%90%e9%87%8fthroughput" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>从主机A到主机B传文件，B接收文件的速率为<strong>瞬时吞吐量</strong>（instantaneous throughput），单位bps；所有时间的平均速率为<strong>平均吞吐量</strong>（average throughput）。</p>
+<p>串联链路吞吐量取决于<strong>瓶颈链路</strong>（bottleneck link）。</p>
+<p>Throughput=min{R1,R2,&hellip;,RN}Throughput=min{R1,R2,&hellip;,RN}</p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Throughput.png" alt="Throughput.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Throughput.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Throughput.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Throughput.png?size=large 2x" data-title="Throughput.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h1 id="应用层application-layer" class="heading-element"><span>应用层（Application Layer）</span>
+  <a href="#%e5%ba%94%e7%94%a8%e5%b1%82application-layer" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h1><h2 id="网络应用原理" class="heading-element"><span>网络应用原理</span>
+  <a href="#%e7%bd%91%e7%bb%9c%e5%ba%94%e7%94%a8%e5%8e%9f%e7%90%86" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><ul>
+<li>可以在不同类型主机运行；</li>
+<li>可以在不同终端间相互通讯；</li>
+<li>在编写网络应用的过程中，不需要考虑网络核心设备，网络核心不会允许应用；</li>
+<li>端系统上的应用可以快速开发，而且易于传播。</li>
+</ul>
+<h3 id="网络应用结构" class="heading-element"><span>网络应用结构</span>
+  <a href="#%e7%bd%91%e7%bb%9c%e5%ba%94%e7%94%a8%e7%bb%93%e6%9e%84" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><h4 id="客户机-服务器体系结构client-server-architecture" class="heading-element"><span>客户机-服务器体系结构（Client-server architecture）</span>
+  <a href="#%e5%ae%a2%e6%88%b7%e6%9c%ba-%e6%9c%8d%e5%8a%a1%e5%99%a8%e4%bd%93%e7%b3%bb%e7%bb%93%e6%9e%84client-server-architecture" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>例如：HTTP、IMAP、FTP</p>
+<p><strong>服务器</strong>：</p>
+<ul>
+<li>永远在线；</li>
+<li>IP地址恒定；</li>
+<li>服务器往往在数据中心，通过多台服务器进行扩展。</li>
+</ul>
+<p><strong>客户机</strong>：</p>
+<ul>
+<li>可以和服务器进行通信；</li>
+<li>可能间断性连接网络；</li>
+<li>可能是动态的IP地址；</li>
+<li>客户机之间不会直接通信；</li>
+</ul>
+<h4 id="点对点体系结构peer-peer-architecture" class="heading-element"><span>点对点体系结构（Peer-peer architecture）</span>
+  <a href="#%e7%82%b9%e5%af%b9%e7%82%b9%e4%bd%93%e7%b3%bb%e7%bb%93%e6%9e%84peer-peer-architecture" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><ul>
+<li>没有一个一直在线的服务器；</li>
+<li>任意端系统之间直接进行通信；</li>
+<li>每个点（peer）向其他的点请求服务，同时作为回报也会提供相应的服务；</li>
+</ul>
+<p>优点：<strong>自扩展性</strong>（self-scalability）：新的点都会提供服务容量和负荷。</p>
+<p>缺点：每个点都是间断性连接，而且IP地址会改变。</p>
+<p>例子：P2P的文件分享。</p>
+<h3 id="进程通信processes-communicating" class="heading-element"><span>进程通信（Processes Communicating）</span>
+  <a href="#%e8%bf%9b%e7%a8%8b%e9%80%9a%e4%bf%a1processes-communicating" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><h4 id="客户机和服务器进程" class="heading-element"><span>客户机和服务器进程</span>
+  <a href="#%e5%ae%a2%e6%88%b7%e6%9c%ba%e5%92%8c%e6%9c%8d%e5%8a%a1%e5%99%a8%e8%bf%9b%e7%a8%8b" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p><strong>进程</strong>（Processe）：一台主机上运行的程序。</p>
+<ul>
+<li>
+<p>在同一台主机上，两个进程通过<strong>进程间通信</strong>（inter-process communication）来进行通信。进程间通信由操作系统定义；</p>
+</li>
+<li>
+<p>不同主机之间，进程通信同过报文交换，</p>
+<p>比如并行计算中的MP和MPI，MP（Multi Processing）只能用于同一台主机间的通信，MPI（Message Processing Interface）主要用于不同主机之间的通信，也适用于同一台主机。</p>
+</li>
+</ul>
+<p><strong>客户机进程</strong>（client process）：发起通信的进程。</p>
+<p><strong>服务器进程</strong>（server process）：等待连接的进程。</p>
+<p>P2P应用也存在客户机进程和服务器进程。</p>
+<h4 id="套接字sockets" class="heading-element"><span>套接字（Sockets）</span>
+  <a href="#%e5%a5%97%e6%8e%a5%e5%ad%97sockets" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>进程之间通过socket来接收/发送消息。</p>
+<p>socket在进程通信中的作用相当于一个信封：</p>
+<ul>
+<li>通信的信息需要装进socket</li>
+<li>应用层下的各层作为基础设施，将信传到另一个进程</li>
+<li>两个进程间的通讯会有两个socket</li>
+</ul>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/socket.png" alt="socket.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/socket.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/socket.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/socket.png?size=large 2x" data-title="socket.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h4 id="进程寻址addressing-processes" class="heading-element"><span>进程寻址（Addressing Processes）</span>
+  <a href="#%e8%bf%9b%e7%a8%8b%e5%af%bb%e5%9d%80addressing-processes" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>如果两个主机之间的进程进行通信，发送端不仅要知道接收端的IP地址还需要知道进程相应的端口号。</p>
+<ul>
+<li>
+<p><strong>IP地址</strong>：IPv4中32位IP，负责找到接收端主机。</p>
+</li>
+<li>
+<p><strong>端口号</strong>（port number）：每台主机都可能运行着多个进程，每个进程对应一个端口号。</p>
+<p>比如，HTTP服务端口号80、邮件服务端口号25</p>
+</li>
+</ul>
+<h3 id="应用层协议application-layer-protocols" class="heading-element"><span>应用层协议（Application-Layer Protocols）</span>
+  <a href="#%e5%ba%94%e7%94%a8%e5%b1%82%e5%8d%8f%e8%ae%aeapplication-layer-protocols" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>网络应用的开发必须遵守网络协议。</p>
+<h4 id="应用层协议的分类" class="heading-element"><span>应用层协议的分类</span>
+  <a href="#%e5%ba%94%e7%94%a8%e5%b1%82%e5%8d%8f%e8%ae%ae%e7%9a%84%e5%88%86%e7%b1%bb" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p><strong>公开网络协议</strong></p>
+<ul>
+<li>定义在RFC中</li>
+<li>统一标准，易于相互操作</li>
+<li>例如：HTTP、SMTP</li>
+</ul>
+<p><strong>专用网络协议</strong></p>
+<ul>
+<li>一些非公开的网络协议</li>
+<li>例如：Skype</li>
+</ul>
+<h4 id="应用层协议内容" class="heading-element"><span>应用层协议内容</span>
+  <a href="#%e5%ba%94%e7%94%a8%e5%b1%82%e5%8d%8f%e8%ae%ae%e5%86%85%e5%ae%b9" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>应用层协议定义了</p>
+<ul>
+<li>消息交换的类型：比如请求、响应</li>
+<li>消息的语法：消息中有哪些字段以及这些字段如何定义</li>
+<li>消息的语义：消息字段内容的含义</li>
+<li>规则：进程什么时候、如何发送/接收消息</li>
+</ul>
+<h4 id="app对传输服务的需求" class="heading-element"><span>app对传输服务的需求</span>
+  <a href="#app%e5%af%b9%e4%bc%a0%e8%be%93%e6%9c%8d%e5%8a%a1%e7%9a%84%e9%9c%80%e6%b1%82" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><ul>
+<li>
+<p><strong>数据完整性</strong>（data integrity）</p>
+<p>一些app需要100%可靠的文件传输，比如文件传输；有一些运行一部分的丢失，比如语音。</p>
+</li>
+<li>
+<p><strong>时效性</strong>（timing）</p>
+<p>一些app要求较少的延时，比如对话直播。</p>
+</li>
+<li>
+<p><strong>吞吐率</strong>（throughput）</p>
+<p>吞吐率，即<strong>最小带宽</strong>，一些app存在一个吞吐率下限才能正常使用，比如视频音频等多媒体；有些app运行弹性的吞吐率，比如邮件传输，吞吐率小可以慢慢传过去。</p>
+</li>
+</ul>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Network_appsRequirements.png" alt="appsRequirements.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Network_appsRequirements.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Network_appsRequirements.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Network_appsRequirements.png?size=large 2x" data-title="appsRequirements.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h3 id="网络传输协议服务" class="heading-element"><span>网络传输协议服务</span>
+  <a href="#%e7%bd%91%e7%bb%9c%e4%bc%a0%e8%be%93%e5%8d%8f%e8%ae%ae%e6%9c%8d%e5%8a%a1" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p><strong>传输层</strong>提供为应用层提供的两种传输服务。</p>
+<h4 id="tcp" class="heading-element"><span>TCP</span>
+  <a href="#tcp" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>传输控制协议（TCP）</p>
+<ul>
+<li><strong>面向连接</strong>（connection-oriented）：需要客户端和服务器之间能够建立连接</li>
+<li><strong>可靠传输</strong>（reliable transport）：数据完整性高</li>
+<li><strong>流量控制</strong>（flow control）：发送方不能发送太多数据导致接收方过载</li>
+<li><strong>阻塞控制</strong>（congestion control）：不能有太多个主机同时发送导致网络过载</li>
+<li>不提供的服务：时效性、最小带宽（吞吐率）、安全性</li>
+</ul>
+<h4 id="udp" class="heading-element"><span>UDP</span>
+  <a href="#udp" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>UDP是一种<strong>不提供不必要服务</strong>的轻量传输协议。优点是速度快、灵活性好。</p>
+<ul>
+<li><strong>不需要建立连接</strong></li>
+<li><strong>不可靠的数据传输</strong></li>
+<li>不提供的服务：基本都不提供，不提供包括可靠传输、流量控制、阻塞控制、时效性、最小带宽（吞吐率）、安全性</li>
+</ul>
+<h4 id="不同app选择的网络传输协议" class="heading-element"><span>不同app选择的网络传输协议</span>
+  <a href="#%e4%b8%8d%e5%90%8capp%e9%80%89%e6%8b%a9%e7%9a%84%e7%bd%91%e7%bb%9c%e4%bc%a0%e8%be%93%e5%8d%8f%e8%ae%ae" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Network_appsProtocols.png" alt="img" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Network_appsProtocols.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Network_appsProtocols.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Network_appsProtocols.png?size=large 2x" data-title="img" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h2 id="web和http" class="heading-element"><span>Web和HTTP</span>
+  <a href="#web%e5%92%8chttp" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>World Wide Web 中的网页由超链接（hyperlink）连接。</p>
+<ul>
+<li>页面由很多对象（object）组成，对象存储在服务器中；</li>
+<li>对象有多种类型，可以是HTML文件，JPEG图片，动态脚本等等；</li>
+<li>网页以HTML文件为基础，包括了许多参考对象，每个对象都可以通过URL来寻址。例如一张图片的URL为<code>www.someshcool.edu/someDept/pic.gif</code>，其中<code>www.someshcool.edu</code>为主机名，<code>/someDept/pic.gif</code>为路径名。</li>
+</ul>
+<h3 id="http概述" class="heading-element"><span>HTTP概述</span>
+  <a href="#http%e6%a6%82%e8%bf%b0" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>超文本传输协议（hypertext transfer protocol, HTTP）</p>
+<ul>
+<li>
+<p>网页的<strong>应用层</strong>协议</p>
+</li>
+<li>
+<p>基于<strong>客户机-服务器体系结构</strong></p>
+<ul>
+<li>客户机：负责请求、接收和显示Web对象</li>
+<li>服务器：Web服务器负责发送对象，响应客户机请求</li>
+</ul>
+</li>
+<li>
+<p>HTTP的传输层使用</p>
+<p>TCP</p>
+<ol>
+<li>客户机发起TCP连接（创建socket，<strong>端口号80</strong>）</li>
+<li>服务器接收TCP连接</li>
+<li>在浏览器和网页服务器之间进行HTTP信息的交换</li>
+<li>TCP连接可以断开</li>
+</ol>
+</li>
+<li>
+<p>HTTP是无状态的
+​   服务器不会保留之前客户机发的请求信息。
+​   协议要维持状态是很复杂的：保留之前的历史记录很消耗资源；如果客户机或着服务器有死机，它们的状态会不一致，还需要重新同步，这很麻烦。</p>
+</li>
+<li>
+<p>HTTP消息类型：请求（request）与响应（response）</p>
+</li>
+</ul>
+<h3 id="http连接类型" class="heading-element"><span>HTTP连接类型</span>
+  <a href="#http%e8%bf%9e%e6%8e%a5%e7%b1%bb%e5%9e%8b" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><h4 id="非持久性连接non-persistent-http" class="heading-element"><span>非持久性连接（Non-persistent HTTP）</span>
+  <a href="#%e9%9d%9e%e6%8c%81%e4%b9%85%e6%80%a7%e8%bf%9e%e6%8e%a5non-persistent-http" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><h5 id="非持久性http步骤" class="heading-element"><span>非持久性HTTP步骤</span>
+  <a href="#%e9%9d%9e%e6%8c%81%e4%b9%85%e6%80%a7http%e6%ad%a5%e9%aa%a4" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h5><ol>
+<li>
+<p>TCP连接开启</p>
+</li>
+<li>
+<p>通过这个TCP连接最多传输一个对象</p>
+</li>
+<li>
+<p>TCP连接关闭</p>
+<p>如果要加载多个对象时，需要多次非持久性HTTP连接。</p>
+</li>
+</ol>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Non-persistent%20HTTP%281%29.png" alt="Non-persistent%20HTTP(1).png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Non-persistent%20HTTP%281%29.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Non-persistent%20HTTP%281%29.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Non-persistent%20HTTP%281%29.png?size=large 2x" data-title="Non-persistent%20HTTP(1).png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>
+<img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Non-persistent%20HTTP%282%29.png" alt="Non-persistent%20HTTP(2).png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Non-persistent%20HTTP%282%29.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Non-persistent%20HTTP%282%29.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Non-persistent%20HTTP%282%29.png?size=large 2x" data-title="Non-persistent%20HTTP(2).png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h5 id="非持久性http响应时间" class="heading-element"><span>非持久性HTTP响应时间</span>
+  <a href="#%e9%9d%9e%e6%8c%81%e4%b9%85%e6%80%a7http%e5%93%8d%e5%ba%94%e6%97%b6%e9%97%b4" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h5><p><strong>RTT</strong>：往返时间（Round Trip Time）,一个很小的数据包（处理文件的时间可忽略）从客户机传到服务器再传回来的时间。</p>
+<p><strong>HTTP响应时间</strong>（一个对象）：</p>
+<ul>
+<li>
+<p>1个RTT：建立TCP连接的时间</p>
+</li>
+<li>
+<p>1个RTT：HTTP请求以及收到HTTP响应的前几个字符的时间</p>
+</li>
+<li>
+<p>对象/文件传输的时间</p>
+<p>对一个对象来说，非持久性HTTP响应时间为</p>
+<p>Nonpersistent HTTP response time=2RTT+file transmission timeNonpersistent HTTP response time=2RTT+file transmission time</p>
+</li>
+</ul>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/NetWork%20Non-persistent%20HTTP%20response%20time.png" alt="Non-persistent response time.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/NetWork%20Non-persistent%20HTTP%20response%20time.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/NetWork%20Non-persistent%20HTTP%20response%20time.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/NetWork%20Non-persistent%20HTTP%20response%20time.png?size=large 2x" data-title="Non-persistent response time.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>例题：如果一个网页包含1个HTML和10个对象，则非持久性HTTP响应需要多少时间？</p>
+<p>2RTT×(1+10)+total file transmission time2RTT×(1+10)+total file transmission time</p>
+<h5 id="非持久性http的问题" class="heading-element"><span>非持久性HTTP的问题</span>
+  <a href="#%e9%9d%9e%e6%8c%81%e4%b9%85%e6%80%a7http%e7%9a%84%e9%97%ae%e9%a2%98" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h5><ul>
+<li>每传输一个对象都需要耗费 2RTT2RTT</li>
+<li>每建立一个TCP连接都会对操作系统（OS）产生负荷</li>
+<li>并行抓取：浏览器常常开多个并行的TCP连接去抓取对象</li>
+</ul>
+<p>例题：一个网页包含1个HTML和10张图片，共有5个并行的TCP连接，则非持久性HTTP响应需要多少个RTT？
+  首先传输HTML需要 2RTT2RTT 的时间，5个并行的TCP连接传输10个对象需要2个 2RTT2RTT 的时间。</p>
+<p>RTT in Response Time=2RTT+2×2RTT=6RTTRTT in Response Time=2RTT+2×2RTT=6RTT</p>
+<h4 id="持久性连接persistent-http" class="heading-element"><span>持久性连接（Persistent HTTP）</span>
+  <a href="#%e6%8c%81%e4%b9%85%e6%80%a7%e8%bf%9e%e6%8e%a5persistent-http" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><h5 id="持久性http步骤" class="heading-element"><span>持久性HTTP步骤</span>
+  <a href="#%e6%8c%81%e4%b9%85%e6%80%a7http%e6%ad%a5%e9%aa%a4" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h5><ol>
+<li>开启TCP连接</li>
+<li>通过这一个TCP连接可以传多个对象</li>
+<li>TCP连接关闭</li>
+</ol>
+<h5 id="持久性http特点http11" class="heading-element"><span>持久性HTTP特点（HTTP1.1）</span>
+  <a href="#%e6%8c%81%e4%b9%85%e6%80%a7http%e7%89%b9%e7%82%b9http11" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h5><ul>
+<li>服务器在发送响应后保持连接开启状态</li>
+<li>后续这个客户机\服务器的HTTP消息都通过该开启的连接发送</li>
+<li>两种发送对象方式：HTTP1.1采用流水的方式发送：一次性把对象全发了；另一种是客户机接收到一个对象后接着发下一个对象的请求</li>
+<li>至少需要1个RTT发完所有对象</li>
+</ul>
+<h2 id="dns" class="heading-element"><span>DNS</span>
+  <a href="#dns" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>  域名系统（Domain Name System，DNS）通过分布式的数据库来实现IP地址和域名的映射。</p>
+<ul>
+<li><strong>层级结构的域名服务器提供分布式的数据库</strong></li>
+<li><strong>应用层协议</strong>：主机和域名服务器通过通信来实现IP地址和域名的转换</li>
+</ul>
+<p>DNS作为一个<strong>网络核心功能</strong>，为什么要放在应用层？
+  与网络结构设计理念有关，网络中主机很多映射很复杂，希望将复杂度留在端系统中，而不是在网络核心。</p>
+<h3 id="dns服务" class="heading-element"><span>DNS服务</span>
+  <a href="#dns%e6%9c%8d%e5%8a%a1" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>IP地址和域名的转换</li>
+<li>主机的别名</li>
+<li>邮件服务的别名</li>
+<li>负荷分配：有些Web可能有多个服务器，即会有多个IP地址对应一个域名，可调整IP地址的顺序以分配负荷。</li>
+</ul>
+<h3 id="dns分布式层级的数据库" class="heading-element"><span>DNS：分布式、层级的数据库</span>
+  <a href="#dns%e5%88%86%e5%b8%83%e5%bc%8f%e5%b1%82%e7%ba%a7%e7%9a%84%e6%95%b0%e6%8d%ae%e5%ba%93" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>为什么要选用分布的DNS，而不采用集中式的DNS？</p>
+<ul>
+<li>单点可能失效：一个故障就gg了</li>
+<li>流量问题：所有客户机都访问一个域名服务器，会产生很大的流量</li>
+<li>远程的集中式数据库：客户机要访问可能要花费很多时间，RTT会很大，造成大时延</li>
+</ul>
+<p>  DNS采用三层结构</p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Network_DNS%20Server.png" alt="DNS Server.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Network_DNS%20Server.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Network_DNS%20Server.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Network_DNS%20Server.png?size=large 2x" data-title="DNS Server.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>一个客户机得到<code>www.amazon.com</code>的IP地址的步骤：</p>
+<ol>
+<li>客户机先查询根域名服务器，得到顶级域名服务器<code>.com DNS server</code>的地址；</li>
+<li>客户机查询顶级域名服务器<code>.com DNS server</code>，得到权威域名服务器<code>amazon.com DNS server</code>的地址；</li>
+<li>客户机查询权威域名服务器<code>amazon.com DNS server</code>，得到<code>www.amazon.com</code>的IP地址</li>
+</ol>
+<h4 id="根域名服务器root-name-server" class="heading-element"><span>根域名服务器（Root Name Server）</span>
+  <a href="#%e6%a0%b9%e5%9f%9f%e5%90%8d%e6%9c%8d%e5%8a%a1%e5%99%a8root-name-server" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><ul>
+<li>官方的服务器，是连接的最后的方法（如果知道下级域名服务器的地址就不需要再从头开始查询根域名服务器，不然会对根域名服务器产生很大的流量负荷）</li>
+<li>对网络运行相当重要，离开根域名服务器网络无法正常工作</li>
+<li>域名系统安全扩展（Domain Name System Security Extensions，DNSSEC） —— 对DNS提供给DNS客户端（解析器）的DNS数据来源进行认证，并验证不存在性和校验数据完整性验证。</li>
+<li>ICANN（互联网名称与数字地址分配机构，Internet Corporation for Assigned Names and Numbers）—— 管理根域名服务器的组织</li>
+</ul>
+<p>世界上现在有13个根域名服务器，分布在世界各地。</p>
+<h4 id="顶层域名服务器top-level-domain-server-tld" class="heading-element"><span>顶层域名服务器（Top-Level Domain Server, TLD）</span>
+  <a href="#%e9%a1%b6%e5%b1%82%e5%9f%9f%e5%90%8d%e6%9c%8d%e5%8a%a1%e5%99%a8top-level-domain-server-tld" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><ul>
+<li>各种类型的TLD，比如<code>.com</code>、<code>.org</code>、<code>net</code>、<code>.edu</code>等等，国家的TLD，比如<code>.cn</code>、<code>.uk</code>等等。</li>
+<li>Network Solutions：管理<code>.com</code>、<code>net</code>TLD的组织</li>
+<li>Educause：管理<code>.edu</code>的组织</li>
+</ul>
+<h4 id="权威域名服务器authoritative-domain-server" class="heading-element"><span>权威域名服务器（Authoritative Domain Server）</span>
+  <a href="#%e6%9d%83%e5%a8%81%e5%9f%9f%e5%90%8d%e6%9c%8d%e5%8a%a1%e5%99%a8authoritative-domain-server" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><ul>
+<li>组织自己的DNS服务器，用来提供组织内部的域名到IP地址的映射</li>
+<li>由组织自己或者服务提供商来维护</li>
+</ul>
+<h4 id="本地域名服务器local-dns-name-server" class="heading-element"><span>本地域名服务器（Local DNS Name Server）</span>
+  <a href="#%e6%9c%ac%e5%9c%b0%e5%9f%9f%e5%90%8d%e6%9c%8d%e5%8a%a1%e5%99%a8local-dns-name-server" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><ul>
+<li>严格来说不属于层级结构</li>
+<li>每个ISP都会有一个本地域名服务器，也叫做<strong>默认域名服务器</strong>（default name server）</li>
+<li>当主机要进行DNS查询时，查询会被直接送到本地的DNS服务器。</li>
+<li>作用：
+<ul>
+<li>缓存：可以缓存最近收到的域名到IP地址的映射（缓存有时效，会过期）</li>
+<li>代理：可以作为代理，代替主机在层级结构中进行查询</li>
+</ul>
+</li>
+</ul>
+<h3 id="dns查询方法" class="heading-element"><span>DNS查询方法</span>
+  <a href="#dns%e6%9f%a5%e8%af%a2%e6%96%b9%e6%b3%95" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><h4 id="迭代查询iterated-query" class="heading-element"><span>迭代查询（iterated query）</span>
+  <a href="#%e8%bf%ad%e4%bb%a3%e6%9f%a5%e8%af%a2iterated-query" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>  被联系到的服务器会将后一个服务器的名字反馈回来，即“我不认识这个域名，但是你可以去问那台服务器(=ﾟωﾟ)ﾉ”</p>
+<p>  下面的迭代查询过程，利用本地域名服务器作为代理迭代查询域名对于的IP地址。</p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Network_iterated-query.png" alt="iterated query.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Network_iterated-query.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Network_iterated-query.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Network_iterated-query.png?size=large 2x" data-title="iterated query.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h4 id="递归查询recursive-query" class="heading-element"><span>递归查询（recursive query）</span>
+  <a href="#%e9%80%92%e5%bd%92%e6%9f%a5%e8%af%a2recursive-query" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>  把域名解析的负担交给了联系到的域名服务器，这种方法对于高级的负担增加，所以一般采用迭代查询而不采用递归查询。</p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Network_recursive-query.png" alt="recursive query.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Network_recursive-query.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Network_recursive-query.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Network_recursive-query.png?size=large 2x" data-title="recursive query.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h3 id="dns缓存和更新" class="heading-element"><span>DNS缓存和更新</span>
+  <a href="#dns%e7%bc%93%e5%ad%98%e5%92%8c%e6%9b%b4%e6%96%b0" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>一旦域名服务器学习到了一个映射，它就会<strong>缓存</strong>这个映射。缓存往往在本地域名服务器里，这样可以减轻根域名服务器的压力。</li>
+<li><strong>缓存有效时间TTL</strong>，过了有效时间该缓存就会被删除。</li>
+<li><strong>更新/通知机制</strong>：由IETF制定的 RFC2136 标准。
+  如果中途域名主机改变IP地址，整个网络可能都不知道真正的IP地址，直到TTL到时，所以需要更新/通知机制。</li>
+</ul>
+<h3 id="dns记录和消息" class="heading-element"><span>DNS记录和消息</span>
+  <a href="#dns%e8%ae%b0%e5%bd%95%e5%92%8c%e6%b6%88%e6%81%af" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><h4 id="dns记录" class="heading-element"><span>DNS记录</span>
+  <a href="#dns%e8%ae%b0%e5%bd%95" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>  DNS的分布式数据库里存储了<strong>资源记录</strong>（resource record, RR）</p>
+<p>RR的格式：<code>(name, value, type, ttl)</code></p>
+<p><strong>type = A</strong></p>
+<ul>
+<li>name：主机名</li>
+<li>value：对应的IP地址</li>
+</ul>
+<p><strong>type = NS</strong></p>
+<ul>
+<li>name：域（如<code>foo.com</code>）</li>
+<li>value：对应的权威域名服务器的主机名</li>
+</ul>
+<p><strong>type = CNAME</strong></p>
+<ul>
+<li>name：别名</li>
+<li>value：对应的规范主机名</li>
+<li>比如 <code>www.ibm.com</code> 是 <code>servereast.backup2.ibm.com</code> 的别名，这与负荷的分配有关，可能有多个服务器。</li>
+</ul>
+<p><strong>type = MX</strong></p>
+<ul>
+<li>name：邮件服务器别名</li>
+<li>value：对应的规范主机名</li>
+</ul>
+<h4 id="dns消息" class="heading-element"><span>DNS消息</span>
+  <a href="#dns%e6%b6%88%e6%81%af" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>  DNS有两种消息类型：查询（query）和回答（reply），两种消息格式相同。</p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Network_DNS-message.png" alt="DNS message.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Network_DNS-message.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Network_DNS-message.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Network_DNS-message.png?size=large 2x" data-title="DNS message.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h4 id="向dns数据库插入记录" class="heading-element"><span>向DNS数据库插入记录</span>
+  <a href="#%e5%90%91dns%e6%95%b0%e6%8d%ae%e5%ba%93%e6%8f%92%e5%85%a5%e8%ae%b0%e5%bd%95" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>比如要创建一个<code>networkutopia.com</code>的网站</p>
+<ul>
+<li>
+<p>先在</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">.com</span></span></code></pre></td></tr></table>
+</div>
+</div><p>的TLD提供商 Network Solution 注册</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">networkutopia.com</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>提供信息：域名、权威域名服务器的IP地址</li>
+<li>提供商会向<code>.com</code>TLD服务器插入 NS、A 的RR
+(<code>networkutopia.com</code>, <code>dns1.networkutopia.com</code>, NS)
+(<code>dns1.networkutopia.com</code>, <code>212.212.212.1</code>, A)</li>
+</ul>
+</li>
+<li>
+<p>在自己的权威域名服务器上进行配置</p>
+<ul>
+<li>插入<code>www.networkutopia.com</code>的type A记录</li>
+<li>如果是邮件服务，插入<code>networkutopia.com</code>的type MX记录</li>
+</ul>
+</li>
+</ul>
+<h3 id="dns查询工具" class="heading-element"><span>DNS查询工具</span>
+  <a href="#dns%e6%9f%a5%e8%af%a2%e5%b7%a5%e5%85%b7" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>  在命令行用<code>nslookup</code>进行DNS查询。</p>
+<h4 id="nslookup直接查询" class="heading-element"><span>nslookup直接查询</span>
+  <a href="#nslookup%e7%9b%b4%e6%8e%a5%e6%9f%a5%e8%af%a2" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>  查询一个域名的A记录，如果没指定dns-server，用系统默认的dns服务器。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nslookup domain [dns-server]</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="nslookup查询其他记录" class="heading-element"><span>nslookup查询其他记录</span>
+  <a href="#nslookup%e6%9f%a5%e8%af%a2%e5%85%b6%e4%bb%96%e8%ae%b0%e5%bd%95" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nslookup -qt=type domain [dns-server]</span></span></code></pre></td></tr></table>
+</div>
+</div><p>type可以是以下这些类型：</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">type</th>
+          <th style="text-align: left">类型</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">地址记录</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">AAAA</td>
+          <td style="text-align: left">地址记录</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">AFSDB</td>
+          <td style="text-align: left">Andrew文件系统数据库服务器记录</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ATMA</td>
+          <td style="text-align: left">ATM地址记录</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CNAME</td>
+          <td style="text-align: left">别名记录</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">HINFO</td>
+          <td style="text-align: left">硬件配置记录，包括CPU、操作系统信息</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ISDN</td>
+          <td style="text-align: left">域名对应的ISDN号码</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">MB</td>
+          <td style="text-align: left">存放指定邮箱的服务器</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">MG</td>
+          <td style="text-align: left">邮件组记录</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">MINFO</td>
+          <td style="text-align: left">邮件组和邮箱的信息记录</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">MR</td>
+          <td style="text-align: left">改名的邮箱记录</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">MX</td>
+          <td style="text-align: left">邮件服务器记录</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">NS</td>
+          <td style="text-align: left">名字服务器记录</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PTR</td>
+          <td style="text-align: left">反向记录</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">RP</td>
+          <td style="text-align: left">负责人记录</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">RT</td>
+          <td style="text-align: left">路由穿透记录</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SRV</td>
+          <td style="text-align: left">TCP服务器信息记录</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">TXT</td>
+          <td style="text-align: left">域名对应的文本信息</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">X25</td>
+          <td style="text-align: left">域名对应的X.25地址记录</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="p2p" class="heading-element"><span>P2P</span>
+  <a href="#p2p" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>  点对点体系结构（Peer-peer architecture）</p>
+<h3 id="p2p概述" class="heading-element"><span>P2P概述</span>
+  <a href="#p2p%e6%a6%82%e8%bf%b0" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>没有一个一直在线的服务器；</li>
+<li>任意端系统之间直接进行通信；</li>
+<li>每个点（peer）向其他的点请求服务，同时作为回报也会提供相应的服务；</li>
+</ul>
+<p>优点：<strong>自扩展性</strong>（self-scalability）：新的点都会提供服务容量和负荷。</p>
+<p>缺点：每个点都是间断性连接，而且IP地址会改变。</p>
+<p>例子：P2P的文件分享。</p>
+<h3 id="文件分发客户机-服务器结构-vs-p2p" class="heading-element"><span>文件分发：客户机-服务器结构 vs P2P</span>
+  <a href="#%e6%96%87%e4%bb%b6%e5%88%86%e5%8f%91%e5%ae%a2%e6%88%b7%e6%9c%ba-%e6%9c%8d%e5%8a%a1%e5%99%a8%e7%bb%93%e6%9e%84-vs-p2p" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>  从一个服务器分发大小为F的文件到N个节点需要多少时间？（每个节点上传和下载的速率都是有限的，网络中有足够的带宽）</p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Network_file-distribution.png" alt="file distribution.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Network_file-distribution.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Network_file-distribution.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Network_file-distribution.png?size=large 2x" data-title="file distribution.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>如果选用<strong>客户机-服务器</strong>结构</p>
+<ul>
+<li>
+<p>服务器上传：需要上传这份文件 NN 次，上传速度为 usus，则需要的上传时间为 NF/usNF/us</p>
+</li>
+<li>
+<p>客户机下载：每个客户机都需要下载文件，dmindmin 是客户机最小下载速度，则客户机下载的最大时间为 F/dminF/dmin</p>
+<p>  客户机-服务器结构的分发时间</p>
+<p>Dc_s≥max{NF/us,F/dmin}Dc_s≥max{NF/us,F/dmin}</p>
+<p>  此处的N导致耗费的时间随要下载的节点的数量线性增长，当要下载的节点数目大时，要耗费相当多的时间。</p>
+<p>  不需要先上传完再下载，参考<a href="https://gy23333.github.io/2020/03/16/%e3%80%8a%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%bd%91%e7%bb%9c-%e8%87%aa%e9%a1%b6%e5%90%91%e4%b8%8b%e6%96%b9%e6%b3%95%e3%80%8b%e7%ac%94%e8%ae%b0/#%e5%88%86%e7%bb%84%e4%ba%a4%e6%8d%a2%ef%bc%88Packet-Switching%ef%bc%89"target="_blank" rel="external nofollow noopener noreferrer">第一章/网络核心/分组交换</a>，以分组为单位发送，可以忽略上传到下载的时间。</p>
+</li>
+</ul>
+<p>如果选用<strong>P2P</strong>结构</p>
+<ul>
+<li>
+<p>服务器上传：服务器至少要上传1次文件，上传时间为 F/usF/us</p>
+</li>
+<li>
+<p>客户机下载：每个客户机都要下载文件，客户机最大下载时间为F/dminF/dmin</p>
+</li>
+<li>
+<p>客户机上传：每个下载了文件的客户机都可以上传文件，此时总上传速率可以达到us+∑nuius+∑nui</p>
+<p>  P2P结构的分发时间</p>
+<p>DP2P≥max{F/us,F/dmin,NF/(us+∑nui)}DP2P≥max{F/us,F/dmin,NF/(us+∑nui)}</p>
+</li>
+</ul>
+<p>客户机-服务器结构和P2P分发时间对比</p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Network_vsPic.png" alt="vsPic.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Network_vsPic.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Network_vsPic.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Network_vsPic.png?size=large 2x" data-title="vsPic.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h3 id="bittorrent" class="heading-element"><span>BitTorrent</span>
+  <a href="#bittorrent" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>
+<p>文件分为大小为 256Kb的块（chunk）</p>
+</li>
+<li>
+<p>每个节点负责上传和下载的文件块</p>
+</li>
+<li>
+<p>追踪器（tracker）：追踪参加洪流的节点</p>
+</li>
+<li>
+<p>洪流（torrent）：有一组节点相互交换文件块</p>
+</li>
+<li>
+<p>新的节点想下载文件，先询问追踪器参加的节点，再从相近的节点处下载文件块</p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Network_P2P-file.png" alt="P2P file.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Network_P2P-file.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Network_P2P-file.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Network_P2P-file.png?size=large 2x" data-title="P2P file.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+</li>
+<li>
+<p>节点加入洪流：</p>
+<ul>
+<li>本身没有文件块，但是随着时间的推移会从其他节点获取文件块</li>
+<li>需要在追踪器进行登记，并且一般连接临近的节点</li>
+</ul>
+</li>
+<li>
+<p>下载时，节点会上传文件块到其他节点</p>
+</li>
+<li>
+<p>节点可以更改交换文件块的节点</p>
+</li>
+<li>
+<p>节点随时会上线和下线</p>
+</li>
+<li>
+<p>一旦节点有了完整的文件，它可以离开或者留在洪流中</p>
+</li>
+</ul>
+<h4 id="请求文件块" class="heading-element"><span>请求文件块</span>
+  <a href="#%e8%af%b7%e6%b1%82%e6%96%87%e4%bb%b6%e5%9d%97" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><ul>
+<li>在给定的时间，不同的节点拥有不同的文件块</li>
+<li>一定周期，新的节点会问每个节点有哪些块</li>
+<li>新节点会从其他节点处下载缺失的文件块
+<strong>最稀缺优先</strong>（rarest first）：如果有10个节点都有第1、2块，只有一个节点有第3块，则先下载第3块。</li>
+</ul>
+<h4 id="发送文件块" class="heading-element"><span>发送文件块</span>
+  <a href="#%e5%8f%91%e9%80%81%e6%96%87%e4%bb%b6%e5%9d%97" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>  发送文件块遵守<strong>一报还一报原则（tit-for-tat）</strong></p>
+<ul>
+<li>
+<p>节点会给目前给它发送文件块速率最高的四个节点发送文件块，其他节点就不发送了，每隔 10s 会选出新的top4</p>
+</li>
+<li>
+<p>每隔 30s 会随机选择其他节点发送文件块，这样这个随机节点可能就会成为新的top4</p>
+<p>tit-for-tat原则：上传速率快的节点相应地得到高下载速率的回报。</p>
+</li>
+</ul>
+<h2 id="socket编程" class="heading-element"><span>socket编程</span>
+  <a href="#socket%e7%bc%96%e7%a8%8b" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>  目标：建立客户机/服务器的应用中的通信运用socket</p>
+<p>  socket：相当于应用进程和点对点传输协议之间的一扇门</p>
+<p>  socket类型：对应TCP和UDP有两种socket</p>
+<h3 id="udp中的socket编程" class="heading-element"><span>UDP中的socket编程</span>
+  <a href="#udp%e4%b8%ad%e7%9a%84socket%e7%bc%96%e7%a8%8b" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>UDP：客户机与服务器之间没有连接</p>
+<ul>
+<li>
+<p>发送数据前不需要握手</p>
+</li>
+<li>
+<p>发送数据包附加IP地址+端口号</p>
+</li>
+<li>
+<p>接收方从数据包中提取处IP地址+端口号</p>
+<p>  UDP提供的是一种不可靠的数据流传输，传输过程中可能会丢包，接收的时候顺序也可能被打乱。</p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Network_UDP_socket.png" alt="UDP socket.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Network_UDP_socket.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Network_UDP_socket.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Network_UDP_socket.png?size=large 2x" data-title="UDP socket.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h4 id="udp中的socket编程示例" class="heading-element"><span>UDP中的socket编程示例</span>
+  <a href="#udp%e4%b8%ad%e7%9a%84socket%e7%bc%96%e7%a8%8b%e7%a4%ba%e4%be%8b" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>  这里jupyter notebook中进行编程，安装好jupyter notebook后，在命令行执行</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">jupyter notebook</span></span></code></pre></td></tr></table>
+</div>
+</div><p>即可启动jupyter notebook</p>
+<p>UDP服务器代码</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">UDPServer.ipynb
+</span></span><span class="line"><span class="cl">from socket import * #引入socket库
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">serverPort = 12000 #服务器端口号
+</span></span><span class="line"><span class="cl">serverSocket = socket(AF_INET, SOCK_DGRAM) #创建服务器套接字
+</span></span><span class="line"><span class="cl">serverSocket.bind((&#39;&#39;, serverPort)) #给套接字绑定端口号
+</span></span><span class="line"><span class="cl">print(&#39;The server is ready to receive.&#39;)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">while True: #服务器要一直在线等待，所以给一个死循环
+</span></span><span class="line"><span class="cl">    message, clientAddress = serverSocket.recvfrom(2048) #从服务器套接字中读取信息（发送的消息和客户机IP地址+端口号）
+</span></span><span class="line"><span class="cl">    modifiedMessage = message.decode().upper() #对消息进行处理（此处是改大写）
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    serverSocket.sendto(modifiedMessage.encode(), clientAddress) #将处理后的消息发回给客户机</span></span></code></pre></td></tr></table>
+</div>
+</div><p>UDP客户机代码</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">UDPClient.ipynb
+</span></span><span class="line"><span class="cl">from socket import * #引入socket库
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">serverName = gethostname() #由于没得服务器，服务器主机用本机来当
+</span></span><span class="line"><span class="cl">serverPort = 12000 #服务器端口号
+</span></span><span class="line"><span class="cl">clientSocket = socket(AF_INET, SOCK_DGRAM) #创建客户机套接字
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">message = input(&#39;Input lowercase sentence:&#39;) #得到输入字符串
+</span></span><span class="line"><span class="cl">clientSocket.sendto(message.encode(),(serverName, serverPort)) #发送数据到相应主机名+端口号的服务器进程
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">modifiedMessage, serverAddress = clientSocket.recvfrom(2048) #接收服务器发回的消息
+</span></span><span class="line"><span class="cl">print(modifiedMessage.decode()) #显示接收的字符串
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">clientSocket.close() #关闭客户机socket</span></span></code></pre></td></tr></table>
+</div>
+</div><p>  先运行UDPServer.ipynb，启动服务器运行。</p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Network_UDP_socket_server.png" alt="UDP socket.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Network_UDP_socket_server.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Network_UDP_socket_server.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Network_UDP_socket_server.png?size=large 2x" data-title="UDP socket.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>  先运行UDPClient.ipynb，进行客户机访问。</p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Network_UDP_socket_client.png" alt="UDP socket.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Network_UDP_socket_client.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Network_UDP_socket_client.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Network_UDP_socket_client.png?size=large 2x" data-title="UDP socket.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+</li>
+</ul>
+<h3 id="tcp中的socket编程" class="heading-element"><span>TCP中的socket编程</span>
+  <a href="#tcp%e4%b8%ad%e7%9a%84socket%e7%bc%96%e7%a8%8b" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ul>
+<li>
+<p>服务器的先行准备</p>
+<ul>
+<li>服务器必须先运行</li>
+<li>服务器需要创建socket来连接客户机</li>
+</ul>
+</li>
+<li>
+<p>客户机连接服务器</p>
+<ul>
+<li>客户机需要创建自己的socket，明确服务器进程的IP地址和端口号</li>
+<li>客户机创建socket时，客户机和服务器之间需建立TCP连接</li>
+</ul>
+</li>
+<li>
+<p>服务器接收客户机消息</p>
+<ul>
+<li>服务器需创建一个新的socket，为了服务器进程能够和客户机进行通信
+<ul>
+<li>要运行服务器与多个客户机进行通信</li>
+<li>用源的端口号来区分不同的客户机</li>
+</ul>
+</li>
+</ul>
+<p>  TCP提供的是一种可靠的字节流（byte-stream）传输（pipe）。</p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP_socket.png" alt="TCP socket.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP_socket.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP_socket.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP_socket.png?size=large 2x" data-title="TCP socket.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+</li>
+</ul>
+<h4 id="tcp中的socket编程示例" class="heading-element"><span>TCP中的socket编程示例</span>
+  <a href="#tcp%e4%b8%ad%e7%9a%84socket%e7%bc%96%e7%a8%8b%e7%a4%ba%e4%be%8b" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><p>TCP服务器代码</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">TCPServer.ipynb
+</span></span><span class="line"><span class="cl">from socket import * #引入socket库
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">serverPort = 12000 #服务器端口号
+</span></span><span class="line"><span class="cl">serverSocket = socket(AF_INET, SOCK_STREAM) #创建服务器套接字（前台）
+</span></span><span class="line"><span class="cl">serverSocket.bind((&#39;&#39;, serverPort)) #给套接字绑定端口号
+</span></span><span class="line"><span class="cl">serverSocket.listen(1)
+</span></span><span class="line"><span class="cl">print(&#39;The server is ready to receive.&#39;)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">while True: #服务器要一直在线等待，所以给一个死循环
+</span></span><span class="line"><span class="cl">    connectionSocket, addr = serverSocket.accept() #前台套接字接收到请求后，创建一个新的套接字（窗口）
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    sentence = connectionSocket.recv(1024).decode() #窗口套接字读取信息
+</span></span><span class="line"><span class="cl">    capitalizedSentence = sentence.upper() #对消息进行处理（此处是改大写）
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    connectionSocket.send(capitalizedSentence.encode()) #将处理后的信息发回给客户机
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    connectionSocket.close() #关闭窗口套接字，前台套接字保持开放</span></span></code></pre></td></tr></table>
+</div>
+</div><p>TCP客户机代码</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">TCPClient.ipynb
+</span></span><span class="line"><span class="cl">from socket import * #引入socket库
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">serverName = gethostname() #由于没得服务器，服务器主机用本机来当
+</span></span><span class="line"><span class="cl">serverPort = 12000 #服务器端口号
+</span></span><span class="line"><span class="cl">clientSocket = socket(AF_INET, SOCK_STREAM) #创建客户机套接字(类型为字节流SOCK_STREAM)
+</span></span><span class="line"><span class="cl">clientSocket.connect((serverName, serverPort)) #TCP连接
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">sentence = input(&#39;Input lowercase sentence:&#39;) #得到输入字符串
+</span></span><span class="line"><span class="cl">clientSocket.send(sentence.encode()) #发送数据到服务器
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">modifiedSentence = clientSocket.recv(1024) #接收服务器发回的消息
+</span></span><span class="line"><span class="cl">print(&#39;From server:&#39;, modifiedSentence.decode()) #显示接收的字符串
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">clientSocket.close() #关闭客户机socket</span></span></code></pre></td></tr></table>
+</div>
+</div><p>  先运行TCPServer.ipynb，启动服务器运行。</p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP_socket_server.png" alt="TCP socket.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP_socket_server.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP_socket_server.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP_socket_server.png?size=large 2x" data-title="TCP socket.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>  先运行TCPClient.ipynb，进行客户机访问。</p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP_socket_client.png" alt="TCP socket.png" srcset="https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP_socket_client.png?size=small, https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP_socket_client.png?size=medium 1.5x, https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP_socket_client.png?size=large 2x" data-title="TCP socket.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p></div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod">
+        <span title="Updated on 2024-09-18 10:20:07">Updated on 2024-09-18&nbsp;</span>
+      </div><div class="post-info-license">
+            <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
+          </div></div><div class="post-info-line">
+        <div class="post-info-md"><span><a href="/posts/computer_networking/index.md" title="Read Markdown" class="link-to-markdown">Read Markdown</a></span></div>
+        <div class="post-info-share">
+          <span><a href="javascript:void(0);" title="Share on X" data-sharer="twitter" data-url="http://localhost:1313/posts/computer_networking/" data-title="Computer Networking" data-hashtags="计算机网络"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/posts/computer_networking/" data-hashtag="计算机网络"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/posts/computer_networking/" data-title="Computer Networking"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  </span>
+        </div>
+      </div></div>
+
+  <div class="post-info-more">
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" class="post-tag" title="Tags - 计算机网络">计算机网络</a></section>
+    <section>
+      <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+    </section>
+  </div><div class="post-nav">
+      <a href="/posts/database-systems/" class="post-nav-item" rel="next" title="Database Systems">Database Systems<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article>
+
+  <aside class="toc" id="toc-auto" aria-label="Contents"><h2 class="toc-title">Contents&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered">Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.134.2"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> | Theme - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.12-b727c382"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
+        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2024</span><span class="author" itemprop="copyrightHolder">
+              <a href="/">Kire</a></span></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="Back to Top"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric d-none">0%</span>
+        </div></div><div id="mask"></div><noscript>
+    <div class="noscript-warning">This website works best with JavaScript enabled.</div>
+  </noscript>
+</div><link rel="preload" href="/lib/katex/katex.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/katex/katex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/katex/katex.min.js" defer></script><script src="/lib/katex/auto-render.min.js" defer></script><script src="/lib/katex/copy-tex.min.js" defer></script><script src="/lib/katex/mhchem.min.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","editLockTitle":"Lock editable code block","editUnLockTitle":"Unlock editable code block","editable":true,"maxShownLines":10},"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"version":"v0.3.12-b727c382"};console.log('Page config:', window.config);</script><script src="/js/theme.min.js" defer></script></body>
+</html>

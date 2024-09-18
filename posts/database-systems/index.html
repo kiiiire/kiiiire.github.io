@@ -1,0 +1,1792 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>Database Systems - Kire&#39;s Personal Page</title><meta name="author" content="Kire">
+<meta name="description" content="What is an I/O and why should I care?
+  
+    
+  
+"><meta name="keywords" content='数据库'>
+  <meta itemprop="name" content="Database Systems">
+  <meta itemprop="description" content="What is an I/O and why should I care? ">
+  <meta itemprop="datePublished" content="2024-09-18T10:32:07+08:00">
+  <meta itemprop="dateModified" content="2024-09-18T10:32:07+08:00">
+  <meta itemprop="wordCount" content="5610">
+  <meta itemprop="keywords" content="数据库"><meta property="og:url" content="http://localhost:1313/posts/database-systems/">
+  <meta property="og:site_name" content="Kire&#39;s Personal Page">
+  <meta property="og:title" content="Database Systems">
+  <meta property="og:description" content="What is an I/O and why should I care? ">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-09-18T10:32:07+08:00">
+    <meta property="article:modified_time" content="2024-09-18T10:32:07+08:00">
+    <meta property="article:tag" content="数据库">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Database Systems">
+  <meta name="twitter:description" content="What is an I/O and why should I care? ">
+<meta name="application-name" content="FixIt">
+<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="http://localhost:1313/posts/database-systems/" title="Database Systems - Kire&#39;s Personal Page" /><link rel="prev" type="text/html" href="http://localhost:1313/posts/computer_networking/" title="Computer Networking" /><link rel="next" type="text/html" href="http://localhost:1313/posts/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/" title="编译原理" /><link rel="alternate" type="text/markdown" href="http://localhost:1313/posts/database-systems/index.md" title="Database Systems - Kire's Personal Page"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Database Systems",
+    "inLanguage": "en",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http:\/\/localhost:1313\/posts\/database-systems\/"
+    },"genre": "posts","keywords": "数据库","wordcount":  5610 ,
+    "url": "http:\/\/localhost:1313\/posts\/database-systems\/","datePublished": "2024-09-18T10:32:07+08:00","dateModified": "2024-09-18T10:32:07+08:00","license": "Kire","publisher": {
+      "@type": "Organization",
+      "name": ""},"author": {
+        "@type": "Person",
+        "name": "Kire"
+      },"description": ""
+  }
+  </script></head>
+  <body data-header-desktop="normal" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/" title="Kire&#39;s Personal Page"><span class="header-title-text">Kire&#39;s Personal Page</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/archives/"
+                
+                
+              ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> Archives</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/categories/"
+                
+                
+              ><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> Categories</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/tags/"
+                
+                
+              ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> Tags</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/music/"
+                
+                
+              ><i class="fa-solid fa-music fa-fw fa-sm" aria-hidden="true"></i> music</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="Switch Theme">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title="Kire&#39;s Personal Page"><span class="header-title-text">Kire&#39;s Personal Page</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/archives/"
+                  
+                  
+                ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> Archives</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/categories/"
+                  
+                  
+                ><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> Categories</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/tags/"
+                  
+                  
+                ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> Tags</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/music/"
+                  
+                  
+                ><i class="fa-solid fa-music fa-fw fa-sm" aria-hidden="true"></i> music</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title="Switch Theme"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
+      </ul>
+    </nav>
+  </div>
+</header><main class="container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="Collections"></aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>Database Systems</span>
+      </h1></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
+      Kire</span></span><span class="post-included-in">&nbsp;included in <a href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" class="post-category" title="Category - 数据库"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> 数据库</a> and <a href="/collections/%E6%95%B0%E6%8D%AE%E5%BA%93/" class="post-collection" title="Collection - 数据库"><i class="fa-solid fa-layer-group fa-fw" aria-hidden="true"></i> 数据库</a></span></div><div class="post-meta-line"><span title="published on 2024-09-18 10:32:07"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2024-09-18">2024-09-18</time></span>&nbsp;<span title="5610 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 5700 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>12 minutes</span>&nbsp;</div>
+    </div><div class="details toc" id="toc-static" data-kept="false">
+        <div class="details-summary toc-title">
+          <span>Contents</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-is-an-io-and-why-should-i-care">What is an I/O and why should I care?</a>
+      <ul>
+        <li><a href="#the-problem-the-problem">The Problem <a href="#the-problem">#</a></a></li>
+        <li><a href="#definition-of-an-io-definition-of-an-io">Definition of an I/O <a href="#definition-of-an-io">#</a></a></li>
+        <li><a href="#applications-applications">Applications <a href="#applications">#</a></a>
+          <ul>
+            <li><a href="#query-optimization">Query Optimization</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#sql-part-1---basic-queries">SQL Part 1 - Basic Queries</a>
+      <ul>
+        <li><a href="#database-lingo">Database Lingo</a></li>
+        <li><a href="#querying-a-table">Querying a Table</a></li>
+        <li><a href="#filtering-out-uninteresting-rows">Filtering out uninteresting rows</a></li>
+        <li><a href="#boolean-operators">Boolean operators</a></li>
+        <li><a href="#filtering-null-values">Filtering Null Values</a></li>
+        <li><a href="#grouping-and-aggregation">Grouping and Aggregation</a>
+          <ul>
+            <li><a href="#summarizing-columns-of-data">Summarizing columns of data</a></li>
+            <li><a href="#summarizing-groups-of-data">Summarizing Groups of Data</a></li>
+          </ul>
+        </li>
+        <li><a href="#a-word-of-caution">A Word of Caution</a></li>
+        <li><a href="#order-by">Order By</a></li>
+        <li><a href="#limit">Limit</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ul>
+    </li>
+    <li><a href="#sql-part-2---joins--subqueries">SQL Part 2 - Joins &amp; Subqueries</a>
+      <ul>
+        <li><a href="#cross-join">Cross Join</a></li>
+        <li><a href="#inner-join">Inner Join</a></li>
+        <li><a href="#outer-joins">Outer Joins</a></li>
+        <li><a href="#name-conflicts">Name Conflicts</a></li>
+        <li><a href="#natural-join">Natural Join</a></li>
+        <li><a href="#subqueries">Subqueries</a></li>
+        <li><a href="#correlated-subqueries">Correlated Subqueries</a></li>
+        <li><a href="#subqueries-in-the-from">Subqueries in the From</a></li>
+        <li><a href="#subquery-factoring">Subquery Factoring</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+      </div><div class="content" id="content"><h1 id="what-is-an-io-and-why-should-i-care" class="heading-element"><span>What is an I/O and why should I care?</span>
+  <a href="#what-is-an-io-and-why-should-i-care" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h1><p>If you’re taking 186, you’ve probably heard or experienced some variation of the following:</p>
+<ul>
+<li>This class has a lot of I/O counting on exams</li>
+<li>I/Os are weird, sometimes you can read like 5 things at the same time but it’s still one I/O for some reason</li>
+<li>I/O counting is tedious and boring and I will never do it after this class, so why do I need to do it??????</li>
+</ul>
+<p>While I can’t guarantee that you’ll ever count I/Os after this class, my hope for this article is to justify why it’s necessary for understanding key database design concepts, and how the principles can be applied to real-world issues in query optimization. It’s like learning how to multiply numbers by hand when we have calculators: although functionally obsolete, we still need to understand the mechanics before we can start taking the shortcut.</p>
+<h2 id="the-problem-the-problem" class="heading-element"><span>The Problem <a href="#the-problem">#</a></span>
+  <a href="#the-problem-the-problem" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>The biggest issue that most database solutions solve is that <strong>disks are slow and memory is fast, but we don’t have enough memory to store everything we need.</strong></p>
+<p>Think about trying to process hundreds of gigabytes of data on your computer (very common for applications like machine learning), even though you only have something like 16GB of RAM.</p>
+<p>If we want our operations to complete in a reasonable amount of time, we’ll want to do as much as possible within RAM. Most of the algorithms you’ve likely encountered in 61B assume that we have an <em>infinite</em> amount of fast memory, and that all operations took the same amount of time, since we only cared about asymptotic runtimes.</p>
+<p>However, in the real world, reading something from memory could be hundreds of thousands of times faster than reading something from disk. As such, when evaluating the runtime of an algorithm we only care about how long it takes to transfer something from disk into memory so that we can access it. This basic unit of time is what we call the Input-Output cost, or “an I/O” for short.</p>
+<h2 id="definition-of-an-io-definition-of-an-io" class="heading-element"><span>Definition of an I/O <a href="#definition-of-an-io">#</a></span>
+  <a href="#definition-of-an-io-definition-of-an-io" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><blockquote><p>Summary</p>
+<p><strong>An I/O is a single read or write event where one page of data is transferred between memory and disk.</strong></p>
+</blockquote><p>A <strong>page</strong> is the basic (“atomic”) unit of information on disk: since it’s more efficient than reading one byte at a time, nearly all modern hard drives and SSDs have some hard-coded block size in their firmware, such that any data accessed from them will always be delivered one block at a time. These blocks are then converted into pages, which also have a fixed size, in the operating system.</p>
+<p>For the purposes of this class, <strong>“block” and “page” can be used interchangably.</strong> In most contexts we will refer to it as a page. However, in general, <a href="https://stackoverflow.com/questions/22137555/whats-the-difference-between-page-and-block-in-operating-system"target="_blank" rel="external nofollow noopener noreferrer">there is a difference.</a></p>
+<p>A very important thing to note down is that <strong>there is no such thing as a fractional I/O.</strong> If we need to read 4.1 pages’ worth of data, it will really take 5 I/Os since the last page needs to be read in its entirety.</p>
+<h2 id="applications-applications" class="heading-element"><span>Applications <a href="#applications">#</a></span>
+  <a href="#applications-applications" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>The primary application for evaluating I/O cost is for <a href="">query optimization</a></p>
+<h3 id="query-optimization" class="heading-element"><span>Query Optimization</span>
+  <a href="#query-optimization" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p><strong>Introduction</strong> Query optimization is the bridge between a declarative language (like SQL, where you describe “what” you want) and an imperative&hellip;</p>
+<p>2023/11/20</p>
+<p>, where we need to decide which operation is the most efficient out of several possibilities.</p>
+<p><strong>Why can’t we just use asymptotic runtime?</strong></p>
+<ul>
+<li>We’re dealing with known, finite input sizes: We may decide to use a different algorithm for a 1000-row table versus a 10000000-row table, even if the algorithm for the former has poorer asymptotic properties.</li>
+<li>The difference between a O(n)O(n)O(n) algorithm and an O(2n)O(2n)O(2n) algorithm can get extremely noticable when we have millions (or billions) of rows in a table.</li>
+<li>The runtime depends on the data that we put in. For instance, certain types of joins (like Sort-Merge Join) perform poorly when we have large amounts of duplicate data. Since we already know (or can approximate) what data we have, we can use this knowledge to estimate how much of the data will need to be accessed to complete the operation, which may be dramatically better or worse than its average runtime.</li>
+</ul>
+<h1 id="sql-part-1---basic-queries" class="heading-element"><span>SQL Part 1 - Basic Queries</span>
+  <a href="#sql-part-1---basic-queries" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h1><h2 id="database-lingo" class="heading-element"><span>Database Lingo</span>
+  <a href="#database-lingo" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>Relational databases are made up of <strong>tables</strong> (aka relations). A table has a name (we’ll call this one <code>Person</code>) and looks like this:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">age</th>
+          <th style="text-align: left">num_dogs</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Ace</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ada</td>
+          <td style="text-align: left">18</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ben</td>
+          <td style="text-align: left">7</td>
+          <td style="text-align: left">2</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cho</td>
+          <td style="text-align: left">27</td>
+          <td style="text-align: left">3</td>
+      </tr>
+  </tbody>
+</table>
+<p>Tables have rows (aka tuples) and columns (aka attributes). In this example, the columns are <code>name</code>, <code>age</code>, <code>num_dogs</code>.</p>
+<h2 id="querying-a-table" class="heading-element"><span>Querying a Table</span>
+  <a href="#querying-a-table" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>The most fundamental SQL query looks like this:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT &lt;columns&gt;
+</span></span><span class="line"><span class="cl">FROM &lt;tb1&gt;;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The <code>FROM</code> clause tells SQL which table you’re interested in, and the <code>SELECT</code> clause tells SQL which columns of that table you want to see. For example, consider a table Person(<code>name</code>, <code>age</code>, <code>num_dogs</code>) containing the data below:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">age</th>
+          <th style="text-align: left">num_dogs</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Ace</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ada</td>
+          <td style="text-align: left">18</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ben</td>
+          <td style="text-align: left">7</td>
+          <td style="text-align: left">2</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cho</td>
+          <td style="text-align: left">27</td>
+          <td style="text-align: left">3</td>
+      </tr>
+  </tbody>
+</table>
+<p>If we executed this SQL query:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT name , num_dogs
+</span></span><span class="line"><span class="cl">FROM Person ;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>then we could get the following output.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">num_dogs</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Ace</td>
+          <td style="text-align: left">4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ada</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ben</td>
+          <td style="text-align: left">2</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cho</td>
+          <td style="text-align: left">3</td>
+      </tr>
+  </tbody>
+</table>
+<p>Optionally, we can also add a <code>DISTINCT</code> keyword to the <code>SELECT</code> statement which removes duplicate rows before output. If we execute the following query to the previous example, the output does not change because all rows are already unique:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT DISTINCT name , num_dogs
+</span></span><span class="line"><span class="cl">FROM Person ;</span></span></code></pre></td></tr></table>
+</div>
+</div><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">num_dogs</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Ace</td>
+          <td style="text-align: left">4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ada</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ben</td>
+          <td style="text-align: left">2</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cho</td>
+          <td style="text-align: left">3</td>
+      </tr>
+  </tbody>
+</table>
+<p>In SQL, however, the order of the rows is nondeterministic unless the query contains an <code>ORDER BY</code> (we’ll get to this later). So the following output is equally valid:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">age</th>
+          <th style="text-align: left">num_dogs</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Ben</td>
+          <td style="text-align: left">7</td>
+          <td style="text-align: left">2</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cho</td>
+          <td style="text-align: left">27</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ace</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ada</td>
+          <td style="text-align: left">18</td>
+          <td style="text-align: left">3</td>
+      </tr>
+  </tbody>
+</table>
+<p>In fact, any ordering of those 4 rows is correct – so unless your query contains an <code>ORDER BY</code> clause, don’t make any assumptions about the order of your results.</p>
+<h2 id="filtering-out-uninteresting-rows" class="heading-element"><span>Filtering out uninteresting rows</span>
+  <a href="#filtering-out-uninteresting-rows" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>Frequently we are interested in only a subset of the data available to us. That is, even though we might have data about many people or things, we often only want to see the data that we have about very specific people or things. This is where the <code>WHERE</code> clause comes in handy; it lets us specify which specific rows of our table we’re interested in. Here’s the syntax:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT &lt;columns&gt;
+</span></span><span class="line"><span class="cl">FROM &lt;tbl&gt;
+</span></span><span class="line"><span class="cl">WHERE &lt;predicate&gt; ;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Once again, let’s consider our table Person(<code>name</code>, <code>age</code>, <code>num_dogs</code>). Suppose we want to see how many dogs each person owns — same as before — but this time we only care about the dog-owners who are adults. Let’s walk through this SQL query:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT name, num_dogs
+</span></span><span class="line"><span class="cl">FROM Person
+</span></span><span class="line"><span class="cl">WHERE age &gt;= 18 ;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>When reasoning about query execution you can use the following rule: each clause in a SQL query happens in the order it’s written, except for <code>SELECT</code> which happens last. This is not necessarily the order the database actually does these operations (more on this later in the semester), but it is easy to think about and will always give us the correct answer. The <code>FROM</code> clause tells us we’re interested in the Person table, so this is the table we start with:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">age</th>
+          <th style="text-align: left">num_dogs</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Ace</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ada</td>
+          <td style="text-align: left">18</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ben</td>
+          <td style="text-align: left">7</td>
+          <td style="text-align: left">2</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cho</td>
+          <td style="text-align: left">27</td>
+          <td style="text-align: left">3</td>
+      </tr>
+  </tbody>
+</table>
+<p>Next we move on to the <code>WHERE</code> clause. It tells us that we only want to keep the rows satisfying the predicate age &gt;= 18, so we remove the row with Ben, and are left with the following table:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">age</th>
+          <th style="text-align: left">num_dogs</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Ace</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ada</td>
+          <td style="text-align: left">18</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cho</td>
+          <td style="text-align: left">27</td>
+          <td style="text-align: left">3</td>
+      </tr>
+  </tbody>
+</table>
+<p>And finally, we <code>SELECT</code> the columns <code>name</code> and <code>num_dogs</code> to obtain our final result. (Again, any permutation of this result is equally valid so you shouldn’t make any assumptions about the order of the rows.) This gives us our final table:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">num_dogs</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Ace</td>
+          <td style="text-align: left">4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ada</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cho</td>
+          <td style="text-align: left">3</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="boolean-operators" class="heading-element"><span>Boolean operators</span>
+  <a href="#boolean-operators" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>If you want to filter on more complicated predicates, you can use the boolean operators <code>NOT</code>, <code>AND</code>, and <code>OR</code>. For instance, if we only cared about dog-owners who are not only adults, but also own more than 3 dogs, then we would write the following query:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT name, num_dogs
+</span></span><span class="line"><span class="cl">FROM Person
+</span></span><span class="line"><span class="cl">WHERE age &gt;= 18
+</span></span><span class="line"><span class="cl">AND num_dogs &gt; 3;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>As in Python, this is the order of evaluation for boolean operators:</p>
+<ol>
+<li><code>NOT</code></li>
+<li><code>AND</code></li>
+<li><code>OR</code></li>
+</ol>
+<p>That said, it is good practice to avoid ambiguity by adding parentheses even when they are not strictly necessary.</p>
+<h2 id="filtering-null-values" class="heading-element"><span>Filtering Null Values</span>
+  <a href="#filtering-null-values" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>In SQL, there is a special value called NULL, which can be used as a value for any data type, and represents an “unknown” or “missing” value.</p>
+<p>Bear in mind that some values in your database may be <code>NULL</code> whether you like it or not, so it’s good to know how SQL handles them. It pretty much boils down to the following rules:</p>
+<ul>
+<li>
+<p>If you do anything with <code>NULL</code>, you’ll just get <code>NULL</code>. For instance if x is <code>NULL</code>, then x &gt; 3, 1 = x, and x + 4 all evaluate to <code>NULL</code>. Even x = <code>NULL</code> would evaluate to <code>NULL</code>; if you want to check whether x is <code>NULL</code>, then write x IS <code>NULL</code> or x IS NOT <code>NULL</code> instead.</p>
+</li>
+<li>
+<p><code>NULL</code> is falsey, meaning that <code>WHERE NULL</code> is just like <code>WHERE FALSE</code>. The row in question does not get included.</p>
+</li>
+<li>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">NULL</span></span></code></pre></td></tr></table>
+</div>
+</div><p>short-circuits with boolean operators. That means a boolean expression involving</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">NULL</span></span></code></pre></td></tr></table>
+</div>
+</div><p>will evaluate to:</p>
+<ul>
+<li><code>TRUE</code>, if it’d evaluate to <code>TRUE</code> regardless of whether the NULL value is really <code>TRUE</code> or <code>FALSE</code>.</li>
+<li><code>FALSE</code>, if it’d evaluate to <code>FALSE</code> regardless of whether the <code>NULL</code> value is really <code>TRUE</code> or <code>FALSE</code>.</li>
+<li>Or <code>NULL</code>, if it depends on the <code>NULL</code> value.</li>
+</ul>
+</li>
+</ul>
+<p>Let’s walk through this query as an example:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT name, num_dogs
+</span></span><span class="line"><span class="cl">FROM Person
+</span></span><span class="line"><span class="cl">WHERE age &lt;= 20
+</span></span><span class="line"><span class="cl">OR num_dogs = 3;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Let’s assume we change some values to NULL, so after evaluating the FROM clause we are left with:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">age</th>
+          <th style="text-align: left">num_dogs</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Ace</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ada</td>
+          <td style="text-align: left">NULL</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ben</td>
+          <td style="text-align: left">NULL</td>
+          <td style="text-align: left">NULL</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cho</td>
+          <td style="text-align: left">27</td>
+          <td style="text-align: left">NULL</td>
+      </tr>
+  </tbody>
+</table>
+<p>Next we move on to the <code>WHERE</code> clause. It tells us that we only want to keep the rows satisfying the predicate <code>age</code> &lt;= 20 OR <code>num_dogs</code> = 3. Let’s consider each row one at a time:</p>
+<ul>
+<li>For Ace, <code>age</code> &lt;= 20 evaluates to <code>TRUE</code> so the claim is satisfied.</li>
+<li>For Ada, <code>age</code> &lt;= 20 evaluates to <code>NULL</code> but <code>num_dogs</code> = 3 evaluates to <code>TRUE</code> so the claim is satisfied.</li>
+<li>For Ben, <code>age</code> &lt;= 20 evaluates to <code>NULL</code> and <code>num_dogs</code> = 3 evaluates to <code>NULL</code> so the overall expression is <code>NULL</code> which has a falsey value.</li>
+<li>For Cho, <code>age</code> &lt;= 20 evaluates to <code>FALSE</code> and <code>num_dogs</code> = 3 evaluates to <code>NULL</code> so the overall expression evaluates to <code>NULL</code> (because it depends on the value of the <code>NULL</code>). Because <code>NULL</code> is falsey, this row will be excluded.</li>
+</ul>
+<p>Thus we keep only Ace and Ada.</p>
+<h2 id="grouping-and-aggregation" class="heading-element"><span>Grouping and Aggregation</span>
+  <a href="#grouping-and-aggregation" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>When you’re working with a very large database, it is useful to be able to summarize your data so that you can better understand the general trends at play. Let’s see how.</p>
+<h3 id="summarizing-columns-of-data" class="heading-element"><span>Summarizing columns of data</span>
+  <a href="#summarizing-columns-of-data" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>With SQL you are able to summarize entire columns of data using built-in aggregate functions. The most common ones are <code>SUM</code>, <code>AVG</code>, <code>MAX</code>, <code>MIN</code>, and <code>COUNT</code>. Here are some important characteristics of aggregate functions:</p>
+<ul>
+<li>The input to an aggregate function is the name of a column, and the output is a single value that summarizes all the data within that column.</li>
+<li>Every aggregate ignores NULL values except for <code>COUNT(*)</code>. (So <code>COUNT(&lt;column&gt;)</code> returns the number of non-NULL values in the specified column, whereas <code>COUNT(*)</code> returns the number of rows in the table overall.)</li>
+</ul>
+<p>For example, consider this variant of our table <code>People(name, age, num_dogs)</code> from earlier, where we are now unsure how many dogs Ben owns:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">age</th>
+          <th style="text-align: left">num_dogs</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Ace</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ada</td>
+          <td style="text-align: left">18</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ben</td>
+          <td style="text-align: left">7</td>
+          <td style="text-align: left">NULL</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cho</td>
+          <td style="text-align: left">27</td>
+          <td style="text-align: left">3</td>
+      </tr>
+  </tbody>
+</table>
+<p>With this table in mind …</p>
+<ul>
+<li><code>SUM(age)</code> is 72.0 and <code>SUM(num_dogs)</code> is 10.0.</li>
+<li><code>AVG(age)</code> is 18.0 and <code>AVG(num_dogs)</code> is 3.3333333333333333.</li>
+<li><code>MAX(age)</code> is 27, and <code>MAX(num_dogs)</code> is 4.</li>
+<li><code>MIN(age)</code> is 7, and <code>MIN(num_dogs)</code> is 3.</li>
+<li><code>COUNT(age)</code> is 4, <code>COUNT(num_dogs)</code> is 3, and <code>COUNT(*)</code> is 4.</li>
+</ul>
+<p>So, if we desired the range of ages represented in our database, then we could use the query below and it would produce the result 20. (Technically it would produce a one-by-one table containing the number 20, but SQL treats it the same as the number 20 itself.)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT MAX(age) - MIN(age)
+</span></span><span class="line"><span class="cl">FROM Person;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Or, if we desired the average number of dogs owned by adults, then we could write this:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT AVG(num_dogs)
+</span></span><span class="line"><span class="cl">FROM Person
+</span></span><span class="line"><span class="cl">WHERE age &gt;= 18;</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="summarizing-groups-of-data" class="heading-element"><span>Summarizing Groups of Data</span>
+  <a href="#summarizing-groups-of-data" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>Now you know how to summarize an entire column of your database into a single number. More often than not, though, we want a little finer granularity than that. This is possible with the <code>GROUP BY</code> clause, which allows us to split our data into groups and then summarize each group separately. Here’s the syntax:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT &lt;columns&gt;
+</span></span><span class="line"><span class="cl">FROM &lt;tbl&gt;
+</span></span><span class="line"><span class="cl">WHERE &lt;predicate&gt; -- Filter out rows (before grouping).
+</span></span><span class="line"><span class="cl">GROUP BY &lt;columns&gt;
+</span></span><span class="line"><span class="cl">HAVING &lt;predicate&gt;; -- Filter out groups (after grouping).</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Notice we also have a brand new <code>HAVING</code> clause, which is actually very similar to <code>WHERE</code>. The difference?</p>
+<ul>
+<li><code>WHERE</code> occurs <em>before grouping</em>. It filters out uninteresting <em>rows</em>.</li>
+<li><code>HAVING</code> occurs <em>after grouping</em>. It filters out uninteresting <em>groups</em>.</li>
+</ul>
+<p>To explore all these new mechanics let’s see another step-by-step example. This time our query will find the average number of dogs owned, for each adult age represented in our database. We will exclude any age for which we only have one datum.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT age, AVG(num_dogs)
+</span></span><span class="line"><span class="cl">FROM Person
+</span></span><span class="line"><span class="cl">WHERE age &gt;= 18
+</span></span><span class="line"><span class="cl">GROUP BY age
+</span></span><span class="line"><span class="cl">HAVING COUNT(*) &gt; 1;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Let us assume the <code>Person</code> table is now:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">age</th>
+          <th style="text-align: left">num_dogs</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Ace</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ada</td>
+          <td style="text-align: left">18</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ben</td>
+          <td style="text-align: left">7</td>
+          <td style="text-align: left">2</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cho</td>
+          <td style="text-align: left">27</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ema</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">2</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ian</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Jay</td>
+          <td style="text-align: left">18</td>
+          <td style="text-align: left">5</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Mae</td>
+          <td style="text-align: left">33</td>
+          <td style="text-align: left">8</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Rex</td>
+          <td style="text-align: left">27</td>
+          <td style="text-align: left">1</td>
+      </tr>
+  </tbody>
+</table>
+<p>Next we move on to the <code>WHERE</code> clause. It tells us that we only want to keep the rows satisfying the predicate <code>age &gt;= 18</code>, so we remove the row with Ben.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">age</th>
+          <th style="text-align: left">num_dogs</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Ace</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ada</td>
+          <td style="text-align: left">18</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cho</td>
+          <td style="text-align: left">27</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ema</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">2</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ian</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Jay</td>
+          <td style="text-align: left">18</td>
+          <td style="text-align: left">5</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Mae</td>
+          <td style="text-align: left">33</td>
+          <td style="text-align: left">8</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Rex</td>
+          <td style="text-align: left">27</td>
+          <td style="text-align: left">1</td>
+      </tr>
+  </tbody>
+</table>
+<p>Now for the interesting part. We arrive at the <code>GROUP BY</code> clause, which tells us to categorize the data by age. We end up with a group of all the adults 20 years old, a group of all the adults 18 years old, a group of all the adults 27 years old, and a group of all the adults 33 years old. You can now think of the table like this:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">age</th>
+          <th style="text-align: left">num_dogs</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Ace Ema Ian</td>
+          <td style="text-align: left">20 20 20</td>
+          <td style="text-align: left">4 2 3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ada Jay</td>
+          <td style="text-align: left">18 18</td>
+          <td style="text-align: left">3 5</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cho Rex</td>
+          <td style="text-align: left">27 27</td>
+          <td style="text-align: left">3 1</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Mae</td>
+          <td style="text-align: left">33</td>
+          <td style="text-align: left">8</td>
+      </tr>
+  </tbody>
+</table>
+<p>The <code>HAVING</code> clause tells us we only want to keep the groups satisfying the predicate <code>COUNT(*) &gt; 1</code> — that is, the groups that contain more than one row. We discard the group that contains only Mae.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">age</th>
+          <th style="text-align: left">num_dogs</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Ace Ema Ian</td>
+          <td style="text-align: left">20 20 20</td>
+          <td style="text-align: left">4 2 3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ada Jay</td>
+          <td style="text-align: left">18 18</td>
+          <td style="text-align: left">3 5</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cho Rex</td>
+          <td style="text-align: left">27 27</td>
+          <td style="text-align: left">3 1</td>
+      </tr>
+  </tbody>
+</table>
+<p>Last but not least, every group gets collapsed into a single row. According to our <code>SELECT</code> clause, each such row must contain two things:</p>
+<ul>
+<li>The <code>age</code> corresponding to the group.</li>
+<li>The <code>AVG(num_dogs)</code> for the group.</li>
+</ul>
+<p>Our final result looks like this:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">age</th>
+          <th style="text-align: left">AVG(num_dogs)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">3.0</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">18</td>
+          <td style="text-align: left">4.0</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">27</td>
+          <td style="text-align: left">2.0</td>
+      </tr>
+  </tbody>
+</table>
+<p>So, to recap, here’s how you should go about a query that follows the template above:</p>
+<ul>
+<li>Start with the table specified in the <code>FROM</code> clause.</li>
+<li>Filter out uninteresting rows, keeping only the ones that satisfy the <code>WHERE</code> clause.</li>
+<li>Put data into groups, according to the <code>GROUP BY</code> clause.</li>
+<li>Filter out uninteresting groups, keeping only the ones that satisfy the <code>HAVING</code> clause.</li>
+<li>Collapse each group into a single row, containing the fields specified in the <code>SELECT</code> clause.</li>
+</ul>
+<h2 id="a-word-of-caution" class="heading-element"><span>A Word of Caution</span>
+  <a href="#a-word-of-caution" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>So that’s how grouping and aggregation work, but before we move on we must emphasize one last thing regarding illegal queries. We’ll start by considering these two examples:</p>
+<ol>
+<li>Though it’s not immediately obvious, this query actually produces an error:</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT age, AVG(num_dogs)
+</span></span><span class="line"><span class="cl">FROM Person;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>What’s the issue? <code>age</code> is an entire column of numbers, whereas <code>AVG(num_dogs)</code> is just a single number. This is problematic because a properly formed table must have the same amount of rows in each column.</p>
+<ol>
+<li>This query does not work either, for a very similar reason:</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT age, num_dogs
+</span></span><span class="line"><span class="cl">FROM Person
+</span></span><span class="line"><span class="cl">GROUP BY age;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>After grouping by age we obtain a table like this:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">age</th>
+          <th style="text-align: left">num_dogs</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Ace Ema Ian</td>
+          <td style="text-align: left">20 20 20</td>
+          <td style="text-align: left">4 2 3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ada Jay</td>
+          <td style="text-align: left">18 18</td>
+          <td style="text-align: left">3 5</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cho Rex</td>
+          <td style="text-align: left">27 27</td>
+          <td style="text-align: left">3 1</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Mae</td>
+          <td style="text-align: left">33</td>
+          <td style="text-align: left">8</td>
+      </tr>
+  </tbody>
+</table>
+<p>Then the <code>SELECT</code> clause’s job is to collapse each group into a single row. Each such row must contain two things:</p>
+<ul>
+<li>The <code>age</code> corresponding to the group, which is a single number.</li>
+<li>The <code>num_dogs</code> for the group, which is an entire column of numbers.</li>
+</ul>
+<p>The takeaway from all this? If you’re going to do any grouping / aggregation at all, then you must only <code>SELECT</code> grouped / aggregated columns.</p>
+<h2 id="order-by" class="heading-element"><span>Order By</span>
+  <a href="#order-by" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>Before, we mentioned that the ordering of the output rows was usually nondeterministic in SQL. If you want the rows of your table to appear in a certain order you must use an <code>ORDER BY</code> clause.</p>
+<p>Here is an example query using an <code>ORDER BY</code> clause:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT name, num_dogs
+</span></span><span class="line"><span class="cl">FROM Person
+</span></span><span class="line"><span class="cl">ORDER BY num_dogs, name;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>You can include as many columns as you want in the ORDER BY clause. We first sort on the first column listed, and then break any ties with the second column listed, and then break any remaining ties with the third column listed, and so on. By default, the sort order is ascending, but if we want the order in descending order we add the DESC keyword after the column name. If we wanted to sort by the num_dogs ascending and break ties by name descending, we would use the following query:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT name, num_dogs
+</span></span><span class="line"><span class="cl">FROM Person
+</span></span><span class="line"><span class="cl">ORDER BY num_dogs, name DESC;</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="limit" class="heading-element"><span>Limit</span>
+  <a href="#limit" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>Sometimes we only want to see a few rows in our table, even if more rows match all of our other conditions. To do this we can add a <code>LIMIT</code> clause to the end of our query to cap the number of rows that will be returned. Note: the same rows may not always be returned by queries using <code>LIMIT</code> if an <code>ORDER BY</code> is not used or if there are ties in the ordering. Here is a query that only returns one row:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT name, num_dogs
+</span></span><span class="line"><span class="cl">FROM Person
+</span></span><span class="line"><span class="cl">LIMIT 1;</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="conclusion" class="heading-element"><span>Conclusion</span>
+  <a href="#conclusion" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>Congratulations - we have covered a lot of SQL! To help remember the ordering of the SQL stages, here is the syntax of a query involving the expressions we have learned so far:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT &lt;columns&gt;
+</span></span><span class="line"><span class="cl">FROM &lt;tbl&gt;
+</span></span><span class="line"><span class="cl">WHERE &lt;predicate&gt;
+</span></span><span class="line"><span class="cl">GROUP BY &lt;columns&gt;
+</span></span><span class="line"><span class="cl">HAVING &lt;predicate&gt;
+</span></span><span class="line"><span class="cl">ORDER BY &lt;columns&gt;
+</span></span><span class="line"><span class="cl">LIMIT &lt;num&gt;;</span></span></code></pre></td></tr></table>
+</div>
+</div><h1 id="sql-part-2---joins--subqueries" class="heading-element"><span>SQL Part 2 - Joins &amp; Subqueries</span>
+  <a href="#sql-part-2---joins--subqueries" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h1><h2 id="cross-join" class="heading-element"><span>Cross Join</span>
+  <a href="#cross-join" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>The simplest join is called <strong>cross join</strong>, which is also known as a cross product or a cartesian product. A cross join is the result of combining every row from the left table with every row from the right table. To do a cross join, simply comma separate the tables you would like to join. Here is an example:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT *
+</span></span><span class="line"><span class="cl">FROM courses, enrollment;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>If the courses table looked like this:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">num</th>
+          <th style="text-align: left">name</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">DB</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">AI</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS189</td>
+          <td style="text-align: left">ML</td>
+      </tr>
+  </tbody>
+</table>
+<p>And the enrollment table looked like this:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">c_num</th>
+          <th style="text-align: left">students</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">700</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">800</td>
+      </tr>
+  </tbody>
+</table>
+<p>The result of the query would be:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">num</th>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">c_num</th>
+          <th style="text-align: left">students</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">DB</td>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">700</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">DB</td>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">800</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">AI</td>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">700</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">AI</td>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">800</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS189</td>
+          <td style="text-align: left">ML</td>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">700</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS189</td>
+          <td style="text-align: left">ML</td>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">800</td>
+      </tr>
+  </tbody>
+</table>
+<p>The cartesian product often contains much more information than we are actually interested in. Let’s say we wanted all of the information about a course (num, name, and num of students enrolled in it). We cannot just blindly join every row from the left table with every row from the right table. There are rows that have two different courses in them! To account for this we will add a <strong>join condition</strong> in the <code>WHERE</code> clause to ensure that each row is only about one class.</p>
+<p>To get the enrollment information for a course properly we want to make sure that <code>num</code> in the courses table is equal to <code>c_num</code> in the enrollment table because they are the same thing. The correct query is:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT *
+</span></span><span class="line"><span class="cl">FROM courses, enrollment;
+</span></span><span class="line"><span class="cl">WHERE num = c_num</span></span></code></pre></td></tr></table>
+</div>
+</div><p>which produces:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">num</th>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">c_num</th>
+          <th style="text-align: left">students</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">DB</td>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">700</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">AI</td>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">800</td>
+      </tr>
+  </tbody>
+</table>
+<p>Notice that CS189, which was present in the <code>courses</code> table but not in the <code>enrollment</code> table, is not included. Since it does not appear as a <code>c_num</code> value in enrollment, it cannot fulfill the join condition <code>num = c_num</code>.</p>
+<p>If we really want CS189 to appear anyway, there are ways to do this that we will discuss later.</p>
+<h2 id="inner-join" class="heading-element"><span>Inner Join</span>
+  <a href="#inner-join" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>The cross join works great, but it seems a little sloppy. We are including join logic in the <code>WHERE</code> clause. It can be difficult to find what the join condition is. In contrast, the <strong>inner join</strong> allows you to specify the condition in the <code>ON</code> clause. Here is the syntax:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT column_name(s)
+</span></span><span class="line"><span class="cl">FROM table1
+</span></span><span class="line"><span class="cl">INNER JOIN table2
+</span></span><span class="line"><span class="cl">ON table1_column_name = table2_column_name;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The <code>table1_column_name = table2_column_name</code> is the join condition. Let’s write the query that gets us all of the course information as an inner join:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT *
+</span></span><span class="line"><span class="cl">FROM courses INNER JOIN enrollment
+</span></span><span class="line"><span class="cl">ON num = c_num ;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>This query is logically the exact same query as the query we ran in the previous section. The inner join is essentially syntatic sugar for a cross join with a join condition in the <code>WHERE</code> clause like we demonstrated before.</p>
+<h2 id="outer-joins" class="heading-element"><span>Outer Joins</span>
+  <a href="#outer-joins" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>Now let’s address the problem we encountered before when we left out CS189 because it did not have any enrollment information. This situation happens frequently. We still want to keep all the data from a relation even if it does not have a “match” in the table we are joining it with. To fix this problem we will use a <strong>left outer join</strong>. The left outer join makes sure that every row from the left table will appear in the output. If a row does not have any matches with the right table, the row is still included and the columns from the right table are filled in with <code>NULL</code>. Let’s fix our query:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT *
+</span></span><span class="line"><span class="cl">FROM courses LEFT OUTER JOIN enrollment
+</span></span><span class="line"><span class="cl">ON num = c_num;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>This will produce the following output:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">num</th>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">c_num</th>
+          <th style="text-align: left">students</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">DB</td>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">700</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">AI</td>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">800</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS189</td>
+          <td style="text-align: left">ML</td>
+          <td style="text-align: left">NULL</td>
+          <td style="text-align: left">NULL</td>
+      </tr>
+  </tbody>
+</table>
+<p>Notice that CS189 is now included and the columns that should be from the right table <code>(c_num, students)</code> are <code>NULL</code>.</p>
+<p>The <strong>right outer join</strong> is the exact same thing as the left outer join but it keeps all the rows from the right table instead of the left table. The following query is identical to the query above that uses the left outer join:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT *
+</span></span><span class="line"><span class="cl">FROM enrollment RIGHT OUTER JOIN courses
+</span></span><span class="line"><span class="cl">ON num = c_num;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Notice that I flipped the order of the joins and changed <code>LEFT</code> to <code>RIGHT</code> because now courses is on the right side.</p>
+<p>Let’s say we add a row to our enrollment table now:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">c_num</th>
+          <th style="text-align: left">students</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">700</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">800</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS160</td>
+          <td style="text-align: left">400</td>
+      </tr>
+  </tbody>
+</table>
+<p>But we still want to present all of the information that we have. If we just use a left or a right join we have to pick between using all of the information in the left table or all of the information in the right table. With what we know so far, it is impossible for us to include the information that we have about <em>both</em> CS189 and CS160 because they occur in different tables and do not have matches in the other table. To fix this we can use the <strong>full outer join</strong> which guarantees that all rows from each table will appear in the output. If a row from either table does not have a match it will still show up in the output and the columns from the other table in the join will be <code>NULL</code>.</p>
+<p>To include all of data we have let’s change the query to be:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT *
+</span></span><span class="line"><span class="cl">FROM courses FULL OUTER JOIN enrollment
+</span></span><span class="line"><span class="cl">ON num = c_num;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>which produces the following output:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">num</th>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">c_num</th>
+          <th style="text-align: left">students</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">DB</td>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">700</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">AI</td>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">800</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS189</td>
+          <td style="text-align: left">ML</td>
+          <td style="text-align: left">NULL</td>
+          <td style="text-align: left">NULL</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">NULL</td>
+          <td style="text-align: left">NULL</td>
+          <td style="text-align: left">CS160</td>
+          <td style="text-align: left">400</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="name-conflicts" class="heading-element"><span>Name Conflicts</span>
+  <a href="#name-conflicts" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>Up to this point our tables have had columns with different names. But what happens if we change the enrollment table so that it’s <code>c_num</code> column is now called <code>num</code>?</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">num</th>
+          <th style="text-align: left">students</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">700</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">800</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS160</td>
+          <td style="text-align: left">400</td>
+      </tr>
+  </tbody>
+</table>
+<p>Now there is a <code>num</code> column in both tables, so simply using <code>num</code> in your query is ambiguous. We now have to specify which table’s column we are referring to. To do this, we put the table name and a period in front of the column name. Here is an example of doing an inner join of the two tables now:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT *
+</span></span><span class="line"><span class="cl">FROM courses INNER JOIN enrollment
+</span></span><span class="line"><span class="cl">ON courses.num = enrollment.num</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The result is:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">num</th>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">num</th>
+          <th style="text-align: left">students</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">DB</td>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">700</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">AI</td>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">800</td>
+      </tr>
+  </tbody>
+</table>
+<p>It can be annoying to type out the entire table name each time we refer to it, so instead we can <strong>alias</strong> the table name. This allows us to rename the table for the rest of the query as something else (usually only a few characters). To do this, after listing the table in the <code>FROM</code> we add <code>AS &lt;alias name&gt;</code>. Here is an equivalent query that uses aliases:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT *
+</span></span><span class="line"><span class="cl">FROM courses AS c INNER JOIN enrollment AS e
+</span></span><span class="line"><span class="cl">ON c.num = e.num;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The result is:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">num</th>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">num</th>
+          <th style="text-align: left">students</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">DB</td>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">700</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">AI</td>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">800</td>
+      </tr>
+  </tbody>
+</table>
+<p>Aliases can also be used in the SELECT clause to rename the column names of the output. If we execute the following query:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT c.num AS num1, c.name, e.num AS num2, e.students
+</span></span><span class="line"><span class="cl">FROM courses AS c INNER JOIN enrollment AS e
+</span></span><span class="line"><span class="cl">ON c.num = e.num;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The output will be:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">num1</th>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">num2</th>
+          <th style="text-align: left">students</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">DB</td>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">700</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">AI</td>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">800</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="natural-join" class="heading-element"><span>Natural Join</span>
+  <a href="#natural-join" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>Often in relational databases, the columns you want to join on will have the same name. To make it easier to write queries, SQL has the <strong>natural join</strong> which automatically does an equijoin (equijoin <code>=</code> checks if columns are equivalent) on columns with the same name in different tables. The following query is the same as explicitly doing an inner join on the <code>num</code> columns in each table:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT *
+</span></span><span class="line"><span class="cl">FROM courses NATURAL JOIN enrollment;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The join condition: <code>courses.num = enrollment.num</code> is implicit. While this is convenient, natural joins are not often used in practice because they are confusing to read and because adding columns that are not related to the query can change the output.</p>
+<h2 id="subqueries" class="heading-element"><span>Subqueries</span>
+  <a href="#subqueries" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>Subqueries allow you to write more powerful queries. Let’s look at an example…</p>
+<p>Let’s say you want to find the course num of every course that has a higher than average num of students. You cannot include an aggregation expression (like AVG) in the WHERE clause because aggregation happens after rows have been filtered. This may seem challenging at first, but sub-queries make it easy:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT num
+</span></span><span class="line"><span class="cl">FROM enrollment;
+</span></span><span class="line"><span class="cl">WHERE students &gt;= (
+</span></span><span class="line"><span class="cl">    SELECT AVG(students)
+</span></span><span class="line"><span class="cl">    FROM enrollment;
+</span></span><span class="line"><span class="cl">);</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The output of this query is:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">num</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CS186</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS188</td>
+      </tr>
+  </tbody>
+</table>
+<p>The inner subquery calculated the average and returned one row. The outer query compared the <code>students</code> value for each row to what the subquery returned to determine if the row should be kept. Note that this query would be invalid if the subquery returned more than one row because <code>&gt;=</code> is meaningless for more than one number. If it returned more than one row we would have to use a set operator like <code>ALL</code>.</p>
+<h2 id="correlated-subqueries" class="heading-element"><span>Correlated Subqueries</span>
+  <a href="#correlated-subqueries" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>The subquery can also be correlated with the outer query. Each row essentially gets plugged in to the subquery and then the subquery uses the values of that row. To illustrate this point, let’s write a query that returns all of the classes that appear in both tables.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT *
+</span></span><span class="line"><span class="cl">FROM classes
+</span></span><span class="line"><span class="cl">WHERE EXISTS (
+</span></span><span class="line"><span class="cl">    SELECT *
+</span></span><span class="line"><span class="cl">    FROM enrollment
+</span></span><span class="line"><span class="cl">    WHERE classes.num = enrollment.num
+</span></span><span class="line"><span class="cl">);</span></span></code></pre></td></tr></table>
+</div>
+</div><p>As expected, this query returns:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">num</th>
+          <th style="text-align: left">name</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CS186</td>
+          <td style="text-align: left">AI</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">DB</td>
+      </tr>
+  </tbody>
+</table>
+<p>Let’s start by examining the subquery. It compares the <code>classes.num</code> (the num of the class from the current row) to every <code>enrollment.num</code> and returns the row if they match. Therefore, the only rows that will ever be returned are rows with classes that occur in each table. The <code>EXISTS</code> keyword is a set operator that returns true if any rows are returned by the subquery and false if otherwise. For <code>CS186</code> and <code>CS188</code> it will return true (because a row is returned by the subquery), but for <code>CS189</code> it will return false. There are a lot of other set operators you should know (including <code>ANY</code>, <code>ALL</code>, <code>UNION</code>, <code>INTERSECT</code>, <code>DIFFERENCE</code>, <code>IN</code>) but we will not cover any others in this note (there is plenty of documentation for these operators online).</p>
+<h2 id="subqueries-in-the-from" class="heading-element"><span>Subqueries in the From</span>
+  <a href="#subqueries-in-the-from" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>You can also use subqueries in the <code>FROM</code> clause. This lets you create a temporary table to query from. Here is an example:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT *
+</span></span><span class="line"><span class="cl">FROM (
+</span></span><span class="line"><span class="cl">    SELECT num
+</span></span><span class="line"><span class="cl">    FROM classes
+</span></span><span class="line"><span class="cl">) AS a
+</span></span><span class="line"><span class="cl">WHERE num = &#39;CS186&#39;;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Returns:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">num</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CS186</td>
+      </tr>
+  </tbody>
+</table>
+<p>The subquery returns only the <code>num</code> column of the original table, so only the <code>num</code> column will appear in the output. One thing to note is that subqueries in the <code>FROM</code> cannot usually be correlated with other tables listed in the <code>FROM</code>. There is a work around for this, but it is out of scope for this course. A cleaner way of doing this is using common table expressions (or views if you want to reuse the temporary table in other queries) but we will not cover this in the note.</p>
+<h2 id="subquery-factoring" class="heading-element"><span>Subquery Factoring</span>
+  <a href="#subquery-factoring" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>Subquery factoring can simplify queries by giving a subquery a name to be used later. To do this, we use the <code>WITH</code> clause:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">WITH courseEnrollment AS (
+</span></span><span class="line"><span class="cl">    SELECT c.num AS num1, c.name, e.num AS num2, e.students
+</span></span><span class="line"><span class="cl">    FROM courses AS c INNER JOIN enrollment AS e
+</span></span><span class="line"><span class="cl">    ON c.num = e.num;
+</span></span><span class="line"><span class="cl">)</span></span></code></pre></td></tr></table>
+</div>
+</div><p>We can then treat <code>courseEnrollment</code> as if it were its own table in a future query:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">SELECT num1, name, students
+</span></span><span class="line"><span class="cl">FROM courseEnrollment
+</span></span><span class="line"><span class="cl">WHERE students &gt; 700;</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Returns:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">num1</th>
+          <th style="text-align: left">name</th>
+          <th style="text-align: left">students</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CS188</td>
+          <td style="text-align: left">AI</td>
+          <td style="text-align: left">800</td>
+      </tr>
+  </tbody>
+</table>
+<p>The subquery returns only the <code>num</code> column of the original table, so only the <code>num</code> column will appear in the output. One thing to note is that subqueries in the <code>FROM</code> cannot usually be correlated with other tables listed in the <code>FROM</code>. There is a work around for this, but it is out of scope for this course. A cleaner way of doing this is using common table expressions (or views if you want to reuse the temporary table in other queries) but we will not cover this in the note.</p></div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod">
+        <span title="Updated on 2024-09-18 10:32:07">Updated on 2024-09-18&nbsp;</span>
+      </div><div class="post-info-license">
+            <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
+          </div></div><div class="post-info-line">
+        <div class="post-info-md"><span><a href="/posts/database-systems/index.md" title="Read Markdown" class="link-to-markdown">Read Markdown</a></span></div>
+        <div class="post-info-share">
+          <span><a href="javascript:void(0);" title="Share on X" data-sharer="twitter" data-url="http://localhost:1313/posts/database-systems/" data-title="Database Systems" data-hashtags="数据库"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/posts/database-systems/" data-hashtag="数据库"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/posts/database-systems/" data-title="Database Systems"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  </span>
+        </div>
+      </div></div>
+
+  <div class="post-info-more">
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" class="post-tag" title="Tags - 数据库">数据库</a></section>
+    <section>
+      <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+    </section>
+  </div><div class="post-nav"><a href="/posts/computer_networking/" class="post-nav-item" rel="prev" title="Computer Networking"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>Computer Networking</a>
+      <a href="/posts/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/" class="post-nav-item" rel="next" title="编译原理">编译原理<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article>
+
+  <aside class="toc" id="toc-auto" aria-label="Contents"><h2 class="toc-title">Contents&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered">Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.134.2"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> | Theme - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.12-b727c382"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
+        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2024</span><span class="author" itemprop="copyrightHolder">
+              <a href="/">Kire</a></span></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="Back to Top"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric d-none">0%</span>
+        </div></div><div id="mask"></div><noscript>
+    <div class="noscript-warning">This website works best with JavaScript enabled.</div>
+  </noscript>
+</div><link rel="preload" href="/lib/katex/katex.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/katex/katex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/katex/katex.min.js" defer></script><script src="/lib/katex/auto-render.min.js" defer></script><script src="/lib/katex/copy-tex.min.js" defer></script><script src="/lib/katex/mhchem.min.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","editLockTitle":"Lock editable code block","editUnLockTitle":"Unlock editable code block","editable":true,"maxShownLines":10},"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"version":"v0.3.12-b727c382"};console.log('Page config:', window.config);</script><script src="/js/theme.min.js" defer></script></body>
+</html>
