@@ -3,18 +3,16 @@
   <channel>
     <title>编译原理 - Tag - Kire&#39;s Personal Page</title>
     <link>http://localhost:1313/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</link>
-    <description>Kire&#39;s Personal Page</description>
+    <description>一个</description>
     <generator>Hugo 0.134.2 &amp; FixIt v0.3.12-b727c382</generator>
     <language>en</language>
-    <managingEditor>3187358920cc@gmail.com (Kire)</managingEditor>
-    <webMaster>3187358920cc@gmail.com (Kire)</webMaster>
     <copyright>Kire</copyright>
     <lastBuildDate>Wed, 18 Sep 2024 15:20:07 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>编译原理</title>
       <link>http://localhost:1313/posts/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</link>
-      <pubDate>Wed, 18 Sep 2024 15:20:07 +0800</pubDate><author>3187358920cc@gmail.com (Kire)</author>
+      <pubDate>Wed, 18 Sep 2024 15:20:07 +0800</pubDate>
       <guid>http://localhost:1313/posts/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</guid>
       <category domain="http://localhost:1313/categories/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/">编译原理</category>
       <description>编译原理</description>
