@@ -1,9 +1,11 @@
 # Database Systems
 
 
+**CS186笔记**&lt;!--more--&gt;
+
 # What is an I/O and why should I care?
 
-&lt;!--more--&gt;If you’re taking 186, you’ve probably heard or experienced some variation of the following:
+If you’re taking 186, you’ve probably heard or experienced some variation of the following:
 
 - This class has a lot of I/O counting on exams
 - I/Os are weird, sometimes you can read like 5 things at the same time but it’s still one I/O for some reason

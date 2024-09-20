@@ -27,7 +27,7 @@
 
 ### 为什么要学习编译原理
 
-- 理解计算系统，注意不是计算机系统。
+- 理解==计算系统==，注意不是计算机系统。
 - 设计计算系统
 - 计算思维 Computational Thinking)
   - 计算思维是运用计算机科学的基础概念去求解问题、设计系统和理解人类的行为，它包括了一系列广泛的计算机科学的思维方法
@@ -180,6 +180,317 @@
 - YACC：语法分析程序产生器
 
 [![img](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228181044912.png)](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228181044912.png)
+
+## 第二章 高级程序设计语言定义与语法描述
+
+[![img](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200620000615982.png)](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200620000615982.png)
+
+### 程序设计语言的定义
+
+语法：
+
+- 一组规则，用它可以形成和产生一个合式 (well-formed) 的程序
+- 词法规则：**单词符号**的形成规则
+  - 单词符号是语言中具有独立意义的最基本结构
+  - 一般包括：常数、标识符、基本字、算符、界符等
+  - 描述工具：有限自动机
+- 语法规则：**语法单位**的形成规则
+  - 语法单位通常包括：表达式、语句、分程序、过程、函数、程序等;
+  - 描述工具：上下文无关文法
+- 例子：
+  - E→iE→i：一个算术表达式可以由一个标识符构成；
+  - E→E&#43;EE→E&#43;E：一个算术表达式可由两个算术表达式（也叫子表达式）通过 ‘&#43;’ 号连接构成；
+  - $E\rightarrow E*E$：一个算术表达式可由两个算术表达式通过 ‘\*‘（星号，而不特指乘号）号连接构成；
+  - E→(E)E→(E)：一个算术表达式外加括号，还是算术表达式；
+- **语法规则**和**词法规则**定义了程序的形式结构
+- 定义语法单位的意义属于**语义**问题
+
+语义：
+
+- 一组规则，用它可以定义一个程序的**意义**
+- 描述方法
+  - 自然语言描述
+    - 二义性、隐藏错误和不完整性
+  - 形式描述
+    - 操作语义
+    - 指称语义
+    - 代数语义
+
+程序，本质上是描述一定数据的处理过程；
+
+程序语言的基本功能：描述数据和对数据的运算；
+
+程序的层次结构：
+
+[![img](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228184632420.png)](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228184632420.png)
+
+静态绑定：发生在程序编译过程中间的绑定，包括变量声明、类型定义、函数定义
+
+动态绑定：发生在程序运行过程中间的绑定，包括 C&#43;&#43; 中的多态性虚函数
+
+表达式：
+
+- 表达式由运算量（也称操作数，即数据引用或函数调用）和算符（运算符，操作符）组成
+- 形式：中缀、前缀、后缀
+
+赋值语句
+
+- A := B
+- 名字的**左**值：该名字代表的存储单元的**地址**
+- 名字的**右**值：该名字代表的**存贮单元的内容**
+- C 语言中，`a&#43;5` 只有右值没有左值，因为该值只能用在赋值号右边
+
+### 程序设计语言的描述
+
+#### 上下文无关文法
+
+文法：
+
+- 描述语言的语法结构的形成规则
+- 如 `He gave me a book.` 这句自然语言的文法规则为：
+
+[![img](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228203556553.png)](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228203556553.png)[![img](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228203605324.png)](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200228203605324.png)
+
+相关概念：
+
+- 字母表：一个有穷字符集，记为 ∑∑
+- 字母表中每个元素称为字符
+- ∑∑ 上的字（也叫字符串）是指由 ∑∑ 中的字符所构成的一个有穷序列
+- 不包含任何字符的序列称为空字，记为 εε
+- 用 ∑※∑※ 表示 ∑∑ 上的所有字的全体，包含空字 εε
+  - 例如：设 ∑=a,b∑=a,b，则 ∑※=ε,a,b,aa,ab,ba,bb,aaa,⋯∑※=ε,a,b,aa,ab,ba,bb,aaa,⋯
+- ∑※∑※ 的子集 UU 和 VV 的连接（积）定义为 UV=αβ | α∈U\andβ∈VUV=αβ | α∈U\andβ∈V
+  - 例如：设 U=a,aa,V=b,bbU=a,aa,V=b,bb，则 UV=ab,abb,aab,aabbUV=ab,abb,aab,aabb，并且此时 UV≠VUUV≠VU
+- VV 自身的 nn 次积记为 Vn=V⋯Vn个Vn=V⋯V⏟n个
+- V0=εV0=ε
+- V※V※ 是 VV 的闭包：V※=V0∪V1∪V2∪V3∪⋯V※=V0∪V1∪V2∪V3∪⋯
+- V&#43;V&#43; 是 VV 的正规闭包： V&#43;=VV※V&#43;=VV※
+  - 正规闭包与闭包的区别：如果 V 中原来没有空字，那么闭包有空字，正规闭包没空字
+  - 例如：设 U=a,aaU=a,aa，那么 U※=ε,a,aa,aaa,aaaa,⋯,U&#43;=a,aa,aaa,aaaa,⋯U※=ε,a,aa,aaa,aaaa,⋯,U&#43;=a,aa,aaa,aaaa,⋯
+
+上下文无关文法：
+
+- 上下文无关文法 GG 是一个四元组 G=(VT,VN,S,P)G=(VT,VN,S,P)，其中
+
+  - 
+
+    VTVT
+
+    ：
+
+    终结符
+
+     
+
+    (Terminal) 集合 (非空)
+
+    - 不能再分解的
+
+  - 
+
+    VNVN
+
+    ：
+
+    非终结符
+
+     
+
+    (Noterminal) 集合(非空)，且
+
+    
+
+    VT∩VN=∅VT∩VN=∅
+
+    - 能再分解，比如上图中的 “主语”、”谓语”
+    - 非终结符可由终结符和非终结符构成
+
+  - 
+
+    SS
+
+    ：文法的
+
+    开始符号
+
+    ，
+
+    
+
+    S∈VNS∈VN
+
+    - 是一个特殊的非终结符，它代表所定义的语言最终感兴趣的语法单位
+    - 比如英语中的 “句子”，编程中的 “程序”
+
+  - 
+
+    PP
+
+    ：
+
+    产生式
+
+    集合(有限)，每个产生式形式为
+
+    - P→α，P∈VN，α∈(VT∪VN)※P→α，P∈VN，α∈(VT∪VN)※
+    - 上式读成 “P 定义为 α”，即左边的终结符 P，是被定义的句法单位，右边的 α 是构成这个句法单位的一种组合。
+    - (VT∪VN)(VT∪VN) 代表终结符和非终结符组成的字符集合，再打上 * 做闭包，代表该集合中的符号组成的字的全体
+
+  - 开始符 SS 至少必须在某个产生式的左部出现一次
+
+  - 例如，定义只含 &#43;, * 的算术表达式的文法：G=&lt;
+
+     
+
+    {i, &#43;, *, (, )}
+
+    ,
+
+     
+
+    {E}
+
+    ,
+
+     
+
+    E
+
+    , P &gt;，其中，P 由下列产生式组成：
+
+    - E→iE→i
+    - E→E&#43;EE→E&#43;E
+    - E→E∗EE→E∗E
+    - E→(E)E→(E)
+
+- 巴科斯范式：”-&gt;” 用 “::=” 来表示
+
+- 上下文无关文法
+
+  - 约定 {P→α1 P→α2cdots P→αn缩写为→P→α1|α2|⋯|αn{P→α1 P→α2cdots P→αn→缩写为P→α1|α2|⋯|αn
+  - 其中 “|” 读成 “或”，称 α1α1 为 PP 的一个候选式
+  - 表示一个文法时，通常只给出开始符号和产生式
+  - 例如，定义只含 &#43;, * 的算术表达式的文法可以缩写为：
+    G(E):E→i | E&#43;E | E∗E | (E)G(E):E→i | E&#43;E | E∗E | (E)
+
+#### 文法与语言
+
+推导：
+
+- 定义：称 αAβαAβ 直接推出 αγβαγβ，即 αAβ⇒αγβαAβ⇒αγβ ，仅当 A→γA→γ 是一个产生式，且 α,β∈(VT∪Vn)※α,β∈(VT∪Vn)※
+- 如果α1⇒α2⇒…⇒αnα1⇒α2⇒…⇒αn，则我们称这个序列是从 α1α1 到 αnαn 的一个推导。若存在一个从 α1α1 到αnαn 的推导，则称 α1α1 可以推导出 αnαn 。
+- 对文法 G(E):E→i | E&#43;E | E∗E | (E)G(E):E→i | E&#43;E | E∗E | (E)，则 E⇒(E)⇒(E&#43;E)⇒(i&#43;E)⇒(i&#43;i)E⇒(E)⇒(E&#43;E)⇒(i&#43;E)⇒(i&#43;i)
+- 称 α1∗⇒αnα1⇒∗αn 从 α1α1 经过 0 步或若干步推出 αnαn
+- 称 α1&#43;⇒αnα1⇒&#43;αn 从 α1α1 经过 1 步或若干步推出 αnαn
+- α1∗⇒αnα1⇒∗αn 即 α=βα=β 或 α1&#43;⇒αnα1⇒&#43;αn
+
+句型：
+
+- 假定 G 是一个文法， S 是它的开始符号，如果 S∗⇒αnS⇒∗αn，则称 αα 是一个句型
+- S∗⇒SS⇒∗S，所以 S 也是句型
+
+句子：
+
+- 仅含终结符号的句型是一个句子。
+
+语言：
+
+- 文法 G 所产生的句子的全体是一个语言，记为 L(G)L(G)
+  L(G)=α | S&#43;⇒α,α∈V※TL(G)=α | S⇒&#43;α,α∈VT※，即 L(G)L(G) 是由 αα 构成的集合， αα 属于终结符的闭包，且能由 S 推导得来。
+- [![img](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229104118219.png)](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229104118219.png)
+- [![img](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229104345152.png)](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229104345152.png)
+- [![img](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229104632829.png)](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229104632829.png)
+- [![img](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229104915177.png)](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229104915177.png)
+- [![img](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229105135900.png)](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229105135900.png)
+
+#### 语法树与二义性
+
+最左推导和最右推导：
+
+- 从一个句型到另一个句型的推导往往不唯一
+  E&#43;E⇒i&#43;E⇒i&#43;i E&#43;E⇒E&#43;i⇒i&#43;iE&#43;E⇒i&#43;E⇒i&#43;i E&#43;E⇒E&#43;i⇒i&#43;i
+- 最左推导：任何一步 α⇒βα⇒β 都是对 αα 中的最左非终结符进行替换
+- 最右推导：任何一步 α⇒βα⇒β 都是对 αα 中的最右非终结符进行替换
+
+语法树：
+
+- 用一张图表示一个句型的推导，称为语法树
+- 一棵语法树是不同推导过程的共性抽象
+- 最左推导所对应的语法树的生长顺序是从上往下、从左往右
+
+[![img](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229110330503.png)](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229110330503.png)
+
+二义性 ambiguity：
+
+- 文法的二义性：如果一个文法存在某个句子对应两棵不同的语法树，则说这个文法是二义的
+  G(E)： E → i|E&#43;E|E*E|(E) 是二义文法，对于 i∗i&#43;ii∗i&#43;i 可以画出两棵语法树
+
+  ![img](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229111904441.png)
+
+- 语言的二义性：一个语言是二义的，如果对它不存在无二义的文法
+
+  - 对于语言 L，可能存在 G 和 G’，使得 L(G)=L(G’)=L，有可能其中一个文法为二义的，
+    另一个为无二义的
+
+- 自然语言的二义性举例 `John saw Mary in a boat`
+
+[![img](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229112549846.png)](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229112549846.png)
+
+- 二义问题是不可判定问题，即不存在一个算法，它能在有限步骤内，确切地判定一个文法是否是二义的
+- 可以找到一组无二义文法的充分条件
+
+#### 形式语言鸟瞰
+
+- 乔姆斯基于1956年建立形式语言体系，他把文法分成四种类型：0，1，2，3型
+- 与上下文无关文法一样，它们都由四部分组成，
+  但对产生式的限制有所不同
+
+0 型（短语文法，图灵机）：
+
+- 产生式形如：α→βα→β
+- 其中：α∈(VT∪VN)※α∈(VT∪VN)※ 且至少含有一个非终结符；β∈(VT∪VN)※β∈(VT∪VN)※
+- 乔姆斯基文法体系中，最通用，也是描述能力最强、最一般的文法，产生式的约束最弱
+
+1 型（上下文有关文法，线性界限自动机）:
+
+- 产生式形如：α→βα→β
+- 其中：|α|≤|β||α|≤|β|，仅 S→εS→ε 例外
+- 上下文有关文法非常复杂，等下会提到
+
+2 型(上下文无关文法，非确定下推自动机)：
+
+- 产生式形如： A→βA→β
+- 其中：A∈VNA∈VN；β∈(VT∪VN)※β∈(VT∪VN)※
+
+3 型 (正规文法，有限自动机)
+
+- 产生式形如： A→αBA→αB 或 A→αA→α，终结符要么没有要么出现在右式最右边（右线性文法
+- 其中： α∈V※Tα∈VT※；A，B∈V※NA，B∈VN※
+- 产生式形如： A→BαA→Bα 或 A→αA→α （左线性文法
+- 其中： α∈V※Tα∈VT※；A，B∈VNA，B∈VN
+
+[![img](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229154446865.png)](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229154446865.png)
+
+四种类型文法的描述能力：
+
+- L5=anbn | n≥1L5=anbn | n≥1 不能由正规文法产生，但可由上下文无关文法产生
+  G5(S):S→aSb | abG5(S):S→aSb | ab
+- L6=anbncn|n≥1L6=anbncn|n≥1不能由上下文无关文法产生，但可由上下文有关文法产生
+
+[![img](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229155016138.png)](https://zhangt.top/CS/Compilation-Principles-Study-Notes/image-20200229155016138.png)
+
+- 程序设计语言不是上下文无关语言，甚至不是上下文有关语言
+
+- 
+
+  L7=αcα|α∈a,b※L7=αcα|α∈a,b※
+
+  不能由上下文无关文法产生，甚至连上下文有关文法也不能产生，只能由0型文法产生
+
+  - 标识符引用。比如编程语言中要求使用的变量必须前面声明过
+  - 过程调用过程中，“形-实参数的对应性”(如个数，顺序和类型一致性)
+
+- 对于现今程序设计语言，在编译程序中，仍然采用上下文无关文法来描述其语言结构 （上下文无关文法的成熟高效）
 
 ---
 
