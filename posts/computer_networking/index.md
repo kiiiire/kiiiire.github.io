@@ -1284,6 +1284,881 @@ clientSocket.close() #关闭客户机socket
 
 ![TCP socket.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP_socket_client.png)
 
+# 传输层（Transport Layer）
+
+## 传输层服务
+
+### 传输层概述
+
+- 为不同主机之间的应用进程提供通信的桥梁
+- 端对端：传输层协议在端系统间运行，不需要涉及网络核心
+  - 发送方把应用层接到的消息分成段（segment），再把这些段传输给网络层
+  - 接收方把接收到的段重新拼装成消息，传输给应用层
+- 传输层的协议：TCP和UDP
+
+**传输层和网络层对比**
+
+- 网络层：主机之间的通信
+
+- 传输层：进程之间的通信
+
+  传输层依赖于并能强化网络层服务。
+
+### 传输层协议
+
+- TCP：可靠的，有序的传送
+
+  - 拥塞控制
+  - 流量控制
+  - 需要建立连接
+
+- UDP：不可靠的，无序的传送
+
+  - 提供尽力而为交付服务
+
+  二者均不提供的服务：延时保障、带宽保障
+
+## 多路复用（Multiplexing）与多路分用（Demultiplexing）
+
+  多路复用存在于发送方：发送方需要处理多个套接字，并且给套接字加上传输层的头部。
+
+  多路分用存在于接收方：利用头部信息，将接收到的报文段传输给正确的套接字。
+
+![Multiplexing/demultiplexing.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Multiplexing.png)
+
+### 多路分用
+
+#### 多路分用工作流程
+
+- 主机收到IP数据报（IP datagram）
+
+  - 每个数据报有源IP地址和目的IP地址
+  - 每个数据报携带一个传输层报文段（segment）
+  - 每个报文段有源和目的的端口号
+
+- 主机利用IP地址和端口号来把报文段传入正确的套接字
+
+  ![segment format.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_segment-format.png)
+
+#### 无连接的多路分用（Connectionless demultiplexing）
+
+  参考[UDP的socket工作方式](https://gy23333.github.io/2020/03/16/《计算机网络-自顶向下方法》笔记/#UDP中的socket编程)，如果数据报的**目的IP地址和端口号**相同，它们将被传到同一个socket当中。（即使数据报的源可能不同）
+
+#### 面向连接的多路分用（Connection-oriented demux）
+
+  参考[TCP的socket工作方式](https://gy23333.github.io/2020/03/16/《计算机网络-自顶向下方法》笔记/#TCP中的socket编程)
+
+- 标记TCP的socket需要4元组：源IP地址、源端口号、目的IP地址、目的端口号
+- 多路分用：接收方要用到上面4个值来传入不同的socket
+- 服务器的主机可能要同时支持多个TCP连接
+- web服务器有不同的socket对应每个连接的客户机，其中非持久性HTTP会给每个请求都建立新的socket。
+
+## UDP
+
+## UDP概述
+
+  UDP（User Datagram Protocol，用户数据报协议），标准为RFC 768。
+
+- 只有基本的功能
+
+- 尽力而为的服务，UDP可能会丢包或者失序
+
+- 不用连接：客户机和服务器不需要握手，每个UDP段都是独立处理的
+
+  ![UDP segment.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_UDP-segment.png)
+
+- UDP的优点
+
+  - 不需要进行连接，连接可能会造成时延
+  - 简单：不需要考虑连接的状态
+  - 相对小的头的大小
+  - 不需要拥塞控制，可以尽快地把UDP段发出去
+
+- UDP的应用
+
+  - 流媒体的app（运行一部分数据的丢失，但是对速度很敏感）
+  - DNS
+  - SNMP
+
+- 通过UDP进行可靠的传输（UDP本身是不可靠的）
+
+  - 在应用层增加可靠性
+  - app要有对应的错误恢复方法
+
+### UDP校验和（UDP checksum）
+
+  位于UDP头部，负责检测传输的段有没有发生“错误”（比如位的翻转）
+
+- 发送方：
+
+  - 把发送的段的内容包括头部分，当作一组16-bit的整数
+  - 校验和：报文段中的所有16-bit的和的取关于“1”的补码
+  - 发送方要将校验和放到UDP的校验和部分
+
+- 接收方：
+
+  - 计算接收到的报文段的校验和
+  - 将接收方的校验和与发送方的校验和进行比较，不同则检测出错误，相同则没检测出错误
+
+    校验和相同只能说是“检验不出错误”，不能保障没有错误。比如传输中多个16bit字发生错误，但是可能恰巧相加校验和不变。
+
+  例题：有两个16-bit的字，1110011001100110 和 1101010101010101，求校验和。
+
+  
+
+  \&#43; ———————wrap around1sumchecksum11100110011001101101010101010101—————————1011101110111011101110111011110001000100010000111110011001100110&#43; 1101010101010101————————————————wrap around11011101110111011sum1011101110111100checksum0100010001000011
+
+    wraparound存在溢出，进位的部分回卷，加到最后一位。
+
+## 可靠数据传输原理
+
+  可靠数据传输原理（Principles of reliable data transfer, **rdt**）
+
+- 对应用层、传输层、链路层都很重要
+
+  ![provide service.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_provide-service.png)  ![service implementation.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_service-implementation.png)
+
+- 不可靠信道的特点决定了不可靠传输协议的复杂度
+
+调用接口函数：
+
+| 接口函数         | 参数   | 作用                                                         |
+| :--------------- | :----- | :----------------------------------------------------------- |
+| `rdt_send()`     | data   | 调用数据传输协议的发送方，将要发送的数据交付给位于接收方的较高层 |
+| `udt_send()`     | packet | rdt调用，通过不可靠信道，将packet传输到接收方                |
+| `rdt_rcv()`      | packet | 在packet到达接收方信道时调用                                 |
+| `deliver_data()` | data   | rdt调用，传输数据到高层                                      |
+
+与不可靠信道之间的函数调用都是双向的，由于其不可靠性，需要进行确认的控制信号（ACK，NAK）。
+
+### rdt1.0：经可靠信道的可靠数据传输
+
+#### rdt1.0概述
+
+- 下层信道完全可靠：rdt1.0中假设下层的信道是一个完全可靠的信道（理想情况）
+
+  - 没有bit的错误
+  - 没有分组（packet）丢失
+
+- 发送方和接收方的
+
+  有限状态机（FSM）
+
+  （存在状态和操作）
+
+  - 发送方发送数据给下层信道
+  - 接收方接收下层信道传来的数据
+
+#### rdt1.0有限状态机
+
+##### 发送方
+
+  发送方首先在“**等待上级调用**”的状态，`rdt_send(data)`上级调用rdt，从上级接收到data，`make_pkt(data)`将data装到packet里，再用`udt_send(packet)`将packet发送出去，完成后发送方再回到“等待上级调用”的状态。（发送方只有一个状态）
+
+![rdt1.0 sender.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_rdt1-0-sender.png)
+
+##### 接收方
+
+  接收方首先在“**等待下级调用**”的状态，`rdt_rcv(packet)`下级调用rdt，从下级接收到packet，用`extract(packet, data)`将packet重新恢复成data，提取出来的data再通过`deliver_data(data)`传送给上级。完成后接收方再回到“等待下级调用”的状态。
+
+![rdt1.0 receiver.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_rdt1-0-receiver.png)
+
+下层信道不可能完全可靠 =&gt; 引入rdt2.0
+
+### rdt2.0：经具有比特差错信道的数据传输
+
+  引入差错检测、控制信号和重传机制，解决下层信道不可靠问题。
+
+#### rdt2.0概述
+
+- packet在下层信道传输中会出现**比特翻转**：可以引入[**校验和（checksum）**](https://gy23333.github.io/2020/03/16/《计算机网络-自顶向下方法》笔记/#UDP校验和（UDP-checksum）)来检测比特错误。
+- 错误恢复——如果检验到错误如何恢复？
+  - **ACKs（acknowledgements）**：接收方告诉发送方收到的pkt是正确的
+  - **NAKs（negative acknowledgements）**：接收方告诉发送方收到的pkt是错误的
+  - 发送方收到NAK则重传那个pkt
+- rdt2.0引入的新机制
+  - 差错检测：checksum
+  - 接收方反馈：控制信号（control msg），即ACK和NAK
+  - 重传
+
+#### rdt2.0无限状态机
+
+##### 发送方
+
+  rdt2.0的发送方有2个状态——**等待上级调用**、**等待ACK或NAK**。发送方最初处于“**等待上级调用**”的状态，`rdt_send(data)`上级调用rdt，从上级接收到data，`sndpkt = make_pkt(data, checksum)`将data装到packet里，再用`udt_send(sndpkt)`将packet发送出去。此时，发送方变为“**等待ACK或NAK**”的状态。`rdt_rcv(rcvpkt)`接收反馈，如果`isNAK(rcvpkt)`即接收到NAK，则重传`udt_send(sndpkt)`，并保持“**等待ACK或NAK**”的状态；如果`isACK(rcvpkt)`即接收到ACK，则回到“**等待上级调用**”的状态。
+
+停等机制（stop and wait）
+
+  发送方发送一个packet，然后等待接收方的响应。
+
+![rdt2.0 sender.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_rdt2-0-sender.png)
+
+##### 接收方
+
+  接收方还是只有一个状态——**等待下级调用**。接收方首先在“**等待下级调用**”的状态，`rdt_rcv(rcvpkt)`接收方接收packet，如果`corrupt(rcvpkt)`，即检测到错误，则`udt_send(NAK)`反馈NAK；如果`notcorrupt(rcvpkt)`，即未检测到错误，则`extract(packet, data)`将packet重新恢复成data，`deliver_data(data)`将data传送给上级，最后`udt_send(ACK)`反馈ACK。完成后接收方再回到“等待下级调用”的状态。
+
+![rdt2.0 receiver.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_rdt2-0-receiver.png)
+
+接收方可能判断ACK/NAK信号出错，导致发送分组重复 =&gt; 引入rdt2.1
+
+### rdt2.1：接收方判断ACK/NAK信号出错
+
+  引入0/1序号和丢弃分组，解决接收方判断ACK/NAK信号出错，导致发送分组重复问题。但这也让发送方和接收方有限状态机的状态翻倍。
+
+#### rdt2.1有限状态机
+
+##### 发送方
+
+  相较于rdt2.0，rdt2.1在发送的packet里包含了0/1序号（sequence number），所以发送方有4种状态——**等待上级调用 0**、**等待ACK或NAK 0**、**等待上级调用 1**、**等待ACK或NAK 1**。
+
+![rdt2.1 sender.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_rdt2-1-sender.png)
+
+##### 接收方
+
+  接收方有2种状态——**等待下级调用 0**、**等待下级调用 1**。只有在数据包ACK且**收到的packet序号与目前状态等待的序号相同**时，才能向上传输。
+
+![rdt2.1 receiver.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_rdt2-1-receiver.png)
+
+为什么接收方等待1状态接收到0的packet时，为什么要反馈ACK？
+
+  为了让发送方的状态转移，从“等待ACK或NAK 0”到“等待上级调用 1”。
+
+### rdt2.2：不发送NAK的协议
+
+  用重复的ACK替代NAK，解决信号冗余问题。
+
+#### rdt2.2概述
+
+- 只用ACK，不用NAK，实现和rdt2.1一样的功能。
+- 在检测到错误时，不发送NAK，但是接收方要发送判断上一次序号的ACK（同时包括序号）
+- 用重复的ACK代替NAK
+
+#### rdt2.2有限状态机
+
+##### 发送方
+
+  将rdt2.1中的`isNAK(rcvpkt)`判断本次反馈是NAK，替代成判断上次序号的反馈是ACK，比如rdt2.2在“**等待ACK 0**”时，如果`isACK(rcvpkt, 1)`，则相当于收到来rdt2.1中的`isNAK(rcvpkt)`。其余不变。
+
+![rdt2.2 sender.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_rdt2-2-sender.png)
+
+##### 接收方
+
+  接收方如果校验和检测出错，则发送上一次序号的ACK；在校验和检测正确时，发送ACK也需要带上本次的序号。
+
+![rdt2.2 receiver.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_rdt2-2-receiver.png)
+
+### rdt3.0：信道存在错误和丢包
+
+#### rdt3.0概述
+
+  发送端在一个合理的时间内，等待接收ACK。
+
+- 当在等待时间内没有接收ACK时，重传
+- 超过时间可能有两种情况：丢包或时延，如果发生时延可能会重复发生pkt，此时rdt2.1和2.2中的序号可以解决问题，同样的发生ACK得带上序号。
+- 需要计时器
+
+#### rdt3.0有限状态机
+
+  发送方传输开始时，`start_timer`启动计时器。如果`timeout`传输超时，则重新启动计时器；如果在规定时间内接收到反馈，则`stop_timer`结束计时。
+
+![rdt3.0 sender.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_rdt3-0-sender.png)
+
+#### rdt3.0流程
+
+##### 正常流程
+
+![rdt3.0 NoLoss.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_rdt3-0-NoLoss.png)
+
+##### 丢packet
+
+![rdt3.0 LossPacket.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_rdt3-0-LossPacket.png)
+
+##### 丢ACK
+
+![rdt3.0 LossACK.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_rdt3-0-LossACK.png)
+
+##### 超时
+
+![rdt3.0 timeout.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_rdt3-0-timeout.png)
+
+#### rdt3.0性能
+
+  rdt3.0性能很差
+
+例题：一个 1Gbps的链路，15ms的传播时延，传输8000bit的packet，求发送方的使用效率。
+
+传输时延
+
+
+
+Dtran=LR=8000 bits109 bits/sec=8msDtran=LR=8000 bits109 bits/sec=8ms
+
+发送方使用效率
+
+
+
+Usender=L/RRTT&#43;L/R=0.00830.008=0.00027Usender=L/RRTT&#43;L/R=0.00830.008=0.00027
+
+  可见rdt3.0的使用效率很低。
+
+  rdt3.0网络协议限制了物理资源的使用率。
+
+## 流水线协议
+
+  采用流水线的机制，不要等一个RTT发送回来再发下一个（即不再采用停等机制），来提高物理资源的使用率。
+
+图 停等机制（Stop-and-wait）
+
+![Stop-and-Wait Operation.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Stop-and-Wait-Operation.png)
+
+图 流水线机制（Pipelined Operation）
+
+![Pipelined Operation.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Pipelined-Operation.png)
+
+### 回退N步（Go-back-N，GBN）
+
+- 发送方可以有至多N个没有ACK的packet同时在流水线上
+- 接收方只发送累计ACK
+- 发送方给最早还没ACK的packet一个计时器，当这个计时器到时时，重传所有的未ACK的packet。
+
+#### GBN发送方
+
+- packet头部有k bit的序号，则可以表示 2k2k 个序号。
+- “窗口”大小为N，这一段是允许的未ACK的packet
+
+![GBN sender.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_GBN-sender.png)
+
+- ACK(n)累计确认：ACK在发送的时候要带上序号#n，即#n及之前的packet都收到了。接收方发送ACK n，则证明#n及之前的packet都收到了。否则接收方还是发送之前的ACK（重复）。
+- 计时器只给最早的未ACK的packet保留
+- 如果timeout（n），重传#n以及比#n更大的未ACK的packet
+
+![GBN sender.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_GBN-sender(1).png)
+
+#### GBN接收方
+
+- 发送的ACK是顺序接收到的packet里面最大的序列号#
+  - 可能会产生重复的ACK
+  - 只需要记住期望的序列号（expextedseqnum）
+- 乱序到达的packet
+  - 直接丢弃，不缓存（缓存会造成数据重复）
+  - 重新发送顺序最大序列号#
+
+![GBN receiver.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_GBN-receiver.png)
+
+#### GBN流程
+
+![GBN action.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_GBN-action.png)
+
+例题：采用GBN协议，一个发送方发送了 #0到#5 的packet，但是只收到了 ACK0 和 ACK2。问发送方要重发哪些packet？
+
+  重发#3、#4、#5 的 packet。
+
+  虽然没有收到ACK1，但是接收方只有在#n及之前的packet都收到了的时候，才会发送ACKn，发送方接收到ACK n，则证明接收方#n及之前的packet都收到了。所以ACK1应该是在发送过程中丢包了，但是实际接收方已经收到了#1 packet。所以重发#3、#4、#5 的 packet。
+
+### 选择重传（Selective Repeat，SR）
+
+- 接收方分别确认所有正确收到的pkt
+  - 缓存pkt，最终有序传给上层
+- 发送方重发没ACK的pkt
+  - 发送方给每个还没ACK的packet都维持一个计时器
+- 发送方的window
+  - N个连续的序号
+  - 限制发送并且未ACK的pkt
+
+![SR windows.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_SR-windows.png)
+
+#### SR发送方
+
+- 收到上层数据
+
+  - 如果window里还有可用序列，则继续发送
+
+- timeout(n)
+
+  - 重发`pkt n`，重启timer
+
+- 如果
+
+  ```
+  ACK(n)
+  ```
+
+  在可接收范围内
+
+  
+
+  [sendbase,sendbase&#43;N−1][sendbase,sendbase&#43;N−1]
+
+  - 将`pkt n`标记为接收完成
+  - 如果 n 是最小的未ACK的pkt，则将window滑动到下一个未ACK的pkt
+
+#### SR接收方
+
+- 如果
+
+  ```
+  pkt n
+  ```
+
+  在接收范围内
+
+  
+
+  [rcvbase,rcvbase&#43;N−1][rcvbase,rcvbase&#43;N−1]
+
+  - 发送`ACK(n)`
+  - 如果不是按序到达，则缓存pkt
+  - 如果是按序到达，则向上交付已有的按序的缓存，并将window滑动到下一个未收到的pkt
+
+- 如果
+
+  ```
+  pkt n
+  ```
+
+  在
+
+  
+
+  [rcvbase−N,rcvbase−1][rcvbase−N,rcvbase−1]
+
+  内
+
+  - 发送`ACK(n)`
+
+- 其他情况忽略
+
+#### SR流程
+
+![SR action.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_SR-action.png)
+
+#### SR困境
+
+  比如下面序列号有：#0, #1, #2, #3，window大小为3的情况。SR会无法分清a、b两种情况，导致在b中误判重发的第一轮的`pkt0`，被当作后一轮的`pkt0`填入。
+
+![SR dilemma.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_SR-dilemma.png)
+
+## TCP
+
+### TCP概论
+
+- 点对点（point-to-point）：一个发送方、一个接收方
+- 可靠的、有序的字节流
+  - 没有消息的边界
+- 流水线机制
+  - 窗口大小由拥塞和流量控制
+- 全双工
+  - 同时双向数据流
+  - MSS（maximum segment size）：最大报文段长度
+- 面向连接
+  - 握手：交换控制信息，初始化发送方和接收方的状态
+- 流量控制
+
+### TCP报文段结构
+
+![TCP segment structure.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-segment-structure.png)
+
+1、端口号：用来标识同一台计算机的不同的应用进程。
+
+- 源端口：源端口和IP地址的作用是标识报文的返回地址。
+- 目的端口：端口指明接收方计算机上的应用程序接口。
+
+  TCP报头中的源端口号和目的端口号同IP数据报中的源IP与目的IP唯一确定一条TCP连接。
+
+2、序号和确认号：是TCP可靠传输的关键部分。序号是本报文段发送的数据组的第一个字节的序号。在TCP传送的流中，每一个字节一个序号。e.g.一个报文段的序号为300，此报文段数据部分共有100字节，则下一个报文段的序号为400。所以序号确保了TCP传输的有序性。确认号，即ACK，指明下一个期待收到的字节序号，表明该序号之前的所有数据已经正确无误的收到。确认号只有当ACK标志为1时才有效。比如建立连接时，SYN报文的ACK标志位为0。
+
+3、数据偏移／首部长度：4bits。由于首部可能含有可选项内容，因此TCP报头的长度是不确定的，报头不包含任何任选字段则长度为20字节，4位首部长度字段所能表示的最大值为1111，转化为10进制为15，15*32/8 = 60，故报头最大长度为60字节。首部长度也叫数据偏移，是因为首部长度实际上指示了数据区在报文段中的起始偏移值。
+
+4、保留：为将来定义新的用途保留，现在一般置0。
+
+5、控制位：URG ACK PSH RST SYN FIN，共6个，每一个标志位表示一个控制功能。
+
+- URG：紧急指针标志，为1时表示紧急指针有效，为0则忽略紧急指针。
+- ACK：确认序号标志，为1时表示确认号有效，为0表示报文中不含确认信息，忽略确认号字段。
+- PSH：push标志，为1表示是带有push标志的数据，指示接收方在接收到该报文段以后，应尽快将这个报文段交给应用程序，而不是在缓冲区排队。
+- RST：重置连接标志，用于重置由于主机崩溃或其他原因而出现错误的连接。或者用于拒绝非法的报文段和拒绝连接请求。
+- SYN：同步序号，用于建立连接过程，在连接请求中，SYN=1和ACK=0表示该数据段没有使用捎带的确认域，而连接应答捎带一个确认，即SYN=1和ACK=1。
+- FIN：finish标志，用于释放连接，为1时表示发送方已经没有数据发送了，即关闭本方数据流。
+
+6、窗口：滑动窗口大小，用来告知发送端接受端的缓存大小，以此控制发送端发送数据的速率，从而达到流量控制。窗口大小时一个16bit字段，因而窗口大小最大为65535。
+
+7、校验和：奇偶校验，此校验和是对整个的 TCP 报文段，包括 TCP 头部和 TCP 数据，以 16 位字进行计算所得。由发送端计算和存储，并由接收端进行验证。
+
+8、紧急指针：只有当 URG 标志置 1 时紧急指针才有效。紧急指针是一个正的偏移量，和顺序号字段中的值相加表示紧急数据最后一个字节的序号。 TCP 的紧急方式是发送端向另一端发送紧急数据的一种方式。
+
+9、选项和填充：最常见的可选字段是最长报文大小，又称为MSS（Maximum Segment Size），每个连接方通常都在通信的第一个报文段（为建立连接而设置SYN标志为1的那个段）中指明这个选项，它表示本端所能接受的最大报文段的长度。选项长度不一定是32位的整数倍，所以要加填充位，即在这个字段中加入额外的零，以保证TCP头是32的整数倍。
+
+10、数据部分： TCP 报文段中的数据部分是可选的。在一个连接建立和一个连接终止时，双方交换的报文段仅有 TCP 首部。如果一方没有数据要发送，也使用没有任何数据的首部来确认收到的数据。在处理超时的许多情况中，也会发送不带任何数据的报文段。
+
+#### TCP序号
+
+  报文段（segment）的序号：字节流第一个字节的序号
+
+例题：下面文件的前3个报文段的序号分别是？
+
+![TCP segment sequenceNum.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-segment%23.png)
+
+  第一个报文段：0；第二个报文段：1000；第三个报文段：2000
+
+#### TCP ACK
+
+- TCP报文的ACK填写：期望从另一方收到的下一个字节序号
+  - 主机A接收到从主机B传来的字节#0～535，A下一个期望接到的字节#为536，所以主机A发送的报文段的ACK中填536。
+- 累计ACK（cumulative ACK）:与GBN相似
+  - 主机A接收到从主机B传来的字节 #0～535 和 #900～1000，A下一个期望接到的字节#依旧为536，所以主机A下一个发送的报文段的ACK中填536。
+
+#### TCP 序号和ACK传输
+
+![TCP segment eg.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-segment-eg.png)
+
+#### TCP计时
+
+如何设置TCP timeout值？
+
+- time&gt;RTTtime&gt;RTT（但是RTT会改变）
+- 不能太短：过早timeout造成不必要的重传
+- 不能太长：对丢包反应太慢
+
+如何EstimateRTT（估计RTT）？
+
+- SampleRTT（样本RTT）：计算发送segment到接收ACK的时间，忽略重传
+- SampleRTT多次测量取平均
+
+则EstimateRTT为
+
+
+
+EstimateRTT=(1−α)∗EstimateRTT&#43;α∗SamleRTTEstimateRTT=(1−α)∗EstimateRTT&#43;α∗SamleRTT
+
+- 指数加权移动平均（不是线形的，存在迭代使原来的SamleRTT的系数越来越小，越靠后的越接近当前网络状态）
+- EstimateRTT的变化通常比SamleRTT变化更加平滑
+- 一般，α=0.125α=0.125
+
+DevRTT（偏差RTT）为（一般β=0.25β=0.25）
+
+
+
+DevRTT=(1−β)∗DevRTT&#43;β∗|SampleRTT−EstimatedRTT|DevRTT=(1−β)∗DevRTT&#43;β∗|SampleRTT−EstimatedRTT|
+
+重传超时间隙（TimeoutInterval）
+
+
+
+TimeoutInterval=EstimatedRTT&#43;4∗DevRTTTimeoutInterval=EstimatedRTT&#43;4∗DevRTT
+
+### TCP可靠数据传输
+
+- TCP的rdt服务是建立在IP的不可靠传输上的
+  - 流水机制
+  - 累计ACK
+  - 一个timer
+- 重传触发情况
+  - 超时
+  - 重复的ACK
+
+#### TCP简化
+
+  TCP简化版：无重复ACK、拥塞控制和流量控制。
+
+##### TCP sender
+
+TCP sender 的3种事件
+
+- 从上一层收到数据
+  - 分段，创建seq#（报文中字节流第一个字节的序号）
+  - 开始timer
+    - 只给最早一个未ACK的segment timer
+    - 用 TimeoutInterval 作为timeout时间
+- 超时
+  - 重传segment
+  - 重启timer
+- 收到ACK
+  - 如果收到未ACK的segment的ACK
+    - 更新被ACK的segment标记
+    - 从最近的一个未ACK的segment开新的timer
+
+图 TCP sender简化版
+
+![TCP sender.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-sender.png)
+
+##### TCP重传情况
+
+图 ACK丢包
+
+![TCP lost ACK.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-lostACK.png)
+
+图 提前timeout
+
+![TCP premature timeout.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-premature-timeout.png)
+
+图 累计ACK
+
+![TCP cumulative ACK.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-cumulativeACK.png)
+
+##### TCP receiver
+
+| 事件                                                         | TCP接收方反应                                                |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
+| 具有所期望序号的按序报文段到达。所有在期望序号及以前的数据都已经被确认 | **延迟的ACK**，对另一个按序报文段的到达最多等待500ms。如果下一个按序报文段在这个时间间隔内没有到达，则发送一个ACK |
+| 具有所期望序号的按序报文段到达。另一个按序报文段等待ACK传输  | 立即发送单个累计ACK，以确认两个按序报文段                    |
+| 比期望序号大的失序报文段到达。检测出间隔                     | 立即发送冗余ACK，指示下一个期待字节的序号（其为间隔的低端的序号） |
+| 能部分或完全填充接收数据间隔的报文段到达                     | 倘若该报文段起始于间隔的低端，则立即发送ACK                  |
+
+#### TCP快速重传
+
+- timeout时间长，造成长时延
+- 通过重复的ACK检测丢包
+  - 发送方会发送很多个segment
+  - 如果有segment丢失，则可能会收到很多个重复的ACK
+
+TCP快速重传机制：
+
+  如果发送方收到对同一数据收到3个重复的ACK（实际收到4次该ACK），则认为此时未ACK的segment丢失，不需再等待timeout，重发未ACK的最小seq#
+
+![TCP fast retransmit.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-fastRetransmission.png)
+
+### 流量控制
+
+  接收方要控制发送方，使发送方不会发送得太快导致接收方的缓存（buffer）溢出。
+
+- 接收方告诉发送方free buffer大小，包含在TCP报文的
+
+  rwnd
+
+  （receive window中）
+
+  - RcvBuffer socket设定大小（一般，4096）
+  - 一些操作系统也可以自动调节RcvBuffer
+
+图 接收方缓存
+
+![TCP  receiver Buffering.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-receiverBuffering.png)
+
+- sender通过rwnd来限制unacked segment的数量
+- 保障receive的buffer不会溢出
+
+  如果sender接收到rwnd=0rwnd=0，此时没有剩余buffer，再发送数据会造成receiver buffer溢出，但是有要防止锁住。
+  所以sender向receiver发送一个1 byte data的报文，以更新rwnd。
+
+### 连接管理
+
+#### TCP建立连接：3次握手
+
+建立连接之前，先握手
+
+- 双方同意建立连接
+- 同意连接的参数
+
+  为什么两次握手行不通？
+
+- 各种delay
+- 消息丢失导致重传
+- 消息乱序
+
+图 TCP3次握手  
+![TCP three-way handshake.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-three-way-handshake.png)
+
+#### TCP关闭连接：4次挥手
+
+- client、server两边都可关闭连接
+  - 发送TCP segment的 FIN bit = 1
+- 用ACK回应FIN（ACK可以和FIN一起发）
+- 同时收到FIN也可以处理（双工）
+
+图 TCP关闭连接
+![TCP closing connection.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-closeConnection.png)
+
+图 TCP双方状态循环
+
+![TCP Lifecycle.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-Lifecycle.png)
+
+## 拥塞控制原理
+
+拥塞：
+
+- 非正式定义：太多的源发送数据太多太快，导致网络无法处理
+- 和流量控制不同（流量控制c-s一对一）
+- 产生丢包、延时
+- 网络前十的问题
+
+### 场景一：2个Sender, 和1个无限buffer的Router
+
+- 2个sender，2个receiver
+- 1个router带无限buffer
+- 输出链路的容量：R
+- 没有重传（无限buffer不会丢包）
+
+![Congestion scenario1.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Congestion-scenario1.png)
+
+图 输入速率-输出速率
+
+![Congestion scenario1 out.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Congestion-scenario1-out.png)
+
+图 输入速率-时延
+
+![Congestion scenario1 delay.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Congestion-scenario1-delay.png)
+
+### 场景二：2个Sender, 和1个有限buffer的Router
+
+- 一个router、有限buffer
+
+- 重传timeout的packet
+
+  - λinλin —— 源数据
+
+  - 
+
+    λ′inλin′
+
+     
+
+    —— 源数据&#43;重传
+
+    
+
+    λ′in≥λinλin′≥λin
+
+正常理想情况下，
+
+
+
+λ′in≥λin=λoutλin′≥λin=λout
+
+情况一（理想）：sender只在router的buffer有空时才发送
+
+![Congestion scenario2 pic1.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Congestion-scenario2-pic1.png)
+
+情况二：知道丢包，当router的buffer满了，packet丢失。sender只有在知道丢包时才重传。
+
+![Congestion scenario2 pic2.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Congestion-scenario2-pic2.png)
+
+情况三：重复packet
+
+- 在router的buffer满时，packet可以丢包
+- 提前timeout，会导致发送两个相同的packet
+
+![Congestion scenario2 pic3.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Congestion-scenario2-pic3.png)
+
+### 拥塞代价
+
+- 排队延时
+- 丢包导致重传
+- 提前timeout导致非必要的重传，pkt重复，降低吞吐量
+- 当一个packet被丢弃，其上游提供给这个packet的传输容量都浪费了
+
+## TCP拥塞控制
+
+### 概述
+
+  sender逐渐增加发送速率（window size），从而探查可用bandwidth，直到丢包
+
+- 加性增（additive increase）：cwnd每次每个RTT增加 1 MSS 直到检测到丢包（MSS 最大报文段长度）
+- 乘性减（multiplicative decrease）：如果发生丢包，cwnd减半
+
+![TCP AIMD.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-AIMD.png)
+
+- sender传输限制
+
+  
+
+  LastByteSent−LastByteAcked≤cwndLastByteSent−LastByteAcked≤cwnd
+
+- **cwnd**是动态的随着网络拥塞程度变化的函数
+
+- 结合之前的rwnd，实际的窗口大小为 minrwnd,cwndminrwnd,cwnd
+
+![TCP cwnd.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-cwnd.png)
+
+**TCP发送速率（TCP sending rate）**
+
+  发送cwnd bytes，等待1个RTT接收ACK，然后再发送后续的bytes。
+
+
+
+rate≈cwndRTT bytes/secrate≈cwndRTT bytes/sec
+
+### TCP慢启动（TCP slow start）
+
+- 连接开始时，先指数级增长发送速率，直到出现
+
+  丢包
+
+  - 初始，cwnd=1 MSScwnd=1 MSS
+  - 每经过一个RTT，翻倍cwnd（实际上，每收到一个ACK，cwnd&#43;1）
+
+![TCP slow start.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-slow-start.png)
+
+当出现**丢包**时，
+
+- timeout情况
+  - cwnd重新设为 1MSS
+  - 重新开始慢启动，直到到达一个threshold
+- 3个重复的ACK情况（TCP RENO版本）
+  - 重复的ACK既然能收到，那么网络还是有一定的传输能力，不需要像timeout一样重开。
+  - cwnd减半（乘性减）
+- TCP Tahoe版本中，timeout和3个重复的ACK都将cwnd设为 1MSS
+
+### 从 slow start 到 CA 的转换
+
+  当cwnd达到上次timeout时的1/2（即sstresh）时，从指数级增长变成线形增长。
+
+**sstresh** —— 出现丢包时，将sstresh设置为此时cwnd的1/2
+
+图 TCP Tahoe/Reno下cwnd的变化图【注：中间有一次3次ACK的丢包】
+![TCP congestion window.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-congestion-window.png)
+
+### TCP拥塞控制FSM
+
+![TCP congestion control.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-congestion-control.png)
+
+### TCP吞吐量
+
+- avg TCP throughput（TCP平均吞吐量）由window size 和 RTT 决定（忽略slow start，假设一直由data在发送）
+
+- W：丢包时的 window size，avg window size 为
+
+   
+
+  
+
+  3/4W3/4W
+
+  ，则TCP平均吞吐量为
+
+  
+
+  avg TCP throughput=34WRTT bytes/secavg TCP throughput=34WRTT bytes/sec
+
+![TCP throughput.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-throughput.png)
+
+### 高速TCP
+
+  假设一条具有 1500byte 报文段和 100ms RTT 的TCP连接，用此连接以 10Gps 发送数据。此时平均拥塞窗口长度为 83.333 个报文段。TCP连接的吞吐量公式（单位 bytes/sec）：
+
+
+
+TCP throughput=1.22MSSRTTL−−√TCP throughput=1.22MSSRTTL
+
+10Gps的吞吐量，报文段丢失概率为 2×10−102×10−10
+
+### TCP公平性
+
+目标：K条TCP连接，经过R bps的瓶颈，每条TCP连接分 R/Kbps，则公平。
+
+  以两条TCP连接为例，从A出发，经过加性增、乘性减，会逐渐趋向公平线。所以TCP可以实现公平性。
+
+![TCP Fairness.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-Fairness.png)
+
+### Explicit Congestion Notification（ECN）
+
+**网络辅助的拥塞控制**
+
+- ToS field（IP datagram头部的 2 bits）可以被网络路由标记，以显示拥塞
+- ToS field会被送到receiver的主机
+- receiver在发送给sender的ACK中嵌入ECE，来通知sender有拥塞
+
+![TCP ECN.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-ECN.png)
+
 
 ---
 
