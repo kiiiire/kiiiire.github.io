@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>日语 - Category - Kire&#39;s Personal Page</title>
+    <link>http://kiiiire.github.io/categories/%E6%97%A5%E8%AF%AD/</link>
+    <description>一个</description>
+    <generator>Hugo 0.134.2 &amp; FixIt v0.3.12-b727c382</generator>
+    <language>en</language>
+    <copyright>Kire</copyright>
+    <lastBuildDate>Mon, 18 Sep 2023 18:20:07 +0800</lastBuildDate>
+    <atom:link href="http://kiiiire.github.io/categories/%E6%97%A5%E8%AF%AD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日语</title>
+      <link>http://kiiiire.github.io/posts/%E6%97%A5%E8%AF%AD/</link>
+      <pubDate>Mon, 18 Sep 2023 18:20:07 +0800</pubDate>
+      <guid>http://kiiiire.github.io/posts/%E6%97%A5%E8%AF%AD/</guid>
+      <category domain="http://kiiiire.github.io/categories/%E6%97%A5%E8%AF%AD/">日语</category>
+      <description>&lt;p&gt;记录一些学习过程中遇到的语法&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

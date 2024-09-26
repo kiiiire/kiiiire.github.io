@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>计算机网络 - Tag - Kire&#39;s Personal Page</title>
-    <link>http://localhost:1313/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
+    <link>http://kiiiire.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
     <description>一个</description>
     <generator>Hugo 0.134.2 &amp; FixIt v0.3.12-b727c382</generator>
     <language>en</language>
     <copyright>Kire</copyright>
-    <lastBuildDate>Thu, 19 Sep 2024 11:57:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Sep 2024 19:26:43 +0800</lastBuildDate>
+    <atom:link href="http://kiiiire.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computer Networking</title>
-      <link>http://localhost:1313/posts/computer_networking/</link>
+      <link>http://kiiiire.github.io/posts/computer_networking/</link>
       <pubDate>Wed, 18 Sep 2024 10:20:07 +0800</pubDate>
-      <guid>http://localhost:1313/posts/computer_networking/</guid>
-      <category domain="http://localhost:1313/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</category>
+      <guid>http://kiiiire.github.io/posts/computer_networking/</guid>
+      <category domain="http://kiiiire.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</category>
       <description>&lt;p&gt;《计算机网络-自顶向下方法》笔记&lt;/p&gt;&#xA;&lt;p&gt;计算机网络课堂笔记，参考用书《计算机网络-自顶向下方法》。&lt;/p&gt;</description>
     </item>
   </channel>

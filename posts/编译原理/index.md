@@ -495,5 +495,5 @@
 ---
 
 > Author: Kire  
-> URL: http://localhost:1313/posts/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/  
+> URL: http://kiiiire.github.io/posts/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/  
 

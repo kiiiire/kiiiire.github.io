@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>数据库 - Category - Kire&#39;s Personal Page</title>
-    <link>http://localhost:1313/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+    <link>http://kiiiire.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
     <description>一个</description>
     <generator>Hugo 0.134.2 &amp; FixIt v0.3.12-b727c382</generator>
     <language>en</language>
     <copyright>Kire</copyright>
-    <lastBuildDate>Thu, 19 Sep 2024 11:57:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Sep 2024 19:26:43 +0800</lastBuildDate>
+    <atom:link href="http://kiiiire.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Database Systems</title>
-      <link>http://localhost:1313/posts/database-systems/</link>
+      <link>http://kiiiire.github.io/posts/database-systems/</link>
       <pubDate>Wed, 18 Sep 2024 10:32:07 +0800</pubDate>
-      <guid>http://localhost:1313/posts/database-systems/</guid>
-      <category domain="http://localhost:1313/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</category>
+      <guid>http://kiiiire.github.io/posts/database-systems/</guid>
+      <category domain="http://kiiiire.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</category>
       <description>&lt;p&gt;&lt;strong&gt;CS186笔记&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2163,5 +2163,5 @@ TCP throughput=1.22MSSRTTL−−√TCP throughput=1.22MSSRTTL
 ---
 
 > Author: Kire  
-> URL: http://localhost:1313/posts/computer_networking/  
+> URL: http://kiiiire.github.io/posts/computer_networking/  
 
