@@ -3,6 +3,20 @@
 
 **CS186笔记**&lt;!--more--&gt;
 
+# Concept Maps 
+
+## Database Implementation 
+
+![implementation](https://notes.bencuan.me/cs186/concept-implementation.png)
+
+## Database Design 
+
+![design](https://notes.bencuan.me/cs186/concept-design.png)
+
+## ACID 
+
+![acid](https://notes.bencuan.me/cs186/concept-acid.png)
+
 # What is an I/O and why should I care?
 
 If you’re taking 186, you’ve probably heard or experienced some variation of the following:
@@ -481,6 +495,28 @@ SELECT name, num_dogs
 FROM Person
 LIMIT 1;
 ```
+
+
+
+## Logical Processing Order
+
+SQL Queries are typically processed in a different order than they’re written. Here’s the order- try to develop an intuition as to why this order would make more sense to a machine than how queries are usually written:
+
+1. `FROM` (find the table that is being referenced, join if needed)
+2. `WHERE` (filters out rows)
+3. `GROUP BY` (aggregate)
+4. `HAVING` (filters out groups)
+5. `SELECT` (choose columns)
+6. `ORDER BY` (sort)
+7. `LIMIT` (cut off the output)
+
+### A note on aliasing 
+
+One consequence of Logical Processing Order is that **we cannot use aliases in WHERE, GROUP BY, or HAVING** because they are processed before any alias is defined in SELECT!
+
+For example, `SELECT name as clubname WHERE clubname = &#39;Open Computing Facility&#39;` is NOT a valid query in standard SQL.
+
+However, since ORDER BY and LIMIT come afterwards, we are allowed to use aliases there.
 
 
 
