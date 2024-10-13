@@ -2172,6 +2172,1673 @@ TCP throughput=1.22MSSRTTL−−√TCP throughput=1.22MSSRTTL
 
 ![TCP ECN.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_TCP-ECN.png)
 
+# 网络层（Network Layer）
+
+## 概述
+
+- 在发送和接收的主机之间传送packet
+- 路由器（router）要检验通过的IP数据报（IP datagram）的头部
+
+### 网络层功能
+
+- 路由（Routing）：决定packet从源到目的路径
+- 转发（Forwarding）：将packet从route的输入端口到合适的输出端口
+- 连接建立（Connection setup）：一些网络结构要求数据传输前先建立路由路径
+
+### 网络层服务
+
+- 确保交付（Guaranteed delivery）
+- 具有时延上界的确保交付（Guaranteed delivery with bounded delay）
+- 有序分组交付（In-order packet delivery）
+- 确保最小带宽（Guaranteed minimal bandwidth）
+- 安全性服务（Security）
+
+  网络层提供**尽力而为的服务**（best-effort service）。
+
+![Network layer service models](https://raw.githubusercontent.com/GY23333/imgs/master/Network_service-models.png)
+
+## 虚电路和数据报网络（Virtual circuit and datagram networks）
+
+- 数据报网络是无连接的服务
+- 虚电路是面向连接的服务
+- 端到端的服务、运行在网络核心
+
+### 虚电路（Virtual circuit，VC）
+
+- 呼叫建立 -&gt; 数据传输 -&gt; 呼叫拆除
+- 每个packet携带VC号
+- 路径上的每个router会给每个经过的VC维护连接状态
+- 链路、路由资源（带宽、缓存）都会分配到VC
+
+![Virtual circuit](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Virtual-circuit.png)
+
+VC组成：
+
+- 从源到目的的路径
+- VC号：路径上每个链路都有一个号码（可以变化）
+- 转发表
+
+![Forwarding Tables](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Forwarding-Table.png)
+
+路由维持连接状态的信息。
+
+**信令协议(signaling protocol)**
+
+VC采用信令协议(signaling protocol)
+
+- 用来建立、维护、拆除VC
+- 用在ATM、frame-relay、X.25
+- VC在Internet中没有使用
+
+### 数据报网络（Datagram networks）
+
+- 无连接
+- 路由没有端到端的连接状态
+- packet通过目的主机ID来路由，同一个源到目的的packet可能走不同的路径。
+
+![Datagram networks](https://raw.githubusercontent.com/GY23333/imgs/master/Network_datagram-networks.png)
+
+转发表存储地址范围对应的链路接口，比如
+
+| Destination Address Range                                    | Link Interface |
+| :----------------------------------------------------------- | :------------- |
+| 11001000 00010111 00010000 00000000 ～ 11001000 00010111 00010111 11111111 | 0              |
+| 11001000 00010111 00011000 00000000 ～ 11001000 00010111 00011000 11111111 | 1              |
+| 11001000 00010111 00011001 00000000 ～ 11001000 00010111 00011111 11111111 | 2              |
+| Otherwise                                                    | 3              |
+
+**最长前缀匹配**
+
+  选择 Link Interface 遵循最长前缀匹配原则。
+
+例题：下面转发表
+
+![Forwarding Table](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Longest-prefix-matching.png)
+
+目的地址`11001000 00010111 00010110 10100001` 和 `11001000 00010111 00011000 10101010` 分别对应的Link Interface为？
+
+`11001000 00010111 00010110 10100001` -&gt; 0
+
+`11001000 00010111 00011000 10101010` -&gt; 1（与1和2都匹配，但是与1匹配更长）
+
+### 虚电路和数据报网络选择
+
+Internet：网络核心简单，复杂度在网络边缘
+
+- 计算机数据交换：弹性服务，没有严格时间要求
+- 链路类型多：有不同特性，不能统一服务
+- “智能”端系统
+
+ATM：复杂度在网络核心
+
+- 电话演变而来
+- 人之间的交流：严格的时间限制、可靠性、确定的服务保障
+- “笨拙”端系统
+
+## 路由器工作原理
+
+### 路由器结构
+
+- 输入端口（Input port）
+- 交换结构（Switch fabric）
+- 输出端口（Output port）
+- 路由选择处理器（Routing processor）
+
+![Router architecture.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Router-architecture.png)
+
+- 上半部分为控制面板：软件、毫秒级
+- 下半部分为数据面板：硬件、纳秒级
+
+#### 输入端口（Input port）
+
+1. 线路端接（line termination）：物理层功能，用来比特的接收
+2. 数据链路处理（协议，拆封）（data link processing (protocol, decapsulation)）：数据链路层功能，比如以太网
+3. 查找、转发、排队（lookup, forwarding, queueing）
+   - 分散交换：给出数据报目的地，然后根据转发表查找输出端口
+   - 目标：希望在“line speed”上完成输入端口的处理
+   - 排队：数据报到达速度大于转发速度
+
+![Input port processing.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Input-port-processing.png)
+
+#### 交换结构（Switch fabric）
+
+  三种交换结构：共享内存、共享总线、交叉开关矩阵
+
+##### 共享内存（Switching via memory）
+
+- 初代路由常采用共享内存
+- pkt在memory复制
+- 速度被内存带宽限制，每个datagram都要经过2个bus
+- Cisco Catalyst 8500
+
+![Switching via memory.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Switching-Memory.png)
+
+##### 共享总线（Switching via a bus）
+
+- datagram通过共享的bus从输入端口到输出端口
+- 总线冲突（bus contention）：交换速度被总线带宽限制
+- Cisco 5600
+
+![Switching via a bus.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Switching-Bus.png)
+
+##### 交叉开关矩阵（Switching via an interconnection network）
+
+- 客服总线带宽的限制
+- 纵横式交换机是一种由2N条总线组成的互联网络，连接N个输入端口和N个输出端口
+- 可并行转发多个分组，但如果同输入输出端口，还是必须等待前一个发送了再发下一个
+- Cisco 12000
+
+![Switching via an interconnection network.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Switching-Interconnection-Network.png)
+
+#### 输出端口（Output port）
+
+1. 排队（缓存管理）（Queueing(datagram buffer)）
+   - 缓存：当数据报到达快于传输速率，如果缓存不够会导致丢包
+   - 调度方法：从排队中选择数据报进行传输，例如按时间顺序、按优先级顺序
+2. 数据链路处理（协议，封装）（Data link processing(protocol, encapsulation)）
+3. 线路端接（Line termination）
+
+![Output port processing.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Output-port-processing.png)
+
+### 排队
+
+#### 输入端口排队
+
+- 当fabric比input port慢时，发生排队
+- buffer满时，出现排队延时和丢包
+- 队首阻塞（Head-of-the-Line blocking，HOL）：队首的datagram会阻塞排在它后面的datagram输入
+
+#### 输出端口排队
+
+- 当switch到达比output line快，发生排队
+- buffer满时，出现排队延时和丢包
+
+## 路由算法（Routing algorithms）
+
+### 概述
+
+**路由协议**
+
+目标：从源到目的找到一条最好的路径
+
+- 一般，最好路径是最小代价路径
+- 但也可以有其他定义
+
+![Abstract graph model.png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Abstract-graph-model.png)
+
+- 路由 -&gt; 节点
+- 物理链路 -&gt; 边
+- 链路代价：可以是延时、花费或拥塞等级等等
+
+路由图表示：
+
+
+
+G=(N,E)G=(N,E)
+
+- 路由器集合：N=u,v,w,x,y,zN=u,v,w,x,y,z
+- 链路集合：E=(u,v),(u,x),(v,x),(v,w),(x,w),(x,y),(w,y),(w,z),(y,z)E=(u,v),(u,x),(v,x),(v,w),(x,w),(x,y),(w,y),(w,z),(y,z)
+- 路径cost：$cost\ of\ path\ (x*1,x_2,x_3,…,x_p)=c(x_1,x_2)&#43;c(x_2,x_3)&#43;…&#43;c(x*{p-1},x_p)$
+
+路由算法：找到cost最小路径
+
+**路由算法分类**
+
+- 全局/分散信息
+  - 全局：知道所有路由信息
+  - 分散：只知道邻居路由的信息，需要进行迭代查询
+- 静态/动态
+  - 静态：需要手动配置，路由变化慢
+  - 动态：路由变化快，周期更新
+
+### LS算法：路由选择算法（Link state alorithm）
+
+#### Dijkstra算法
+
+- 基于**全局**信息的算法
+- 计算从源到所有其他节点的最小cost
+- 迭代：经过k次迭代可知到k个目的的路径cost
+
+算法步骤如下：
+G={V,E}
+
+1. 初始时令 S={V0},T=V-S={其余顶点}，T中顶点对应的距离值
+   若存在，d(V0,Vi)为弧上的权值
+   若不存在，d(V0,Vi)为∞
+2. 从T中选取一个与S中顶点有关联边且权值最小的顶点W，加入到S中
+3. 对其余T中顶点的距离值进行修改：若加进W作中间顶点，从V0到Vi的距离值缩短，则修改此距离值
+   重复上述步骤2、3，直到S中包含峙所有顶点，即W=Vi为止
+
+- c(x,y)c(x,y)：x到y的cost，如果x，y不是邻居，则为c(x,y)=∞c(x,y)=∞
+- D(v)D(v)：从源到目的v的路径的cost
+- p(v)p(v)：从源到目的v的路径的前一个节点
+- N′N′：最小cost路径的节点集
+
+![Dijkstra’s-algorithm(1).png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Dijkstra%E2%80%99s-algorithm(1).png)
+
+![Dijkstra’s-algorithm(2).png](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Dijkstra%E2%80%99s-algorithm(2).png)
+
+**算法复杂度**
+
+假如有n个节点，
+
+- 一般的Dijkstra算法需要 n(n&#43;1)/2n(n&#43;1)/2，即O(n2)O(n2)
+- 通过算法优化，可将复杂度降为O(nlogn)O(nlog⁡n)
+
+  Dijkstra算法存在振荡问题。
+
+#### 广播路由（Broadcast routing）
+
+  通过广播路由得到路由的实时情况。完成广播通信的最直接方式是由发送节点向每个目的地分别发送分组的拷贝。
+
+- **洪泛**（Flooding）：从源发送pkt到所有其他的节点
+
+    无限制洪泛会引起**广播风暴**（Broadcast storm），导致广播路由耗光了所有的流量。
+
+- **受控洪泛**（Controlled flooding）：解决广播风暴问题
+
+  - **序号控制洪泛**（Sequence-number-controlled flooding）
+
+      源节点将其地址(或其他的唯一标识符)以及广播序号放人广播分组，再向它的所有邻居发送该分组。每个节点维护它已经收到的、复制的和转发的源地址和每个广播分组的序号列表。当一个节点接收到一个广播分组时，它首先检查该分组是否在该列表中。如果在，丢弃该分组;如果不在，复制该分组并向该节点的所有邻居转发。
+
+  - **反向路径广播**(Reverse Path Broadcasting，RPB)
+
+    RPB 的基本思想是当一台路由器接收到具有给定源地址的广播分组时， 仅当该分组到达的链路正好是位于它自己到其源的最短单播路径上，它才向其所有出链路 (除了它接收分组的那个)传输分组。否则，该路由器丢弃入分组。
+
+    ![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_RPB.png)
+
+- **生成树广播**（Spanning-tree broadcast）：消除了冗余广播pkt，而且能够被任何节点用于开始广播分组
+
+  - 在生成树上广播pkt，这样就不再会有圈了
+
+  ![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Spanning-tree-broadcast.png)
+
+#### LS算法
+
+LS算法 = 广播路由 &#43; Dijkstra算法
+
+- 广播路由：每个节点都要广播链接状态pkt给每个其他节点，从而每个节点都获得相同完整的网络信息
+- Dijkstra算法：计算源到每个节点的最小cost路径
+- 如果有link cost变化，则重新进行上述操作
+
+### DV算法：距离向量算法（Distance vector algorithm）
+
+  DV算法为基于分散信息、动态的路由算法。
+
+#### Bellman-Ford公式
+
+  定义 dx(y)dx(y) ：从x到y的最小cost路径的cost
+
+Bellman-Ford方程：dx(y)dx(y)进行分解
+
+
+
+dx(y)=minv{c(x,v)&#43;dv(y)}dx(y)=minv{c(x,v)&#43;dv(y)}
+
+例题：通过dv(z)dv(z)、dw(z)dw(z)、dx(z)dx(z)计算du(z)du(z)。
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_route-eg.png)
+
+
+
+du(z)=min{c(u,v)&#43;dv(z),c(u,w)&#43;dw(z),c(u,x)&#43;dx(z)}=min(2&#43;5,1&#43;3,5&#43;3)=4du(z)=min{c(u,v)&#43;dv(z),c(u,w)&#43;dw(z),c(u,x)&#43;dx(z)}=min(2&#43;5,1&#43;3,5&#43;3)=4
+
+- Dx(y)Dx(y)为估算的dx(y)dx(y)
+- 对于节点x
+  - 知道邻居节点v的 c(x,v)c(x,v)
+  - 维持邻居的距离向量 Dv=[Dv(y):y∈N]Dv=[Dv(y):y∈N]
+
+#### DV算法
+
+- 每个节点定期发送它的 DV estimate 给邻居
+- 当一个节点x收到邻居发来的新的 DV estimate 时，它会根据 B-F公式 更新自己的 DV estimate
+- 多次更新后，DV estimate 会收敛于真实的最小cost dx(y)dx(y)
+
+**迭代、异步**：
+每个本地迭代产生于：
+
+- 本地链接cost改变
+- 邻居发来新的 DV estimate
+
+**分布**：
+
+- 每个节点只会在它的DV改变的时候才会通知邻居
+- 邻居如果改变再通知邻居
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_DV.png)
+
+#### 好事传得快，坏事传得慢
+
+- “好事”（cost变小）：更新完成快
+- “坏事”（cost变大）：更新完成慢，造成无限问题
+
+如何解决无限问题？
+
+  如果要节点最小cost路由要绕路（即不是邻居），则标为∞∞
+
+### LS算法和DV算法对比
+
+|                                  | LS                                   | DV                       |
+| :------------------------------- | :----------------------------------- | :----------------------- |
+| 信息复杂度（Message complexity） | O(nE)O(nE)（n个节点，E条链路）       | 只在邻居之间交换         |
+| 收敛速度（Speed of convergence） | O(n2)O(n2)，可优化到O(nlogn)O(nlog⁡n) | 速度会变化               |
+| 强健性（Robustness）             | 有一定强健性，每个节点都有自己的表   | 强健性低，节点依赖于邻居 |
+
+### 层次路由（Hierarchical Routing）
+
+之前讨论的路由都是理想化的：所有路由器都相同，网络是“扁平”的。而实际，并不存在这样的理想路由。
+
+- 大规模
+  - 无法存储所有目的的转发表
+  - 路由交换流量大，导致淹没链路
+- 管理自治
+  - 因特网是网中网
+  - 每个网络管理都希望控制所在网络的路由
+
+  聚集路由成**自治系统**（autonomous system，AS）
+
+- AS内的路由
+
+  （intra_AS routing）
+
+  - 在一个AS间的路由
+  - 在一个AS的所有路由器运行同一个区域内协议
+  - 不同AS的路由器运行不同区域的协议
+  - 网管路由器：位于AS边缘，与其他AS的路由器有链接
+
+- AS间的路由
+
+  （inter_AS routing）
+
+  - 在不同AS间的路由
+  - 网管参与区域间的路由
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_AS.png)
+
+**AS分类**
+
+- Stub AS：末端AS，用于小企业
+- Multihomed AS：多出口AS，用于大企业，外部不能通过它传输
+- Transit AS：中转AS，网络提供商，用于传输
+
+## 因特网中的路由选择
+
+  内部网关协议（Interior Gateway Protocols，IGP）是AS内的路由。
+
+常用的IGP有：
+
+- RIP：路由信息协议，Routing Information Protocol
+- OSPF：开放最短路径，Open Shortest Path First
+- IGRP：Interior Gateway Routing Protocol
+
+### RIP：路由信息协议（Routing Information Protocol）
+
+- DV算法
+
+- cost：跳数
+
+    **最大15跳**，16跳视为∞∞。设置最大跳数以防止无穷计数问题，但这也限制了只能用于小网络，大网络很容易超最大跳数。
+
+- 每30s通过发送通告的方式更新DV，通告最多路由到25个目的
+
+- 如果超过180s每收到通告，则这个邻居/链路宣告死亡
+
+  - 通过该邻居的路由失效
+  - 发送新通告给邻居
+  - 如果邻居的转发表变化，它也会发送新的通告
+  - 链接失败的信息会快速迭代完成
+    - 采用毒性逆转防止循环
+    - 将16跳设置为∞∞
+
+- RIP运行在应用层（路由器实际可能存在应用层，只是不对用户开放）
+
+- 通告用 UDP pkt 周期性发送
+
+![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_RIP.png)
+
+### OSPF：开放最短路径（Open Shortest Path First）
+
+#### OSPF概述
+
+- 对公众开放
+
+- 使用
+
+  LS算法
+
+  - 需要发送LS pkt
+  - 每个节点采用拓扑结构
+  - 路由采用 Dijkstra 算法
+
+- OSPF通告每个邻居路由器携带一个条目
+
+- 通告通过洪泛散布到整个AS
+
+  - OSPF消息直接分装在IP数据报上
+
+#### OSPF优点
+
+- **安全**：所有OSPF消息都要认证，防止恶意侵入
+- **多条相同cost的路径**：当到达某目的的多条路径具有相同的cost时，OSPF允许使用多条路径。即可以分流。
+- **每条链路，给不同的数据类型不同的cost度量**
+- **对单播和多播（MOSPF）路由的支持**：对单播进行扩展，以便提供给多播使用
+- **在大域中用分层OSPF**
+
+#### 分层OSPF
+
+- 两层结构：
+
+  局部区域
+
+  （local area）和
+
+   
+
+  主干
+
+  （backbone）
+
+  - LS通告只在区域内
+  - 每个节点知道该区域的拓扑结构，对于其他区域只知道到那个区域的方向（最短路径）
+
+- **区域边界路由器**（area border router）：负责为流向该区域以外的分组提供路由选择。汇拢该区域的节点距离信息，通告给其他的区域边界路由器
+
+- **主干路由器**（backbone router）：在主干内运行OSPF路由
+
+- **网关路由器**（boundary router）：与其他AS连接
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Hierarchical-OSPF.png)
+
+### IGRP（Interior Gateway Routing Protocol）
+
+- 最初是CISCO私有的，后来开放了，RIP的后继者
+- DV算法
+- cost：时延、带宽、可靠性、负荷等等
+- 利用TCP来交换路由更新
+- 利用**扩散更新算法**（Diffusing Update Algorithm,DUAL）来防止循环
+
+### BGP：边界网管协议（Border Gateway Protocol）
+
+#### BGP概述
+
+采用 **Path Vector protocol**
+
+- 与**DV协议**相似
+- 每个边界网关向邻居（对等方）广播到达目的地的整个路径（即 AS的序列）
+- **eBGP**：外部BGP，跨越两个AS对话。从相邻的AS获取子网可达性信息。
+- **iBGP**：内部BGP，同一个AS中的两台路由器之间的BGP对话。将可达性信息传播到所有内部AS路由器。
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_eBGP-iBGP.png)
+
+- BGP会话：两BGP路由器通过半永久的TCP连接来交换消息
+  - 将路径通告到不同的目标网络前缀（BGP是“路径向量”协议）
+- 如果一个AS向另一个AS通告了某个路由器，则承诺了可以路由到该路由器
+
+#### 路径属性和BGP路由
+
+- 通告前缀（advertised prefix）包括BGP属性
+  - prefix &#43; attributes = “route”
+- 两个重要attributes
+  - AS-PATH：路径中的AS的列表
+  - NEXT-HOP：以AS-PATH开头的路由器接口的IP地址
+- 基于policy的路由
+  - 网关接收路由广告使用导入policy接受/拒绝路径（例如，从不通过AS Y路由）
+  - AS policy还确定是否向其他相邻AS通告路径
+
+#### BGP消息
+
+- 使用TCP交换BGP消息
+- BGP消息：
+  - OPEN：打开TCP连接，认证sender
+  - UPDATE：通告新路径（删除旧路径）
+  - KEEP ALIVE：在没有UPDATE的情况下，保持连接活跃；ACK OPEN请求
+  - NOTIFICATION：报告以前的msg中的错误；也用于关闭连接
+
+#### BGP路由选择
+
+  路由器可能知道到达同一个前缀的多条路由。BGP以下优先级选择路由：
+
+- 本地偏好值：由政策决定
+- 最短 AS-PATH：通过的AS最少
+- 最近 NEXT-HOP 路由器：最近的下一跳路由器
+- 其他标准
+
+假设：网关X 将其路径发送到 网关W
+
+- W 可以选择/不选 X所提供的路径
+
+  - 根据cost，policy（eg.不通过竞争对手的AS进行路由），防止环路 的原因选择/不选
+
+- 如果W选择X通告的路径
+
+  
+
+  Path(W,Z)=W,Path(X,Z)Path(W,Z)=W,Path(X,Z)
+
+- X可以通过advertisement来控制传入流量：
+
+  - eg.不希望将流量路由到Z -&gt; 不通告任何路由到Z
+
+#### BGP路由策略
+
+![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_BGP-policy.png)
+
+- A,B,C是ISP（网络服务提供商）
+- W,X,Y是客户
+- X是 Multihomed AS，连接了两个ISP，也可以称为 dual-homed，一般是大型公司。X可以不允许 B -&gt; X -&gt; C 这条路由，则X不通告B有路由到C
+- A 通告 B 路径 AW
+- B 通告 X 路径 BAW
+- 是否 B 通告 C 路径 BAW ？
+  - 不会，C不是B的客户，B希望强迫C走AW，B只想从客户发送/接收路由
+
+#### Inra-/Inter-AS 的区别
+
+**规模**：分层可以节省表格大小，减小更新的流量。
+
+|            | Intra-AS                     | Inter-AS                         |
+| :--------- | :--------------------------- | :------------------------------- |
+| **Policy** | 一个管理员，不需要policy决策 | 管理员想要控制路由，需要有policy |
+| **性能**   | 关注性能                     | 比起性能更关注policy             |
+
+## IP：Internet Protocol
+
+### IPv4数据报结构
+
+![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_IP-datagram-format.png)
+
+- **版本**（Version, **4bit**）
+  对于IPv4，字段的值是4。
+
+- **首部长度**（Header Length， IHL, **4bit**）
+  首部长度说明首部有多少32位字（4字节）。**一般为5**，相当于5*4=20字节。
+
+- **服务类别**（Type Of Service，**8bit**）
+
+- **报文长度**（Length, **16bit**）
+  IP首部&#43;数据部分的总长度
+
+- **标识**（Identification, **16bit**）
+  用于在IP层对数据报进行分片的时候，标识数据包。
+
+- 标志
+
+   
+
+  （Flags,
+
+   
+
+  3bit
+
+  ）
+
+  这个3位字段用于控制和识别分片，它们是：
+
+  - 位0：保留，必须为0；
+  - 位1：禁止分片（Don’t Fragment，DF），当DF=0时才允许分片；
+  - 位2：更多分片（More Fragment，MF），MF=1代表后面还有分片，MF=0 代表已经是最后一个分片。
+    如果DF标志被设置为1，但路由要求必须分片报文，此报文会被丢弃。这个标志可被用于发往没有能力组装分片的主机。
+    当一个报文被分片，除了最后一片外的所有分片都设置MF为1。最后一个片段具有非零片段偏移字段，将其与未分片数据包区分开，未分片的偏移字段为0。
+
+- **分片偏移** （Fragment Offset, **13bit**）
+  这个13位字段指明了每个分片相对于原始报文开头的偏移量，以8字节作单位。
+
+- **存活时间**（Time To Live，TTL, **8bit**）
+  本数据报的TTL.
+
+- **协议** （Protocol, **8bit**）
+  1—-icmp, 2—-igmp, 6—-tcp, 17—-udp, 89—-ospf
+
+- **首部检验和** （Header Checksum， **16bit**）
+  IP首部的校验和
+
+- **源IP地址**（Source IP, **32bit**）
+
+- **目的IP地址**（Destination IP, **32bit**）
+
+### IPv4数据报分片
+
+- 网络链路有MTU（最大传送单元）— 最大可传输的链路的帧
+  - 不同的链路类型有不同的MTU
+- 如果IP数据报 &gt; MTU ，则分片，到目的地后再重组
+- IP头部字段用来标记
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_IP fragmentation-and-reassembly.png)
+
+**IP数据报分片示例**
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Fragmentation.png)
+
+- 本来要发送 4000 byte 的数据报（head部分 &#43; data部分）
+
+- 链路的 MTU = 1500 bytes
+
+- 需要将数据分为3片来发送
+
+- `length`：片长度，包括了 20 bytes IP首部部分，最大为MTU
+
+  - length为1500的数据报，实际包含 1500−20=1480 bytes1500−20=1480 bytes 的data部分
+  - 最后一片的length为 (4000−20)−1480×2&#43;20=1040(4000−20)−1480×2&#43;20=1040
+
+- ```
+  fragflag
+  ```
+
+  ：3 bits
+
+  - 第二个bit为 DF（Don’t Flag）：为0则该数据报分片，为1则不分片
+  - 第三个bit为 MF：为0则后面没有片了，为1则后面还有片
+  - 前两片为 1（001），表示该IP数据报分片，且后面还有片
+  - 最后一片为 0（000），表示该IP数据报分片，后面没片（即最后一片）
+
+- ```
+  offset
+  ```
+
+  ：data部分偏移量，以 8 bytes 为单位，只计算data部分
+
+  - 第一片的offset为 0
+  - 第二片的offset为 1480 bytes/8 bytes=1851480 bytes/8 bytes=185
+
+### IPv4编址
+
+#### 概述
+
+- IP地址：32位、主机和路由器接口的ID
+
+- 接口
+
+  （interface）：主机/路由器 和 物理链接 之间的连接
+
+  - 路由器一般有多个接口
+  - 主机一般有1到2个接口
+
+- 每个接口都有一个对应的IP地址
+
+![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_IP-and-subnets.png)
+
+**接口连接方式**
+
+- 通过**路由器**连接
+- 有线以太网通过**以太网交换机**连接
+- 无线网络通过**WiFi基站**连接
+
+#### 子网（Subnet）
+
+**IP地址**
+
+- 网络部分 —— 高位
+- 主机部分 —— 低位
+
+**子网**
+
+- 子网部分相同
+- 可以不通过路由器到达彼此
+
+  把路由器去掉，剩下的每个区域都是一个子网。
+
+![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_subnets.png)
+
+  上图中有6个子网。
+
+#### 分类编制（Classful Addressing）
+
+- A类
+  - 网络部分前1位 —— `0`
+  - 网络部分 8 bits，主机部分 24 bits
+  - IP地址范围：`1.0.0.0` ～ `127.255.255.255`
+- B类
+  - 网络部分前2位 —— `10`
+  - 网络部分 16 bits，主机部分 16 bits
+  - IP地址范围：`128.0.0.0` ～ `191.255.255.255`
+- C类
+  - 网络部分前3位 —— `110`
+  - 网络部分 24 bits，主机部分 8 bits
+  - IP地址范围：`192.0.0.0` ～ `223.255.255.255`
+- D类
+  - 前4位 —— `1110`
+  - 用于多播地址
+- E类
+  - 前4位 —— `1111`
+  - 被留作将来使用
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Classful-Addressing.png)
+
+#### 子网掩码（subnet mask）
+
+- IP地址采用点分十进制：例如 `192.32.216.9`
+- 分类编制导致了地址资源的浪费
+- 子网和子网掩码：可以减小地址资源的浪费
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_subnetting.png)
+
+  `200.23.16.64/27`中的`27`为 **网络部分&#43;子网部分 的位数**
+
+- 子网掩码
+  - 网络部分&#43;子网部分 置1
+  - 主机部分 置0
+- 子网的网络ID
+  - 网络部分&#43;子网部分 不变
+  - 主机部分 置0
+
+#### CIDR：无类的域间路由（Classless InterDomain Routing）
+
+- IP分为两个部分 —— 子网部分 &#43; 主机部分
+- 子网部分可以是任意长度
+- 地址格式：`a.b.c.d / x`，其中x是子网部分位数
+- 网络部分称为前缀（prefix）
+
+#### 如何获取IP地址
+
+##### 主机如何获取IP地址
+
+主机获取IP地址：
+
+- 硬编码：自己设置静态的IP设置
+- **DHCP**：动态主机配置（Dynamic Host Configuration Protocol）
+    当主机连接网络时，允许主机从网络服务器动态获取IP地址。
+
+###### DHCP
+
+- 即插即用
+- 可以更新IP
+- 地址重用：主机的IP只有在上线时才固定，下线即释放
+- 支持移动用户
+
+  当一台主机加入网络时，从子网中的DHCP服务器获取IP地址。
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_DHCP.png)
+
+##### 网络如何获取IP地址
+
+  从ISP处获取分配的IP地址。
+
+![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_Network-route.png)
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Network-get-IP.png)
+
+##### ISP如何获取IP地址
+
+  ISP从ICANN组织获取IP地址
+
+ICANN：Internet Corporation for Assigned Names and Numbers
+
+- 分配地址
+- 管理DNS
+- 分配域名、解决争议
+
+#### NAT：网络地址转换（Network Address Translation）
+
+- 从这个本地网络出去的报文都有着：相同的源IP&#43;不同的端口号
+- 对于外界网络来说，这个本地网络都是一个IP
+  - 本地网络有内部地址，改变该内部地址不需要通知外部网络
+  - 改变ISP不需要改变本地网络的内部地址
+  - 内部地址在外部不可见（保障安全性）
+- 实现方式
+  - 发送出去的报文：（源IP(内部的IP)，端口号）—&gt; （NAT IP(NAT统一的IP)，新端口号）
+    - 外部发来的报文的目的地址填写：（NAT IP(NAT统一的IP)，新端口号）
+  - NAT转换表：记住（源IP(内部的IP)，端口号）&lt;—&gt; （NAT IP(NAT统一的IP)，新端口号）的转换对
+  - 收到的报文：根据NAT转换表，（NAT IP(NAT统一的IP)，新端口号）—&gt; （源IP(内部的IP)，端口号）
+
+![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network-address-translation.png)
+
+- 外部不知道内部的情况，所以外部不能发起通信
+- 预留给内部的IP地址：
+  - `10.0.0.0`~`10.255.255.255`（A类）
+  - `176.16.0.0`~`172.31.255.255`（B类）
+  - `192.168.0.0`~`192.168.255.255`（C类）
+- 可以有16bit的主机地址位（`10.0.0.0`~`10.255.255.255`），一个NAT支持内部60000&#43;的连接
+- NAT存在争议
+  - 路由器本来是在第3层，但NAT修改了端口号，而端口号包含在TCP/UDP的段结构里，即改了第4层的内容
+  - 违反了端到端
+  - 所以用IPv6来解决地址短缺
+
+#### ICMP：因特网控制消息协议（Internet Control Message Protocol）
+
+##### ICMP
+
+- 主机、路由器、网关来交流网络层信息
+  - 报错：到达不了主机、网络、端口、协议等等
+  - 用于探测：echo request/reply（使用ping）
+- IP的一部分，但体系结构在IP之上：ICMP消息搭载在IP数据报上
+- **ICMP消息**：type，code，引发错误的IP数据报首部和前8个字节
+
+| Type | **Code** | description                                   | 描述                       |
+| :--- | :------- | :-------------------------------------------- | :------------------------- |
+| 0    | 0        | echo reply (ping)                             | echo响应 (被程序ping使用） |
+| 3    | 0        | dest. network unreachable                     | 目标网络不可达             |
+| 3    | 1        | dest host unreachable                         | 目标主机不可达             |
+| 3    | 2        | dest protocol unreachable                     | 目标协议不可达             |
+| 3    | 3        | dest port unreachable                         | 目标端口不可达             |
+| 3    | 6        | dest network unknown                          | 未知的目标网络             |
+| 3    | 7        | dest host unknown                             | 未知的目标主机             |
+| 4    | 0        | source quench (congestion control - not used) | 源端关闭（拥塞控制）       |
+| 8    | 0        | echo request (ping)                           | Echo请求                   |
+| 9    | 0        | route advertisement                           | 路由通告                   |
+| 10   | 0        | router discovery                              | 路由器的发现/选择/请求     |
+| 11   | 0        | TTL expired                                   | TTL 超时                   |
+| 12   | 0        | bad IP header                                 | IP 报首部参数错误          |
+
+- ICMP是管控制的IP的“兄弟”
+- ICMP被IP使用，同时作为网络层协议使用IP
+- ping、traceroute、path MTU discovery 都使用到了ICMP
+  - ping：使用 ICMP Echo request/repley msgs
+  - path MTU discovery
+    - 发送一个大的IP数据报，该数据报的 don’t fragment 置 1（即不分片）
+    - 减小数据报大小，直至成功（成功标志：没有接收到返回的ICMP消息）
+
+##### Traceroute
+
+  Traceroute程序：跟踪从一台主机到其他主机之间的路由，用ICMP报文实现。
+
+- 源发送一系列 UDP报文段 到目的
+  - 第一个数据报 TTL=1，第二个数据报 TTL=2，以此类推
+  - 使用不常见的端口号
+- 当第n个数据报到达第n台主机时
+  - 这个第n个数据报TTL刚好过期
+  - 路由器丢弃该数据报
+  - 路由器发送一个ICMP告警报文（type 11，code 0）给源
+  - 该ICMP告警报文包括第n台路由器名字及其IP
+- 当该ICMP报文返回到源主机，源主机计算RTT（往返时延），得到第n台路由器名字及其IP
+- 标准的Traceroute程序用相同的TTL发送3个一组的分组，输出对每个TTL提供3个结果
+- 停止条件步骤
+  - UDP数据报到达目的主机
+  - 目的主机返回 ICMP端口不可到达报文（type 3，code 3）
+  - 源主机接收到该ICMP报文，则停止
+
+在Mac上可在app“系统信息”中的`窗口`-&gt;`网络实用工具`中使用Ping、Traceroute等工具。
+
+### IPv6
+
+- 动机
+  - 初动机：解决32位IP地址空间分配完的问题
+  - 更快处理/转发的头部格式
+  - 头部支持QoS
+- IPv6数据报格式
+  - 固定长度的头部：40 byte （IPv4头部长度不固定）
+  - 不允许分片
+
+#### IPv6数据报结构
+
+![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_IPv6-datagram-format.png)
+
+- **版本**（Version, **4 bit**）
+  对于IPv6，字段的值是6（0110）。
+
+- **流量类型**（Traffic class，**8 bit**）
+
+  用来标识对应IPv6的通信流类别，类似于IPv4中的ToS。
+
+- **流标签**（Flow label，**20 bit**）
+
+  用来标记报文的数据流类型，以便在网络层区分不同的报文。
+
+- **有效载荷长度**（Payload length，**16 bit**）
+
+  给出了IPv6数据报中跟在定长的40 byte数据报头部后面的字节数量。
+
+- **下一个头部**（Next Header，**8 bit**）
+
+  该字段标识数据报中的内容（数据字段）需要交付给哪个协议（如TCP或UDP）。无扩展的头部，Next Header指向TCP/UDP；有扩展的头部，Next Header指向的下一个头部比如路由选择。与IPv4头部 协议（Protocol）字段相同。
+
+  ![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Next-Header.png)
+
+- **跳段数限制**（Hop limit，**8 bit**）
+
+  生存时间，相当于IPv4中的TTL。转发数据报的每台路由器讲对该字段内容 -1，如果跳转限制计数到0时，则丢弃该数据报
+
+- **源IP地址**（Source Address，**128 bit**）
+
+- **目的IP地址**（Destination Address，**128 bit**）
+
+- **数据**（Data）
+
+#### IPv6相较于IPv4的部分改变
+
+- **去除Checksum**：加快了转发速度
+
+- **Options**：依旧允许可选项，但是不放在头部，而是放在 Next Header 指出的位置上
+
+- ICMPv6
+
+  ：ICMP的IPv6版本
+
+  - 增加新的 type：比如“Packet Too Big”
+  - 包含**多播组管理**
+
+#### IPv6地址
+
+- 三种类型：**单播**（unicast）、**多播**（multicast）、**任意播**（anycast）
+
+- **冒号划分的十六进制**（128 bit）
+
+  eg. `68E6:8C64:FFFF:FFFF:0:1180:960A:FFFF`
+
+- **0的压缩**
+
+  用双冒号`::`表示一组0或多组连续的0，但只能出现一次。
+
+  - `FF05:0:0:0:0:0:0:B3` = `FF05::B3`
+  - `0:0:0:0:0:0:128.10.2.1` = `::128.10.2.1`（IPv4和IPv6兼容的IP）
+  - `12AB:0:0:CD30:0:0:0:0` = `12AB::CD30:0:0:0:0` = `12AB:0:0:CD30::`（如果出现两个多个0，随意压一个都行）
+
+#### 单播（Unicast address）
+
+单播的地址格式（一共 128 bit）：
+
+- **全球路由前缀**（Global routing prefix，**48 bit**）
+
+  前3位为`001`，分配给公司和组织。
+
+- **子网ID**（Subnet ID，**16 bit**）
+
+  如果是小公司，只需要1个子网的话，全设为0
+
+- **接口ID**（Interface ID，**64 bit**）
+
+  基于 EUI-64
+
+### IPv4到IPv6的迁移
+
+- 现在的网络既有IPv4，也有IPv6。世界上的所有网从IPv4到IPv6需要很长的转换时间。
+- 两种IPv4到IPv6的迁移
+  - **双栈**（Dual Stack）：一些路由器可以兼容IPv4和IPv6
+  - **隧道**（Tunneling）：当IPv6穿过IPv4的路由器上时，将IPv6作为载荷承载在IPv4上
+
+#### 双栈（Dual Stack）
+
+- 早期的设计
+- 一些路由器有双栈（IPv4 &amp; IPv6），可以翻译这两种格式
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Dual-Stack.png)
+
+#### 隧道（Tunneling）
+
+  当IPv6穿过IPv4的路由器上时，将IPv6作为载荷承载在IPv4上。就是像一个连接两个IPv6路由器的IPv4隧道
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Tunneling.png)
+
+# 链路层（Link Layer）
+
+## 概述
+
+保证**帧**流的透明传输
+
+**链路层服务：**
+
+- **成帧**（Framing）、**接入链路**（link access）
+  - 将来自上级的数据报分装成帧，加上header、trailer
+  - 完成共享媒体的信道连接
+  - 物理地址，用来 indentify 源/目的，在帧头中
+- 可靠交付（Reliable delivery）
+  - 可靠数据传输协议（rdt）
+  - 在可靠的传输情况下很少应用，一般应用在高错误概率的链路传输中
+- 流量控制（Flow Control）
+  - 协调发送方和接收方
+- 差错检测（Error Detection）
+- 差错纠正（Error Correction）
+
+## 成帧（Framing）
+
+  主要考虑帧的界定，即如何将前一帧和后一帧分开。
+
+### 字符计数法（Character count method）
+
+  在每帧的前面添加 Counting header（本帧长度）
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Character-count-method.png)
+
+### 基于字符的首尾界定法（First and tail bound method based on character）
+
+  设定两个ASCII——SOH、EOT，SOH为标注开始的字符，EOT为标注结尾的字符。
+
+![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_Framing-First-and-tail.png)
+
+  如果中间的数据部分也有SOH或EOT，则加入转义字符 EOT 标识。类似于C语言中的`\`的作用。
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_EOT.png)
+
+### 基于bit的首尾界定法（First and tail bound method based on bit）
+
+  与基于字符的首尾界定法的思路相似，但开始和结束的标志为`01111110`
+
+![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_Framing-First-and-tail-bit.png)
+
+  为防止中间的数据部分也有`01111110`导致提前结束
+
+- 发送方：每5个`1`后插入一个`0`
+- 接收方：每5个`1`后删除一个`0`
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_insert0.png)
+
+### 物理层违逆码法（Pysical layer coding violation method）
+
+比如在曼切斯特编码中，如果
+
+- 高低表示`1`
+- 低高表示`0`
+- 那么 低低/高高 就可以用来表示开始和结束
+
+  违逆码只能应用在物理层，因为违逆码无法储存。
+
+## 差错检测（Error Detection）
+
+  通过增加**冗余位（EDC）**来检测差错。
+
+  差错检测不是100%可靠的。
+
+- 可能会漏掉一些错误，但是概率很小
+
+- 更大的EDC检错能力更强
+
+  ![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_Error-detection.png)
+
+### 奇偶校验（Parity Checking）
+
+- **单个奇偶校验位**（Single Bit Parity）
+
+    分为奇校验和偶校验，EDC长度为1 bit。
+
+  如发送一个长为dd bit 的信息时，加EDC一共d&#43;1d&#43;1 bit。
+
+  - 偶校验中，则EDC需使这d&#43;1d&#43;1 bit 中有偶数个`1`（即如果发送的信息有偶数个`1`，则EDC为`0`；奇数个`1`，则EDC为`1`）
+  - 奇校验中，则EDC需使这d&#43;1d&#43;1 bit 中有奇数个`1`（即如果发送的信息有偶数个`1`，则EDC为`1`；奇数个`1`，则EDC为`0`）
+
+    下图采用偶校验，信息D中共有9个`1`，所以偶校验位为`1`。
+
+  ![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_One-bit-even-parity.png)
+
+    奇偶校验只能检测出奇数个错误的情况。但由于现在传输的准确率很高，就算出错，大概率也就出 1 bit 的错误，所以使用简单的奇偶校验也能检测出大部分错误。
+
+- **二维奇偶校验**（two-dimensional parity）
+
+    将DD中的dd bit 划分成ii行、jj列，计算每行和每列的奇偶校验值，产生i&#43;j&#43;1i&#43;j&#43;1个奇偶比特，即ECD长度为i&#43;j&#43;1i&#43;j&#43;1 bit。
+
+  ![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_Two-dimensional-even-parity.png)
+
+    二维奇偶校验不仅可以检测错误，还可以利用奇偶校验差错的行和列的索引找出错误的比特位，进行纠错。
+
+### CRC校验（Cyclic Redundancy Check）
+
+  CRC（Cyclic Redundancy Check），循环冗余检测。
+
+思路：发送信息DD，设置一个生成多项式，利用冗余位RR，将D&#43;RD&#43;R凑成生成多项式的整数倍，在接收方如果无法整除，则出差错。
+
+![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_CRC.png)
+
+- 生成多项式GG和CRC比特位数
+
+    设置一个r&#43;1r&#43;1 bit 的生成多项式，先将生成多项式G(x)G(x)化为二进制数GG，最高位必须为11。
+
+    比如下面，三次项和常数项系数为11，则二进制数GG的第四位和第一位为11
+
+  
+
+  G(x)=x3&#43;1 ,G=1001G(x)=x3&#43;1 ,G=1001
+
+    生成多项式GG为r&#43;1r&#43;1 bit，则CRC冗余位为rr bit。如此才能保证能把D&#43;RD&#43;R凑成GG的整数。
+
+- 计算CRC冗余位RR
+
+    增加RR的目的是实现：
+
+  
+
+  D×2r⊕R=nGD×2r⊕R=nG
+
+  先将信息DD乘以2r2r，即左移rr bit，后面补`0`。再将移位后的D×2rD×2r除GG，但是中间步骤不用减，而用异或。比如
+
+  
+
+  1001−1101=01001001−1101=0100
+
+    信息DD为`101110`，生成多项式G(x)=x3&#43;1G(x)=x3&#43;1。此时r=3r=3，先在DD后补33个`0`，得`101110000`，再除以G=1001G=1001
+
+  ![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_CRC-calculation.png)
+
+  得到的余数`011`则为CRC冗余位RR。
+
+    发送方发送信息DD和冗余位RR的拼接，即`101110011`。
+
+- 接收方检错
+
+    接收方收到发送方发来的`101110011`后，将其除以生成多项式GG `1001`。如果整除则未检测到差错，否则检测到差错。
+
+## 多路访问链路和协议（Multiple Access Links and Protocols）
+
+链路的两种类型：
+
+- 点对点链路（point-to-point link）
+
+    由链路一端的单个发送方和链路另一端的单个接收方组成。
+
+- **广播链路**（broadcast link）
+
+    多个发送方和接收方，单一的、共享的信道。
+
+    **多路访问协议**（Multiple access protocol），规范结点在共享的广播信道上的传输行为。
+
+多路访问协议分类：
+
+- 信道划分协议
+
+  （channel partitioning protocol）
+
+  - 静态
+  - 将信道平分给各节点
+  - 优点：公平、相互不干扰
+  - 缺点：闲置占有带宽
+
+- 随机接入协议
+
+  （random access protocol）
+
+  - 动态
+  - 独占信道
+  - 允许冲突，并能从冲突中恢复
+
+- 轮流协议
+
+  （taking-turns protocol）
+
+  - 上两种的结合
+  - 紧密协调共享访问以避免冲突
+
+多路访问协议的目标：高效、公平、简单、分布式
+
+### 信道划分协议（Channel Partitioning protocols）
+
+#### 时分多路复用（TDMA）
+
+  TDM将时间划分为时间帧（frame），并进一步划分每个时间帧为NN个时隙（slot），链路中的每条连接专用一个时隙。
+
+  详见 [时分多路复用（TDM）](https://gy23333.github.io/2020/03/16/《计算机网络-自顶向下方法》笔记/#时分多路复用（TDM）)。
+
+#### 频分多路复用（FDMA）
+
+  链路中的每条连接专用一个频段。
+
+  详见 [时分多路复用（FDM）](https://gy23333.github.io/2020/03/16/《计算机网络-自顶向下方法》笔记/#时分多路复用（TDM）) 。
+
+#### 码分多址（CDMA）
+
+  详见 [码分多路复用（Code division multiplexing，CDM）](https://gy23333.github.io/2020/03/16/《计算机网络-自顶向下方法》笔记/[https://gy23333.github.io/2020/03/16/《计算机网络-自顶向下方法》笔记/#码分多路复用（Code-division-multiplexing，CDM）](https://gy23333.github.io/2020/03/16/《计算机网络-自顶向下方法》笔记/#码分多路复用（Code-division-multiplexing，CDM）)) 。
+
+![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_CDMA.png)
+
+### 随机接入协议（Random Access protocols）
+
+- 结点传输pkt时，占有信道全部带宽，结点间无优先级
+- 存在多个传输结点 =&gt; 碰撞
+- 随机接入协议明确了：
+  - 如何检测碰撞
+  - 如何从碰撞中恢复
+- 常用的随机接入协议
+  - ALOHA
+  - Slotted ALOHA
+  - CSMA 和 CSMA/CD
+
+#### 纯ALOHA（Pure ALOHA）
+
+- 非时隙、简单、完全分散
+- 最早的ALOHA，目前已经不再使用
+- 帧长一定 =&gt; 帧传输时间一定
+- 当一帧首次到达（从网络层传下来），结点立即将该帧完整传输进广播信道
+- 如果发送碰撞，则该结点
+  - 有pp的概率，将立即以重传该帧
+  - 有1−p1−p的概率，等待一个帧传输时间，再以pp的概率判断是否重传
+
+![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_Pure-ALOHA.png)
+
+  假设一帧在t0t0处开始传输，则在[t0−1,t0&#43;1][t0−1,t0&#43;1]，其他结点如有传输，发生碰撞，则易损时间区长度为2τ2τ（tautau为一帧的传输时间）。
+
+  一个结点发送成功，则需要本结点发送、其他结点在[t0−1,t0][t0−1,t0]和[t0,t0&#43;1][t0,t0&#43;1]不发送。一个给定结点成功传送的概率为
+
+
+
+P(success by given node)===P(node transmits)×P(no other node transmits in [t0−1,t0])×P(no other node transmits in [t0,t0&#43;1])p×(1−p)N−1×(1−p)N−1p×(1−p)2(N−1)P(success by given node)=P(node transmits)×P(no other node transmits in [t0−1,t0])×P(no other node transmits in [t0,t0&#43;1])=p×(1−p)N−1×(1−p)N−1=p×(1−p)2(N−1)
+
+则有NN个结点，任意一个结点成功传送的概率为
+
+
+
+S=Np(1−p)2(N−1)S=Np(1−p)2(N−1)
+
+如此，求得纯ALOHA的最大效率为1/(2e)≈0.181/(2e)≈0.18（改变pp，使SS最大化）。
+
+#### 时隙ALOHA（Slotted ALOHA）
+
+- 时间被划分成长度相等的时隙（slot）
+- 结点只在时隙起点开始传输帧
+- 如果碰撞，在下一时隙的开始以pp的概率重传，直至成功。
+
+![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_Slotted-ALOHA.png)
+
+  假设一帧在t0t0处开始传输，则在本时隙中，其他结点如有传输，发生碰撞，则易损时间区长度为ττ（ττ为一帧的传输时间）。
+
+  一个给定结点成功传送的概率为
+
+
+
+S=p(1−p)N−1S=p(1−p)N−1
+
+  如果有NN个活跃结点，任意一个结点成功传送的概率为
+
+
+
+S=Np(1−p)N−1S=Np(1−p)N−1
+
+如此，求得时隙ALOHA的最大效率为1/e≈0.371/e≈0.37（改变pp，使SS最大化）。即在有大量结点有帧要传输时，最多3737的时隙做有用的工作，信道传输速率不是RR bps，而是0.37R0.37R bps。
+
+  时隙ALOHA的最大效率是纯ALOHA的两倍。
+
+![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_ALOHA-Compare.png)
+
+#### CSMA：载波侦听多路访问
+
+  载波侦听多路访问（CSMA，Carrier Sense Multiple Access），一个结点在传输前先侦听信道。
+
+- 如果侦听到**信道空闲**，则传输帧
+
+- 如果侦听到**信道正忙**，则推迟传输。再传输方式分为坚持型和非坚持型：
+
+  - **坚持型CSMA**（Persisitent CSMA）：一直坚持监听，直到信道空闲时，立即以概率pp重试（可能导致不稳定）。其中**1-坚持型CSMA**的p=1p=1，即立即重试。
+  - **非坚持型CSMA**（Non-Persisitent CSMA）：不再监听，等待一个随机的时间之后再进行监听。
+
+- CSMA依旧会发生**碰撞**
+
+    只要共享信道，那么碰撞就是不可避免的，即使CSMA有侦听。
+
+    比如下图中，B结点在t0t0时传输帧，但是帧的传输是需要一定时间的，这就导致在t1t1时，D结点侦听判断信道空闲，传输帧。两信号发生碰撞。
+
+  ![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_CSMA-Collision.png)
+
+    如此，整个帧传输时间被浪费了。可以看出，广播信道的端到端**信道传播时延**（distance and propagation delay）（信号从一个结点到另一个结点的传播时间）在决定性能上起关键作用。
+
+#### CSMA/CD：具有碰撞检测的载波侦听多路访问
+
+- 碰撞要在短时间内检测出来（最好在一个争用期内）
+- 一旦检测到碰撞立即停止传输，以减少信道的浪费
+- 采样坚持型或非坚持型重传
+- 碰撞检测
+  - 有线网络检测碰撞比较简单：如阈值法、过零法等等
+  - 无线网络检测碰撞比较困难
+
+  如下图，当B结点和D结点检测到碰撞时，立即停止继续发送。
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_CSMA%3ACD.png)
+
+**争用期**：以太网的端到端往返时间2τ2τ
+
+  A结点给B结点发送帧流，最坏情况就是在即将发送到B结点时，发生碰撞，返回碰撞信息，最大用时即为2τ2τ。
+
+**最短帧**：最短帧长度为2τR2τR（RR为信道速率）
+
+  和上述同样的最坏情况中，从A结点发送帧，到碰撞信号返回到A结点花费2τ2τ的时间，在此期间A结点不能停止帧的发送，所以最短帧的长度为2τR2τR。
+
+  如此可以最大利用网络效率，而且不会产生二义型。如果发送完了这个帧，没有发生碰撞，则发生成功。
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_CSMA%3ACD1.png)
+
+**CSMA/CD 效率**
+
+  CSMA/CD 效率：当有大量的活跃结点，且每个结点有大量的帧要发送时，帧在信道中无碰撞地传输的那部分时间在长期运行时间中所占的份额。
+
+
+
+efficiency=11&#43;tprop/ttransefficiency=11&#43;tprop/ttrans
+
+其中，tproptprop为两结点之间的最大传播时间；
+
+   ttransttrans为传输一个最大长度的帧的时间。
+
+效率趋近1，则需
+
+- tproptprop -&gt; 0
+- 或，ttransttrans -&gt; ∞∞
+
+  CSMA/CD 比 ALOHA 简单、便宜、分布式。
+
+### 轮流协议（Taking-Turns protocol）
+
+#### 轮询协议（Polling protocol）
+
+- 有一个主结点
+
+- 主结点以循环的方式轮询每个结点
+
+- 主结点先向一个结点发送报文，告诉能够传输的帧的最多的数量，这个结点传输完帧后，主机点再发给下一个结点报文，循环轮询。
+
+  ![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_Polling-protocol.png)
+
+- 缺点：
+
+  - 主结点需先给结点发送报文，增加开销
+  - 轮询时延，不及时
+  - 如果主结点出故障，则整个网络无法工作
+
+#### 令牌传递协议（Token-Passing protocol）
+
+- **令牌**（token）在结点之间以某种固定次序进行交换
+
+- 结点只有在拿到令牌时，才能发送帧
+
+- 受控的，不会发生碰撞
+
+  ![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_Token-Passing-protocol.png)
+
+- 缺点：
+
+  - 令牌开销
+  - 时延
+  - 令牌环会故障
+
+## 局域网技术
+
+### 局域网模型
+
+  局域网模型中，**数据链路层**分为LLC子层和MAC子层。
+
+- **逻辑链路控制层**（Logical Link Control，**LLC**）：为上层（网络层）提供连接环境
+- **媒体接入层**（Media Access Control，**MAC**）：为下层（物理层）提供媒体接入
+
+### 局域网地址和ARP
+
+#### MAC 地址
+
+- 可以叫**MAC 地址**、**LAN地址**、**物理地址**
+
+- 用于从一个接口到另一个物理连接的接口（同一网络）获取数据报
+
+- MAC地址长度：4848 bit / 66 byte
+
+- 与硬件有关，一个网卡（适配器）对应一个MAC地址
+
+- 例如：`1A-2F-BB-76-09-AD`
+
+- 与局域网相连的每个接口都有唯一的MAC地址
+
+  ![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_MAC-address.png)
+
+- MAC地址由IEEE分配
+
+- IEEE给公司固定MAC地址的前2424 bit，后2424 bit由公司保证每个适配器MAC地址的唯一性
+
+- IP地址和MAC地址的关系：IP地址就像是一个邮件地址，解决在哪上网的问题；MAC地址像身份证，解决谁在上网的问题
+
+  - IP地址**层次结构**，主机移动，主机的IP地址也改变
+  - MAC地址**扁平寻址结构**，不会因为位置改变MAC地址
+
+#### ARP：地址解析协议
+
+  ARP（Address Resolution Protocol），地址解析协议
+
+- 局域网中的每个IP结点（主机、路由器）都有ARP表
+
+- **ARP表**：局域网结点的IP地址和MAC地址的对应关系
+
+  - 每行的结构：`&lt;IP address; MAC address; TTL&gt;`
+  - `TTL`：存活时间，过TTL的时间要丢弃这一行数据
+
+  ![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_APR.png)
+
+##### 同一子网内的地址解析
+
+  A想要发送数据报给B，但是B的MAC地址没有记录在A的ARP表中。
+
+- A发送一个
+
+  广播帧
+
+  ——查询ARP分组，包含B的IP地址
+
+  - 目的MAC地址：`FF-FF-FF-FF-FF-FF`
+  - 所有结点都会收到该ARP查询分组
+
+- B接收到ARP分组，给A回复B的MAC地址
+
+  - 给A的MAC地址**单播**帧——响应APR分组
+
+- A在ARP表中缓存IP到MAC地址对，直至超时TTL
+
+  ARP即插即用：ARP表自动建立，不需要系统管理员来配置
+
+##### 不同子网的地址解析
+
+  不同子网的A和B通过路由器R发送数据报，A只知道B的IP地址，不知道B的MAC地址
+
+- A创建IP报文（IP地址在整个传输过程中不改变）
+  - 源IP地址：A的IP
+  - 目的IP地址：B的IP
+- A创建数据帧，在IP报文的基础上，加上MAC地址
+  - 源MAC地址：A的MAC
+  - 目的MAC地址：路由器R左端的MAC（路由器R左端与A在一个子网中）
+- 帧从A传到路由器R
+- 路由器R接收帧，并从路由器R的数据链路层传到网络层，从数据帧拆成IP数据报
+- 路由器R在IP报文的基础上，加上新的MAC地址段，传到数据链路层
+  - 源MAC地址：路由器R右端的MAC（路由器R右端与B在一个子网中）
+  - 目的MAC地址：B的MAC
+- 帧从路由器R传到B，B接收到数据
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_ARP.gif)
+
+### 以太网（Enternet）
+
+#### 以太网物理拓扑
+
+- **总线型**
+
+    早期流行，所有的结点共用一条总线。
+
+  ![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Ethernet-Bus.png)
+
+- **星型**
+
+    以太网现在使用的拓扑结构，中间是交换机，所有结点和交换机的连接是唯一的，不会发生冲突。
+
+  ![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Ethernet-Star.png)
+
+#### 以太网帧结构
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Ethernet-Frame-Structure.png)
+
+- **前导码**（Preamble，**7 byte**）
+
+  7 bytes 的方波`10101010`，用于“唤醒”接收适配器，并将它们的时钟与发送方的时钟同步。
+
+- **帧开始符**（Start of Frame Delimiter(SFD)，**1 byte**）
+
+  `10101011`，用来警告接收适配器，要开始了。
+
+- **目的MAC地址**（Destination address，**6 byte**）
+
+  目的适配器的MAC地址。
+
+- **源MAC地址**（Source address，**6 byte**）
+
+  源适配器的MAC地址。
+
+- **类型**（Type，**2 byte**）
+
+  上层的协议。比如，IP协议对应`0X0800`。
+
+- **数据**（Data，**46~1500 byte**）
+
+  IP数据报。
+
+  - 最小长度——46 byte
+
+    由2τR2τR决定。IEEE 802.3中，2τ2τ为51.2μs51.2μs，R=10MbpsR=10Mbps，由此得到最小帧长度64 bytes64 bytes。再减去18 bytes18 bytes的其他部分，得到最小数据的长度46 bytes46 bytes。
+
+    详见[CSMA-C中的最短帧](https://gy23333.github.io/2020/03/16/《计算机网络-自顶向下方法》笔记/#CSMA-CD：具有碰撞检测的载波侦听多路访问)。
+
+    小于最小长度得补充到46 byte。
+
+  - 最大长度——1500 byte
+
+    超过最大长度得分片。
+
+- **帧校验序列**（FCS，**4 byte**）
+
+  错误检测机制，比如CRC。
+
+#### 以太网技术
+
+- **无连接**：不需要握手
+- **不可靠**：不需要发送ack或nack
+- 以太网MAC协议：**非时隙、1-坚持、二进制指数退避的CSMA/CD**
+
+##### 二进制指数退避CSMA/CD算法
+
+```
+A: //A事件
+sense channel, if idle //如果侦听信道空闲
+then {
+  transmit and monitor the channel; //传输并监听信道（监听是否有其他站点在传输）
+  if detect another transmission //如果监听到其他站点在传输
+    then {
+      abort and send jam signal; //停止并发送jam信号（将冲突信号发送给其他站点）
+      update # collisions; //更新冲突次数（冲突次数&#43;1）
+      delay as required by exponential backoff algorithm; //调用二进制指数退避算法来延时
+      goto A //重新执行A事件
+    }
+  else {done with the frame; set collisions to zero} //如果在传输的过程中没监听到其他站点在传输，则完成帧的传输，并将冲突次数清零
+}
+else {wait until ongoing transmission is over and goto A} //如果侦听信道在忙，则继续侦听，直至信道空闲，再发送（1-坚持）；如果是非坚持，则等待一个随机的时间之后再进行监听
+```
+
+**Jam Signal**：长48 bits48 bits，保证每个其他的发送方意识到冲突
+
+##### 二进制指数退避算法（Binary Exponential Backoff Algorithm）
+
+  一旦检测到冲突，为降低再冲突的概率，需要等待一个随机时间，二进制指数退避算法即解决时延时间的问题。
+
+  时延的时间为端到端的往返时间2τ2τ的整数倍，即2τ×n2τ×n（nn为整数）。kk为冲突次数collisions。
+
+1. 初始的冲突次数k=0k=0；
+2. 每冲突一次，则k=k&#43;1k=k&#43;1；
+3. 如果k&lt;10k&lt;10，nn从[0,2k)[0,2k)中随机选择一个整数（注意⚠️：右边为开区间），则延时2τ×n2τ×n的时间；
+4. 如果k≥10k≥10，则nn从0,1,2,3,…,10230,1,2,3,…,1023中随机选择一个，延时2τ×n2τ×n的时间。（kk在1010之后就不再增加时延的选择范围，防止延时过长）
+
+##### 802.3以太网标准
+
+不同的以太网标准有：
+
+- 相同的MAC协议和帧格式
+- 不同的速度：2/Mbps2/Mbps、10 Mbps10 Mbps、100 Mbps100 Mbps等等
+- 不同的物理层媒体：光纤、铜线
+
+  下图为100 Mbps100 Mbps以太网标准，其中100代表$100\ Mbps，TX、T2、T4代表媒体为不同的铜线，FX、SX、BX代表媒体为不同的光纤。
+
+![img](https://typora-kire.oss-cn-hongkong.aliyuncs.com/Network_Ethernet-standards.png)
+
+### 交换机（Switch）
+
+#### 集线器（Hub）
+
+- 物理层设备：相当于工作在bit 层的传话筒，将接收到的bit从一个接口传到其他的所有接口
+- 层级结构
+- 每个连接的LAN称为LAN网段
+- 集线器不会隔离冲突域
+- 集线器的优点
+  - 简单便宜
+  - 如果一个集线器发生故障，则局域网的其他部分将继续运行
+  - 扩展节点对之间的最大距离（每个集线器100m）
+- 集线器的缺点
+  - 未隔离冲突域，导致最大吞吐量没有增加（多层吞吐量与单段吞吐量相同）
+  - 单独的LAN限制对相同冲突域中的结点数以及允许的总地理覆盖范围进行了限制
+  - 无法连接不同的以太网类型（例如10BaseT和100baseT）
+- 由于上述缺陷，如今大部分集线器已被交换机取代
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_hub.png)
+
+#### 以太网交换机概述
+
+- 交换机，也可以叫网桥
+- 链路层设备
+  - 存储、转发以太网帧
+  - 检查传入的帧的MAC地址，有选择地将帧转发到一个或多个传出链路，使用CSMA / CD访问段
+    - 收到的帧与发送的结点在同一网段，则丢弃该帧
+    - 收到的帧的目的MAC地址在转发表里，且与发送的结点不在同一网段，则向目的地址所对应端口转发该帧
+    - 收到的帧的目的MAC地址不在转发表里，则泛洪
+- 透明：主机不知道交换机的存在
+- 即插即用，自学习（不需要配置交换机）
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_switch1.png)
+
+- 主机有专用的、直接的到交换机的连接
+- 交换机缓存pkt
+- 每个输入链路都使用以太网协议，但是没有冲突
+- 全双工
+- 每个链路都是自己的冲突域
+- A至A’和B至B’可以同时传输而不会发生冲突
+
+#### 交换机自学习
+
+- 每个交换机都有一张**交换表**作为转发表，交换表的每行数据为`&lt;MAC address, interface, TTL&gt;`，即MAC地址、通向该MAC地址的接口、存活时间。
+- 交换机表初始为空
+- 交换机每接收到一个帧，就记录一条数据（发送结点的数据）
+- 过了TTL，则删掉该条数据
+
+#### 交换机转发与过滤
+
+```
+when frame received at switch: //交换机接收到帧
+  1. record incoming link, MAC address of sending host //在交换表中记录发送方的传入接口、MAC地址
+  2. index switch table using MAC destination address //在交换表中查找目的MAC地址
+  3. if entry found for destination //如果在交换表找到了该目的MAC地址
+     then {
+        if destination on segment from which frame arrived then drop frame //如果目的与发送方在同一网段，则丢弃该帧
+        else forward frame on interface indicated by entry  //如果不在同一网段，则转发帧到相应接口
+      }
+      else flood //如果在交换表找到不到该目的MAC地址，则泛洪（转发到除发送方所在接口以外的所有接口）
+```
+
+#### 交换机 vs 路由器
+
+|          | 路由器                       | 交换机                       |
+| :------- | :--------------------------- | :--------------------------- |
+| 存储转发 | 有                           | 有                           |
+| 所在层   | 网络层设备（检查网络层头部） | 链路层设备（检查链路层头部） |
+| 转发表   | 使用路由算法，IP地址         | 使用泛洪，自学习，MAC地址    |
+
+### VLAN：虚拟局域网
+
+  交换机以太网存在缺点：缺乏广播隔离，导致易产生广播风暴。
+
+  为解决上述问题，采用虚拟局域网VLAN。
+
+  VLAN：在单个LAN内，将支持VLAN功能的交换机配置为多个虚拟LAN。
+
+#### 基于端口的VLAN
+
+  将单个LAN基于端口划分为多个VLAN。
+
+![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_VLAN.png)
+
+- 流量隔离：帧只能在本VLAN内往返（VLAN相当于一个真实的局域网，将功能限制在链路层，只能传帧）
+- VLAN之间的转发：通过路由完成（就像使用单独的交换机一样）
+- 动态成员资格：端口可以在VLAN之间动态分配
+
+#### 跨多个交换机的VLAN
+
+- 最早采用实体线相连，后采用中继端口。
+
+- **中继端口**（trunk port）：也可以叫共享端口，在多个物理交换机上定义的VLAN之间传送帧。
+
+  下图中，a为实体线相连，b为中继端口连。
+
+  ![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_Connecting-two-VLAN.png)
+
+- 802.1q：原802.1帧未带有VLAN标识，所以802.1q协议为中继端口之间转发的帧添加/删除了其他报头字段
+
+  ![img](https://raw.githubusercontent.com/GY23333/imgs/master/Network_VLAN-frame.png)
+
+  - 增加了4 byte4 byte
+  - 前2 byte2 byte为协议标识
+  - 后2 byte2 byte中，前12 bit12 bit为VLAN的ID，后3 bit3 bit为优先级
+  - 由于位数改变，CRC需重算
+
 
 ---
 
