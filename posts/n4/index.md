@@ -15,19 +15,19 @@
 
 -   **よう**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image1.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image1.webp)
 
 &gt; **一、こと**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image2.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image2.webp)
 
 -   きってを あつめる のは わたしの しゅみ です。
 
 -   集邮是我的爱好。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image3.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image3.webp)
 
 -   わたしの しゅみは きってを あつめる こと です。
 
@@ -51,7 +51,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image4.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image4.webp)
 
 -   かぎを かける のを わすれました。
 
@@ -69,7 +69,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image5.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image5.webp)
 
 -   ちかくで かじが あった のを しんぶんで 読みました。
 
@@ -85,7 +85,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image6.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image6.webp)
 
 -   へやを ちらかす のが じょうずで、かたづける のが へた です。
 
@@ -115,7 +115,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image7.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image7.webp)
 
 -   べんきょうする のが たのしい です。
 
@@ -123,7 +123,7 @@
 
 &gt; **例句 6：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image8.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image8.webp)
 
 -   ぶんぽうを おぼえる のが むずかしい です。
 
@@ -131,7 +131,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image9.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image9.webp)
 
 -   ふりまわされる のが いや です。
 
@@ -149,7 +149,7 @@
 
 &gt; **例句 8：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image10.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image10.webp)
 
 -   おきてが おおい のは めんどうくさい こと ではなく、かえって らくな こと だと おもう。
 
@@ -181,7 +181,7 @@
 &gt;
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image11.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image11.webp)
 
 -   じぶんの ことを ぼくと いう のは だんせいとくゆうの ことばづかい です。
 
@@ -209,7 +209,7 @@
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image12.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image12.webp)
 
 -   だんせいと じょせいで ことばが ちがう のは、にほんごの とくちょうの ひとつ です。
 
@@ -225,7 +225,7 @@
 
 &gt; **例句 11：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image13.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image13.webp)
 
 -   なりたいと おもった のは いろいろ あります けど、いちばん なりたかった のは いしゃです。
 
@@ -233,7 +233,7 @@
 
 &gt; **例句 12：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image14.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image14.webp)
 
 -   だいがくで まなんだ のは しんりがく でした。
 
@@ -241,7 +241,7 @@
 
 &gt; **例句 13：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image15.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image15.webp)
 
 -   わたしが わった のは おさら ではなく、コップ です。
 
@@ -257,7 +257,7 @@
 
 &gt; **例句 14：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image16.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image16.webp)
 
 -   たなかさんが つれて いって くれた のは かぶき でした。
 
@@ -275,7 +275,7 @@
 &gt;
 &gt; **例句 15：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image17.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image17.webp)
 
 -   えきに でむかえに きて くれた のは よしださん でした。
 
@@ -291,7 +291,7 @@
 
 &gt; **例句 16：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image18.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image18.webp)
 
 -   ケーキづくりを おしえて くれた のは はは です。
 
@@ -301,7 +301,7 @@
 &gt;
 &gt; **例句 17：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image19.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image19.webp)
 
 -   しゅうまつ よく いってる のは しみんとしょかん です。
 
@@ -317,7 +317,7 @@
 
 &gt; **例句 18：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image20.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image20.webp)
 
 -   きょう なんかしょか まわった けど、いちばん さいしょに いった のは しやくしょ でした。
 
@@ -341,7 +341,7 @@
 &gt;
 &gt; **例句 19：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image21.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image21.webp)
 
 -   すき なのは プレゼントを もらった ときの こどもの たのしい かお です。
 
@@ -365,13 +365,13 @@
 
 &gt; **例句 20：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image22.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image22.webp)
 
 -   かくせない のは かれの よろこびよう です。
 
 -   无法掩饰的是他的喜悦的表情。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image23.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image23.webp)
 
 -   かれは よろこびようを かくせない。
 
@@ -407,17 +407,17 @@
 
 -   **～時点で**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image24.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image24.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image25.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image25.webp)
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image26.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image26.webp)
 
 &gt; **一、～時、～時に**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image27.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image27.webp)
 
 -   しょたいめんの ときの いんしょうは さいごまで のこります。
 
@@ -453,7 +453,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image28.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image28.webp)
 
 -   もしもの ときに そなえて おきたい。
 
@@ -471,7 +471,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image29.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image29.webp)
 
 -   いざという ときの ために そなえて おきたい。
 
@@ -493,7 +493,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image30.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image30.webp)
 
 -   このたんごは どんなときに つかえば いい ですか？
 
@@ -501,7 +501,7 @@
 
 &gt; **例句 5：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image31.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image31.webp)
 
 -   わからない とき、えんりょ しないで いつでも きいて ください。
 
@@ -509,7 +509,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image32.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image32.webp)
 
 -   しごとが いそがしくて れんらくが こない ときは、いらいら しないで まって ください。
 
@@ -527,7 +527,7 @@
 
 &gt; **例句 7：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image33.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image33.webp)
 
 -   ひまな ときは どうやって すごして いますか？
 
@@ -545,17 +545,17 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image34.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image34.webp)
 
 -   にほんに いく とき、いつも おみやげを たくさん かって いる。
 
 -   去日本的时候，总是买很多特产。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image35.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image35.webp)
 
 &gt; **例句 9：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image36.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image36.webp)
 
 -   こまる とき、いちばん さいしょに そうだん したい のは しんゆう です。
 
@@ -573,7 +573,7 @@
 &gt;
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image37.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image37.webp)
 
 -   ぜんいんが そろった じてんで ごうひの けっかを はっぴょう します。
 
@@ -603,7 +603,7 @@
 
 &gt; **例句 11：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image38.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image38.webp)
 
 -   さんがつの じてんで あたらしい しごとに つく ことが きまった。
 
@@ -635,7 +635,7 @@
 
 &gt; **例句 12：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image39.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image39.webp)
 
 -   やりたい と おもった じてんで こうどうに うつして ください。
 
@@ -663,13 +663,13 @@
 
 -   **～間、～間に**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image40.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image40.webp)
 
 &gt; **一、～うち、～うちに**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image41.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image41.webp)
 
 -   にほんの きゅうじつは、どにちを いれて、いちねんの うちに ひゃくにじゅうにちが あります。
 
@@ -677,7 +677,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image42.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image42.webp)
 
 -   いちねんの うちで たいへん おおい。
 
@@ -685,7 +685,7 @@
 
 &gt; **例句 3：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image43.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image43.webp)
 
 -   今の うちに、やって しまわないと まに あわない んです。
 
@@ -693,7 +693,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image44.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image44.webp)
 
 -   わかい うちに なかなか きづかない ことがらが たくさん あります。
 
@@ -717,7 +717,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image45.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image45.webp)
 
 -   あかるい うちに かえりましょう。
 
@@ -725,7 +725,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image46.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image46.webp)
 
 -   さめない うちに どうぞ。
 
@@ -743,7 +743,7 @@
 
 &gt; **例句 7：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image47.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image47.webp)
 
 -   げんきな うちに しごとに がんばりたい。
 
@@ -751,7 +751,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image48.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image48.webp)
 
 -   テレビを みている うちに、ねむって しまった。
 
@@ -769,7 +769,7 @@
 
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image49.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image49.webp)
 
 -   りゅうがく している うち、たくさんの ことを けいけん した。
 
@@ -785,7 +785,7 @@
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image50.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image50.webp)
 
 -   ゆうじんと そうだん している うちに、かんがえが まとまって きた。
 
@@ -793,13 +793,13 @@
 
 &gt; **例句 11：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image51.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image51.webp)
 
 -   しりょうを しらべて いる うちに、いろいろな ことが わかって きた。
 
 -   查资料的过程中，逐渐明白了很多事。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image52.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image52.webp)
 
 &gt; **【单词】**
 
@@ -815,7 +815,7 @@
 &gt;
 &gt; **例句 12：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image53.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image53.webp)
 
 -   はるやすみの あいだ、ずっと ごがくがっこうに かよって いました。
 
@@ -823,7 +823,7 @@
 
 &gt; **例句 13：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image54.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image54.webp)
 
 -   くじから じゅうじまでの あいだ、もうしこみを うけつけます。
 
@@ -845,7 +845,7 @@
 
 &gt; **例句 14：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image55.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image55.webp)
 
 -   ねて いる あいだに でんわが かかって きた。
 
@@ -853,7 +853,7 @@
 
 &gt; **例句 15：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image56.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image56.webp)
 
 -   まって いる あいだに、ほんを よんだり して、じかんを むだなく つかって いる。
 
@@ -869,7 +869,7 @@
 
 &gt; **例句 16：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image57.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image57.webp)
 
 -   のぞみは とうきょうから なごやまでの あいだに ていしゃ しません。
 
@@ -893,7 +893,7 @@
 
 &gt; **例句 17：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image58.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image58.webp)
 
 -   このきょくは わかものの あいだで はやって います。
 
@@ -921,19 +921,19 @@
 
 -   **～から、～からに、～からには**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image59.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image59.webp)
 
 &gt; **一、～まで、～までに**
 &gt;
 &gt; **例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image60.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image60.webp)
 
 -   ごご さんじまで ずっと かいしゃに います。
 
 -   下午 3 点前一直在公司。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image61.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image61.webp)
 
 -   ごご さんじまでに かいしゃに もどります。
 
@@ -941,13 +941,13 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image62.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image62.webp)
 
 -   あさ しちじまで ぐっすり ねて いました。
 
 -   睡到早上 7 点，睡得很香。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image63.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image63.webp)
 
 -   あさ しちじまでに したくを すませたら いい。
 
@@ -971,13 +971,13 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image64.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image64.webp)
 
 -   レポートていしゅつの しめきりは ごご ごじまで です。
 
 -   提交小论文的截止时间是下午 5 点。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image65.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image65.webp)
 
 -   レポートは ごご ごじまでに ていしゅつする こと。
 
@@ -993,13 +993,13 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image66.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image66.webp)
 
 -   ともだちが くるまで ずっと へやを かたづけて いました。
 
 -   朋友来之前一直收拾屋子。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image67.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image67.webp)
 
 -   ともだちが くるまでに へやを かたづけて おきたい。
 
@@ -1007,13 +1007,13 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image68.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image68.webp)
 
 -   ごぜん じゅうじまで しょるいを かいて いました。
 
 -   上午 10 点前一直写材料。
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image69.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image69.webp)
 
 -   ごぜん じゅうじまでに しょるいを かいて おきます。
 
@@ -1021,7 +1021,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image70.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image70.webp)
 
 -   いつも ぎりぎりまで くる。
 
@@ -1039,7 +1039,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image71.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image71.webp)
 
 -   だいがくを そつぎょうするまでに しゅうしょくさきを きめたい。
 
@@ -1055,19 +1055,19 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image72.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image72.webp)
 
 -   急ぐから、８時までに食べ終わってください。
 
 -   因为赶时间，所以请在 8 点前吃完。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image73.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image73.webp)
 
 &gt; **二、～から、～からに、～からには**
 &gt;
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image74.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image74.webp)
 
 -   きょうから あたらしい じんせいに はいる ので、うきうき わくわく して います。
 
@@ -1093,7 +1093,7 @@
 
 &gt; **例句 10：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image75.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image75.webp)
 
 -   きびしい せいやくが ある から、アイディアと くふうが うまれる。
 
@@ -1115,7 +1115,7 @@
 
 &gt; **例句 11：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image76.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image76.webp)
 
 -   みる からに ちがって いる。
 
@@ -1123,7 +1123,7 @@
 
 &gt; **例句 12：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image77.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image77.webp)
 
 -   みる からに やさしそうな ひとです。
 
@@ -1131,7 +1131,7 @@
 
 &gt; **例句 13：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image78.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image78.webp)
 
 -   やくそくした からには、さいごまで せきにんを もって やらなければ なりません。
 
@@ -1153,7 +1153,7 @@
 
 &gt; **例句 14：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image79.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image79.webp)
 
 -   せんせい である からには、ちしきや ぎじゅつの こうじょうに むけた どりょくは ひつようふかけつ です。
 
@@ -1191,17 +1191,17 @@
 
 2.  **～たい**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image80.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image80.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image81.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image81.webp)
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image82.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image82.webp)
 
 &gt; **一、一般现在时**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image83.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image83.webp)
 
 -   つづけようと おもいます。
 
@@ -1221,7 +1221,7 @@
 
 **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image84.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image84.webp)
 
 -   みずから すすんで まなぼうと する しせいが だいじ です。
 
@@ -1251,7 +1251,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image85.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image85.webp)
 
 -   かのじょを かばおうと する き ですか？
 
@@ -1269,7 +1269,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image86.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image86.webp)
 
 -   ななこねえさんに あそんで もらおうと。
 
@@ -1277,7 +1277,7 @@
 
 &gt; **例句 5：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image87.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image87.webp)
 
 -   はなそうと おもう ほど、うまく はなせない。
 
@@ -1285,7 +1285,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image88.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image88.webp)
 
 -   かたくるしい いんしょうを こわそうという かんがえ です。
 
@@ -1301,7 +1301,7 @@
 
 &gt; **二、现在进行时例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image89.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image89.webp)
 
 -   でかけようと している ときに、でんわが かかって きました。
 
@@ -1309,7 +1309,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image90.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image90.webp)
 
 -   きたく しようと して いる ときに、かちょうに よばれた。
 
@@ -1325,7 +1325,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image91.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image91.webp)
 
 -   わかものが ねようと して いる と、おもての とを トントンと たたく おとが しました。
 
@@ -1349,7 +1349,7 @@
 
 &gt; **例句 4：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image92.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image92.webp)
 
 -   つうしんしゅだんの はったつが ひとびとの せいかつようしきを おおきく かえようと している。
 
@@ -1389,7 +1389,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image93.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image93.webp)
 
 -   じぶんの わくを こえようと どりょく して います。
 
@@ -1417,7 +1417,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image94.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image94.webp)
 
 -   もう じかんが おそい のに、かえろうと しない。
 
@@ -1425,7 +1425,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image95.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image95.webp)
 
 -   もう しんや なのに、こどもは まだ ねようと しない ので、つくづく こまる。
 
@@ -1449,7 +1449,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image96.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image96.webp)
 
 -   かれは がんこで ひとの はなしを きこうと しない。
 
@@ -1465,7 +1465,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image97.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image97.webp)
 
 -   かれは じぶんの けってんを しって いても なおそうと しない。
 
@@ -1483,11 +1483,11 @@
 
 -   つもり 表示强烈的意愿
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image98.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image98.webp)
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image99.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image99.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image100.jpeg)**一、用于肯定句例句 1：**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image100.webp)**一、用于肯定句例句 1：**
 
 -   きょうじゅうに しあげる つもり です。
 
@@ -1505,7 +1505,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image101.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image101.webp)
 
 -   なつやすみに ほっかいどうを いっしゅうする つもり です。
 
@@ -1521,7 +1521,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image102.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image102.webp)
 
 -   いったい どういう つもり ですか？
 
@@ -1541,7 +1541,7 @@
 
 -   (用于口语)什么样的
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image103.jpeg)**二、用于否定句例句 1：**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image103.webp)**二、用于否定句例句 1：**
 
 -   しょうがつやすみは くにへ かえらない つもり です。
 
@@ -1555,7 +1555,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image104.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image104.webp)
 
 -   きずつける つもりは ありません。
 
@@ -1585,7 +1585,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image105.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image105.webp)
 
 -   そんな つもり じゃなかった。
 
@@ -1593,7 +1593,7 @@
 
 &gt; **三、用于过去时例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image106.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image106.webp)
 
 -   ことわった つもり だけど、あいてには つうじて いない。
 
@@ -1623,7 +1623,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image107.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image107.webp)
 
 -   じょうほうを たくさん あつめて にゅうしゃした つもり でしたが、やっぱり あわない です。
 
@@ -1637,7 +1637,7 @@
 
 -   やはり的口语
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image108.jpeg)**四、用于状态例句 1：**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image108.webp)**四、用于状态例句 1：**
 
 -   おやの つもりで せわする ん じゃない。
 
@@ -1645,7 +1645,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image109.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image109.webp)
 
 -   いつまでも わかい つもりで いる。
 
@@ -1653,7 +1653,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image110.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image110.webp)
 
 -   にほんでは なにか おもいきった ことを する とき、きよみずの ぶたいから とびおりるつもりで…
 
@@ -1695,7 +1695,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image111.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image111.webp)
 
 -   かった つもりで ちょきん する。
 
@@ -1711,7 +1711,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image112.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image112.webp)
 
 -   リーダーに なった つもりで かんがえる。
 
@@ -1733,9 +1733,9 @@
 
 -   动词的た形&#43;まま
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image113.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image113.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image114.jpeg)**一、～がまま例句 1：**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image114.webp)**一、～がまま例句 1：**
 
 -   わがままを いっちゃだめ。
 
@@ -1751,7 +1751,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image115.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image115.webp)
 
 -   おもうが ままに ならない。
 
@@ -1759,7 +1759,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image116.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image116.webp)
 
 -   よさんが なくて ままならない です。
 
@@ -1775,7 +1775,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image117.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image117.webp)
 
 -   これからの じんせいを きの むく ままに すごしたい。
 
@@ -1799,7 +1799,7 @@
 
 &gt; **二、名词&#43;の&#43;まま例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image118.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image118.webp)
 
 -   じかんが ない から、がっこうの せいふくの ままで バイトに いった。
 
@@ -1815,13 +1815,13 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image119.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image119.webp)
 
 -   あいまいな ちしきの まま テストを うけたら、やっぱり ほとんど まちがって いた。
 
 -   知识没完全搞懂就去考试，结果还是几乎都答错了。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image120.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image120.webp)
 
 &gt; **【单词】**
 
@@ -1845,7 +1845,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image121.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image121.webp)
 
 -   たべきれなかった ものは、そのまま ゴミばこに すてて ください。
 
@@ -1861,7 +1861,7 @@
 
 &gt; **三、动词的た形&#43;まま例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image122.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image122.webp)
 
 -   テレビを つけた まま、ねむって しまった。
 
@@ -1869,7 +1869,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image123.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image123.webp)
 
 -   まどを あけた まま、でかけて しまった。
 
@@ -1877,7 +1877,7 @@
 
 &gt; **例句 3：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image124.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image124.webp)
 
 -   かみが ぬれた ままに したら、かぜを ひきやすい。
 
@@ -1905,7 +1905,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image125.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image125.webp)
 
 -   おかゆを つくろうと よわびで にた まま わすれてしまった。
 
@@ -1929,7 +1929,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image126.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image126.webp)
 
 -   つくえに むかった まま、なにも しないで ぼんやり して いた。
 
@@ -1955,7 +1955,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image127.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image127.webp)
 
 -   カフェで となりに すわって いた ひとは、さいふを テーブルの うえに おいたまま、トイレに いって しまった。
 
@@ -1983,7 +1983,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image128.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image128.webp)
 
 -   じっさいに かんじた ままの かんそうを きかせて ください。
 
@@ -2005,7 +2005,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image129.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image129.webp)
 
 -   たいふうは ひじょうに つよい せいりょくを たもった まま にしにほんに じょうりく しています。
 
@@ -2049,13 +2049,13 @@
 
 -   强调限定 （～しか～ない）
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image130.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image130.webp)
 
 &gt; **一、数量少或程度低 (～だけ)**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image131.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image131.webp)
 
 -   ここだけの はなし だけど…
 
@@ -2063,7 +2063,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image132.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image132.webp)
 
 -   そうぞう する だけで ぞっと する。
 
@@ -2081,7 +2081,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image133.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image133.webp)
 
 -   たべる だけで せいいっぱい です。
 
@@ -2097,7 +2097,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image134.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image134.webp)
 
 -   なまえ だけで けっこう です。
 
@@ -2113,7 +2113,7 @@
 
 &gt; **例句 5：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image135.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image135.webp)
 
 -   やくしゃは かお だけでなく、さいのうと じつりょくを ともわないと ながく つづかない。
 
@@ -2143,7 +2143,7 @@
 
 &gt; **例句 6：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image136.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image136.webp)
 
 -   いまは ねんきん だけじゃ やって いけない。
 
@@ -2157,7 +2157,7 @@
 
 -   养老金；退休金
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image137.jpeg)**二、等号 (～だけ)例句 1：**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image137.webp)**二、等号 (～だけ)例句 1：**
 
 -   わたしは できるだけの ことを した。
 
@@ -2165,7 +2165,7 @@
 
 &gt; **例句 2：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image138.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image138.webp)
 
 -   くたびれて、おふろに はいる だけの げんきも でない。
 
@@ -2195,7 +2195,7 @@
 
 &gt; **例句 3：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image139.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image139.webp)
 
 -   いがくぶに うかる だけの じつりょくを つける のは そうとう むずかしい。
 
@@ -2223,7 +2223,7 @@
 
 &gt; **例句 4：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image140.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image140.webp)
 
 -   うんどうも しないで たべて ばかり いる から、それだけふとるに きまってる。
 
@@ -2231,7 +2231,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image141.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image141.webp)
 
 -   にわつきの やすい いえは しないから とおい ので、それだけ ふべんに なる。
 
@@ -2253,7 +2253,7 @@
 
 &gt; **三、数量多或程度高 (～だけ)例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image142.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image142.webp)
 
 -   これだけ おしえれば きっと わかった でしょう。
 
@@ -2261,7 +2261,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image143.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image143.webp)
 
 -   あれだけ れんしゅう した から、きっと だいじょうぶ。
 
@@ -2271,7 +2271,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image144.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image144.webp)
 
 -   わたしは えいごしか はなせない。
 
@@ -2279,7 +2279,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image145.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image145.webp)
 
 -   これは ほっかいどうで しか かえない げんていひん です。
 
@@ -2295,7 +2295,7 @@
 
 &gt; **例句 3：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image146.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image146.webp)
 
 -   わたしは ひつような もの しか もたない しゅぎ です。
 
@@ -2311,7 +2311,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image147.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image147.webp)
 
 -   がんばって のりこえる しかない。
 
@@ -2319,7 +2319,7 @@
 
 &gt; **例句 5：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image148.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image148.webp)
 
 -   だれも こない ので、かえる しかない。
 
@@ -2335,13 +2335,13 @@
 
 -   \~なければならない
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image149.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image149.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image150.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image150.webp)
 &gt;
 &gt; **一、～ないで例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image151.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image151.webp)
 
 -   しごとも しないで、まいにち ぶらぶら してる。
 
@@ -2359,7 +2359,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image152.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image152.webp)
 
 -   すわって ばかり いないで、すこし てつだって ください。
 
@@ -2367,7 +2367,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image153.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image153.webp)
 
 -   あさごはんを たべないで しゅっきんしたから、おなかが ぺこぺこに なってる。
 
@@ -2391,7 +2391,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image154.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image154.webp)
 
 -   おうべいじんは、あまり あいづちを うたないで あいての ことばに ききいる けいこうがある。
 
@@ -2433,7 +2433,7 @@
 
 &gt; **二、～なくて例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image155.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image155.webp)
 
 -   「はい」にも「ええ」にも、へんじ ではなくて あいづちを うつ つかいかたが あって、まぎらわしい。
 
@@ -2455,7 +2455,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image156.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image156.webp)
 
 -   返さなくて いい しょうがくきんは 少ない。
 
@@ -2471,7 +2471,7 @@
 
 &gt; **例句 2：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image157.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image157.webp)
 
 -   ふとって いなくても とうにょうびょうに なりやすい。
 
@@ -2487,7 +2487,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image158.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image158.webp)
 
 -   なにも はなさなくても こころが つうじあう。
 
@@ -2503,7 +2503,7 @@
 
 &gt; **三、～なくてはならない例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image159.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image159.webp)
 
 -   じしょは がいこくごの べんきょうに なくては ならない そんざい です。
 
@@ -2511,7 +2511,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image160.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image160.webp)
 
 -   あのひとは わたしには なくてはならない ゆいいつむにの そんざい です。
 
@@ -2527,7 +2527,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image161.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image161.webp)
 
 -   じんせいに なくてはならない パートナーに めぐりあえる のが しあわせ です。
 
@@ -2557,7 +2557,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image162.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image162.webp)
 
 -   ほうりつを まもらなくては ならない。
 
@@ -2571,13 +2571,13 @@
 
 -   法律
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image163.jpeg)**四、～なければならない例句 1：**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image163.webp)**四、～なければならない例句 1：**
 
 -   もう おそい ので、かえらなければ ならない。
 
 -   已经很晚了，必须回去了。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image164.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image164.webp)
 
 -   がまん しなければ ならない。
 
@@ -2593,7 +2593,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image165.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image165.webp)
 
 -   もんだいは かいけつ しなければ ならない。
 
@@ -2615,7 +2615,7 @@
 
 &gt; **例句 3：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image166.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image166.webp)
 
 -   よのなかには やらなければ ならない ことが あふれて いる。
 
@@ -2643,13 +2643,13 @@
 
 -   \~ば
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image167.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image167.webp)
 
 &gt; **一、～し**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image168.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image168.webp)
 
 -   きょうは あたまが いたいし、きぶんが わるいから、かえります。
 
@@ -2669,11 +2669,11 @@
 
 -   心情，情绪
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image169.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image169.webp)
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image170.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image170.webp)
 
 -   ざんぎょうも あるし、さいきん おかねも ないから、きょうは えんりょします。
 
@@ -2689,7 +2689,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image171.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image171.webp)
 
 -   ははを びょういんに つれて いかなければ いけないし、にゅういん している ちちの かんびょうも しなければ いけない から、たいへん だった。
 
@@ -2705,7 +2705,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image172.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image172.webp)
 
 -   へやも ひろいし、しょくじも おいしいし、それに しずかで けしきも きれい です。
 
@@ -2733,7 +2733,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image173.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image173.webp)
 
 -   どこへ いっても、ひとが おおすぎるし、やちんも たかいし、すみにくい まち です。
 
@@ -2759,11 +2759,11 @@
 
 -   适合居住的
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image174.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image174.webp)
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image175.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image175.webp)
 
 -   かのじょは しごとも できるし、かじも かんぺきに こなして いる。
 
@@ -2795,7 +2795,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image176.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image176.webp)
 
 -   あめも ふるし、かぜも つよいし、ひどい てんき です。
 
@@ -2813,7 +2813,7 @@
 
 &gt; **例句 8：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image177.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image177.webp)
 
 -   おかねも ないし、まともな しごとも ないし、じかんも ない。
 
@@ -2833,7 +2833,7 @@
 &gt;
 &gt; **例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image178.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image178.webp)
 
 -   カルチャーセンターには ごがくの こうざも あれば しゅげいや かいが などの こうざも あります。
 
@@ -2879,7 +2879,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image179.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image179.webp)
 
 -   じんせいには いい ことも あれば わるい ことも ある。
 
@@ -2893,13 +2893,13 @@
 
 -   \~という
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image180.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image180.webp)
 
 &gt; **一、～そうだ/そうです**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image181.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image181.webp)
 
 -   てんきよほうに よると、あしたは あめが ふる そうです。
 
@@ -2907,7 +2907,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image182.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image182.webp)
 
 -   しんぶんに よると、きのう おおさかで じしんが あった そうです。
 
@@ -2915,7 +2915,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image183.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image183.webp)
 
 -   ニュースに よると、らいねん ここで ばんぱくが ひらかれる そうです。
 
@@ -2931,7 +2931,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image184.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image184.webp)
 
 -   さいきんの ちょうさに よると、きつえんしゃの かずが へって いる そうです。
 
@@ -2981,7 +2981,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image185.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image185.webp)
 
 -   せんせいの はなしに よれば、むかしの がっこうは もくぞう だった そうです。
 
@@ -2999,7 +2999,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image186.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image186.webp)
 
 -   あしたは きゅうこう だと きいた。
 
@@ -3015,7 +3015,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image187.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image187.webp)
 
 -   ふきょうで リストラされた かいしゃいんが ますます ふえて いると きいた。
 
@@ -3039,7 +3039,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image188.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image188.webp)
 
 -   きょうとは ぼんち なので、ふゆは さむく なつは あついと きいて います。
 
@@ -3055,7 +3055,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image189.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image189.webp)
 
 -   スーツケースの あいかぎが つくれないと きいた けど、ほんとう ですか？
 
@@ -3077,7 +3077,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image190.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image190.webp)
 
 -   ばりばり しごとを こなしてる し、せいかくも はきはき してる じょせい だと きいた。
 
@@ -3105,7 +3105,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image191.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image191.webp)
 
 -   このきは いまから さんびゃくねんまえに うえられた という。
 
@@ -3123,7 +3123,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image192.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image192.webp)
 
 -   りょうりちょうは とうきょうぎんざの しにせしゅっしん だと いう から、そのあじは たしかです。
 
@@ -3181,7 +3181,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image193.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image193.webp)
 
 -   オーナーは かいえんに むけて、みずから せかいゆうすうの こうえんの しさつに でかけたという。
 
@@ -3221,7 +3221,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image194.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image194.webp)
 
 -   まずしい ひとたちの きゅうさいたいさくに ちからを そそぎ、まちの はってんに つとめたという。
 
@@ -3275,7 +3275,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image195.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image195.webp)
 
 -   かれは なんでも しさんかの むすこ なん だって。
 
@@ -3301,13 +3301,13 @@
 
 -   可能 かもしれない
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image196.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image196.webp)
 
 &gt; **一、推测**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image197.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image197.webp)
 
 -   もう いい でしょう。
 
@@ -3315,7 +3315,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image198.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image198.webp)
 
 -   それは ない でしょう。
 
@@ -3323,7 +3323,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image199.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image199.webp)
 
 -   なにか じじょうが ある でしょう。
 
@@ -3337,7 +3337,7 @@
 
 -   特殊情况，特殊原因
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image200.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image200.webp)
 
 -   たいへん だった でしょう。
 
@@ -3345,7 +3345,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image201.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image201.webp)
 
 -   なにか かくしてる でしょう。
 
@@ -3353,7 +3353,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image202.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image202.webp)
 
 -   かんちがい でしょう。
 
@@ -3367,7 +3367,7 @@
 
 -   误解，想错
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image203.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image203.webp)
 
 -   ひとちがい でしょう。
 
@@ -3383,7 +3383,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image204.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image204.webp)
 
 -   みちが こんでる から、じこでも あった でしょう。
 
@@ -3391,7 +3391,7 @@
 
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image205.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image205.webp)
 
 -   きっぱり ことわった ほうが いい でしょう。
 
@@ -3409,7 +3409,7 @@
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image206.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image206.webp)
 
 -   もし そんな いきかたが できたら、たしかに きずつかなくて すむ でしょう。
 
@@ -3431,7 +3431,7 @@
 
 &gt; **例句 11：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image207.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image207.webp)
 
 -   たすけあえる ことが ある なら、おたがいに きょうりょくを おしまない でしょう。
 
@@ -3471,7 +3471,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image208.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image208.webp)
 
 -   びみょうに ちがう かもしれない。
 
@@ -3487,7 +3487,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image209.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image209.webp)
 
 -   いまごろの とうきょうは さむい かもしれません。
 
@@ -3503,7 +3503,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image210.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image210.webp)
 
 -   ひょっとしたら、あのふたりは まちあわせてる かも。
 
@@ -3519,7 +3519,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image211.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image211.webp)
 
 -   もしかして、かれは おなじことを おもって いる かもしれない。
 
@@ -3537,7 +3537,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image212.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image212.webp)
 
 -   いがいに おもう かも しれませんが、にほんの しょうしかは ものすごい いきおいで すすんで います。
 
@@ -3579,11 +3579,11 @@
 
 -   意愿（意志形的简体&#43;と）
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image213.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image213.webp)
 
 &gt; **一、建议例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image214.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image214.webp)
 
 -   そろそろ いきましょうか。
 
@@ -3601,7 +3601,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image215.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image215.webp)
 
 -   もういちど じっくり かんがえて みよう。
 
@@ -3619,7 +3619,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image216.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image216.webp)
 
 -   あるきスマホを やめましょう。
 
@@ -3635,7 +3635,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image217.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image217.webp)
 
 -   ちゅういされたら、すなおに なおしましょう。
 
@@ -3647,7 +3647,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image218.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image218.webp)
 
 -   いく きが ない のに、「いっぱいでも のみましょう」と いわれて、しかたなく つきあった。
 
@@ -3661,11 +3661,11 @@
 
 -   办法
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image219.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image219.webp)
 &gt;
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image220.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image220.webp)
 
 -   しばらく ようすを みようと いわれた。
 
@@ -3683,7 +3683,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image221.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image221.webp)
 
 -   「このような しゅうかんは はいししよう。」という こえも ある。
 
@@ -3699,7 +3699,7 @@
 
 &gt; **二、意愿例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image222.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image222.webp)
 
 -   そろそろ かえろう かなと おもって います。
 
@@ -3707,7 +3707,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image223.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image223.webp)
 
 -   ひとに めいわくを かけた としても、あやまろうと しない。
 
@@ -3727,7 +3727,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image224.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image224.webp)
 
 -   さいごまで やりぬこうと がんばって います。
 
@@ -3745,7 +3745,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image225.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image225.webp)
 
 -   なかよく しようという どりょくが たりない。
 
@@ -3753,7 +3753,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image226.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image226.webp)
 
 -   つねに トップを めざそうとする いしが つよい。
 
@@ -3791,7 +3791,7 @@
 
 &gt; **例句 6：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image227.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image227.webp)
 
 -   いしぐみは こいが たきを のぼろうとする ようすを いらわして いる という。
 
@@ -3837,7 +3837,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image228.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image228.webp)
 
 -   おんせんの ねつを エネルギーげんに しようという かんがえは、かざんの おおい にほんに とって たいへん みりょくてき である。
 
@@ -3885,49 +3885,49 @@
 
 -   \~らしい
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image229.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image229.webp)
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image230.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image230.webp)
 
 &gt; **例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image231.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image231.webp)
 
 -   好像要下雨。
 
 &gt; **例句 2：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image232.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image232.webp)
 
 -   好像要感冒。
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image233.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image233.webp)
 
 -   好像变了很多。
 
 &gt; **例句 4：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image234.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image234.webp)
 
 -   好像很美味。
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image235.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image235.webp)
 
 -   好像很好。
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image236.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image236.webp)
 
 -   他好像是日本人。
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image237.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image237.webp)
 
 -   那个人好像很认真。
 
@@ -3941,7 +3941,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image238.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image238.webp)
 
 -   好像没有积极性。
 
@@ -3955,13 +3955,13 @@
 
 &gt; **例句 9：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image239.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image239.webp)
 
 -   好像雨停不了。
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image240.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image240.webp)
 
 -   好像今天做不完。
 
@@ -3973,13 +3973,13 @@
 
 -   どうやら
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image241.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image241.webp)
 
 &gt; 一、まるで
 &gt;
 &gt; **例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image242.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image242.webp)
 
 -   かのじょは うつくしく やさしく、まるで てんし みたい。
 
@@ -3995,7 +3995,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image243.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image243.webp)
 
 -   まるで ゆめみたいで、しあわせな ひびが つづいて います。
 
@@ -4003,7 +4003,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image244.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image244.webp)
 
 -   かれは まるで しゃしんの ような えが かけます。
 
@@ -4011,7 +4011,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image245.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image245.webp)
 
 -   こわれた せんたくきを しゅうりして もらったら、まるで しんぴんの ように なりました。
 
@@ -4027,7 +4027,7 @@
 
 &gt; **例句 5：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image246.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image246.webp)
 
 -   さいきん できた ロボットは、まるで ほんものの にんげんの ように うごく ことが できます。
 
@@ -4047,7 +4047,7 @@
 
 -   真的东西
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image247.jpeg)**二、**いかにも**例句 1：**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image247.webp)**二、**いかにも**例句 1：**
 
 -   いかにも にほん らしい。
 
@@ -4055,7 +4055,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image248.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image248.webp)
 
 -   いかにも がくしゃ らしい はなしぶり です。
 
@@ -4077,7 +4077,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image249.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image249.webp)
 
 -   いかにも あたまが よさそうな ひと です。
 
@@ -4085,7 +4085,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image250.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image250.webp)
 
 -   いかにも ざんねんそうな かお でした。
 
@@ -4101,7 +4101,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image251.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image251.webp)
 
 -   いかにも あたまが うたれた ような ショックを うけた。
 
@@ -4123,7 +4123,7 @@
 
 &gt; **三、**どうやら**例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image252.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image252.webp)
 
 -   てんきよほうに よると、あしたは どうやら あめ らしい。
 
@@ -4131,7 +4131,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image253.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image253.webp)
 
 -   うわさに よると、かれは どうやら しんよう できない ひと らしい。
 
@@ -4147,7 +4147,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image254.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image254.webp)
 
 -   しゅやくは どうやら しんじん みたい。
 
@@ -4163,7 +4163,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image255.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image255.webp)
 
 -   よしむらさんは このけつろんでは どうやら しゃくぜんと しない みたい。
 
@@ -4185,7 +4185,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image256.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image256.webp)
 
 -   かのじょは どうやら かれの はなしが きに なって しようがない みたい。
 
@@ -4219,13 +4219,13 @@
 
 -   ので
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image257.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image257.webp)
 
 &gt; 一、ため
 &gt;
 &gt; **例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image258.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image258.webp)
 
 -   なつは りょこうする ひとが おおい ため、れっしゃが たいへん こんざつするし、どうろもじゅうたいする。
 
@@ -4233,7 +4233,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image259.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image259.webp)
 
 -   だいとしに じんこうが しゅうちゅうする ため、のうそんの じんこうが すくなく なって いる。
 
@@ -4269,7 +4269,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image260.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image260.webp)
 
 -   しょうゆを いれすぎた から、あじが こく なった。
 
@@ -4277,7 +4277,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image261.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image261.webp)
 
 -   かふんしょう だから、くしゃみや はなみずが よく でます。
 
@@ -4307,7 +4307,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image262.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image262.webp)
 
 -   ビルは こうそくどうろに めんしてる から、ずいぶん うるさい。
 
@@ -4331,7 +4331,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image263.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image263.webp)
 
 -   となりは パーティーでも やってる から、やけに そうぞうしい。
 
@@ -4347,7 +4347,7 @@
 
 &gt; **例句 5：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image264.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image264.webp)
 
 -   こぜにを もって ません から、くずして もらえますか？
 
@@ -4355,7 +4355,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image265.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image265.webp)
 
 -   むりした から、たいちょうを くずして しまった。
 
@@ -4371,7 +4371,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image266.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image266.webp)
 
 -   せっかく きた から、いっぱくでも とまりましょう。
 
@@ -4387,7 +4387,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image267.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image267.webp)
 
 -   はなしが いつも だらだら してる から、ようてんを おさえて ほしい。
 
@@ -4417,7 +4417,7 @@
 
 -   おさ(押す)&#43;え(へ→方向)&#43;る(留)→压住
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image268.jpeg)**三、**ので**例句 1：**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image268.webp)**三、**ので**例句 1：**
 
 -   にんきの ある みせなので、よやくが むずかしい。
 
@@ -4425,7 +4425,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image269.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image269.webp)
 
 -   ざんぎょうした ので、かえりが おそく なった。
 
@@ -4433,7 +4433,7 @@
 
 &gt; **例句 3：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image270.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image270.webp)
 
 -   ぜんいん そろった ので、ミーティングを はじめます。
 
@@ -4455,7 +4455,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image271.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image271.webp)
 
 -   パスワードを わすれた ので、なんとか おねがいします。
 
@@ -4471,7 +4471,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image272.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image272.webp)
 
 -   かぞくが おお ので、しゅっぴも たいへん だよ。
 
@@ -4487,7 +4487,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image273.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image273.webp)
 
 -   ストレスが たまって きた ので、つい たおれて しまった。
 
@@ -4505,7 +4505,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image274.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image274.webp)
 
 -   もう じかんに なりました ので、そろそろ いきましょう か？
 
@@ -4519,15 +4519,15 @@
 
 -   ためか
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image275.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image275.webp)
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image276.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image276.webp)
 
 &gt; 一、ため
 &gt;
 &gt; **例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image277.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image277.webp)
 
 -   ちょうりの てまを はぶいた ため、さかなに たいする しゅふの かんしんや ちしきまで うばって しまった のです。
 
@@ -4577,7 +4577,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image278.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image278.webp)
 
 -   しゃかいほしょうの ひようを まかなう ため、こくみんの ぜいきんの ふたんも しだいにおもく なって いる。
 
@@ -4643,13 +4643,13 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image279.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image279.webp)
 
 -   有用。
 
 &gt; **例句 2：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image280.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image280.webp)
 
 -   人の ために ではなく、じぶんの ために かがやかしく いきる。
 
@@ -4667,7 +4667,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image281.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image281.webp)
 
 -   じぶんの じんせいを たのしく いきる ための ほうそくを しる ひつよう が ある。
 
@@ -4683,7 +4683,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image282.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image282.webp)
 
 -   もてる ために じぶんを かえても いい のか？
 
@@ -4701,7 +4701,7 @@
 
 &gt; **例句 5：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image283.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image283.webp)
 
 -   ビザしんせい ために しょるいを そろえて います。
 
@@ -4723,7 +4723,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image284.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image284.webp)
 
 -   せんぞの はかまいりを する ために こきょうへ かえる ひとが たくさん いる。
 
@@ -4751,7 +4751,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image285.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image285.webp)
 
 -   りょこうを たのしむ ために、けいかくを たてて、まえもって のりものや しゅくはくしせつのてはいを して おく ひつようが ある。
 
@@ -4787,7 +4787,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image286.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image286.webp)
 
 -   なにか きに さわる ことでも いった ためか、むし された。
 
@@ -4811,7 +4811,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image287.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image287.webp)
 
 -   はつもんが よくない ためか、うまく いけんを ひきだす ことが できなかった。
 
@@ -4833,7 +4833,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image288.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image288.webp)
 
 -   タバコを すいすぎた ためか、しんぞうの ちょうしが よくない。
 
@@ -4855,7 +4855,7 @@
 
 &gt; **例句 4：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image289.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image289.webp)
 
 -   ひどい びょうきの ためか、にゅういんちりょうと いわれた。
 
@@ -4871,7 +4871,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image290.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image290.webp)
 
 -   いつも げんき だった ためか、かれの にゅういんが なかなか しんじられなかった。
 
@@ -4893,21 +4893,21 @@
 
 -   \~には
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image291.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image291.webp)
 
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image292.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image292.webp)
 
 -   にほんごを みに つける ために、いっしょうけんめい べんきょう しています。
 
 -   为了学好日语在努力学习。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image293.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image293.webp)
 
 -   にほんごを みに つく ように、いっしょうけんめい べんきょう しています。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image294.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image294.webp)
 
 -   にほんごを みに つく には、どんな ほうほうが いちばん こうかてき ですか?
 
@@ -4915,7 +4915,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image295.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image295.webp)
 
 -   うしろの ひとも みえる ように じを おおきく かいて います。
 
@@ -4923,17 +4923,17 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image296.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image296.webp)
 
 -   いしゃに なる ために、せいいっぱい がんばらなくては ならない。
 
 -   为了成为医生，必须非常努力。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image297.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image297.webp)
 
 -   いしゃに なれる ように、ひっしに べんきょう して います。
 
--   ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image298.jpeg)为了能够成为医生，在拼命学习。
+-   ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image298.webp)为了能够成为医生，在拼命学习。
 
 -   
 
@@ -4955,19 +4955,19 @@
 &gt;
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image299.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image299.webp)
 
 -   けっこんする ために、ちょきん しています。
 
 -   为了结婚在存钱。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image300.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image300.webp)
 
 -   けっこんできる ように、ちょきん しています。
 
 -   为了能结婚在存钱。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image301.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image301.webp)
 
 -   けっこんする には、いくら ちょきん したら いい ですか?
 
@@ -4975,13 +4975,13 @@
 
 &gt; **例句 5：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image302.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image302.webp)
 
 -   にほんを よく しる ために、にほんに りゅうがくに きて います。
 
 &gt; 为了很好地知道日本，来日本留学。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image303.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image303.webp)
 
 -   にほんを よく しる には、にほんに りゅうがくに するのが いい ほうほう です。
 
@@ -4989,19 +4989,19 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image304.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image304.webp)
 
 -   いちりゅうだいがくに ごうかくする ために、じゅくに かよって います。
 
 -   为了考上一流大学，一直在上私塾。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image305.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image305.webp)
 
 -   いちりゅうだいがくに ごうかくできる ように、じゅくに かよって います。
 
 -   为了能够考上一流大学，一直在上私塾。
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image306.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image306.webp)
 
 -   いちりゅうだいがくに ごうかくする には、じゅくに かよう ひつようが ある。
 
@@ -5023,19 +5023,19 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image307.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image307.webp)
 
 -   ねつを さげる ために、くすりを のんで います。
 
 -   为了让体温降下来，在吃药。
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image308.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image308.webp)
 
 -   ねつが さがる ように、くすりを のんで います。
 
 -   为了体温能够降下来，在吃药。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image309.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image309.webp)
 
 -   ねつを さげる には、くすりを のんだほうが いい。
 
@@ -5061,19 +5061,19 @@
 
 &gt; **例句 8：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image310.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image310.webp)
 
 -   ぶんぽうを わからせる ために、ずを つかって せつめい して います。
 
 -   (老师)为了让(学生)懂语法，(老师)使用图在解释。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image311.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image311.webp)
 
 -   ぶんぽうが わかる ように、ずを つかって せつめい して います。
 
 -   为了(学生)能懂语法，(老师)使用图在解释。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image312.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image312.webp)
 
 -   ぶんぽうが わかる には、ずを つかって せつめい するのが いい。
 
@@ -5081,7 +5081,7 @@
 
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image313.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image313.webp)
 
 -   ちこくしない ように、めざましどけいを かけて おきます。
 
@@ -5105,7 +5105,7 @@
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image314.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image314.webp)
 
 -   わすれない ように、きを つけて ください。
 
@@ -5117,39 +5117,39 @@
 
 -   \~てある
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image315.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image315.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image316.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image316.webp)
 &gt;
 &gt; **例句 1：**
 &gt;
 &gt; **墙上挂着画。**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image317.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image317.webp)
 
 -   かべに えが かかって います。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image318.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image318.webp)
 
 &gt; **例句 2：上着锁。**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image319.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image319.webp)
 
 -   かぎが かかって います。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image320.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image320.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image321.jpeg)**例句 3：门开着。**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image321.webp)**例句 3：门开着。**
 
 -   ドアが あいて います。
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image322.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image322.webp)
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image323.jpeg)**例句 4： 炉子点着。**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image323.webp)**例句 4： 炉子点着。**
 
 -   ストーブが ついて います。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image324.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image324.webp)
 
 &gt; **【单词】**
 
@@ -5159,11 +5159,11 @@
 
 -   (英 stove)炉子
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image325.jpeg)**例句 5： 地板脏了。**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image325.webp)**例句 5： 地板脏了。**
 
 -   ゆかが よごれて います。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image326.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image326.webp)
 
 &gt; **【单词】**
 
@@ -5195,27 +5195,27 @@
 &gt;
 &gt; **碗裂了。碗碎了。**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image327.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image327.webp)
 
 -   ちゃわんが われて います。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image328.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image328.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image329.jpeg)**例句 7：酒很凉。**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image329.webp)**例句 7：酒很凉。**
 
 -   おさけが ひえて います。
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image330.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image330.webp)
 &gt;
 &gt; **例句 8：**
 &gt;
 &gt; **汽车停在月租停车场。**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image331.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image331.webp)
 
 -   くるまが つきぎめちゅうしゃじょうに とまって います。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image332.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image332.webp)
 
 &gt; **【单词】**
 
@@ -5227,7 +5227,7 @@
 
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image333.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image333.webp)
 
 -   みせの まえに きゃくが ならんで います。
 
@@ -5235,7 +5235,7 @@
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image334.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image334.webp)
 
 -   しょうひんが てんとうに ならべて あります。
 
@@ -5259,11 +5259,11 @@
 &gt;
 &gt; **护照放在包里。**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image335.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image335.webp)
 
 -   パスポートが バッグに はいって います。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image336.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image336.webp)
 
 &gt; **【单词】**
 
@@ -5283,11 +5283,11 @@
 &gt;
 &gt; **头发染得很漂亮。**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image337.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image337.webp)
 
 -   かみが きれいに そまって います。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image338.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image338.webp)
 
 &gt; **【单词】**
 
@@ -5307,7 +5307,7 @@
 
 &gt; **例句 13：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image339.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image339.webp)
 
 -   でんしじしょは いえに おいて あります。
 
@@ -5315,7 +5315,7 @@
 
 &gt; **例句 14：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image340.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image340.webp)
 
 -   もんだいは きょうかしょの じゅっページに かいて あります。
 
@@ -5323,7 +5323,7 @@
 
 &gt; **例句 15：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image341.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image341.webp)
 
 -   げんかんに はなが かざって あります。
 
@@ -5331,7 +5331,7 @@
 
 &gt; **例句 16：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image342.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image342.webp)
 
 -   ケーキが きって あります。
 
@@ -5339,7 +5339,7 @@
 
 &gt; **例句 17：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image343.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image343.webp)
 
 -   データが パソコンに ほぞんして あります。
 
@@ -5361,7 +5361,7 @@
 
 &gt; **例句 18：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image344.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image344.webp)
 
 -   ビールが かって ある から、ともだちが きゅうに いえに きても 大丈夫です。
 
@@ -5369,7 +5369,7 @@
 
 &gt; **例句 19：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image345.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image345.webp)
 
 -   えきの ホームに えいがの ポスターが はって あります。
 
@@ -5385,7 +5385,7 @@
 
 &gt; **例句 20：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image346.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image346.webp)
 
 -   そのことは かれに まかせて あります。
 
@@ -5413,11 +5413,11 @@
 
 -   \~てみる
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image347.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image347.webp)
 
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image348.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image348.webp)
 
 -   ためして みます。
 
@@ -5435,7 +5435,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image349.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image349.webp)
 
 -   どうぞ たべて みて ください。
 
@@ -5443,7 +5443,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image350.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image350.webp)
 
 -   はじめての ケーキづくりに ちょうせんして みました。
 
@@ -5459,7 +5459,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image351.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image351.webp)
 
 -   こどもは はじめて じてんしゃに のって みました。
 
@@ -5467,7 +5467,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image352.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image352.webp)
 
 -   この ブーツを はいて みても いい ですか？
 
@@ -5481,7 +5481,7 @@
 
 -   (英 boots)靴子
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image353.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image353.webp)
 
 -   しちゃくしても いい ですか？
 
@@ -5489,7 +5489,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image354.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image354.webp)
 
 -   おもさを はかって みます。
 
@@ -5505,7 +5505,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image355.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image355.webp)
 
 -   いくら なる かを けいさん して みます。
 
@@ -5513,7 +5513,7 @@
 
 &gt; **例句 8：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image356.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image356.webp)
 
 -   ためしに かためを とじて このえを みて みましょう。
 
@@ -5537,7 +5537,7 @@
 
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image357.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image357.webp)
 
 -   はじめて きょうとの きよみずでらの ぶたいに あがって みました。
 
@@ -5553,7 +5553,7 @@
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image358.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image358.webp)
 
 -   あおもりに いった ことが ない から、いちどは いって みたい。
 
@@ -5569,7 +5569,7 @@
 
 &gt; **例句 11：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image359.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image359.webp)
 
 -   もんを くぐって みる と、おおきな ふんすいが めに はいります。
 
@@ -5599,7 +5599,7 @@
 
 &gt; **例句 12：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image360.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image360.webp)
 
 -   にほんごで よんで みて ください。
 
@@ -5607,7 +5607,7 @@
 
 &gt; **例句 13：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image361.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image361.webp)
 
 -   たいへん だけど、しらべて みます。
 
@@ -5615,7 +5615,7 @@
 
 &gt; **例句 14：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image362.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image362.webp)
 
 -   あした やすみが とれる かどうか、じょうしに きいて みます。
 
@@ -5623,7 +5623,7 @@
 
 &gt; **例句 15：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image363.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image363.webp)
 
 -   なっとくの いく けっかが でる かどうか わかりませんが、はなしを つけて みます。
 
@@ -5653,7 +5653,7 @@
 
 &gt; **例句 16：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image364.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image364.webp)
 
 -   できなくても、じしんを もって やって みる のが だいじ です。
 
@@ -5661,7 +5661,7 @@
 
 &gt; **例句 17：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image365.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image365.webp)
 
 -   ゆめが かなわない かもしれない けど、まず おいかけて みます。
 
@@ -5685,11 +5685,11 @@
 
 -   \~とく
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image366.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image366.webp)
 
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image367.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image367.webp)
 
 -   そこに おいといて ください。
 
@@ -5697,7 +5697,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image368.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image368.webp)
 
 -   さきに いっとく けど…
 
@@ -5705,7 +5705,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image369.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image369.webp)
 
 -   しばらく ほうって おいて ください。
 
@@ -5713,7 +5713,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image370.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image370.webp)
 
 -   ともだちが あそびに くる ので、おかしを かって おいた。
 
@@ -5721,7 +5721,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image371.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image371.webp)
 
 -   しょくじが おわったら、おさらを あらって おきます。
 
@@ -5729,17 +5729,17 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image372.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image372.webp)
 
 -   あとで あらいます から、そのままに して おいて ください。
 
 -   一会儿洗，先放在那儿吧。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image373.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image373.webp)
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image374.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image374.webp)
 
 -   あとで みたい ばんぐみが ある から、テレビを つけといて。
 
@@ -5755,7 +5755,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image375.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image375.webp)
 
 -   つかいおわったら、もとの ばしょに もどして おいて ください。
 
@@ -5771,7 +5771,7 @@
 
 &gt; **例句 9：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image376.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image376.webp)
 
 -   いつも チョコレートを かばんに いれといて います。
 
@@ -5779,7 +5779,7 @@
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image377.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image377.webp)
 
 -   のみきれなかった くすりを とって おくか、それとも しょぶんするか、まよって います。
 
@@ -5801,7 +5801,7 @@
 
 &gt; **例句 11：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image378.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image378.webp)
 
 -   かいぎが ながびきそうな ので、トイレに いって おきます。
 
@@ -5817,7 +5817,7 @@
 
 &gt; **例句 12：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image379.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image379.webp)
 
 -   そのことは まえもって おやと はなしあって おきました。
 
@@ -5825,7 +5825,7 @@
 
 &gt; **例句 13：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image380.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image380.webp)
 
 -   これからの ために ちしきを おぼえて おきます。
 
@@ -5833,7 +5833,7 @@
 
 &gt; **例句 14：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image381.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image381.webp)
 
 -   レポートを かく まえに、しりょうを あつめて おきます。
 
@@ -5841,7 +5841,7 @@
 
 &gt; **例句 15：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image382.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image382.webp)
 
 -   しゃかいじんに なる には しって おく べき ことは まず じょうしき でしょう。
 
@@ -5861,17 +5861,17 @@
 
 -   常识
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image383.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image383.webp)
 
 # 做完某事的てしまう
 
 -   \~てしまう
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image384.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image384.webp)
 
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image385.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image385.webp)
 
 -   さっさと 片づけて しまいなさい。
 
@@ -5887,11 +5887,11 @@
 
 -   さ(飒→快)&#43;促音(加强)&#43;さ(飒→快)&#43;と(副词词尾)→赶快地
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image386.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image386.webp)
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image387.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image387.webp)
 
 -   そのことは すべて かれに まかせて しまった。
 
@@ -5899,7 +5899,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image388.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image388.webp)
 
 -   たかかったから まよったけど、けっきょく おもいきって マンションを かって しまった。
 
@@ -5915,7 +5915,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image389.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image389.webp)
 
 -   このまま なにも かんがえずに ねむって しまいたい。
 
@@ -5923,7 +5923,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image390.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image390.webp)
 
 -   あまりにも おかしい から、わらって しまった。
 
@@ -5945,7 +5945,7 @@
 
 &gt; **例句 6：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image391.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image391.webp)
 
 -   こわれた こいは はやく すてて しまおう。
 
@@ -5953,7 +5953,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image392.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image392.webp)
 
 -   いっそ ながされて しまった ほうが、かのじょも ぼくも らくに なれるの かもしれなかった。
 
@@ -5979,7 +5979,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image393.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image393.webp)
 
 -   なごやかな おんがくを きく と、くろうなど ふきとんで しまいます。
 
@@ -6009,7 +6009,7 @@
 
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image394.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image394.webp)
 
 -   じみちに がんばらない と、くちだけの にんげんに なって しまう。
 
@@ -6025,7 +6025,7 @@
 
 &gt; **例句 10：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image395.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image395.webp)
 
 -   まるで しょうねんの ように こえを だして しまった。
 
@@ -6041,7 +6041,7 @@
 
 &gt; **例句 11：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image396.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image396.webp)
 
 -   みちばたに さく うつくしい はなを みると、おもわず たちどまって しまう。
 
@@ -6059,7 +6059,7 @@
 
 &gt; **例句 12：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image397.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image397.webp)
 
 -   ところどころが きれいなので、つい しゃしんを とって しまう。
 
@@ -6075,7 +6075,7 @@
 
 &gt; **例句 13：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image398.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image398.webp)
 
 -   つい みいって しまう。
 
@@ -6091,7 +6091,7 @@
 
 &gt; **例句 14：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image399.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image399.webp)
 
 -   つらい ことが あると、つい ひとに たよって しまう。
 
@@ -6113,13 +6113,13 @@
 
 -   \~ていく
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image400.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image400.webp)
 
 &gt; **一、～てくる**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image401.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image401.webp)
 
 -   そらが だんだん あかるく なって きた。
 
@@ -6143,7 +6143,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image402.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image402.webp)
 
 -   いままで ずっと がんばって きた。
 
@@ -6151,7 +6151,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image403.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image403.webp)
 
 -   むかしの でんとうを まもりつづけて きた。
 
@@ -6173,7 +6173,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image404.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image404.webp)
 
 -   うれしさが まして きた。
 
@@ -6197,7 +6197,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image405.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image405.webp)
 
 -   やがて かのじょの ことが すきに なって きた。
 
@@ -6215,7 +6215,7 @@
 
 &gt; **例句 6：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image406.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image406.webp)
 
 -   つきあって いる うち(に)、かれの せいかくが だんだん わかって きた。
 
@@ -6223,7 +6223,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image407.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image407.webp)
 
 -   じじょうによって はなしが ちがって くる。
 
@@ -6231,7 +6231,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image408.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image408.webp)
 
 -   こころの じょうたいは ささやかな げんどうから みえて くる。
 
@@ -6263,7 +6263,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image409.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image409.webp)
 
 -   わたしは じぶんなりに いきて いきたい。
 
@@ -6271,7 +6271,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image410.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image410.webp)
 
 -   たべて いく おかねが ない。
 
@@ -6279,7 +6279,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image411.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image411.webp)
 
 -   ATM が まちから きえて いく。
 
@@ -6287,7 +6287,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image412.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image412.webp)
 
 -   こどもを そだてて いく うち(に) おやも せいちょうして いく。
 
@@ -6303,7 +6303,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image413.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image413.webp)
 
 -   にんげんは まわりの えいきょう によって だれでも かわって いく。
 
@@ -6319,7 +6319,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image414.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image414.webp)
 
 -   こころから しんらい しあう かんけいを きずいて いきたい。
 
@@ -6343,7 +6343,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image415.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image415.webp)
 
 -   たちはだかる こんなんに ちょうせん して いく ゆうきを みに つける。
 
@@ -6361,7 +6361,7 @@
 
 &gt; **例句 8：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image416.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image416.webp)
 
 -   この きょうふうで、さくらの はなびらが だんだん ちって いく。
 
@@ -6399,17 +6399,17 @@
 
 -   \~てくる
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image417.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image417.webp)
 
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image418.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image418.webp)
 
 -   もんだいが しんこくに なって いる。
 
 -   问题已经变得很严重。
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image419.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image419.webp)
 &gt;
 &gt; **【单词】**
 
@@ -6421,13 +6421,13 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image420.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image420.webp)
 
 -   きおくりょくが わるく なって いる。
 
 -   记忆力已经很差。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image421.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image421.webp)
 
 &gt; **【单词】**
 
@@ -6439,13 +6439,13 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image422.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image422.webp)
 
 -   ちきゅうおんだんかが すすみ、どんどん あつく なって いる。
 
 -   地球温暖化越发严重，现在越来越热。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image423.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image423.webp)
 
 &gt; **【单词】**
 
@@ -6461,47 +6461,47 @@
 
 -   地球温暖化
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image424.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image424.webp)
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image425.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image425.webp)
 
 -   しょうしかが すすんで、こどもの かずが ますます へって いる。
 
 -   少子化越发严重，孩子的数量现在越来越少。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image426.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image426.webp)
 
 &gt; **例句 5：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image427.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image427.webp)
 
 -   しずかな せいかつを おくって いる。
 
 -   现在过着安静的生活。一直过着安静的生活。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image428.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image428.webp)
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image429.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image429.webp)
 
 -   たんごを まいにち すこしずつ おぼえて いる。
 
 -   现在每天逐步背单词。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image430.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image430.webp)
 
 &gt; **例句 7：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image431.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image431.webp)
 
 -   いまは ぜんりょくで とりくんで いる。
 
 -   在正在全力以赴。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image432.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image432.webp)
 
 &gt; **【单词】**
 
@@ -6519,13 +6519,13 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image433.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image433.webp)
 
 -   じかんが たつ につれて、こころの つらさと くるしさが だんだん やわらいで きた。
 
 -   随着时间的推移，心里的痛苦已经逐渐平复。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image434.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image434.webp)
 
 &gt; **【单词】**
 
@@ -6549,21 +6549,21 @@
 
 -   柔(やわらかい)&#43;ぐ(げ→给)→柔和
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image435.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image435.webp)
 &gt;
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image436.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image436.webp)
 
 -   じつりょくが つく につれて、じしんも そなわって きた
 
 -   随着实力的增加，已经越来越自信。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image437.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image437.webp)
 
 &gt; **例句 10：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image438.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image438.webp)
 
 -   できることを すこしずつ ふやして いきたいと おもいます。
 
@@ -6579,15 +6579,15 @@
 
 &gt; **名词归类图**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image439.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image439.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image440.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image440.webp)
 &gt;
 &gt; **一、ことになる**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image441.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image441.webp)
 
 -   でんしゃで いく ことに なった。
 
@@ -6603,7 +6603,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image442.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image442.webp)
 
 -   らいげつから このかいしゃで はたらく ことに なった。
 
@@ -6611,7 +6611,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image443.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image443.webp)
 
 -   きゅうに くにへ かえる ことに なった。
 
@@ -6619,7 +6619,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image444.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image444.webp)
 
 -   あたらしい いえに ひっこす ことに なりました。
 
@@ -6635,7 +6635,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image445.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image445.webp)
 
 -   だいじに しなければ、いつか うしなって こうかいする ことに なるよ。
 
@@ -6661,7 +6661,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image446.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image446.webp)
 
 -   あたまが いたいので、きょうは かいしゃを やすむ ことに した。
 
@@ -6669,7 +6669,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image447.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image447.webp)
 
 -   かぜを ひいた ので、ごご はやく かいしゃを ひきあげる ことに した。
 
@@ -6687,7 +6687,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image448.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image448.webp)
 
 -   あさ おきられない ので、よるは はやく ねる ことに した。
 
@@ -6695,7 +6695,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image449.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image449.webp)
 
 -   タバコは からだに わるい ので、やめる ことに した。
 
@@ -6703,7 +6703,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image450.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image450.webp)
 
 -   こんどの どようびは、えんそくする ことに した。
 
@@ -6719,7 +6719,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image451.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image451.webp)
 
 -   わたしは くにに かえらないで にほんに のこる ことに した。
 
@@ -6727,7 +6727,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image452.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image452.webp)
 
 -   あのアイデアを つかわない ことに しました。
 
@@ -6737,7 +6737,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image453.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image453.webp)
 
 -   じゅぎょうちゅうは にほんごだけ はなす ことに なって います。
 
@@ -6745,7 +6745,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image454.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image454.webp)
 
 -   にほんでは めうえの ひとに けいごを つかう ことに なって います。
 
@@ -6753,7 +6753,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image455.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image455.webp)
 
 -   やすむ ときは がっこうに れんらく しなければ ならない ことに なって います。
 
@@ -6761,7 +6761,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image456.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image456.webp)
 
 -   よる じゅういちじいこうは がいしゅつきんし という ことに なって います。
 
@@ -6783,7 +6783,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image457.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image457.webp)
 
 -   かんけいしゃいがい はいっては いけない ことに なって います。
 
@@ -6799,7 +6799,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image458.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image458.webp)
 
 -   この建物では タバコを 吸っては いけない ことに なって います。
 
@@ -6817,15 +6817,15 @@
 
 &gt; **名词归类图**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image459.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image459.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image460.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image460.webp)
 &gt;
 &gt; **一、～ようになる**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image461.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image461.webp)
 
 -   がんばれば きっと できる ように なる。
 
@@ -6833,7 +6833,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image462.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image462.webp)
 
 -   さいきん スマホで にほんごを べんきょうする ように なった。
 
@@ -6841,7 +6841,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image463.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image463.webp)
 
 -   わかかりづらい ぶんぽうに きょうみを もつ ように なった。
 
@@ -6855,11 +6855,11 @@
 
 -   语法
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image464.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image464.webp)
 &gt;
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image465.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image465.webp)
 
 -   これからの ことを じっくり かんがえる ように なった。
 
@@ -6867,7 +6867,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image466.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image466.webp)
 
 -   ものごとを いいほうに かんがえる ように なった。
 
@@ -6883,7 +6883,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image467.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image467.webp)
 
 -   さいきん よく ねられる ように なった。
 
@@ -6891,7 +6891,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image468.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image468.webp)
 
 -   なっとうが きらい だった けど、いまは たべられる ように なった。
 
@@ -6905,7 +6905,7 @@
 
 -   纳豆
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image469.jpeg)**二、～ようにする例句 1：**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image469.webp)**二、～ようにする例句 1：**
 
 -   あまい ものを たべない ように して います。
 
@@ -6913,7 +6913,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image470.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image470.webp)
 
 -   けんこうの ために やさいを たべる ように して います。
 
@@ -6921,7 +6921,7 @@
 
 &gt; **例句 3：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image471.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image471.webp)
 
 -   たべてから はを みがく ように して います。
 
@@ -6947,7 +6947,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image472.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image472.webp)
 
 -   わすれものを しない ように して ください。
 
@@ -6963,7 +6963,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image473.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image473.webp)
 
 -   おなじミスを ふたたび おかさない ように して います。
 
@@ -6995,7 +6995,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image474.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image474.webp)
 
 -   つまらない かいわを たんじかんで おわらせる ように して います。
 
@@ -7013,7 +7013,7 @@
 
 &gt; **例句 7：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image475.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image475.webp)
 
 -   どんな とき でも、じぶんの いけんを はっきり いう ように して います。
 
@@ -7037,25 +7037,25 @@
 
 &gt; **名词归类图**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image476.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image476.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image477.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image477.webp)
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image478.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image478.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image479.jpeg)**一、三者兼用例句 1：**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image479.webp)**一、三者兼用例句 1：**
 
 -   いま でかける とこ。
 
 -   现在刚要出门。
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image480.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image480.webp)
 
 -   いま がいしゅつ して いる ところ です。
 
 -   现在正在外出。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image481.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image481.webp)
 
 -   いま でた とこ。
 
@@ -7063,19 +7063,19 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image482.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image482.webp)
 
 -   いま かえる とこ。
 
 -   现在正要回去。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image483.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image483.webp)
 
 -   いま かえってる とちゅう。
 
 -   现在正在回去。
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image484.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image484.webp)
 
 -   いま かいものから かえって きた とこ。
 
@@ -7091,49 +7091,49 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image485.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image485.webp)
 
 -   いま ごはんを たべに いく とこ。
 
 -   现在正要去吃饭。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image486.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image486.webp)
 
 -   现在正在吃饭。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image487.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image487.webp)
 
 -   现在刚吃完饭。
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image488.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image488.webp)
 
 -   いま おふろに はいる とこ。
 
 -   现在正要去洗澡。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image489.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image489.webp)
 
 -   现在正在洗澡。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image490.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image490.webp)
 
 -   现在刚洗完澡。
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image491.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image491.webp)
 
 -   いま シャワーを あびる とこ。
 
 -   现在正要冲澡。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image492.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image492.webp)
 
 -   现在正在冲澡。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image493.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image493.webp)
 
 -   现在刚冲完澡。
 
@@ -7155,7 +7155,7 @@
 
 &gt; **二、单独使用例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image494.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image494.webp)
 
 -   今 起きた ところ です。
 
@@ -7163,7 +7163,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image495.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image495.webp)
 
 -   これから ねる ところ です。
 
@@ -7171,7 +7171,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image496.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image496.webp)
 
 -   いま くじに なった ところ です。
 
@@ -7179,7 +7179,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image497.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image497.webp)
 
 -   いま えきに ついた ところ です。
 
@@ -7187,7 +7187,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image498.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image498.webp)
 
 -   いま やろうと おもって いた ところ です。
 
@@ -7195,7 +7195,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image499.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image499.webp)
 
 -   ちょうど いま、かれと あって いる ところ です。
 
@@ -7203,7 +7203,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image500.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image500.webp)
 
 -   いま ちょうど あなたの ことを かながえて いる ところ です。
 
@@ -7211,7 +7211,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image501.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image501.webp)
 
 -   いま ふたつめの かだいを やって いる ところ です。
 
@@ -7219,7 +7219,7 @@
 
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image502.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image502.webp)
 
 -   いま えいかいわきょうしつに かよいはじめた ところ です。
 
@@ -7241,7 +7241,7 @@
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image503.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image503.webp)
 
 -   ほんを よんで いる ところに、でんわが かかって きた。
 
@@ -7257,13 +7257,13 @@
 
 -   \~たばかり
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image504.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image504.webp)
 
 &gt; **一、名詞/助詞＋ばかり**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image505.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image505.webp)
 
 -   にくばかり たべて いないで、やさいも たべなさい。
 
@@ -7293,7 +7293,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image506.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image506.webp)
 
 -   あのひとは いつも うそばかり いってる から、ぜんぜん しんよう できない。
 
@@ -7315,7 +7315,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image507.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image507.webp)
 
 -   うちは おとうとに ばっかり やさしく して あげる。
 
@@ -7323,13 +7323,13 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image508.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image508.webp)
 
 -   わたる せけんは おにばかり。
 
 -   世上全是恶人。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image509.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image509.webp)
 
 -   わたる せけんに おには なし。
 
@@ -7363,7 +7363,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image510.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image510.webp)
 
 -   かれの しごとぶりに かんしんする ばかり です。
 
@@ -7379,7 +7379,7 @@
 
 &gt; **例句 2：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image511.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image511.webp)
 
 -   その こうそうの スケールの おおきさには ただ きょうたんする ばかり でした。
 
@@ -7407,7 +7407,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image512.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image512.webp)
 
 -   げんじょういじは こうたいする ばかりです。
 
@@ -7429,7 +7429,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image513.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image513.webp)
 
 -   クリエイティブな ていあんに たいして ひはんする ばかり です。
 
@@ -7459,7 +7459,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image514.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image514.webp)
 
 -   おりひめは まいにち ないて ばかり いました。
 
@@ -7487,7 +7487,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image515.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image515.webp)
 
 -   まともな ことを しないで、まにいち ぶらぶら して ばかり いる。
 
@@ -7495,7 +7495,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image516.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image516.webp)
 
 -   スマホを みて ばかり いる と、めが わるく なる よ。
 
@@ -7503,7 +7503,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image517.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image517.webp)
 
 -   りょこうに きても、かのじょは しゃしんを とって ばかり いる。
 
@@ -7513,7 +7513,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image518.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image518.webp)
 
 -   わたしは きょねん にゅうしゃ した ばかりの しんじん です。
 
@@ -7535,7 +7535,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image519.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image519.webp)
 
 -   いっかげつから はじめた ばかりの しょしんしゃ です。
 
@@ -7551,7 +7551,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image520.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image520.webp)
 
 -   じゅっぷんまえに おぼえた ばかりの たんごを もう わすれてしまった。
 
@@ -7559,7 +7559,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image521.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image521.webp)
 
 -   かった ばかりの シャツに しょうゆうが かかって しまった。
 
@@ -7579,17 +7579,17 @@
 
 -   ば
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image522.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image522.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image523.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image523.webp)
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image524.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image524.webp)
 
 &gt; **一、と**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image525.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image525.webp)
 
 -   ふゆに なる と、ゆきが つもります。
 
@@ -7607,7 +7607,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image526.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image526.webp)
 
 -   その じょうけいに はいる と、その しんきょうに なって しまう。
 
@@ -7629,7 +7629,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image527.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image527.webp)
 
 -   でかけようと する と、でんわが かかって きた。
 
@@ -7637,7 +7637,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image528.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image528.webp)
 
 -   クレジットカードを もって いる と、げんきんを わすれた ときでも あんしん です。
 
@@ -7659,7 +7659,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image529.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image529.webp)
 
 -   いらいら して いる と、しごとに しゅうちゅう できなく なる。
 
@@ -7667,7 +7667,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image530.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image530.webp)
 
 -   このにわを ながめて いる と、はなやかさと ごうかいさが みてとれる。
 
@@ -7703,7 +7703,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image531.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image531.webp)
 
 -   スマホだと いろいろ べんりな アプリが いれられる。
 
@@ -7721,23 +7721,23 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image532.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image532.webp)
 
 -   看了就明白。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image533.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image533.webp)
 
 -   干了就会。
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image534.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image534.webp)
 
 -   怎么办好啊？
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image535.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image535.webp)
 
 -   たのもしい ひとに そうだん すれば いい。
 
@@ -7745,7 +7745,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image536.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image536.webp)
 
 -   よろしければ、いつか しょくじでも しませんか？
 
@@ -7753,7 +7753,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image537.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image537.webp)
 
 -   さしつかえが なければ、でんわばんごうを もらっても いい ですか？
 
@@ -7771,17 +7771,17 @@
 
 &gt; **例句 6：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image538.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image538.webp)
 
 -   これさえ あれば、なんとか なる。
 
 -   只要有这个就没多大问题。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image539.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image539.webp)
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image540.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image540.webp)
 
 -   じぶんさえ よければ いい という にんげんには なりたく ない。
 
@@ -7793,37 +7793,37 @@
 
 -   \~たら
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image541.jpeg)![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image542.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image541.webp)![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image542.webp)
 
 &gt; **一、ば和たら都能用**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image543.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image543.webp)
 
 -   如果没有就放弃。
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image544.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image544.webp)
 
 -   如果光线暗就把灯打开。
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image545.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image545.webp)
 
 -   如果电视声音太吵，我就关小点儿。
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image546.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image546.webp)
 
 -   今晚就住下吧。
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image547.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image547.webp)
 
 -   下雨就把日期推迟。
 
@@ -7843,7 +7843,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image548.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image548.webp)
 
 -   如果有机会一定看看。
 
@@ -7857,19 +7857,19 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image549.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image549.webp)
 
 -   如果有什么问题，请随便问。
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image550.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image550.webp)
 
 -   如果忙就请人来帮忙吧。
 
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image551.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image551.webp)
 
 -   如果觉得我可以的话，那我就提供帮助。
 
@@ -7877,7 +7877,7 @@
 &gt;
 &gt; **例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image552.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image552.webp)
 
 -   あらったら、ちぢんで しまった。
 
@@ -7895,7 +7895,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image553.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image553.webp)
 
 -   かれに せつめい して もらったら、かえって わからなく なった。
 
@@ -7903,7 +7903,7 @@
 
 &gt; **例句 3：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image554.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image554.webp)
 
 -   はっそうてんかん したら どう ですか？
 
@@ -7919,7 +7919,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image555.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image555.webp)
 
 -   おなかが すいたら、どこかで たべよう。
 
@@ -7927,7 +7927,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image556.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image556.webp)
 
 -   あるきつかれたら、すこし やすんで ください。
 
@@ -7935,7 +7935,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image557.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image557.webp)
 
 -   でんしゃに のったら、けいたいを マナーモードに します。
 
@@ -7943,7 +7943,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image558.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image558.webp)
 
 -   えんないを いっしゅう したら、ばいてんで きゅうけい しよう。
 
@@ -7965,7 +7965,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image559.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image559.webp)
 
 -   ほっかいどうに ついたら、おもいきり しんこきゅう して、すんだ くうきを からだいっぱいに とりこんで みたい。
 
@@ -7989,13 +7989,13 @@
 
 -   謂語詞&#43;なら
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image560.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image560.webp)
 
 &gt; **一、名詞&#43;なら**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image561.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image561.webp)
 
 -   你的话就能行。
 
@@ -8009,7 +8009,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image562.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image562.webp)
 
 -   だいがくせいなら これぐらいは できる はず です。
 
@@ -8017,7 +8017,7 @@
 
 &gt; **例句 3：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image563.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image563.webp)
 
 -   ネットじゅぎょうなら、じぶんの ペースに あわせて きらくに べんきょう できる。
 
@@ -8045,7 +8045,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image564.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image564.webp)
 
 -   じょうきゅうしゃなら もっと ながい ぶんを おぼえた ほうが いい。
 
@@ -8067,7 +8067,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image565.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image565.webp)
 
 -   ふだんなら みすごして しまう ところを ゆっくり みられて よかった です。
 
@@ -8091,7 +8091,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image566.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image566.webp)
 
 -   にほんごならではの はっそうが みに ついた。
 
@@ -8099,7 +8099,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image567.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image567.webp)
 
 -   せんさいさは にほんじん ならではの とくちょう です。
 
@@ -8115,7 +8115,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image568.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image568.webp)
 
 -   じょせいならではの アイデアや センスを もっと とりいれたい。
 
@@ -8137,7 +8137,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image569.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image569.webp)
 
 -   おきなわ ならではの ねったいせいしよくぶつが おおく みられる。
 
@@ -8165,7 +8165,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image570.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image570.webp)
 
 -   ほっかいどう ならではの こうだいな しきちを りようして はなばたけを つくった。
 
@@ -8203,7 +8203,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image571.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image571.webp)
 
 -   あたまが いたい なら、きょうは はやく かえった ほうが いい です。
 
@@ -8211,7 +8211,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image572.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image572.webp)
 
 -   未熟 なら、大人に なる ように 頑張れば いい。
 
@@ -8235,7 +8235,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image573.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image573.webp)
 
 -   かう なら ながもちする のが いい。
 
@@ -8251,7 +8251,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image574.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image574.webp)
 
 -   ちしきを ふやしたい のなら、はくぶつかんに いったら いい。
 
@@ -8275,19 +8275,19 @@
 
 -   \~なら 假设
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image575.jpeg)![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image576.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image575.webp)![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image576.webp)
 
 &gt; **一、～そうだ/そうです**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image577.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image577.webp)
 
 -   怎么做的话才能顺利呢？
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image578.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image578.webp)
 
 -   (我去)找谁问的话才能知道信息呢？
 
@@ -8301,7 +8301,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image579.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image579.webp)
 
 -   到下午的话，天会晴吧。
 
@@ -8317,7 +8317,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image580.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image580.webp)
 
 -   如果发生地震的话，就会很慌张，然后什么也干不了吧。
 
@@ -8339,39 +8339,39 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image581.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image581.webp)
 
 -   如果下雨就请暂停。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image582.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image582.webp)
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image583.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image583.webp)
 
 -   到了 20 岁就能自由地结婚。
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image584.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image584.webp)
 
 -   我一到人前就会紧张。
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image585.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image585.webp)
 
 -   只要不认真听别人说话，以后会遇到困难。
 
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image586.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image586.webp)
 
 -   一打开门，(就发现)妈妈倒在地上。
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image587.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image587.webp)
 
 -   如果说的话正确，我就马上听了。
 
@@ -8395,13 +8395,13 @@
 
 -   なら
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image588.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image588.webp)
 
 &gt; **一、だと**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image589.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image589.webp)
 
 -   せいせきが ろくじゅってんいじょうだと ごうかく です。
 
@@ -8417,7 +8417,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image590.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image590.webp)
 
 -   へやが しずかだと おちついて べんきょう できる。
 
@@ -8433,7 +8433,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image591.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image591.webp)
 
 -   がくせいだと、がくせいわりびきが ありますから やすくなります。
 
@@ -8457,7 +8457,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image592.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image592.webp)
 
 -   ことばの べんきょう であれば、じしょは かかす ことが できない。
 
@@ -8475,7 +8475,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image593.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image593.webp)
 
 -   ほしょうきかんない であれば、むしょうで しゅうり します。
 
@@ -8497,7 +8497,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image594.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image594.webp)
 
 -   かいひふのう であれば、まっしょうめんから たちむかう しかありません。
 
@@ -8535,7 +8535,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image595.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image595.webp)
 
 -   あしたが はれ だったら、ドライブに いきましょう。
 
@@ -8551,7 +8551,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image596.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image596.webp)
 
 -   ひま だったら、あそびに きませんか？
 
@@ -8559,7 +8559,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image597.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image597.webp)
 
 -   うそ だったら、すぐに ばれる んじゃない？
 
@@ -8579,7 +8579,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image598.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image598.webp)
 
 -   ふつうの だいがくいんなら うかる じしんが あります けど…
 
@@ -8587,7 +8587,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image599.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image599.webp)
 
 -   いやなら やめても いい です。
 
@@ -8595,7 +8595,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image600.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image600.webp)
 
 -   あなたと いっしょなら なにを しても たのしい。
 
@@ -8611,7 +8611,7 @@
 
 -   \~ものです
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image601.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image601.webp)
 
 筈
 
@@ -8621,7 +8621,7 @@
 
 -   应该(客观性的应该)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image602.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image602.webp)
 
 可き
 
@@ -8631,7 +8631,7 @@
 
 -   应该(责任义务上的应该)
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image603.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image603.webp)
 
 訳
 
@@ -8639,19 +8639,19 @@
 
 -   道理；理由
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image604.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image604.webp)
 
 -   (2,0)名
 
 -   可，真，可真(强调)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image605.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image605.webp)
 &gt;
 &gt; **一、～はずです**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image606.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image606.webp)
 
 -   こんな じかん だから、もう ねてる はず です。
 
@@ -8659,7 +8659,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image607.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image607.webp)
 
 -   プロの りょうりにんが だした りょうり だから、おいしい はず です。
 
@@ -8681,7 +8681,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image608.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image608.webp)
 
 -   おまつり だから、にぎやかな はず 。
 
@@ -8697,13 +8697,13 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image609.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image609.webp)
 
 -   ドアの かぎは これの はず です。
 
 -   门钥匙应该是这把。
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image610.jpeg)**二、～べきです例句 1：**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image610.webp)**二、～べきです例句 1：**
 
 -   もっと はやく しらせる べき だった けど、おそく なって しまって もうしわけない。
 
@@ -8725,7 +8725,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image611.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image611.webp)
 
 -   ながねん つかいなれた かんじを たいせつに すべき です。
 
@@ -8747,7 +8747,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image612.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image612.webp)
 
 -   おどろく べき はつめい ではありませんか？
 
@@ -8755,7 +8755,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image613.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image613.webp)
 
 -   ミニヤコンカは じつに おおくの とざんかの いのちを うばって きた おそる べき やまです。
 
@@ -8817,13 +8817,13 @@
 
 &gt; **三、～わけ例句：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image614.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image614.webp)
 
 -   肯定有道理。
 
 &gt; **四、～わけです例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image615.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image615.webp)
 
 -   にほんに にじゅうねん いる から、にほんごが じょうずな わけ です。
 
@@ -8831,7 +8831,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image616.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image616.webp)
 
 -   つまり、こうきょうこうこくも、じだいの りゅうこうには むかんしんでは いられない わけ だね。
 
@@ -8867,7 +8867,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image617.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image617.webp)
 
 -   ぜいたくな ことを いう ものだ。
 
@@ -8883,7 +8883,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image618.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image618.webp)
 
 -   じかんが たつ のは ほんとうに はやい もの ですね。
 
@@ -8891,7 +8891,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image619.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image619.webp)
 
 -   べんりに なった ものだ。
 
@@ -8913,21 +8913,21 @@
 
 -   \~ものではない
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image620.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image620.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image621.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image621.webp)
 &gt;
 &gt; **一、～はずがない**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image622.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image622.webp)
 
 -   不可能。
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image623.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image623.webp)
 
 -   忘れるはずがない。
 
@@ -8935,7 +8935,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image624.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image624.webp)
 
 -   そんな むずかしい もんだいは しょうがくせいに できる はずが ない。
 
@@ -8943,13 +8943,13 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image625.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image625.webp)
 
 -   たんごを いちにち なんびゃっこ おぼえられる はずが ない。
 
 -   不可能一天能记住几百个单词。
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image626.jpeg)**二、～べきではない例句 1：**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image626.webp)**二、～べきではない例句 1：**
 
 -   ひとから いただいた おんを わすれる べきではない。
 
@@ -8965,7 +8965,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image627.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image627.webp)
 
 -   人の ことを とやかく いう べきではない。
 
@@ -8983,7 +8983,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image628.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image628.webp)
 
 -   じぶんの かんがえを ひとに おしつける べきではない。
 
@@ -9001,13 +9001,13 @@
 
 &gt; **三、～わけ例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image629.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image629.webp)
 
 -   莫名其妙。
 
 &gt; **四、～わけがない例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image630.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image630.webp)
 
 -   こころの つめたい ひとから あたたかみを かんじられる わけがない。
 
@@ -9031,7 +9031,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image631.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image631.webp)
 
 -   じこちゅうしんの ひとは ひとの ことを だいいちに かんがえる わけがない。
 
@@ -9053,7 +9053,7 @@
 
 &gt; **五、～わけではない例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image632.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image632.webp)
 
 -   はたらきたくない わけではない けど、もうすこし がくせいで いたい だけです。
 
@@ -9061,7 +9061,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image633.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image633.webp)
 
 -   さくらは いつでも みられる わけではない から、まいとし かならず にほんに みに いく。
 
@@ -9071,7 +9071,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image634.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image634.webp)
 
 -   これいじょう めいわくを かける わけには いきません。
 
@@ -9079,7 +9079,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image635.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image635.webp)
 
 -   不能糊弄。
 
@@ -9097,13 +9097,13 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image636.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image636.webp)
 
 -   いらない ものを かう ものではない。
 
 -   不应该买不(需)要的东西。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image637.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image637.webp)
 
 &gt; **【单词】**
 
@@ -9117,7 +9117,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image638.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image638.webp)
 
 -   みせいねんが たばこを すう ものではない。
 
@@ -9135,13 +9135,13 @@
 
 -   完全性転折 が
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image639.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image639.webp)
 
 &gt; **完全性転折 が**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image640.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image640.webp)
 
 -   わかいけど ふけて みえる。
 
@@ -9159,7 +9159,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image641.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image641.webp)
 
 -   みためは いいけど なかみは からっぽの ひとには なりたくない。
 
@@ -9193,7 +9193,7 @@
 &gt;
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image642.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image642.webp)
 
 -   がんばれば きっと できると おもって いたけど、じっさいは なかなか おもいどおりにはならない。
 
@@ -9209,7 +9209,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image643.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image643.webp)
 
 -   やすいけど、しつが しんぱい です。
 
@@ -9225,7 +9225,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image644.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image644.webp)
 
 -   ほしかったけど、いろんな りゆうで みおくった。
 
@@ -9255,7 +9255,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image645.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image645.webp)
 
 -   わたしは ももアレルギー ですが…
 
@@ -9271,7 +9271,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image646.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image646.webp)
 
 -   かんじを つかう ちゅうごくじん だけど、この わせいかんじを はじめて みました。
 
@@ -9287,7 +9287,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image647.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image647.webp)
 
 -   しゅくだいを した けど、もって くる のを わすれました。
 
@@ -9295,7 +9295,7 @@
 
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image648.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image648.webp)
 
 -   さっき つとむから でんわが あったけど、あしたは ひま かどうか って きいてた よ。
 
@@ -9303,7 +9303,7 @@
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image649.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image649.webp)
 
 -   ややこしい ことに まきこまれた けど、なんとか ぬけだした。
 
@@ -9337,15 +9337,15 @@
 
 -   くせに
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image650.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image650.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image651.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image651.webp)
 &gt;
 &gt; **一、のに**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image652.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image652.webp)
 
 -   もう しんや なのに まだ おきてる の？
 
@@ -9361,7 +9361,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image653.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image653.webp)
 
 -   かのじょのことが すき なのに、きもちを うまく つたえられないから、くやしい。
 
@@ -9385,17 +9385,17 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image654.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image654.webp)
 
 -   ねむりたい のに、ねむれない ことが ある。
 
 -   有时候想睡但是睡不着。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image655.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image655.webp)
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image656.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image656.webp)
 
 -   とうろくして いない のに メールが とどいた。
 
@@ -9411,7 +9411,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image657.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image657.webp)
 
 -   くちが すっぱく なる ほど いった のに、まったく きいて くれない。
 
@@ -9439,7 +9439,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image658.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image658.webp)
 
 -   こどもの くせに なまいきな ことを いう。
 
@@ -9455,7 +9455,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image659.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image659.webp)
 
 -   かれしもちの くせに、かのじょの おもわせぶりな たいどに こまる。
 
@@ -9477,7 +9477,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image660.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image660.webp)
 
 -   「おとこのくせに」、「おんなのくせに」といった いいかたは、ハラスメントに なりうる。
 
@@ -9491,13 +9491,13 @@
 
 -   (英 harassment)骚扰
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image661.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image661.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image662.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image662.webp)
 &gt;
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image663.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image663.webp)
 
 -   あのひとは なにも しない くせに ひとに もんくばっかり いう。
 
@@ -9505,7 +9505,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image664.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image664.webp)
 
 -   しってる くせに しらない かおを する かれに むかついた。
 
@@ -9531,17 +9531,17 @@
 
 -   ども
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image665.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image665.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image666.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image666.webp)
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image667.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image667.webp)
 
 &gt; **一、ても**
 &gt;
 &gt; **例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image668.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image668.webp)
 
 -   けいたいが ふるいから、じゅうでん しても バッテリーが すぐに なく なって しまう。
 
@@ -9563,7 +9563,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image669.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image669.webp)
 
 -   いっしょうけんめい おぼえても、つぎのひに わすれて しまう。
 
@@ -9571,7 +9571,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image670.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image670.webp)
 
 -   わたしたちは そつぎょう しても ずっと ともだちで いよう ね。
 
@@ -9581,7 +9581,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image671.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image671.webp)
 
 -   れいとうしょくひんだと、だれでも てがるに りょうり できる。
 
@@ -9603,7 +9603,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image672.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image672.webp)
 
 -   おおきな じけんが おきたら、ばんぐみの とちゅうでも ニュースが ながれる ことがある。
 
@@ -9619,7 +9619,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image673.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image673.webp)
 
 -   ネットきょういく なら、じかんが とれない ひとでも じぶんの ペースで べんきょう できる。
 
@@ -9637,7 +9637,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image674.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image674.webp)
 
 -   いっしょうけんめい わすれようとも、なかなか わすれられない。
 
@@ -9645,7 +9645,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image675.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image675.webp)
 
 -   しごとに しゅうちゅう しよう とも、すぐに きが ちって しまう。
 
@@ -9661,7 +9661,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image676.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image676.webp)
 
 -   じぶんの いしを つらぬこうとも、つい まわりに えいきょうされて だきょうして しまう。
 
@@ -9687,17 +9687,17 @@
 
 -   使役态的难点
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image677.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image677.webp)
 
 [TABLE]
 
 [TABLE]
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image678.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image678.webp)
 
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image679.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image679.webp)
 
 -   わたしにも いけんを いわせて ください。
 
@@ -9705,7 +9705,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image680.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image680.webp)
 
 -   じっくり かんがえさせて ください。
 
@@ -9713,7 +9713,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image681.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image681.webp)
 
 -   このうたは わたしに なつかしい むかしを おもいださせた。
 
@@ -9743,7 +9743,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image682.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image682.webp)
 
 -   おさわがせ して すみませんでした。
 
@@ -9773,7 +9773,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image683.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image683.webp)
 
 -   おやに しんぱい させる つもりは なかった けど…
 
@@ -9781,7 +9781,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image684.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image684.webp)
 
 -   がんこな おやに わたしの かんがえを なっとく させる のは むずかしい。
 
@@ -9789,7 +9789,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image685.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image685.webp)
 
 -   いつも こどもを かいものに いかせて る。
 
@@ -9797,7 +9797,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image686.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image686.webp)
 
 -   こどもを ひとりで かいがいに りゅうがく させたい。
 
@@ -9805,7 +9805,7 @@
 
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image687.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image687.webp)
 
 -   ひゃくパーセント てきちゅう させる わけには いかない。
 
@@ -9827,7 +9827,7 @@
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image688.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image688.webp)
 
 -   せいふくに よって じぶんの たちばを じかく させる ような かんがえかたに はんぱつをかんじる。
 
@@ -9857,15 +9857,15 @@
 
 -   被动式的四个含义
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image689.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image689.webp)
 
 [TABLE]
 
 [TABLE]
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image690.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image690.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image691.jpeg)**一、单纯被动例句 1：**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image691.webp)**一、单纯被动例句 1：**
 
 -   あめに ふられた。
 
@@ -9873,7 +9873,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image692.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image692.webp)
 
 -   かのじょに ふられた。
 
@@ -9891,7 +9891,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image693.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image693.webp)
 
 -   てんいんに すすめられた。
 
@@ -9909,7 +9909,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image694.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image694.webp)
 
 -   せいじつだと よく いわれて います。
 
@@ -9925,7 +9925,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image695.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image695.webp)
 
 -   ちかづきにくい ひとだと おもわれがち です。
 
@@ -9939,11 +9939,11 @@
 
 -   接近，靠近
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image696.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image696.webp)
 &gt;
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image697.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image697.webp)
 
 -   彼女に ひどく 怒られた。
 
@@ -9967,13 +9967,13 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image698.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image698.webp)
 
 -   わたしの ほんは かれに やぶられた。
 
 -   我的书被他弄破了。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image699.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image699.webp)
 
 -   他把我的书弄破了，我被他搞得很被动。
 
@@ -9989,7 +9989,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image700.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image700.webp)
 
 -   まんいんでんしゃで あしを ふまれた。
 
@@ -10005,7 +10005,7 @@
 
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image701.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image701.webp)
 
 -   すりに 財布を すられた。
 
@@ -10029,7 +10029,7 @@
 
 &gt; **二、主谓统一例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image702.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image702.webp)
 
 -   でんとうてきな ぶんかや ぎじゅつが いかされて いる のは たいへん きょうみぶかい こと です。
 
@@ -10059,7 +10059,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image703.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image703.webp)
 
 -   つばめが すに かえって きた という じょうほうが よせられて いる。
 
@@ -10091,7 +10091,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image704.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image704.webp)
 
 -   せいせいされた ニューセラミックスは さまざまな ざいりょうにも つかわれて いる。
 
@@ -10119,7 +10119,7 @@
 
 &gt; **三、尊他语例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image705.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image705.webp)
 
 -   どこへ いかれますか？
 
@@ -10127,7 +10127,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image706.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image706.webp)
 
 -   よしださんは いつ ヨガを はじめられた んですか？
 
@@ -10143,7 +10143,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image707.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image707.webp)
 
 -   せんせいは かいがいに しゅっちょう されて いて、いっししゅうかんごに もどられる よてい です。
 
@@ -10153,13 +10153,13 @@
 
 -   日式思维的使役被动
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image708.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image708.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image709.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image709.webp)
 
 [TABLE]
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image710.jpeg)**一、不情愿例句 1：**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image710.webp)**一、不情愿例句 1：**
 
 -   おさけを なんばいも むりやり のまされた。
 
@@ -10185,7 +10185,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image711.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image711.webp)
 
 -   つまらない のみかいに つきあわされた。
 
@@ -10207,7 +10207,7 @@
 
 -   单身赴任
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image712.jpeg)二、**不由得例句 1：**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image712.webp)二、**不由得例句 1：**
 
 -   おしえごの しつもんを きいて かんがえさせられた ことが おおい。
 
@@ -10235,7 +10235,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image713.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image713.webp)
 
 -   ふじさんの うつくしさに みせられた。
 
@@ -10251,7 +10251,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image714.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image714.webp)
 
 -   そのドラマを みる たびに かんどう させられる。
 
@@ -10265,15 +10265,15 @@
 
 -   (英 drama)电视剧
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image715.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image715.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image716.jpeg)**三、无意中例句 1：**
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image716.webp)**三、无意中例句 1：**
 
 -   かれの くちぐるまに まんまと のせられた。
 
 -   上了他花言巧语的当。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image717.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image717.webp)
 
 &gt; **【单词】**
 
@@ -10307,7 +10307,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image718.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image718.webp)
 
 -   きを つけないと、ウイルスに かんせんさせられて しまう。
 
@@ -10329,7 +10329,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image719.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image719.webp)
 
 -   しらないうちに ソフトウェアを アップデート させられた。
 
@@ -10363,17 +10363,17 @@
 
 -   命令形
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image720.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image720.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image721.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image721.webp)
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image722.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image722.webp)
 
 &gt; **一、～なさい**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image723.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image723.webp)
 
 -   おやすみ なさい。
 
@@ -10381,7 +10381,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image724.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image724.webp)
 
 -   ごめん なさい。
 
@@ -10389,7 +10389,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image725.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image725.webp)
 
 -   おかえり なさい。
 
@@ -10397,7 +10397,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image726.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image726.webp)
 
 -   しずかに しなさい。
 
@@ -10405,7 +10405,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image727.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image727.webp)
 
 -   はやく ねなさい。
 
@@ -10413,7 +10413,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image728.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image728.webp)
 
 -   はやく よこし なさい。
 
@@ -10431,7 +10431,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image729.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image729.webp)
 
 -   がまん し なさい。
 
@@ -10439,7 +10439,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image730.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image730.webp)
 
 -   ようじん し なさい。
 
@@ -10465,7 +10465,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image731.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image731.webp)
 
 -   さわる な。
 
@@ -10473,7 +10473,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image732.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image732.webp)
 
 -   いじる な。
 
@@ -10491,7 +10491,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image733.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image733.webp)
 
 -   ゆめと あいを わすれる な よ。
 
@@ -10499,7 +10499,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image734.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image734.webp)
 
 -   たてふだに 「スピードを だす な」と かいて あります。
 
@@ -10541,7 +10541,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image735.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image735.webp)
 
 -   「はやく しょるいを ていしゅつ しろ」と かちょうに いわれた。
 
@@ -10549,7 +10549,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image736.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image736.webp)
 
 -   「テレビを みて いる とき コマーシャルの あいだに おおいそぎで なにかを やる、あのしゅんぱつりょくを おもいだせ」と おしえて いる。
 
@@ -10577,7 +10577,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image737.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image737.webp)
 
 -   「いっそう よく はたらけ」と めいれい し、かこくな ろうどうを「せいしんせいで こくふくせよ」と むりなんだいを おしつける。
 
@@ -10641,21 +10641,21 @@
 
 -   -てはならない
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image738.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image738.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image739.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image739.webp)
 &gt;
 &gt; **一、～な;-ないで**
 &gt;
 &gt; **例句：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image740.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image740.webp)
 
 -   あきらめるな。
 
 -   别放弃。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image741.jpeg)![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image742.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image741.webp)![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image742.webp)
 
 &gt; **【单词】**
 
@@ -10675,7 +10675,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image743.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image743.webp)
 
 -   みちゃ だめ。
 
@@ -10683,7 +10683,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image744.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image744.webp)
 
 -   ないちゃ だめ ですよ。
 
@@ -10691,7 +10691,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image745.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image745.webp)
 
 -   うごいちゃ だめ。
 
@@ -10701,7 +10701,7 @@
 &gt;
 &gt; **例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image746.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image746.webp)
 
 -   ひとを からかっては いけません。
 
@@ -10719,7 +10719,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image747.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image747.webp)
 
 -   あぶない です から、どうろに とびだしては いけません。
 
@@ -10741,7 +10741,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image748.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image748.webp)
 
 -   きょうだいのあいだや ともだちの あいだでは かねの かしかりを しては いけない。
 
@@ -10765,7 +10765,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image749.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image749.webp)
 
 -   かみコップを あきかんいれに すてては ならない。
 
@@ -10793,7 +10793,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image750.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image750.webp)
 
 -   しゅっきんの ぜんじつに よふかしを してはならない。
 
@@ -10821,7 +10821,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image751.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image751.webp)
 
 -   にどと あっては なりません。
 
@@ -10843,13 +10843,13 @@
 
 -   ～ほど、よろしくお願いします。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image752.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image752.webp)
 
 &gt; **一、-くれる?**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image753.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image753.webp)
 
 -   らくに して くれる？
 
@@ -10857,7 +10857,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image754.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image754.webp)
 
 -   いやな ことを わすれさせて くれますか？
 
@@ -10865,7 +10865,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image755.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image755.webp)
 
 -   くちを はさまないで くれませんか？
 
@@ -10889,7 +10889,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image756.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image756.webp)
 
 -   このしごとを わたしに やらせて くれませんか？
 
@@ -10897,7 +10897,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image757.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image757.webp)
 
 -   わたしの そばに いて くれませんか？
 
@@ -10907,17 +10907,17 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image758.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image758.webp)
 
 -   てを ふれない よう おねがいします。
 
 -   拜托您不要触摸。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image759.jpeg)![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image760.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image759.webp)![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image760.webp)
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image761.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image761.webp)
 
 -   ごしゅっせき いただけない ばあいにも かならず ごつうち くださいます よう おねがいします。
 
@@ -10933,21 +10933,21 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image762.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image762.webp)
 
 -   なにとぞ ごしゅっせきくださいます よう おねがいします。
 
 -   恳请您一定出席。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image763.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image763.webp)
 
 &gt; **三、～ほど、よろしくお願いします。**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image764.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image764.webp)
 
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image765.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image765.webp)
 
 -   ごしどうと ごべんたつのほど、よろしく おねがいします。
 
@@ -10955,7 +10955,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image766.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image766.webp)
 
 -   すえながく おつきあいの ほど よろしく おねがいします。
 
@@ -10971,7 +10971,7 @@
 
 &gt; **例句 3：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image767.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image767.webp)
 
 -   ごさしゅうの ほど よろしく おねがいします。
 
@@ -10993,13 +10993,13 @@
 
 -   -ますようお願いします
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image768.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image768.webp)
 
 &gt; **一、-てもらえますか? -てもらえませんか?**
 &gt;
 &gt; **例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image769.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image769.webp)
 
 -   おさらを さげて もらえますか?
 
@@ -11017,7 +11017,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image770.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image770.webp)
 
 -   あみを かえて もらえますか?
 
@@ -11047,7 +11047,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image771.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image771.webp)
 
 -   にもつを あずかって もらえますか?
 
@@ -11073,7 +11073,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image772.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image772.webp)
 
 -   よかったら みせて もらえますか？
 
@@ -11081,7 +11081,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image773.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image773.webp)
 
 -   もういちど かくにん して もらえますか？
 
@@ -11091,7 +11091,7 @@
 &gt;
 &gt; **例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image774.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image774.webp)
 
 -   すみません、しゃしんを とって いただけますか？
 
@@ -11099,7 +11099,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image775.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image775.webp)
 
 -   きょうとだいがくまでの みちを おしえて いただけますか？
 
@@ -11107,7 +11107,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image776.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image776.webp)
 
 -   もし ごつごうが よろしければ、あさって おじかんを つくって いただけますか？
 
@@ -11129,7 +11129,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image777.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image777.webp)
 
 -   ちゅうごくごを はなせる ひとに かわって いただけますか？
 
@@ -11137,19 +11137,19 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image778.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image778.webp)
 
 -   ここに しょめい して いただけますか？
 
 -   能请您在这里签字吗？
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image779.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image779.webp)
 
 &gt; **三、-ますようお願いします**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image780.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image780.webp)
 
 -   もうしこみしょを ごていしゅつ いただきます よう おねがいします。
 
@@ -11165,7 +11165,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image781.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image781.webp)
 
 -   ごりかい いただきます よう お願い申し上げます。
 
@@ -11181,7 +11181,7 @@
 
 &gt; **例句 3：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image782.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image782.webp)
 
 -   ごけんとう いただきます よう お願い申し上げます。
 
@@ -11201,13 +11201,13 @@
 
 -   させてもらう
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image783.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image783.webp)
 
 &gt; **一、使役被动**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image784.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image784.webp)
 
 -   ちちに はいしゃに いかされた。
 
@@ -11229,7 +11229,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image785.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image785.webp)
 
 -   ははに きらいな ものを たべさせられて いた。
 
@@ -11237,7 +11237,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image786.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image786.webp)
 
 -   きんじょめいわくで しょさいを にかいに いどう させられた。
 
@@ -11271,7 +11271,7 @@
 
 &gt; **例句 4：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image787.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image787.webp)
 
 -   しごとの かんけいで としんから はなれた いなかに ひっこし させられた。
 
@@ -11301,7 +11301,7 @@
 
 &gt; **例句 5：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image788.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image788.webp)
 
 -   じょせいは そんちょう されないで だんせいに じゅうぞく させられた じだいが ある。
 
@@ -11323,7 +11323,7 @@
 
 &gt; **例句 6：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image789.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image789.webp)
 
 -   インターネットが きゅうそくに せいちょうする じだいに いきのこる には、じゅうらいの やりかたを かえなければならないと つうかん させられた。
 
@@ -11365,7 +11365,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image790.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image790.webp)
 
 -   よろこんで しゅっせき させて もらいます。
 
@@ -11373,7 +11373,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image791.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image791.webp)
 
 -   しつれい させて いただきます。
 
@@ -11381,7 +11381,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image792.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image792.webp)
 
 -   たいちょうが わるい ので、そうたい させて もらえますか？
 
@@ -11397,7 +11397,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image793.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image793.webp)
 
 -   ほんじつちゅうに ごれんらく させて いただきます。
 
@@ -11419,7 +11419,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image794.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image794.webp)
 
 -   コピーきを つかわせて もらっても いい ですか？
 
@@ -11441,7 +11441,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image795.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image795.webp)
 
 -   ききもらした かもしれませんが、もういちど きかせて いただきます。
 
@@ -11475,7 +11475,7 @@
 
 -   ご～
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image796.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image796.webp)
 
 &gt; **日本创造的单词**
 
@@ -11485,13 +11485,13 @@
 
 &gt; 客观，列车，冷藏，母校，流行，偶然，气体，自由，主观，综合，组织，资本，作品，作者，意义，直觉，哲学，主义，错觉，规范，讲演，广告，归纳
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image797.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image797.webp)
 
 &gt; **一、お～**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image798.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image798.webp)
 
 -   お誕生日 おめでとう ございます。
 
@@ -11515,7 +11515,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image799.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image799.webp)
 
 -   かんしゃの きもちを こめた おれいの てがみを おくります。
 
@@ -11543,7 +11543,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image800.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image800.webp)
 
 -   それでは おことばに あまえて…
 
@@ -11573,7 +11573,7 @@
 
 &gt; **例句 4：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/image801.png)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/image801.webp)
 
 -   おしょくじは なんじに なさいますか？
 
@@ -11581,7 +11581,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image802.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image802.webp)
 
 -   おかいけい おねがいします。
 
@@ -11597,7 +11597,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image803.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image803.webp)
 
 -   おすまいは かいしゃから とおい ですか？
 
@@ -11613,7 +11613,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image804.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image804.webp)
 
 -   すこし おじかんを いただけますか？
 
@@ -11621,7 +11621,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image805.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image805.webp)
 
 -   せんせいは らいしゅうも おいそがしい よう です。
 
@@ -11629,7 +11629,7 @@
 
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image806.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image806.webp)
 
 -   それでは あらためて おでんわ させて いただきます。
 
@@ -11665,7 +11665,7 @@
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image807.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image807.webp)
 
 -   おげんきで なにより です。
 
@@ -11675,7 +11675,7 @@
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image808.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image808.webp)
 
 -   ごもっとも です。
 
@@ -11693,7 +11693,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image809.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image809.webp)
 
 -   どうぞ ごゆっくり。
 
@@ -11701,7 +11701,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image810.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image810.webp)
 
 -   かかりいんが ごあんない します。
 
@@ -11709,7 +11709,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image811.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image811.webp)
 
 -   ざせきの ごきぼうが ございますか？
 
@@ -11725,7 +11725,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image812.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image812.webp)
 
 -   きっぷの ごよやくと ごこうにゅうは ネットで うけたまわって おります。
 
@@ -11767,7 +11767,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image813.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image813.webp)
 
 -   ただいま ごりよう いただけません。
 
@@ -11775,7 +11775,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image814.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image814.webp)
 
 -   ごめいわくを おかけしますが、あらかじめ ごりょうしょ 減せください。
 
@@ -11799,7 +11799,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image815.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image815.webp)
 
 -   なにか ごしつもんが ございましたら、おしらせ ください。
 
@@ -11807,7 +11807,7 @@
 
 &gt; **例句 9：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image816.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image816.webp)
 
 -   ごしんせつに ありがとう ございます。
 
@@ -11829,7 +11829,7 @@
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image817.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image817.webp)
 
 -   わざわざ ごていねいに ありがとう ございます。
 
@@ -11849,17 +11849,17 @@
 
 -   一般动词的尊他语
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image818.jpeg)![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image819.jpeg)![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image820.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image818.webp)![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image819.webp)![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image820.webp)
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image821.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image821.webp)
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image822.jpeg)![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image797.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image822.webp)![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image797.webp)
 
 &gt; **一、一般动词的自谦语**
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image823.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image823.webp)
 
 -   おもち します。
 
@@ -11867,7 +11867,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image824.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image824.webp)
 
 -   おとも します。
 
@@ -11891,7 +11891,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image825.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image825.webp)
 
 -   おじゃま します。
 
@@ -11907,7 +11907,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image826.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image826.webp)
 
 -   おつたえ します。
 
@@ -11915,7 +11915,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image827.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image827.webp)
 
 -   えきまで くるまで おおくむり します。
 
@@ -11923,7 +11923,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image828.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image828.webp)
 
 -   ぐたいてきな ことを また おはなし します。
 
@@ -11945,7 +11945,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image829.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image829.webp)
 
 -   おてつだい しましょうか？
 
@@ -11953,7 +11953,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image830.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image830.webp)
 
 -   せんせいに きねんひんを おわたし しました。
 
@@ -11975,7 +11975,7 @@
 
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image831.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image831.webp)
 
 -   おかり しても よろしい でしょうか？
 
@@ -11983,7 +11983,7 @@
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image832.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image832.webp)
 
 -   しゅんの うみのさちを ごようい して おまち して います。
 
@@ -12019,7 +12019,7 @@
 
 &gt; **二、一般动词的尊他语例句 1：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image833.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image833.webp)
 
 -   せんせいは なんじに おかえりに なりましたか？
 
@@ -12027,7 +12027,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image834.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image834.webp)
 
 -   なんじに おもどりに なりましたか？
 
@@ -12035,7 +12035,7 @@
 
 &gt; **例句 3：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image835.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image835.webp)
 
 -   请坐。
 
@@ -12057,7 +12057,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image836.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image836.webp)
 
 -   ゆっくり おやすみに なって ください。
 
@@ -12065,7 +12065,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image837.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image837.webp)
 
 -   どうぞ おためしに なって ください。
 
@@ -12073,7 +12073,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image838.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image838.webp)
 
 -   しゃちょうは もう ひこうきに おのりに なりました。
 
@@ -12081,7 +12081,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image839.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image839.webp)
 
 -   しゃちょうは もう ひこうきを おおりに なりました。
 
@@ -12089,7 +12089,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image840.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image840.webp)
 
 -   クーポンを おつかいに なりますか?
 
@@ -12105,7 +12105,7 @@
 
 &gt; **例句 9：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image841.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image841.webp)
 
 -   ごじゆうに おもちかえり ください。
 
@@ -12121,7 +12121,7 @@
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image842.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image842.webp)
 
 -   ほんぶちょうが ごせつめいに なります。
 
@@ -12137,7 +12137,7 @@
 
 # 特殊动词的自谦语
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image843.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image843.webp)
 
 [TABLE]
 
@@ -12145,7 +12145,7 @@
 
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image844.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image844.webp)
 
 -   れんきゅうを りようして せんだいに まいりました。
 
@@ -12161,7 +12161,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image845.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image845.webp)
 
 -   なんじに うかがえば よろしい でしょうか？
 
@@ -12169,7 +12169,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image846.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image846.webp)
 
 -   えんりょなく いただきます。
 
@@ -12177,7 +12177,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image847.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image847.webp)
 
 -   ごぶさた して おります。
 
@@ -12193,7 +12193,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image848.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image848.webp)
 
 -   かんしゃ いたします。
 
@@ -12201,7 +12201,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image849.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image849.webp)
 
 -   いっしゅうかんごに また おでんわ さしあげます。
 
@@ -12209,7 +12209,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image850.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image850.webp)
 
 -   スケジュールを へんこう させて いただきます。
 
@@ -12225,13 +12225,13 @@
 
 &gt; **例句 8：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image851.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image851.webp)
 
 -   メールを はいけん しました。ないようを かくにん し、のちほど ごれんらく さしあげます。
 
 -   看到您的邮件了。我确认内容后跟您联系。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image852.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image852.webp)
 
 &gt; **【单词】**
 
@@ -12255,7 +12255,7 @@
 
 &gt; **例句 9：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image853.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image853.webp)
 
 -   はいどく させて いただきます。
 
@@ -12263,7 +12263,7 @@
 &gt;
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image854.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image854.webp)
 
 -   メールを はいじゅ しました。
 
@@ -12279,11 +12279,11 @@
 
 &gt; **接受**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image855.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image855.webp)
 &gt;
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image856.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image856.webp)
 
 -   かってを もうしますが、なにとぞ よろしく おねがい いたします。
 
@@ -12291,7 +12291,7 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image857.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image857.webp)
 
 -   よく ぞんじて おります。
 
@@ -12299,7 +12299,7 @@
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image858.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image858.webp)
 
 -   おめに かかる ことを たのしみに して おります。
 
@@ -12307,7 +12307,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image859.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image859.webp)
 
 -   かしこまりました。
 
@@ -12323,7 +12323,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image860.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image860.webp)
 
 -   しょうち いたしました。
 
@@ -12339,23 +12339,23 @@
 
 # 特殊动词的尊他语
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image861.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image861.webp)
 
 [TABLE]
 
 [TABLE]
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image862.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image862.webp)
 
 &gt; **例句 1：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image863.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image863.webp)
 
 -   ようこそ いらっしゃいました。
 
 -   欢迎您的到来。
 
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image864.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image864.webp)
 &gt;
 &gt; **【单词】**
 
@@ -12369,17 +12369,17 @@
 
 &gt; **例句 2：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image865.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image865.webp)
 
 -   せんせいが おいでに なりました。
 
 -   老师来了。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image866.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image866.webp)
 
 &gt; **例句 3：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image867.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image867.webp)
 
 -   どうぞ めしあがって ください。
 
@@ -12387,7 +12387,7 @@
 
 &gt; **例句 4：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image868.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image868.webp)
 
 -   もしもし、わたくしは うちだと もうしますが、たかはしさまは いらっしゃいますか？
 
@@ -12403,7 +12403,7 @@
 
 &gt; **例句 5：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image869.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image869.webp)
 
 -   のみものは なにに なさいますか？
 
@@ -12411,7 +12411,7 @@
 
 &gt; **例句 6：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image870.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image870.webp)
 
 -   せんせいが すいせんじょうを かいて くださいました。
 
@@ -12433,7 +12433,7 @@
 
 &gt; **例句 7：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image871.jpeg)![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image872.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image871.webp)![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image872.webp)
 
 -   きかくしょが できあがりました が、どうぞ ごらんに なって ください。
 
@@ -12461,7 +12461,7 @@
 
 &gt; **例句 8：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image873.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image873.webp)
 
 -   せんせいは まいあさ しんぶんを およみに なって います。
 
@@ -12469,17 +12469,17 @@
 
 &gt; **例句 9：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image874.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image874.webp)
 
 -   おっしゃる とおり です。
 
 -   您说得非常对。
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image875.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image875.webp)
 
 &gt; **例句 10：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image876.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image876.webp)
 
 -   ごぞんじか と おもいますが…
 
@@ -12487,9 +12487,9 @@
 
 &gt; **例句 11：**
 &gt;
-&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image877.jpeg)
+&gt; ![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image877.webp)
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image878.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image878.webp)
 
 -   ぶちょう、きょうは のむらしょうじの あずまぶちょうに おあいに なりましたか？
 
@@ -12497,7 +12497,7 @@
 
 &gt; **例句 12：**
 
-![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image879.jpeg)
+![](https://typora-kire.oss-cn-hongkong.aliyuncs.com/media/image879.webp)
 
 -   ごりかい いただければ さいわい です。
 

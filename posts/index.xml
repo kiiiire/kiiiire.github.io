@@ -49,5 +49,12 @@
       <category domain="http://kiiiire.github.io/categories/%E6%97%A5%E8%AF%AD/">日语</category>
       <description>&lt;p&gt;记录一些学习过程中遇到的语法&lt;/p&gt;</description>
     </item>
+    <item>
+      <title></title>
+      <link>http://kiiiire.github.io/posts/c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://kiiiire.github.io/posts/c/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;C&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
